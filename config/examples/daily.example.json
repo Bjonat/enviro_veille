@@ -1,8 +1,3 @@
-# Exemple de fichier quotidien (référence)
-
-Ce fichier illustre le format attendu. L'automation 1 produit les vrais fichiers datés.
-
-```json
 {
   "date": "2026-08-22",
   "generated_at": "2026-08-22T06:30:00+02:00",
@@ -41,4 +36,3 @@ Ce fichier illustre le format attendu. L'automation 1 produit les vrais fichiers
     }
   ]
 }
-```

@@ -6,7 +6,8 @@ Doc officielle : [Cursor Automations](https://cursor.com/docs/cloud-agent/automa
 
 ## Statut
 
-Les **5 automations** sont créées côté Cursor. Coller leurs URL/UUID dans le tableau en bas de ce fichier pour traçabilité.
+Les **5 automations** sont créées et actives côté Cursor (pipeline #1–#4 + garde-fou PR #5).  
+Coller leurs URL/UUID dans le tableau en bas pour traçabilité (optionnel).
 
 ## Pipeline
 
@@ -27,11 +28,11 @@ Ensuite        #2 → #3 → #4 sur schedule (ou manuel)
 
 ## Checklist commune (prod)
 
-- [x] Automations créées dans Cursor
-- [ ] URL / UUID renseignés ci-dessous
+- [x] Automations créées dans Cursor (#1–#5)
+- [ ] URL / UUID renseignés ci-dessous (optionnel)
 - [ ] #1 a produit au moins une PR de veille mergée
 - [ ] #5 commente bien sur les PR du repo
-- [ ] #2/#3/#4 activées seulement quand l’historique le justifie (ou laissées en pause)
+- [ ] Historique `data/daily/` suffisant pour lancer #2 → #3 → #4
 
 ## Cron / triggers suggérés (Europe/Paris)
 
