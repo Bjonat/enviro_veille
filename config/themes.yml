@@ -1,0 +1,152 @@
+# Thèmes surveillés par la veille environnementale
+
+themes:
+  - id: biodiversite
+    label: Biodiversité
+    keywords:
+      - biodiversité
+      - espèces protégées
+      - habitats
+      - continuités écologiques
+      - trame verte et bleue
+      - TVB
+      - restoration écologique
+      - génie écologique
+
+  - id: especes_habitats
+    label: Espèces et habitats
+    keywords:
+      - listes rouges
+      - espèces exotiques envahissantes
+      - EEE
+      - plans nationaux d'actions
+      - PNA
+      - habitats d'intérêt communautaire
+      - ZNIEFF
+      - référentiels taxonomiques
+
+  - id: natura2000
+    label: Natura 2000
+    keywords:
+      - Natura 2000
+      - DOCOB
+      - évaluation d'incidences
+      - sites Natura
+      - habitats prioritaires
+
+  - id: eau_zones_humides
+    label: Eau et zones humides
+    keywords:
+      - zones humides
+      - SAGE
+      - SDAGE
+      - directive cadre sur l'eau
+      - DCE
+      - qualité de l'eau
+      - continuum écologique aquatique
+      - GEMAPI
+
+  - id: zan_artificialisation
+    label: ZAN / artificialisation
+    keywords:
+      - ZAN
+      - zéro artificialisation nette
+      - artificialisation des sols
+      - renaturation
+      - densification
+      - consommation d'espaces
+
+  - id: sols
+    label: Sols
+    keywords:
+      - santé des sols
+      - pollution des sols
+      - sites et sols pollués
+      - séquestration carbone sols
+      - érosion
+
+  - id: climat_adaptation
+    label: Climat et adaptation
+    keywords:
+      - adaptation au changement climatique
+      - PNA
+      - PCAET
+      - vulnérabilité climatique
+      - solutions fondées sur la nature
+      - NBS
+      - îlots de chaleur
+
+  - id: incendies_risques
+    label: Incendies et risques
+    keywords:
+      - feux de forêt
+      - DFCI
+      - risques naturels
+      - PPR
+      - inondations
+      - sécheresse
+      - canicule
+
+  - id: energie_biodiversite
+    label: Énergie / biodiversité
+    keywords:
+      - éolien
+      - photovoltaïque
+      - agrivoltaïsme
+      - impacts biodiversité
+      - mesures ERC
+      - hydroélectricité
+
+  - id: reglementation
+    label: Réglementation
+    keywords:
+      - décret
+      - arrêté
+      - loi
+      - directive
+      - règlement européen
+      - consultation publique
+      - évaluation environnementale
+      - ERC
+
+  - id: jurisprudence
+    label: Jurisprudence
+    keywords:
+      - décision de justice
+      - contentieux environnemental
+      - Conseil d'État
+      - CAA
+      - TA
+
+  - id: rapports_guides
+    label: Rapports, guides et méthodes
+    keywords:
+      - rapport
+      - guide méthodologique
+      - référentiel
+      - doctrine
+      - bonne pratique
+      - protocole
+
+  - id: donnees_outils
+    label: Données, référentiels et outils
+    keywords:
+      - open data
+      - API
+      - inventaire
+      - indicateur
+      - outil SIG
+      - plateforme
+      - standard de données
+
+priority_signal_types:
+  - nouvelle_obligation_reglementaire
+  - nouveau_guide_methodologique
+  - nouveau_referentiel_ou_jeu_de_donnees
+  - nouvel_outil_ou_plateforme
+  - appel_a_projets_ou_financement
+  - rapport_institutionnel_majeur
+  - jurisprudence_structurante
+  - changement_de_pratique_professionnel
+  - consultation_publique
+  - publication_scientifique_appliquee

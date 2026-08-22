@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Bjonat/enviro_veille/config/schemas/tendances.schema.json",
+  "title": "Analyse de tendances environnementales",
+  "type": "object",
+  "required": ["period", "generated_at", "trends", "meta"],
+  "properties": {
+    "period": {
+      "type": "object",
+      "required": ["start", "end"],
+      "properties": {
+        "start": { "type": "string", "format": "date" },
+        "end": { "type": "string", "format": "date" },
+        "label": { "type": "string" }
+      }
+    },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "daily_files_used": { "type": "integer" },
+        "items_analyzed": { "type": "integer" },
+        "method_notes": { "type": "string" }
+      }
+    },
+    "trends": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "status",
+          "themes",
+          "evidence",
+          "summary",
+          "acceleration_score"
+        ],
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "status": {
+            "type": "string",
+            "enum": [
+              "emergente",
+              "en_acceleration",
+              "stable",
+              "en_deceleration",
+              "structurelle"
+            ]
+          },
+          "themes": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "acceleration_score": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          },
+          "summary": { "type": "string" },
+          "drivers": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Réglementation, financement, science, pratique, tech…"
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "daily_item_id": { "type": "string" },
+                "date": { "type": "string", "format": "date" },
+                "title": { "type": "string" },
+                "url": { "type": "string" }
+              }
+            }
+          },
+          "what_is_changing": { "type": "string" },
+          "who_is_affected": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "time_horizon": {
+            "type": "string",
+            "enum": ["0-6_mois", "6-18_mois", "18_mois_plus"]
+          }
+        }
+      }
+    }
+  }
+}
