@@ -1,0 +1,297 @@
+{
+  "date": "2026-08-22",
+  "generated_at": "2026-08-22T14:40:02+02:00",
+  "timezone": "Europe/Paris",
+  "meta": {
+    "item_count": 8,
+    "sources_consulted": [
+      "actu_environnement",
+      "cerema",
+      "commission_ue",
+      "ecologie_gouv",
+      "legifrance",
+      "sdes",
+      "agriculture_gouv"
+    ],
+    "deduplicated_against_days": 0,
+    "notes": "Premier run de veille sur le dépôt (aucun historique data/daily antérieur). Journée estivale : flux institutionnels réduits le week-end ; OFB, ADEME et Reporterre injoignables (protection anti-bot ou timeout). Accès Légifrance partiellement filtré (Cloudflare). Arrêtés eau potable d'août 2026 signalés par Actu-Environnement sans URL JORF individuelle confirmée."
+  },
+  "items": [
+    {
+      "id": "2026-08-22-001",
+      "title": "Trois arrêtés de surveillance de l'eau potable publiés pour répondre à la mise en demeure de la Commission européenne",
+      "summary": "Actu-Environnement signale la publication début août 2026 de trois arrêtés ajustant la surveillance de l'eau potable en France, dans le contexte d'une procédure d'infraction ouverte par la Commission européenne en juillet 2025 pour transposition incomplète de la directive (UE) 2020/2184. Les textes portent sur les protocoles de tests, les modalités de prélèvement et les conditions d'agrément des laboratoires. La Commission avait relevé des manquements sur l'évaluation des risques des réseaux privés, la surveillance de la qualité et l'information du public.",
+      "themes": ["eau_zones_humides", "reglementation"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France", "UE"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "Commission européenne",
+        "Agences régionales de santé"
+      ],
+      "primary_source": {
+        "name": "Actu-Environnement",
+        "url": "https://www.actu-environnement.com/ae/news/surveillance-qualite-eau-potable-arretes-transposition-directive-publies-mise-en-demeure-commission-europeenne-48414.php4",
+        "type": "media_secondaire"
+      },
+      "secondary_sources": [
+        {
+          "name": "LABEAU — cadre réglementaire eau potable",
+          "url": "https://labeau.ecologie.gouv.fr/espace-documentaire/cadre-reglementaire"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/ae/news/surveillance-qualite-eau-potable-arretes-transposition-directive-publies-mise-en-demeure-commission-europeenne-48414.php4",
+        "https://labeau.ecologie.gouv.fr/espace-documentaire/cadre-reglementaire"
+      ],
+      "published_at": "2026-08-21",
+      "detected_via": "Actu-Environnement (21/08/2026) ; arrêtés JORF d'août 2026 non consultés individuellement (accès Légifrance filtré lors du run)",
+      "relevance": {
+        "score": 5,
+        "why": "Obligations de surveillance et d'agrément laboratoires directement applicables aux gestionnaires de réseaux, ARS et bureaux de contrôle de l'eau potable."
+      },
+      "entities": [
+        "directive eau potable (UE) 2020/2184",
+        "agrément laboratoires",
+        "mise en demeure Commission européenne"
+      ],
+      "tags": ["eau_potable", "transposition", "surveillance"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-22-002",
+      "title": "Ventes de produits phytopharmaceutiques en 2024 : rebond de 8 % porté par les fongicides",
+      "summary": "Le SDES publie les données définitives 2024 des ventes de substances actives phytopharmaceutiques en France : 70 100 tonnes (+8 % vs 2023), dans un contexte d'année très pluvieuse favorisant les traitements fongicides (+22 %). Les substances utilisables en agriculture biologique ou en biocontrôle atteignent 26 872 tonnes (+17 %), soit 38 % du total. Les ventes de glyphosate repartent à la hausse (8 269 t, +22,5 % en 2024) tandis que les substances CMR reculent de 14 %.",
+      "themes": ["biodiversite", "eau_zones_humides", "donnees_outils"],
+      "signal_type": "rapport_institutionnel_majeur",
+      "geography": ["France"],
+      "actors": ["SDES", "Ministère de la Transition écologique"],
+      "primary_source": {
+        "name": "Ministère de la Transition écologique — SDES",
+        "url": "https://www.ecologie.gouv.fr/actualites/publication-ventes-produits-phytopharmaceutiques",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "SDES — page d'accueil statistiques",
+          "url": "https://www.statistiques.developpement-durable.gouv.fr/"
+        }
+      ],
+      "urls": [
+        "https://www.ecologie.gouv.fr/actualites/publication-ventes-produits-phytopharmaceutiques",
+        "https://www.statistiques.developpement-durable.gouv.fr/"
+      ],
+      "published_at": "2026-07-24",
+      "detected_via": "source primaire (SDES / MTE) ; reprise SDES le 20/08/2026 sur la page d'accueil",
+      "relevance": {
+        "score": 4,
+        "why": "Indicateur officiel de référence pour le suivi Ecophyto, les diagnostics pression pesticides et les études d'impact eau/agriculture."
+      },
+      "entities": ["BNVD", "Ecophyto 2030", "glyphosate", "substances CMR", "biocontrôle"],
+      "tags": ["phytosanitaires", "statistiques", "SDES"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-22-003",
+      "title": "Incendies Gironde et Landes : reconnaissance d'un sinistre de grande ampleur pour les forêts brûlées",
+      "summary": "À la suite des incendies de Saumos (environ 39 800 ha) et de Biscarosse (environ 3 600 ha) en juillet 2026, les ministres Monique Barbut et Annie Genevard chargent leurs services de prendre un arrêté reconnaissant le sinistre de grande ampleur au titre du code forestier. Une fois les feux éteints, les propriétaires privés pourront abattre les bois incendiés sans la procédure habituelle d'autorisation préalable auprès du centre régional de la propriété forestière, afin d'accélérer les chantiers.",
+      "themes": ["incendies_risques", "biodiversite"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France", "Nouvelle-Aquitaine", "Gironde", "Landes"],
+      "actors": [
+        "Ministère de l'Agriculture",
+        "Ministère de la Transition écologique",
+        "CRPF Nouvelle-Aquitaine"
+      ],
+      "primary_source": {
+        "name": "Ministère de l'Agriculture",
+        "url": "https://agriculture.gouv.fr/incendies-en-gironde-et-dans-les-landes-reconnaissance-dun-sinistre-de-grande-ampleur-pour-les",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — bilan surfaces brûlées",
+          "url": "https://www.actu-environnement.com/"
+        }
+      ],
+      "urls": [
+        "https://agriculture.gouv.fr/incendies-en-gironde-et-dans-les-landes-reconnaissance-dun-sinistre-de-grande-ampleur-pour-les"
+      ],
+      "published_at": "2026-08-06",
+      "detected_via": "source primaire (communiqué agriculture.gouv.fr) ; complété Actu-Environnement pour le bilan national",
+      "relevance": {
+        "score": 5,
+        "why": "Procédure d'urgence forestière et dérogations de coupe concernent directement propriétaires forestiers, filière bois, DREAL et gestionnaires de massifs après mégafeux."
+      },
+      "entities": [
+        "sinistre de grande ampleur",
+        "code forestier",
+        "incendie Saumos",
+        "incendie Biscarosse"
+      ],
+      "tags": ["incendies", "forêt", "reconstruction"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-22-004",
+      "title": "Deuxième méga-décret de simplification pour les collectivités territoriales (décret n° 2026-674)",
+      "summary": "Publié au Journal officiel du 28 juillet 2026, le décret n° 2026-674 du 27 juillet 2026 porte trente mesures de simplification de l'action publique locale et des normes applicables aux collectivités et à leurs groupements. Les dispositions touchent notamment l'urbanisme, les énergies renouvelables et la lutte contre l'habitat indigne, dans la continuité du premier méga-décret et du projet de loi de simplification des normes.",
+      "themes": ["reglementation", "zan_artificialisation", "climat_adaptation"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France"],
+      "actors": ["Ministère de la Transition écologique", "collectivités territoriales"],
+      "primary_source": {
+        "name": "Légifrance — JORF n° 0174 du 28 juillet 2026",
+        "url": "https://www.legifrance.gouv.fr/jorf/jo/2026/07/28/0174",
+        "type": "juridique"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — deuxième méga-décret",
+          "url": "https://www.actu-environnement.com/"
+        }
+      ],
+      "urls": [
+        "https://www.legifrance.gouv.fr/jorf/jo/2026/07/28/0174"
+      ],
+      "published_at": "2026-07-28",
+      "detected_via": "Actu-Environnement (28/07/2026) ; source primaire JORF",
+      "relevance": {
+        "score": 4,
+        "why": "Allègements et simplifications réglementaires impactent les services urbanisme, environnement et énergie des collectivités et leurs prestataires."
+      },
+      "entities": ["décret n° 2026-674", "méga-décret", "simplification des normes"],
+      "tags": ["collectivites", "urbanisme", "ENR"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-22-005",
+      "title": "Cerema : gestion de patrimoine immobilier public — quand le diagnostic alimente la stratégie",
+      "summary": "Le Cerema publie une synthèse méthodologique sur la gestion de patrimoine immobilier (GPI) des collectivités, articulant diagnostic à 360°, hiérarchisation des actions et plan pluriannuel. L'article insiste sur l'intégration de l'adaptation au changement climatique via la méthode ABCD et sur l'optimisation des surfaces (rationalisation, mutualisation) au-delà de la seule rénovation énergétique.",
+      "themes": ["climat_adaptation", "rapports_guides"],
+      "signal_type": "nouveau_guide_methodologique",
+      "geography": ["France"],
+      "actors": ["Cerema"],
+      "primary_source": {
+        "name": "Cerema",
+        "url": "https://www.cerema.fr/fr/actualites/gestion-patrimoine-immobilier-quand-diagnostic-alimente",
+        "type": "technique"
+      },
+      "urls": [
+        "https://www.cerema.fr/fr/actualites/gestion-patrimoine-immobilier-quand-diagnostic-alimente"
+      ],
+      "published_at": "2026-08-20",
+      "detected_via": "source primaire (actualités Cerema)",
+      "relevance": {
+        "score": 4,
+        "why": "Référence opérationnelle pour collectivités et bureaux d'études amenés à structurer schémas directeurs immobiliers intégrant adaptation climatique."
+      },
+      "entities": ["GPI", "méthode ABCD", "SURFAC²E", "diagnostic à 360°"],
+      "tags": ["patrimoine", "collectivites", "adaptation"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-22-006",
+      "title": "Posidonies et « blue carbon » : la Méditerranée détient le stock de biomasse le plus élevé par hectare (étude UE)",
+      "summary": "La Commission européenne relaie une étude publiée dans Nature Communications estimant le stock global de carbone biomasse des herbiers à 24–40 Mt et une productivité primaire nette de 83–137 Mt C/an. La Méditerranée affiche le stock de biomasse carbone par hectare le plus élevé, devant les biorégions Indo-Pacifique et Atlantique tropical. L'Espagne, l'Italie et la France figurent parmi les pays où la conservation des herbiers de Posidonia offrirait le plus fort levier de mitigation.",
+      "themes": ["biodiversite", "climat_adaptation", "eau_zones_humides"],
+      "signal_type": "publication_scientifique_appliquee",
+      "geography": ["UE", "France", "Méditerranée"],
+      "actors": [
+        "Commission européenne",
+        "Direction générale Environnement"
+      ],
+      "primary_source": {
+        "name": "Commission européenne — Environnement",
+        "url": "https://environment.ec.europa.eu/news/conserving-seagrass-meadows-crucial-blue-carbon-climate-strategies-2026-08-19_en",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "Nature Communications — article source",
+          "url": "https://www.nature.com/articles/s41467-025-64667-6"
+        }
+      ],
+      "urls": [
+        "https://environment.ec.europa.eu/news/conserving-seagrass-meadows-crucial-blue-carbon-climate-strategies-2026-08-19_en",
+        "https://www.nature.com/articles/s41467-025-64667-6"
+      ],
+      "published_at": "2026-08-19",
+      "detected_via": "source primaire (Commission européenne)",
+      "relevance": {
+        "score": 4,
+        "why": "Éclaire les enjeux de restauration des herbiers méditerranéens (Posidonia) pour gestionnaires Natura 2000, littoral et stratégies climat-nature."
+      },
+      "entities": [
+        "Posidonia",
+        "blue carbon",
+        "Nature Restoration Regulation",
+        "herbiers marins"
+      ],
+      "tags": ["mediterranee", "carbone_bleu", "restauration"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-22-007",
+      "title": "Règlement emballages UE (PPWR) : entrée en application et restriction des PFAS dans les emballages alimentaires",
+      "summary": "À compter du 12 août 2026, le règlement (UE) 2025/40 sur les emballages et les déchets d'emballages s'applique dans l'ensemble de l'UE. Une mesure clé interdit la mise sur le marché d'emballages alimentaires en contact contenant des PFAS au-delà de limites strictes. La Commission a publié en mars 2026 des guides d'implémentation ; d'autres mesures (étiquetage harmonisé, objectifs de réemploi, plastique recyclé obligatoire) s'appliqueront à partir de 2028–2030.",
+      "themes": ["reglementation", "sols"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["UE", "France"],
+      "actors": ["Commission européenne", "industrie de l'emballage"],
+      "primary_source": {
+        "name": "Commission européenne — Environnement",
+        "url": "https://environment.ec.europa.eu/news/new-rules-packaging-enter-application-2026-08-11_en",
+        "type": "institutionnel"
+      },
+      "urls": [
+        "https://environment.ec.europa.eu/news/new-rules-packaging-enter-application-2026-08-11_en"
+      ],
+      "published_at": "2026-08-11",
+      "detected_via": "source primaire (Commission européenne)",
+      "relevance": {
+        "score": 4,
+        "why": "Obligation immédiate pour filières emballage et distribution ; lien direct avec la traçabilité PFAS et la conformité produits en France."
+      },
+      "entities": ["PPWR", "PFAS", "emballages alimentaires", "économie circulaire"],
+      "tags": ["emballages", "PFAS", "UE"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-22-008",
+      "title": "Sécheresse estivale 2026 : sols très secs, cours d'eau à l'étiage précoce et dispositif de restrictions",
+      "summary": "La page institutionnelle « Tout savoir sur la sécheresse » du ministère (mise à jour 3 juillet 2026) décrit une sécheresse précoce et sévère en été 2026 : humidité des sols très basse sur l'Hexagone et la Corse, débits en effondrement depuis début juin, un quart des petits cours d'eau à sec (record depuis 2012). Le dispositif Propluvia/VigiEau permet de suivre les arrêtés préfectoraux de restriction par territoire pour préserver l'eau potable.",
+      "themes": ["eau_zones_humides", "climat_adaptation", "incendies_risques"],
+      "signal_type": "changement_de_pratique_professionnel",
+      "geography": ["France"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "CASH",
+        "préfectures"
+      ],
+      "primary_source": {
+        "name": "Ministère de la Transition écologique",
+        "url": "https://www.ecologie.gouv.fr/actualites/savoir-secheresse",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — propos Monique Barbut sur l'eau potable",
+          "url": "https://www.actu-environnement.com/"
+        }
+      ],
+      "urls": [
+        "https://www.ecologie.gouv.fr/actualites/savoir-secheresse"
+      ],
+      "published_at": "2026-07-03",
+      "detected_via": "source primaire (MTE) ; actualisation contextuelle via Actu-Environnement (août 2026)",
+      "relevance": {
+        "score": 5,
+        "why": "Situation hydrologique et restrictions d'usage conditionnent prélèvements, projets ICPE, agriculture et continuité du service eau potable à l'échelle locale."
+      },
+      "entities": ["Propluvia", "VigiEau", "étiage", "restrictions préfectorales"],
+      "tags": ["secheresse", "eau", "crise"],
+      "is_new": true
+    }
+  ]
+}
