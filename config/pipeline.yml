@@ -52,6 +52,20 @@ stages:
       - validation/YYYY/{period}.md
       - validation/YYYY/{period}.json
 
+  - id: validation_pr
+    automation_doc: config/automations/05-validation-pr.md
+    trigger: github_pr_opened_or_pushed
+    model: composer-2.5-standard
+    depends_on: []
+    role: >
+      Garde-fou qualité sur toute PR (veille, tendances, opportunités,
+      validation marché, docs). Commente ; ne merge pas.
+    inputs:
+      - pull_request_diff
+      - config/schemas/**
+    outputs:
+      - github_pr_comment
+
 central_question: >
   Qu'est-ce que les professionnels de l'environnement vont bientôt devoir
   faire, acheter, mesurer, produire ou maîtriser qu'ils ne faisaient pas auparavant ?

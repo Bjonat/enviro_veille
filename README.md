@@ -1,6 +1,6 @@
 # Radar de veille stratégique environnementale (France)
 
-Petit système en **4 automations Cursor** pour transformer la veille environnementale en radar d’opportunités professionnelles.
+Petit système en **5 automations Cursor** : 4 pour le pipeline de veille → opportunités, plus 1 garde-fou sur les PR.
 
 ```text
 Sources web
@@ -12,6 +12,8 @@ Sources web
 3. Détection d'opportunités    →  opportunites/
    ↓
 4. Validation marché           →  validation/
+                                    ↑
+5. Validation PR  ←───────────────┘  (contrôle qualité à chaque PR)
 ```
 
 Objectif : détecter suffisamment tôt ce que les professionnels de l’environnement vont devoir **faire, acheter, mesurer, produire ou maîtriser** — et vérifier ensuite si le marché le confirme (AO, recrutements, AAP, budgets, concurrents, obligations).
@@ -29,33 +31,31 @@ Objectif : détecter suffisamment tôt ce que les professionnels de l’environn
 │   ├── sources.yml          # Sources primaires, secondaires, marché
 │   ├── themes.yml           # Thématiques surveillées
 │   ├── schemas/             # Contrats JSON
-│   └── automations/         # Prompts + réglages des 4 automations
+│   └── automations/         # Prompts + réglages des automations
 └── README.md
 ```
 
 ## Automatisations
 
-| # | Rôle | Fréquence suggérée | Modèle | Prompt |
-|---|------|--------------------|--------|--------|
-| 1 | Collecte / tri / structuration | Quotidien (`0 6 * * *`) | **Composer 2.5 Standard** | [`config/automations/01-veille-quotidienne.md`](config/automations/01-veille-quotidienne.md) |
-| 2 | Tendances | Hebdo ou mensuel | Raisonnement fort | [`config/automations/02-analyse-tendances.md`](config/automations/02-analyse-tendances.md) |
-| 3 | Opportunités | Après #2 | Raisonnement fort | [`config/automations/03-detection-opportunites.md`](config/automations/03-detection-opportunites.md) |
-| 4 | Validation marché | Après #3 | Raisonnement / recherche | [`config/automations/04-validation-marche.md`](config/automations/04-validation-marche.md) |
+Statut : **créées** dans Cursor (IDs à coller dans [`config/automations/README.md`](config/automations/README.md)).
 
-Les automations Cursor se créent sur [cursor.com/automations](https://cursor.com/automations) (compte-level). Ce repo versionne les **prompts**, la **config** et les **données produites**.
+| # | Rôle | Déclencheur | Modèle | Prompt |
+|---|------|-------------|--------|--------|
+| 1 | Collecte / tri / structuration | Quotidien (`0 6 * * *`) | **Composer 2.5 Standard** | [`01-veille-quotidienne.md`](config/automations/01-veille-quotidienne.md) |
+| 2 | Tendances | Hebdo / mensuel | Raisonnement fort | [`02-analyse-tendances.md`](config/automations/02-analyse-tendances.md) |
+| 3 | Opportunités | Après #2 | Raisonnement fort | [`03-detection-opportunites.md`](config/automations/03-detection-opportunites.md) |
+| 4 | Validation marché | Après #3 | Raisonnement / recherche | [`04-validation-marche.md`](config/automations/04-validation-marche.md) |
+| 5 | Contrôle qualité des PR | PR opened / pushed | Léger / Composer | [`05-validation-pr.md`](config/automations/05-validation-pr.md) |
 
-### Mise en place rapide
+Les automations Cursor vivent sur [cursor.com/automations](https://cursor.com/automations). Ce repo versionne les **prompts**, la **config** et les **données produites**.
 
-1. Ouvre [cursor.com/automations/new](https://cursor.com/automations/new).
-2. Pour chaque fichier de `config/automations/` :
-   - copie le **prompt** (bloc `text`) ;
-   - applique le **trigger**, le **modèle** et le **repo** indiqués en tête de fichier ;
-   - active la création de PR ;
-   - pointe vers ce repository `Bjonat/enviro_veille`, branche `main`.
-3. Lance d’abord l’automation 1 pendant 2–4 semaines pour constituer l’historique.
-4. Active ensuite 2 → 3 → 4.
+### Suite opérationnelle
 
-Guide détaillé : [`config/automations/README.md`](config/automations/README.md).
+1. Laisser tourner l’automation **#1** pour constituer `data/daily/`.
+2. Merger régulièrement les PR de veille vers `main` (après passage de la **#5**).
+3. Après 2–4 semaines d’historique, laisser #2 → #3 → #4.
+
+Guide : [`config/automations/README.md`](config/automations/README.md).
 
 ## Contrats de données
 
@@ -71,6 +71,7 @@ Guide détaillé : [`config/automations/README.md`](config/automations/README.md
 - Les médias (Actu-Environnement, Localtis, Reporterre, etc.) détectent ; on remonte à la source quand c’est possible.
 - L’automation 1 produit de la **donnée propre**, pas du business.
 - Les automations 2–4 raisonnent sur l’historique pour bâtir le radar professionnel.
+- L’automation 5 empêche de merger du bruit ou des hallucinations.
 
 ## Exemple de chemins
 
