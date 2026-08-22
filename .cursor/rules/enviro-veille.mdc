@@ -1,0 +1,13 @@
+---
+description: Conventions du radar de veille environnementale
+alwaysApply: true
+---
+
+# enviro_veille — conventions
+
+- Respecter l'architecture : `veille/`, `data/daily/`, `tendances/`, `opportunites/`, `validation/`, `config/`.
+- L'automation 1 écrit uniquement de la veille factuelle (MD + JSON), sans analyse business.
+- Les schémas JSON dans `config/schemas/` sont la source de vérité des formats.
+- Sources : primaires d'abord (`config/sources.yml`) ; médias secondaires = détection puis remontée à la source.
+- Ne pas inventer d'URL, d'AO, de montants ou d'offres d'emploi.
+- Les prompts des automations Cursor sont versionnés dans `config/automations/`.

@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Bjonat/enviro_veille/config/schemas/validation.schema.json",
+  "title": "Validation marché des opportunités",
+  "type": "object",
+  "required": ["generated_at", "validations"],
+  "properties": {
+    "generated_at": { "type": "string", "format": "date-time" },
+    "based_on_opportunities": {
+      "type": "object",
+      "properties": {
+        "file": { "type": "string" }
+      }
+    },
+    "validations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "opportunity_id",
+          "market_signal_strength",
+          "verdict",
+          "evidence"
+        ],
+        "properties": {
+          "opportunity_id": { "type": "string" },
+          "opportunity_title": { "type": "string" },
+          "verdict": {
+            "type": "string",
+            "enum": [
+              "signale_fort",
+              "signale_modere",
+              "signale_faible",
+              "non_confirme",
+              "contre_signale"
+            ]
+          },
+          "market_signal_strength": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["type", "title", "summary"],
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "appel_offres",
+                    "recrutement",
+                    "appel_a_projets",
+                    "financement",
+                    "budget",
+                    "concurrent",
+                    "obligation",
+                    "demande_explicite",
+                    "autre"
+                  ]
+                },
+                "title": { "type": "string" },
+                "summary": { "type": "string" },
+                "url": { "type": "string" },
+                "date": { "type": "string" },
+                "actor": { "type": "string" },
+                "amount_or_scale": { "type": "string" }
+              }
+            }
+          },
+          "competitors_or_alternatives": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "economic_reading": { "type": "string" },
+          "recommended_next_step": { "type": "string" }
+        }
+      }
+    }
+  }
+}

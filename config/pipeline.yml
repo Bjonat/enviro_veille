@@ -1,0 +1,57 @@
+# Définition du pipeline (documentation machine-lisible)
+
+name: environment-intelligence
+goal: >
+  Radar du paysage professionnel environnemental français —
+  détecter tôt de nouveaux besoins (faire / acheter / mesurer / produire / maîtriser).
+
+stages:
+  - id: veille_quotidienne
+    automation_doc: config/automations/01-veille-quotidienne.md
+    schedule: "0 6 * * *"
+    model: composer-2.5-standard
+    inputs:
+      - config/sources.yml
+      - config/themes.yml
+      - data/daily/**/*.json  # historique pour dédup
+    outputs:
+      - veille/YYYY/MM/YYYY-MM-DD.md
+      - data/daily/YYYY/MM/YYYY-MM-DD.json
+
+  - id: analyse_tendances
+    automation_doc: config/automations/02-analyse-tendances.md
+    schedule: "0 7 * * 1"
+    model: high-reasoning
+    depends_on: [veille_quotidienne]
+    inputs:
+      - data/daily/**/*.json
+    outputs:
+      - tendances/YYYY/{period}.md
+      - tendances/YYYY/{period}.json
+
+  - id: detection_opportunites
+    automation_doc: config/automations/03-detection-opportunites.md
+    schedule: "0 8 * * 1"
+    model: high-reasoning
+    depends_on: [analyse_tendances]
+    inputs:
+      - tendances/**/*.json
+    outputs:
+      - opportunites/YYYY/{period}.md
+      - opportunites/YYYY/{period}.json
+
+  - id: validation_marche
+    automation_doc: config/automations/04-validation-marche.md
+    schedule: "0 9 * * 1"
+    model: research-balanced
+    depends_on: [detection_opportunites]
+    inputs:
+      - opportunites/**/*.json
+      - config/sources.yml  # market_validation_sources
+    outputs:
+      - validation/YYYY/{period}.md
+      - validation/YYYY/{period}.json
+
+central_question: >
+  Qu'est-ce que les professionnels de l'environnement vont bientôt devoir
+  faire, acheter, mesurer, produire ou maîtriser qu'ils ne faisaient pas auparavant ?

@@ -1,0 +1,44 @@
+# Exemple de fichier quotidien (référence)
+
+Ce fichier illustre le format attendu. L'automation 1 produit les vrais fichiers datés.
+
+```json
+{
+  "date": "2026-08-22",
+  "generated_at": "2026-08-22T06:30:00+02:00",
+  "timezone": "Europe/Paris",
+  "meta": {
+    "item_count": 1,
+    "sources_consulted": ["ofb", "legifrance", "actu_environnement"],
+    "deduplicated_against_days": 7,
+    "notes": "Exemple fictif pour documentation — ne pas traiter comme une vraie veille."
+  },
+  "items": [
+    {
+      "id": "2026-08-22-001",
+      "title": "Exemple — publication d'un guide méthodologique zones humides",
+      "summary": "Exemple de résumé factuel. Un guide méthodologique est publié par une institution. Il précise une méthode d'inventaire et des indicateurs. Les bureaux d'études et collectivités sont les premiers concernés.",
+      "themes": ["eau_zones_humides", "rapports_guides"],
+      "signal_type": "nouveau_guide_methodologique",
+      "geography": ["France"],
+      "actors": ["Agence de l'eau (exemple)", "OFB (exemple)"],
+      "primary_source": {
+        "name": "Exemple institution",
+        "url": "https://www.ofb.gouv.fr/",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [],
+      "urls": ["https://www.ofb.gouv.fr/"],
+      "published_at": "2026-08-21",
+      "detected_via": "source primaire",
+      "relevance": {
+        "score": 4,
+        "why": "Nouveauté méthodologique susceptible d'être exigée dans les dossiers et prestations."
+      },
+      "entities": ["zones humides", "inventaire"],
+      "tags": ["methode", "guide"],
+      "is_new": true
+    }
+  ]
+}
+```

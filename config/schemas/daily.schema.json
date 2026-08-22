@@ -1,0 +1,150 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Bjonat/enviro_veille/config/schemas/daily.schema.json",
+  "title": "Veille quotidienne environnementale",
+  "type": "object",
+  "required": ["date", "generated_at", "items", "meta"],
+  "properties": {
+    "date": {
+      "type": "string",
+      "format": "date",
+      "description": "Jour de veille au format YYYY-MM-DD (Europe/Paris)"
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "timezone": {
+      "type": "string",
+      "default": "Europe/Paris"
+    },
+    "meta": {
+      "type": "object",
+      "required": ["item_count", "deduplicated_against_days"],
+      "properties": {
+        "item_count": { "type": "integer", "minimum": 0 },
+        "sources_consulted": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "deduplicated_against_days": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Nombre de jours d'historique utilisés pour la déduplication"
+        },
+        "notes": { "type": "string" }
+      }
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "summary",
+          "themes",
+          "signal_type",
+          "primary_source",
+          "published_at",
+          "urls",
+          "relevance"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Identifiant stable, ex. 2026-08-22-001"
+          },
+          "title": { "type": "string" },
+          "summary": {
+            "type": "string",
+            "description": "Résumé factuel 2–5 phrases, sans analyse business"
+          },
+          "themes": {
+            "type": "array",
+            "items": { "type": "string" },
+            "minItems": 1
+          },
+          "signal_type": { "type": "string" },
+          "geography": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "France, UE, région, département…"
+          },
+          "actors": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "primary_source": {
+            "type": "object",
+            "required": ["name", "url"],
+            "properties": {
+              "name": { "type": "string" },
+              "url": { "type": "string", "format": "uri" },
+              "type": {
+                "type": "string",
+                "enum": [
+                  "institutionnel",
+                  "juridique",
+                  "scientifique",
+                  "technique",
+                  "territorial",
+                  "media_secondaire"
+                ]
+              }
+            }
+          },
+          "secondary_sources": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": { "type": "string" },
+                "url": { "type": "string", "format": "uri" }
+              }
+            }
+          },
+          "urls": {
+            "type": "array",
+            "items": { "type": "string", "format": "uri" },
+            "minItems": 1
+          },
+          "published_at": {
+            "type": "string",
+            "description": "Date de publication source si connue (YYYY-MM-DD)"
+          },
+          "detected_via": {
+            "type": "string",
+            "description": "Comment le sujet a été détecté (source primaire ou média secondaire)"
+          },
+          "relevance": {
+            "type": "object",
+            "required": ["score", "why"],
+            "properties": {
+              "score": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 5,
+                "description": "1=faible, 5=critique pour les professionnels FR"
+              },
+              "why": { "type": "string" }
+            }
+          },
+          "entities": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Espèces, habitats, textes, outils nommés"
+          },
+          "tags": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "is_new": {
+            "type": "boolean",
+            "description": "true si non déjà présent dans l'historique récent"
+          }
+        }
+      }
+    }
+  }
+}

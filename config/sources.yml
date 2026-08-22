@@ -1,0 +1,195 @@
+# Sources de veille environnementale — France / UE
+# Priorité : sources primaires et institutionnelles.
+# Les sources secondaires servent à détecter des sujets, puis on remonte à la source primaire.
+
+primary:
+  biodiversity_nature:
+    - id: ofb
+      name: Office français de la biodiversité
+      urls:
+        - https://www.ofb.gouv.fr/
+        - https://www.ofb.gouv.fr/actualites
+      notes: Actualités, rapports, outils, réglementations biodiversité
+    - id: inpn
+      name: Inventaire national du patrimoine naturel
+      urls:
+        - https://inpn.mnhn.fr/
+        - https://inpn.mnhn.fr/actualites
+      notes: Données espèces/habitats, référentiels, publications
+    - id: patrinat
+      name: PatriNat (OFB–MNHN–CNRS–IRD)
+      urls:
+        - https://www.patrinat.fr/
+      notes: Expertise biodiversité, méthodes, référentiels
+    - id: mnhn
+      name: Muséum national d'Histoire naturelle
+      urls:
+        - https://www.mnhn.fr/
+      notes: Recherche, collections, expertise naturaliste
+    - id: natura2000
+      name: Natura 2000 / sites protégés
+      urls:
+        - https://www.natura2000.fr/
+        - https://inpn.mnhn.fr/accueil/recherche-de-donnees/natura2000
+      notes: DOCOB, habitats d'intérêt communautaire, espèces
+
+  water_wetlands:
+    - id: eaufrance
+      name: Eaufrance / Sandre
+      urls:
+        - https://www.eaufrance.fr/
+        - https://www.sandre.eaufrance.fr/
+      notes: Données eau, référentiels hydrographiques
+    - id: agences_eau
+      name: Agences de l'eau
+      urls:
+        - https://www.lesagencesdeleau.fr/
+        - https://www.eau-seine-normandie.fr/
+        - https://www.eau-loire-bretagne.fr/
+        - https://www.eaurmc.fr/
+        - https://www.eau-adour-garonne.fr/
+        - https://www.eau-artois-picardie.fr/
+        - https://www.eau-rhin-meuse.fr/
+      notes: Appels à projets, SDAGE, financements, guides
+
+  soils_land_use:
+    - id: zan
+      name: ZAN / artificialisation des sols
+      urls:
+        - https://www.ecologie.gouv.fr/
+        - https://artificialisation.developpement-durable.gouv.fr/
+      notes: Observatoire de l'artificialisation, décrets, guides ZAN
+    - id: brgm
+      name: BRGM
+      urls:
+        - https://www.brgm.fr/
+        - https://www.brgm.fr/fr/actualite
+      notes: Sols, sous-sols, risques, données géologiques
+    - id: adele_sols
+      name: ADEME — sols / économie circulaire
+      urls:
+        - https://www.ademe.fr/
+      notes: Guides, AAP, données, outils
+
+  climate_risks:
+    - id: mte
+      name: Ministère de la Transition écologique
+      urls:
+        - https://www.ecologie.gouv.fr/
+        - https://www.ecologie.gouv.fr/actualites
+      notes: Politiques publiques, textes, consultations
+    - id: onerc
+      name: ONERC / adaptation climat
+      urls:
+        - https://www.ecologie.gouv.fr/politiques-publiques/observatoire-national-effets-rechauffement-climatique-onerc
+      notes: Adaptation, indicateurs, rapports
+    - id: igedd
+      name: IGEDD
+      urls:
+        - https://www.igedd.developpement-durable.gouv.fr/
+      notes: Rapports d'inspection, évaluations
+    - id: sdes
+      name: SDES (données environnement)
+      urls:
+        - https://www.statistiques.developpement-durable.gouv.fr/
+      notes: Statistiques officielles, indicateurs, publications
+    - id: cerema
+      name: Cerema
+      urls:
+        - https://www.cerema.fr/
+        - https://www.cerema.fr/fr/actualites
+      notes: Guides techniques, méthodes, outils territoriaux
+    - id: ademe
+      name: ADEME
+      urls:
+        - https://www.ademe.fr/
+        - https://agirpourlatransition.ademe.fr/
+      notes: AAP, guides, données, transition écologique
+
+  regulation_law:
+    - id: legifrance
+      name: Légifrance
+      urls:
+        - https://www.legifrance.gouv.fr/
+      notes: Textes officiels, JO, jurisprudence
+    - id: senat
+      name: Sénat
+      urls:
+        - https://www.senat.fr/
+        - https://www.senat.fr/travaux-parlementaires/rapports.html
+      notes: Rapports, propositions de loi, questions
+    - id: assemblee
+      name: Assemblée nationale
+      urls:
+        - https://www.assemblee-nationale.fr/
+      notes: Textes, commissions, rapports
+    - id: conseil_etat
+      name: Conseil d'État / jurisprudence
+      urls:
+        - https://www.conseil-etat.fr/
+        - https://www.legifrance.gouv.fr/ceta/
+      notes: Décisions, contentieux environnemental
+
+  europe:
+    - id: commission_ue
+      name: Commission européenne — environnement
+      urls:
+        - https://environment.ec.europa.eu/
+        - https://eur-lex.europa.eu/
+      notes: Directives, règlements, consultations, nature restoration
+    - id: eea
+      name: Agence européenne pour l'environnement
+      urls:
+        - https://www.eea.europa.eu/
+      notes: Rapports, indicateurs, données UE
+
+  territorial:
+    - id: dreal
+      name: DREAL / DRIEE / DEAL
+      urls:
+        - https://www.ecologie.gouv.fr/directions-regionales-environnement-amenagement-logement-dreal
+      notes: Actualités régionales, arrêtés, consultations locales
+    - id: prefectures
+      description: Préfectures et ARS selon sujets (incendies, risques, eau)
+      notes: Arrêtés, plans, crises
+
+secondary_signals:
+  # Utilisées pour détecter des sujets ; remonter ensuite à la source primaire.
+  - id: actu_environnement
+    name: Actu-Environnement
+    url: https://www.actu-environnement.com/
+  - id: localtis
+    name: Localtis (Banque des Territoires)
+    url: https://www.banquedesterritoires.fr/localtis
+  - id: reporterre
+    name: Reporterre
+    url: https://reporterre.net/
+  - id: the_conversation_fr
+    name: The Conversation France
+    url: https://theconversation.com/fr
+  - id: le_moniteur
+    name: Le Moniteur
+    url: https://www.lemoniteur.fr/
+  - id: bank_territoires
+    name: Banque des Territoires
+    url: https://www.banquedesterritoires.fr/
+
+market_validation_sources:
+  # Pour l'automation 4 uniquement
+  - id: boamp
+    name: BOAMP
+    url: https://www.boamp.fr/
+  - id: marchesonline
+    name: Marchés Online / plateformes AO
+    notes: Appels d'offres publics environnementaux
+  - id: aap_ademe
+    name: Appels à projets ADEME
+    url: https://agirpourlatransition.ademe.fr/
+  - id: france_travail
+    name: Offres d'emploi environnement
+    notes: France Travail, LinkedIn, APEC — signaux de recrutement
+  - id: agences_eau_aap
+    name: AAP Agences de l'eau
+  - id: anr
+    name: ANR / financements recherche appliquée
+    url: https://anr.fr/

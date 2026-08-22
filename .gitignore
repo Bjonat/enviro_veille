@@ -1,0 +1,18 @@
+# OS / éditeur
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Environnements locaux
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+node_modules/
+
+# Artefacts agent locaux (ne pas versionner les caches)
+.cursor/*.log
+*.tmp
