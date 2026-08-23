@@ -1,0 +1,406 @@
+{
+  "date": "2026-08-23",
+  "generated_at": "2026-08-23T06:02:00+02:00",
+  "timezone": "Europe/Paris",
+  "meta": {
+    "item_count": 10,
+    "sources_consulted": [
+      "actu_environnement",
+      "cerema",
+      "commission_ue",
+      "ecologie_gouv",
+      "consultations_publiques_mte"
+    ],
+    "deduplicated_against_days": 1,
+    "notes": "Journée dominicale estivale : flux institutionnels limités ; items centrés sur textes parus 14–21/08 et consultations ouvertes. Plateforme consultations-publiques.developpement-durable.gouv.fr en maintenance lors du run. OFB, ADEME, INPN et Légifrance non consultés directement (anti-bot ou accès filtré). Posidonia, PPWR, méga-décret 2026-674, sécheresse, incendies Gironde/Landes et arrêtés eau potable exclus comme déjà couverts le 22/08."
+  },
+  "items": [
+    {
+      "id": "2026-08-23-001",
+      "title": "Esod 2026 : neuf espèces indigènes reconduites pour trois ans malgré avis scientifiques et décisions de justice",
+      "summary": "Un arrêté du 10 août 2026, paru au Journal officiel le 21 août, reconduit pour trois ans la liste triennale des espèces susceptibles d'occasionner des dégâts (Esod) : belette, fouine, martre, renard, corbeau freux, corneille noire, pie bavarde, geai des chênes et étourneau sansonnet. L'annexe fixe, par département, les espèces et territoires concernés ainsi que les modalités de destruction (tir, piégeage, déterrage du renard, chasse au vol au rapace). Le texte abroge l'arrêté du 3 août 2023 et maintient la martre dans quatorze départements, alors que le Conseil d'État l'avait retirée de la liste nationale en mai 2025 pour non-respect de la directive Habitats. One Voice, l'Aspas et la LPO annoncent un recours.",
+      "themes": ["biodiversite", "especes_habitats", "reglementation", "jurisprudence"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "Conseil d'État",
+        "LPO",
+        "Aspas",
+        "One Voice"
+      ],
+      "primary_source": {
+        "name": "Journal officiel — arrêté du 10 août 2026 (TECL2619337A)",
+        "url": "https://www.actu-environnement.com/ae/reglementation/arrete-du-10-08-2026-tecl2619337a-40210.php",
+        "type": "juridique"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — analyse Esod 2026",
+          "url": "https://www.actu-environnement.com/ae/news/esod-especes-nuisibles-arrete-recours-48416.php4"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/ae/reglementation/arrete-du-10-08-2026-tecl2619337a-40210.php",
+        "https://www.actu-environnement.com/ae/news/esod-especes-nuisibles-arrete-recours-48416.php4"
+      ],
+      "published_at": "2026-08-21",
+      "detected_via": "Actu-Environnement (21/08/2026) ; texte JORF republié sur Actu-Environnement (Légifrance non consulté)",
+      "relevance": {
+        "score": 5,
+        "why": "Cadre national de régulation de la faune sauvage directement applicable aux services environnement, fédérations de chasseurs, gestionnaires cynégétiques et contentieux biodiversité."
+      },
+      "entities": [
+        "Esod",
+        "directive Habitats",
+        "martre",
+        "arrêté du 3 août 2023"
+      ],
+      "tags": ["faune_sauvage", "chasse", "contentieux"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-23-002",
+      "title": "Eaux non conventionnelles : arrêté expérimental élargi aux flux osmoseur et eaux grises de cuisine",
+      "summary": "L'arrêté du 29 juillet 2026, paru au Journal officiel le 14 août, encadre l'utilisation à titre expérimental d'eaux impropres à la consommation humaine (EICH) pour des usages domestiques, en application du décret n° 2024-796. Il ouvre l'expérimentation aux eaux issues de traitement par osmoseur et précise les conditions pour les eaux grises de cuisine, aux côtés des eaux grises sanitaires et des eaux de piscines collectives. Les usages autorisés incluent notamment le lavage du linge, des sols intérieurs (qualité A+), l'arrosage de jardins potagers et l'évacuation des excréta, sous autorisation préfectorale après avis ARS, avec séparation stricte du réseau potable et surveillance sanitaire jusqu'au 31 décembre 2034.",
+      "themes": ["eau_zones_humides", "reglementation", "climat_adaptation"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "Ministère de la Santé",
+        "Agences régionales de santé"
+      ],
+      "primary_source": {
+        "name": "Journal officiel — arrêté du 29 juillet 2026 (SFHP2607565A)",
+        "url": "https://www.actu-environnement.com/ae/reglementation/arrete-du-29-07-2026-sfhp2607565a-40097.php",
+        "type": "juridique"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — eaux non conventionnelles",
+          "url": "https://www.actu-environnement.com/ae/news/eaux-non-conventionnelles-reutilisation-eaux-usees-traitees-usages-domestiques-osmoseurs-eaux-grises-cuisine-48400.php4"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/ae/reglementation/arrete-du-29-07-2026-sfhp2607565a-40097.php",
+        "https://www.actu-environnement.com/ae/news/eaux-non-conventionnelles-reutilisation-eaux-usees-traitees-usages-domestiques-osmoseurs-eaux-grises-cuisine-48400.php4"
+      ],
+      "published_at": "2026-08-14",
+      "detected_via": "Actu-Environnement (19/08/2026) ; texte JORF republié sur Actu-Environnement",
+      "relevance": {
+        "score": 4,
+        "why": "Ouvre de nouveaux schémas de réutilisation domestique de l'eau pour collectivités, promoteurs, bureaux d'études eau et exploitants de réseaux en contexte de sécheresse."
+      },
+      "entities": [
+        "EICH",
+        "eaux grises",
+        "osmoseur",
+        "décret n° 2024-796"
+      ],
+      "tags": ["reutilisation_eau", "experimentation", "REUT"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-23-003",
+      "title": "PFAS : contrôle des rejets des installations de traitement de déchets liquides (rubriques 2790/2791)",
+      "summary": "L'arrêté du 16 juillet 2026, paru au Journal officiel le 25 juillet, impose aux ICPE de traitement de déchets liquides (rubriques 2790 et 2791) des prescriptions pour réduire les rejets aqueux de PFAS. Sont visées les installations traitant des déchets liquides dangereux, les lixiviats d'ISDND et les mousses d'extinction d'incendie. Les exploitants doivent mettre en place des dispositifs de traitement, assurer des analyses mensuelles des rejets (avec contrôle trimestriel par organisme agréé) et respecter un seuil de concentration en équivalent PFOA dans le milieu récepteur, sous peine d'élaborer un plan d'action. Un délai de mise en conformité est accordé ; pendant celui-ci, l'acceptation de déchets liquides contenant des PFAS est interdite.",
+      "themes": ["eau_zones_humides", "sols", "reglementation"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "inspection des ICPE"
+      ],
+      "primary_source": {
+        "name": "Journal officiel — arrêté du 16 juillet 2026 (TECP2618033A)",
+        "url": "https://www.actu-environnement.com/ae/reglementation/arrete-du-16-07-2026-tecp2618033a-40039.php",
+        "type": "juridique"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — PFAS déchets liquides",
+          "url": "https://www.actu-environnement.com/ae/news/controle-pfas-installation-traitement-dechets-liquides-48373.php4"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/ae/reglementation/arrete-du-16-07-2026-tecp2618033a-40039.php",
+        "https://www.actu-environnement.com/ae/news/controle-pfas-installation-traitement-dechets-liquides-48373.php4"
+      ],
+      "published_at": "2026-07-25",
+      "detected_via": "Actu-Environnement (29/07/2026) ; texte JORF republié sur Actu-Environnement",
+      "relevance": {
+        "score": 5,
+        "why": "Obligations ICPE immédiates pour exploitants de stations de traitement de déchets liquides, filières lixiviats et gestionnaires de sites industriels exposés aux PFAS."
+      },
+      "entities": [
+        "PFAS",
+        "rubriques 2790/2791",
+        "équivalent PFOA",
+        "plan d'action interministériel PFAS"
+      ],
+      "tags": ["PFAS", "ICPE", "dechets_liquides"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-23-004",
+      "title": "Hydrogène par électrolyse : projet de rubriques ICPE 2611 et 3720 soumis à consultation (échéance 7 septembre)",
+      "summary": "Le ministère de la Transition écologique consulte jusqu'au 7 septembre 2026 un projet de décret et d'arrêtés de prescriptions générales/ministérielles créant deux rubriques ICPE dédiées à la production d'hydrogène par électrolyse de l'eau, avec entrée en vigueur prévue en 2027. La rubrique 2611 couvrirait les capacités de 500 kg/j à 50 t/j (régime déclaration/enregistrement) ; la rubrique 3720 viserait les installations de plus de 50 t/j (autorisation). L'objectif affiché est un cadre unifié conciliant filières décarbonées et maîtrise des risques (explosion, consommation d'eau, rejets).",
+      "themes": ["reglementation", "energie_biodiversite", "eau_zones_humides"],
+      "signal_type": "consultation_publique",
+      "geography": ["France"],
+      "actors": ["Ministère de la Transition écologique", "CSPRT"],
+      "primary_source": {
+        "name": "Actu-Environnement — projet ICPE hydrogène électrolyse",
+        "url": "https://www.actu-environnement.com/ae/news/hydrogene-electrolyse-icpe-reglementation-2027-48403.php4",
+        "type": "media_secondaire"
+      },
+      "secondary_sources": [
+        {
+          "name": "Projet de décret nomenclature ICPE (PDF)",
+          "url": "https://www.actu-environnement.com/media/pdf/news-48403-projet-decret-nomenclature-icpe-2611-3720.pdf"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/ae/news/hydrogene-electrolyse-icpe-reglementation-2027-48403.php4",
+        "https://www.actu-environnement.com/media/pdf/news-48403-projet-decret-nomenclature-icpe-2611-3720.pdf"
+      ],
+      "published_at": "2026-08-19",
+      "detected_via": "Actu-Environnement (19/08/2026) ; page consultation publique MTE injoignable (maintenance)",
+      "relevance": {
+        "score": 4,
+        "why": "Anticipation du régime ICPE pour projets d'électrolyseurs industriels, utile aux porteurs de projets, DREAL et bureaux d'études risques/industrie."
+      },
+      "entities": [
+        "rubrique ICPE 2611",
+        "rubrique ICPE 3720",
+        "hydrogène décarboné",
+        "électrolyse"
+      ],
+      "tags": ["hydrogene", "ICPE", "consultation"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-23-005",
+      "title": "Aide au renouvellement forestier : consultation sur une nouvelle base juridique après annulation du Conseil d'État (échéance 31 août)",
+      "summary": "À la suite de l'annulation le 15 juillet 2026 par le Conseil d'État du décret du 2 mai 2025 pour défaut de consultation du public, le ministère soumet à consultation jusqu'au 31 août 2026 un projet de décret et d'arrêté visant à rétablir la base juridique du dispositif d'aide au renouvellement forestier (France Nation Verte). Les textes reprennent les critères d'éligibilité antérieurs et ne couvrent que les dossiers transmis avant la fermeture du guichet Cartogip le 10 juin 2026. Le contexte post-incendies Gironde/Landes et l'annonce gouvernementale d'une doctrine de reconstitution forestière sous trois mois renforcent l'enjeu de régularisation des dossiers en attente.",
+      "themes": ["biodiversite", "incendies_risques", "climat_adaptation", "reglementation"],
+      "signal_type": "consultation_publique",
+      "geography": ["France", "Nouvelle-Aquitaine"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "Conseil d'État",
+        "Canopée",
+        "GIP ATGeRi"
+      ],
+      "primary_source": {
+        "name": "Actu-Environnement — consultation renouvellement forestier",
+        "url": "https://www.actu-environnement.com/ae/news/renouvellement-forestier-base-juridique-consultation-48411.php4",
+        "type": "media_secondaire"
+      },
+      "secondary_sources": [
+        {
+          "name": "Projet de décret renouvellement forestier (PDF)",
+          "url": "https://www.actu-environnement.com/media/pdf/news-48411-projet-decret-renouvellement-forestier.pdf"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/ae/news/renouvellement-forestier-base-juridique-consultation-48411.php4",
+        "https://www.actu-environnement.com/media/pdf/news-48411-projet-decret-renouvellement-forestier.pdf"
+      ],
+      "published_at": "2026-08-20",
+      "detected_via": "Actu-Environnement (20/08/2026) ; portail consultations-publiques en maintenance",
+      "relevance": {
+        "score": 5,
+        "why": "Débloque la contractualisation des aides forestières pour propriétaires, CRPF, OFB et filière bois après l'annulation contentieuse, dans un contexte de mégafeux estivaux."
+      },
+      "entities": [
+        "France Nation Verte",
+        "Cartogip",
+        "décret du 2 mai 2025",
+        "renouvellement forestier"
+      ],
+      "tags": ["foret", "subventions", "contentieux"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-23-006",
+      "title": "Décret n° 2026-733 : coordination réglementaire des procédures d'élaboration des documents d'urbanisme",
+      "summary": "Publié au Journal officiel le 4 août 2026, le décret n° 2026-733 du 1er août 2026 adapte la partie réglementaire du code de l'urbanisme aux modifications législatives de la loi de simplification du droit de l'urbanisme et du logement du 26 novembre 2025. Il simplifie l'évaluation environnementale des PLU (à l'élaboration et à la révision), généralise la participation du public par voie électronique aux côtés de l'enquête publique pour les SCoT, PLU et cartes communales, et harmonise les consultations avec l'ordonnance de 2020 sur la modernisation des SCoT.",
+      "themes": ["zan_artificialisation", "reglementation", "climat_adaptation"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "collectivités territoriales"
+      ],
+      "primary_source": {
+        "name": "Journal officiel — décret n° 2026-733 du 1er août 2026",
+        "url": "https://www.actu-environnement.com/ae/reglementation/decret-du-01-08-2026-2026-733-40142.php",
+        "type": "juridique"
+      },
+      "urls": [
+        "https://www.actu-environnement.com/ae/reglementation/decret-du-01-08-2026-2026-733-40142.php"
+      ],
+      "published_at": "2026-08-04",
+      "detected_via": "Actu-Environnement (dépêche 20/08/2026) ; texte JORF republié sur Actu-Environnement",
+      "relevance": {
+        "score": 4,
+        "why": "Impact direct sur les procédures d'élaboration/révision des PLU et SCoT pour services urbanisme, BE aménagement et évaluateurs environnementaux."
+      },
+      "entities": [
+        "décret n° 2026-733",
+        "PLU",
+        "SCoT",
+        "évaluation environnementale"
+      ],
+      "tags": ["urbanisme", "participation_publique"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-23-007",
+      "title": "Loi n° 2026-797 pour une montagne vivante et souveraine promulguée",
+      "summary": "La loi n° 2026-797 du 18 août 2026, parue au Journal officiel le 19 août, adapte plusieurs codes aux spécificités des territoires de montagne. Sur l'environnement et l'urbanisme, elle assouplit le principe de continuité de l'urbanisation, facilite la reconstruction ou l'adaptation de constructions agricoles, pastorales et de chalets d'alpage (y compris en ruine), autorise des dérogations aux règles littorales pour les communes riveraines de grands plans d'eau intérieurs et précise les objectifs de gestion de l'eau en montagne (stockage). Le texte crée aussi une commission montagne dans certains EPCI et prévoit des plans d'action pour les milieux aquatiques et la prévention des inondations.",
+      "themes": ["biodiversite", "eau_zones_humides", "climat_adaptation", "reglementation"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France", "massifs montagneux"],
+      "actors": [
+        "Parlement",
+        "collectivités de montagne",
+        "Agences régionales de santé"
+      ],
+      "primary_source": {
+        "name": "Journal officiel — loi n° 2026-797 du 18 août 2026",
+        "url": "https://www.actu-environnement.com/ae/reglementation/loi-du-18-08-2026-2026-797-40199.php",
+        "type": "juridique"
+      },
+      "urls": [
+        "https://www.actu-environnement.com/ae/reglementation/loi-du-18-08-2026-2026-797-40199.php"
+      ],
+      "published_at": "2026-08-19",
+      "detected_via": "Actu-Environnement (texte JORF republié)",
+      "relevance": {
+        "score": 4,
+        "why": "Modifie le cadre urbanistique et hydrique en montagne pour DREAL, collectivités alpines/pyrénéennes et gestionnaires de continuités écologiques."
+      },
+      "entities": [
+        "loi montagne 2026",
+        "chalets d'alpage",
+        "continuité de l'urbanisation",
+        "gestion de l'eau en montagne"
+      ],
+      "tags": ["montagne", "urbanisme", "eau"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-23-008",
+      "title": "Espaces verts urbains et bruit : étude à Lyon sur l'effet de la configuration des îlots de verdure selon la densité bâtie",
+      "summary": "La Commission européenne relaie une étude publiée dans le Journal of Environmental Management (2025) analysant trois zones de 2 km × 2 km à Lyon (faible, moyenne et forte densité bâtie) à partir de données ouvertes et de mesures participatives Noise Planet. Les auteurs montrent que l'effet des espaces verts sur la réduction du bruit varie selon la densité : en zone peu dense, la surface totale de verdure prime ; en zone moyenne, le regroupement des espaces ; en zone dense, de petits îlots fragmentés bien placés près des sources sonores (axes routiers) sont les plus efficaces. Une méthodologie reproductible est proposée pour les planificateurs urbains.",
+      "themes": ["climat_adaptation", "biodiversite", "donnees_outils"],
+      "signal_type": "publication_scientifique_appliquee",
+      "geography": ["France", "UE", "Lyon"],
+      "actors": ["Commission européenne", "Université de Lyon"],
+      "primary_source": {
+        "name": "Commission européenne — Environnement",
+        "url": "https://environment.ec.europa.eu/news/smart-design-urban-green-space-could-be-effective-affordable-way-reduce-city-noise-2026-08-19_en",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "Journal of Environmental Management — article source",
+          "url": "https://doi.org/10.1016/j.jenvman.2025.127183"
+        }
+      ],
+      "urls": [
+        "https://environment.ec.europa.eu/news/smart-design-urban-green-space-could-be-effective-affordable-way-reduce-city-noise-2026-08-19_en",
+        "https://doi.org/10.1016/j.jenvman.2025.127183"
+      ],
+      "published_at": "2026-08-19",
+      "detected_via": "source primaire (Commission européenne)",
+      "relevance": {
+        "score": 3,
+        "why": "Éclaire la conception des trames vertes et îlots de fraîcheur en contexte urbain dense, avec cas concret français et méthode transférable aux PLU/SCoT."
+      },
+      "entities": [
+        "Noise Planet",
+        "Zero Pollution Action Plan",
+        "îlots de chaleur",
+        "pollution sonore"
+      ],
+      "tags": ["ville", "TNb", "bruit"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-23-009",
+      "title": "Mélanges de substances chimiques : des chercheurs proposent un « mixture allocation factor » pour la réglementation UE",
+      "summary": "La Commission européenne synthétise un article paru dans Science (2025) appelant à intégrer dans REACH la prise en compte des mélanges coincidentiels de substances chimiques, absente aujourd'hui des évaluations substance par substance. Les auteurs proposent un « mixture allocation factor » (MAF) s'appuyant sur le concept de « risk cup » : même si chaque substance respecte individuellement ses seuils, leur cumul peut dépasser un niveau de risque acceptable. Le MAF servirait de facteur correctif ciblant prioritairement les substances à plus fort apport au risque cumulé.",
+      "themes": ["reglementation", "eau_zones_humides", "sols"],
+      "signal_type": "changement_de_pratique_professionnel",
+      "geography": ["UE", "France"],
+      "actors": [
+        "Commission européenne",
+        "Université RWTH Aachen"
+      ],
+      "primary_source": {
+        "name": "Commission européenne — Environnement",
+        "url": "https://environment.ec.europa.eu/news/researchers-call-greater-consideration-chemical-mixtures-improve-eu-chemical-safety-legislation-2026-08-19_en",
+        "type": "institutionnel"
+      },
+      "urls": [
+        "https://environment.ec.europa.eu/news/researchers-call-greater-consideration-chemical-mixtures-improve-eu-chemical-safety-legislation-2026-08-19_en"
+      ],
+      "published_at": "2026-08-19",
+      "detected_via": "source primaire (Commission européenne)",
+      "relevance": {
+        "score": 4,
+        "why": "Anticipation d'évolutions REACH/CLP pertinentes pour industriels, laboratoires, gestionnaires de sites pollués et filières eau traitant des micropolluants."
+      },
+      "entities": [
+        "REACH",
+        "mixture allocation factor",
+        "Chemicals Strategy for Sustainability",
+        "risk cup"
+      ],
+      "tags": ["substances_chimiques", "melanges", "UE"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-23-010",
+      "title": "Résistance aux antimicrobiens : la surveillance des eaux usées (WBS) comme outil One Health",
+      "summary": "La Commission européenne publie une synthèse d'une revue (mBio, 2025) sur le potentiel de la surveillance des eaux usées (wastewater-based surveillance, WBS) pour tracer les gènes de résistance aux antibiotiques (ARG) dans une approche One Health. La méthode, éprouvée pendant la COVID-19, permettrait un suivi à l'échelle du bâtiment, de la ville ou du territoire, avec des profils génétiques variant selon les conditions sanitaires, les infrastructures et la pollution antibiotique. Les auteurs recommandent standardisation internationale, financements dédiés et gouvernance éthique des données.",
+      "themes": ["eau_zones_humides", "donnees_outils", "reglementation"],
+      "signal_type": "publication_scientifique_appliquee",
+      "geography": ["UE", "France"],
+      "actors": ["Commission européenne", "ICRA Catalunya"],
+      "primary_source": {
+        "name": "Commission européenne — Environnement",
+        "url": "https://environment.ec.europa.eu/news/antimicrobial-resistance-could-be-traced-through-wastewater-under-one-health-approach-2026-08-19_en",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "mBio — Could wastewater-based surveillance be key to combating AMR?",
+          "url": "https://doi.org/10.1128/mbio.02778-25"
+        }
+      ],
+      "urls": [
+        "https://environment.ec.europa.eu/news/antimicrobial-resistance-could-be-traced-through-wastewater-under-one-health-approach-2026-08-19_en",
+        "https://doi.org/10.1128/mbio.02778-25"
+      ],
+      "published_at": "2026-08-19",
+      "detected_via": "source primaire (Commission européenne)",
+      "relevance": {
+        "score": 3,
+        "why": "Éclaire les pistes de surveillance environnementale des ARG pour agences de l'eau, exploitants de STEP et autorités sanitaires en lien avec la qualité des milieux aquatiques."
+      },
+      "entities": [
+        "antimicrobial resistance",
+        "wastewater-based surveillance",
+        "One Health",
+        "ARG"
+      ],
+      "tags": ["eaux_usees", "surveillance", "sante_environnement"],
+      "is_new": true
+    }
+  ]
+}
