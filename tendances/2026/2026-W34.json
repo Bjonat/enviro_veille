@@ -1,0 +1,253 @@
+{
+  "period": {
+    "start": "2026-07-27",
+    "end": "2026-08-23",
+    "label": "2026-W34"
+  },
+  "generated_at": "2026-08-23T09:35:00Z",
+  "meta": {
+    "daily_files_used": 2,
+    "items_analyzed": 18,
+    "method_notes": "Run hebdomadaire (28 jours glissants). Corpus limité à deux journées de veille (2026-08-22, 2026-08-23) couvrant des publications de fin juillet–août 2026. Première analyse tendances du dépôt (aucun historique tendances/). Tendances validées uniquement sur ≥2 signaux indépendants ou 1 signal structurel majeur (loi, décret, rapport institutionnel pivot, arrêté national structurant)."
+  },
+  "trends": [
+    {
+      "id": "2026-W34-eau-stress-reutilisation",
+      "title": "Stress hydrique estival et bascule réglementaire vers surveillance renforcée et réutilisation domestique",
+      "status": "en_acceleration",
+      "themes": ["eau_zones_humides", "reglementation", "climat_adaptation"],
+      "acceleration_score": 5,
+      "summary": "La sécheresse précoce 2026 (sols très secs, étiage record) coïncide avec un resserrage de la surveillance de l'eau potable sous pression européenne et l'ouverture expérimentale des eaux non conventionnelles aux usages domestiques.",
+      "drivers": ["réglementation", "crise climatique", "pratique"],
+      "evidence": [
+        {
+          "daily_item_id": "2026-08-22-008",
+          "date": "2026-07-03",
+          "title": "Sécheresse estivale 2026 : sols très secs, cours d'eau à l'étiage précoce et dispositif de restrictions",
+          "url": "https://www.ecologie.gouv.fr/actualites/savoir-secheresse"
+        },
+        {
+          "daily_item_id": "2026-08-22-001",
+          "date": "2026-08-21",
+          "title": "Trois arrêtés de surveillance de l'eau potable publiés pour répondre à la mise en demeure de la Commission européenne",
+          "url": "https://www.actu-environnement.com/ae/news/surveillance-qualite-eau-potable-arretes-transposition-directive-publies-mise-en-demeure-commission-europeenne-48414.php4"
+        },
+        {
+          "daily_item_id": "2026-08-23-002",
+          "date": "2026-08-14",
+          "title": "Eaux non conventionnelles : arrêté expérimental élargi aux flux osmoseur et eaux grises de cuisine",
+          "url": "https://www.actu-environnement.com/ae/reglementation/arrete-du-29-07-2026-sfhp2607565a-40097.php"
+        }
+      ],
+      "what_is_changing": "Passage d'une gestion de crise par arrêtés de restriction (Propluvia/VigiEau) à une double dynamique normative : conformité sanitaire des réseaux (directive eau potable UE) et expérimentation structurée de la réutilisation (EICH, osmoseurs, eaux grises) jusqu'en 2034.",
+      "who_is_affected": [
+        "ARS",
+        "gestionnaires de réseaux d'eau potable",
+        "collectivités et promoteurs",
+        "bureaux d'études eau",
+        "laboratoires agréés"
+      ],
+      "time_horizon": "0-6_mois"
+    },
+    {
+      "id": "2026-W34-pfas-multi-maillons",
+      "title": "Régulation PFAS multi-maillons : emballages alimentaires et rejets ICPE de déchets liquides",
+      "status": "en_acceleration",
+      "themes": ["reglementation", "sols", "eau_zones_humides"],
+      "acceleration_score": 5,
+      "summary": "Deux textes d'application immédiate resserrent le contrôle des PFAS à la fois côté produits (PPWR UE) et côté installations de traitement de déchets liquides (arrêtés ICPE 2790/2791).",
+      "drivers": ["réglementation", "UE", "pratique industrielle"],
+      "evidence": [
+        {
+          "daily_item_id": "2026-08-22-007",
+          "date": "2026-08-11",
+          "title": "Règlement emballages UE (PPWR) : entrée en application et restriction des PFAS dans les emballages alimentaires",
+          "url": "https://environment.ec.europa.eu/news/new-rules-packaging-enter-application-2026-08-11_en"
+        },
+        {
+          "daily_item_id": "2026-08-23-003",
+          "date": "2026-07-25",
+          "title": "PFAS : contrôle des rejets des installations de traitement de déchets liquides (rubriques 2790/2791)",
+          "url": "https://www.actu-environnement.com/ae/reglementation/arrete-du-16-07-2026-tecp2618033a-40039.php"
+        }
+      ],
+      "what_is_changing": "Les PFAS quittent le seul registre du « plan d'action » pour devenir des obligations opérationnelles de mise sur le marché (seuils emballages alimentaires) et de surveillance/traitement des rejets aqueux industriels, avec interdiction temporaire d'accepter certains déchets pendant la mise en conformité.",
+      "who_is_affected": [
+        "industrie de l'emballage et de la distribution",
+        "exploitants ICPE 2790/2791",
+        "inspection des installations classées",
+        "filières lixiviats et mousses anti-incendie"
+      ],
+      "time_horizon": "0-6_mois"
+    },
+    {
+      "id": "2026-W34-megafeux-renouvellement-forestier",
+      "title": "Post-mégafeux : procédures d'urgence forestière et refonte contentieuse des aides au renouvellement",
+      "status": "en_acceleration",
+      "themes": ["incendies_risques", "biodiversite", "climat_adaptation", "reglementation"],
+      "acceleration_score": 5,
+      "summary": "Après les incendies de Saumos et Biscarosse, l'État accélère les dérogations de coupe via le sinistre de grande ampleur tout en refondant sous consultation la base juridique des aides au renouvellement forestier annulée par le Conseil d'État.",
+      "drivers": ["crise", "réglementation", "financement", "jurisprudence"],
+      "evidence": [
+        {
+          "daily_item_id": "2026-08-22-003",
+          "date": "2026-08-06",
+          "title": "Incendies Gironde et Landes : reconnaissance d'un sinistre de grande ampleur pour les forêts brûlées",
+          "url": "https://agriculture.gouv.fr/incendies-en-gironde-et-dans-les-landes-reconnaissance-dun-sinistre-de-grande-ampleur-pour-les"
+        },
+        {
+          "daily_item_id": "2026-08-23-005",
+          "date": "2026-08-20",
+          "title": "Aide au renouvellement forestier : consultation sur une nouvelle base juridique après annulation du Conseil d'État",
+          "url": "https://www.actu-environnement.com/ae/news/renouvellement-forestier-base-juridique-consultation-48411.php4"
+        }
+      ],
+      "what_is_changing": "Conjonction d'une procédure d'urgence (abattage sans autorisation CRPF préalable) et d'une régularisation accélérée des financements France Nation Verte / Cartogip, sous contrainte contentieuse et horizon de reconstitution annoncé à trois mois.",
+      "who_is_affected": [
+        "propriétaires forestiers privés",
+        "CRPF",
+        "filière bois",
+        "DREAL",
+        "gestionnaires de massifs sinistrés"
+      ],
+      "time_horizon": "0-6_mois"
+    },
+    {
+      "id": "2026-W34-simplification-urbanisme-collectivites",
+      "title": "Vague de simplification des normes locales : méga-décret collectivités et procédures d'urbanisme",
+      "status": "en_acceleration",
+      "themes": ["reglementation", "zan_artificialisation", "climat_adaptation"],
+      "acceleration_score": 4,
+      "summary": "Deux décrets structurants (2026-674 et 2026-733) allègent l'action publique locale et modernisent l'évaluation environnementale / participation électronique des PLU et SCoT.",
+      "drivers": ["réglementation", "pratique"],
+      "evidence": [
+        {
+          "daily_item_id": "2026-08-22-004",
+          "date": "2026-07-28",
+          "title": "Deuxième méga-décret de simplification pour les collectivités territoriales (décret n° 2026-674)",
+          "url": "https://www.legifrance.gouv.fr/jorf/jo/2026/07/28/0174"
+        },
+        {
+          "daily_item_id": "2026-08-23-006",
+          "date": "2026-08-04",
+          "title": "Décret n° 2026-733 : coordination réglementaire des procédures d'élaboration des documents d'urbanisme",
+          "url": "https://www.actu-environnement.com/ae/reglementation/decret-du-01-08-2026-2026-733-40142.php"
+        }
+      ],
+      "what_is_changing": "La simplification des normes cesse d'être un projet législatif isolé : elle se décline en mesures opérationnelles pour collectivités (urbanisme, ENR, habitat) et en procédures allégées d'élaboration/révision des documents d'urbanisme, avec généralisation de la participation électronique.",
+      "who_is_affected": [
+        "collectivités territoriales",
+        "services urbanisme",
+        "bureaux d'études aménagement",
+        "évaluateurs environnementaux"
+      ],
+      "time_horizon": "6-18_mois"
+    },
+    {
+      "id": "2026-W34-loi-montagne-2026",
+      "title": "Loi montagne 2026 : assouplissement de l'urbanisme et de la gestion de l'eau en massifs",
+      "status": "structurelle",
+      "themes": ["reglementation", "biodiversite", "eau_zones_humides", "climat_adaptation"],
+      "acceleration_score": 4,
+      "summary": "La loi n° 2026-797 du 18 août 2026 adapte urbanisme, constructions agricoles/pastorales et objectifs de gestion de l'eau aux spécificités montagnardes, avec dérogations littorales pour plans d'eau intérieurs.",
+      "drivers": ["réglementation"],
+      "evidence": [
+        {
+          "daily_item_id": "2026-08-23-007",
+          "date": "2026-08-19",
+          "title": "Loi n° 2026-797 pour une montagne vivante et souveraine promulguée",
+          "url": "https://www.actu-environnement.com/ae/reglementation/loi-du-18-08-2026-2026-797-40199.php"
+        }
+      ],
+      "what_is_changing": "Signal structurel unique (loi) : continuité de l'urbanisation assouplie, reconstruction facilitée des chalets d'alpage et bâtiments agricoles, création de commissions montagne dans certains EPCI, et objectifs renforcés sur stockage/eau et milieux aquatiques.",
+      "who_is_affected": [
+        "collectivités de montagne",
+        "DREAL",
+        "EPCI de massif",
+        "gestionnaires de continuités écologiques"
+      ],
+      "time_horizon": "6-18_mois"
+    },
+    {
+      "id": "2026-W34-esod-contentieux-habitats",
+      "title": "Esod 2026 : reconduction nationale sous tension contentieuse Habitats",
+      "status": "emergente",
+      "themes": ["biodiversite", "especes_habitats", "reglementation", "jurisprudence"],
+      "acceleration_score": 3,
+      "summary": "L'arrêté du 10 août 2026 reconduit pour trois ans neuf espèces Esod, y compris la martre dans quatorze départements, malgré le retrait antérieur par le Conseil d'État et l'annonce de recours associatifs.",
+      "drivers": ["réglementation", "jurisprudence"],
+      "evidence": [
+        {
+          "daily_item_id": "2026-08-23-001",
+          "date": "2026-08-21",
+          "title": "Esod 2026 : neuf espèces indigènes reconduites pour trois ans malgré avis scientifiques et décisions de justice",
+          "url": "https://www.actu-environnement.com/ae/reglementation/arrete-du-10-08-2026-tecl2619337a-40210.php"
+        }
+      ],
+      "what_is_changing": "Le cycle triennal Esod se réouvre avec un écart assumé entre liste administrative et jurisprudence Habitats, ouvrant un nouveau cycle contentieux (LPO, Aspas, One Voice) qui pèsera sur la doctrine de régulation de la faune sauvage.",
+      "who_is_affected": [
+        "services environnement des DDT",
+        "fédérations de chasseurs",
+        "gestionnaires cynégétiques",
+        "associations de protection de la nature"
+      ],
+      "time_horizon": "0-6_mois"
+    },
+    {
+      "id": "2026-W34-phyto-2024-biocontrôle",
+      "title": "Indicateur Ecophyto : rebond 2024 des ventes phytosanitaires et montée du biocontrôle",
+      "status": "stable",
+      "themes": ["biodiversite", "eau_zones_humides", "donnees_outils"],
+      "acceleration_score": 3,
+      "summary": "Le SDES confirme un rebond de 8 % des ventes de substances actives en 2024 (fongicides, glyphosate) tout en documentant la progression du biocontrôle/UAB à 38 % du total et le recul des CMR.",
+      "drivers": ["science", "données", "pratique agricole"],
+      "evidence": [
+        {
+          "daily_item_id": "2026-08-22-002",
+          "date": "2026-07-24",
+          "title": "Ventes de produits phytopharmaceutiques en 2024 : rebond de 8 % porté par les fongicides",
+          "url": "https://www.ecologie.gouv.fr/actualites/publication-ventes-produits-phytopharmaceutiques"
+        }
+      ],
+      "what_is_changing": "Rapport institutionnel pivot : la trajectoire Ecophyto n'est plus lue comme une baisse linéaire — pression fongicide et glyphosate remontent sous contrainte climatique, tandis que le biocontrôle consolide sa part de marché.",
+      "who_is_affected": [
+        "SDES / MTE",
+        "filières agricoles",
+        "bureaux d'études eau-agriculture",
+        "acteurs Ecophyto 2030"
+      ],
+      "time_horizon": "6-18_mois"
+    },
+    {
+      "id": "2026-W34-adaptation-urbaine-methodes",
+      "title": "Adaptation urbaine : méthodes GPI/climat et conception fine des trames vertes",
+      "status": "emergente",
+      "themes": ["climat_adaptation", "rapports_guides", "biodiversite", "donnees_outils"],
+      "acceleration_score": 2,
+      "summary": "Deux publications méthodologiques convergent vers une adaptation opérationnelle du bâti et des espaces verts : diagnostic GPI Cerema (méthode ABCD) et étude lyonnaise sur la configuration des îlots de verdure selon la densité.",
+      "drivers": ["pratique", "science", "tech"],
+      "evidence": [
+        {
+          "daily_item_id": "2026-08-22-005",
+          "date": "2026-08-20",
+          "title": "Cerema : gestion de patrimoine immobilier public — quand le diagnostic alimente la stratégie",
+          "url": "https://www.cerema.fr/fr/actualites/gestion-patrimoine-immobilier-quand-diagnostic-alimente"
+        },
+        {
+          "daily_item_id": "2026-08-23-008",
+          "date": "2026-08-19",
+          "title": "Espaces verts urbains et bruit : étude à Lyon sur l'effet de la configuration des îlots de verdure selon la densité bâtie",
+          "url": "https://environment.ec.europa.eu/news/smart-design-urban-green-space-could-be-effective-affordable-way-reduce-city-noise-2026-08-19_en"
+        }
+      ],
+      "what_is_changing": "L'adaptation urbaine se précise en outils de priorisation (GPI, ABCD, optimisation de surfaces) et en règles spatiales différenciées selon la densité pour les bénéfices co-bénéfices (bruit, verdure), au-delà de la seule rénovation énergétique.",
+      "who_is_affected": [
+        "collectivités",
+        "bureaux d'études urbains",
+        "aménageurs",
+        "gestionnaires de patrimoine public"
+      ],
+      "time_horizon": "6-18_mois"
+    }
+  ]
+}
