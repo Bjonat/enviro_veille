@@ -1,0 +1,418 @@
+{
+  "date": "2026-08-24",
+  "generated_at": "2026-08-24T06:03:00+02:00",
+  "timezone": "Europe/Paris",
+  "meta": {
+    "item_count": 11,
+    "sources_consulted": [
+      "actu_environnement",
+      "commission_ue",
+      "cerema",
+      "ecologie_gouv",
+      "enedis_openservices"
+    ],
+    "deduplicated_against_days": 2,
+    "notes": "Lundi estival : peu de nouveautés institutionnelles du week-end ; items centrés sur textes parus 1–21/08 et jurisprudence fin juillet–août non couverts les 22–23/08. Articles Actu-Environnement souvent verrouillés (corps payant) ; textes JORF/JOUE republiés sur Actu-Environnement utilisés comme source primaire juridique. OFB, Légifrance, consultations-publiques MTE et Reporterre non consultés directement (timeout/anti-bot/maintenance). Esod, eaux non conventionnelles, PFAS ICPE, hydrogène, renouvellement forestier, décret 733, loi montaine, eau potable, méga-décret 674, sécheresse et synthèses UE du 19/08 exclus comme déjà couverts."
+  },
+  "items": [
+    {
+      "id": "2026-08-24-001",
+      "title": "ReFuelEU aviation : décret n° 2026-747 sur les sanctions administratives pour carburants durables",
+      "summary": "Le décret n° 2026-747 du 5 août 2026, paru au Journal officiel le 7 août, transpose en droit interne le régime de sanctions du règlement (UE) 2023/2405 (ReFuelEU Aviation). Il insère dans le code de l'environnement une section dédiée aux sanctions administratives applicables aux fournisseurs de carburants (contrôle douanes), aux exploitants d'aéronefs et aux gestionnaires d'aéroport (aviation civile). Le texte définit les notions de carburants durables et de synthèse à faible intensité carbone, organise des obligations de déclaration et de traçabilité, et prévoit des procédures contradictoires aboutissant à des amendes recouvrées par le comptable public.",
+      "themes": ["reglementation", "climat_adaptation", "energie_biodiversite"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France", "UE"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "Direction générale de l'aviation civile",
+        "Agence européenne de la sécurité aérienne"
+      ],
+      "primary_source": {
+        "name": "Journal officiel — décret n° 2026-747 du 5 août 2026",
+        "url": "https://www.actu-environnement.com/ae/reglementation/decret-du-05-08-2026-2026-747-40133.php",
+        "type": "juridique"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — ReFuelEU sanctions",
+          "url": "https://www.actu-environnement.com/ae/news/refueleu-aviation-decret-sanctions-administratives-48415.php4"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/ae/reglementation/decret-du-05-08-2026-2026-747-40133.php",
+        "https://www.actu-environnement.com/ae/news/refueleu-aviation-decret-sanctions-administratives-48415.php4"
+      ],
+      "published_at": "2026-08-07",
+      "detected_via": "Actu-Environnement (21/08/2026) ; texte JORF republié sur Actu-Environnement",
+      "relevance": {
+        "score": 4,
+        "why": "Cadre sanctionnaire opposable pour aéroports, compagnies aériennes et fournisseurs de carburants dans la mise en œuvre des quotas SAF imposés par ReFuelEU."
+      },
+      "entities": [
+        "ReFuelEU Aviation",
+        "règlement (UE) 2023/2405",
+        "carburants d'aviation durables",
+        "décret n° 2026-747"
+      ],
+      "tags": ["aviation", "SAF", "transposition"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-24-002",
+      "title": "Moustique tigre : 89–96 % du territoire métropolitain propice d'ici 2085 dans un scénario de forte pression climatique",
+      "summary": "Une étude publiée le 10 août 2026 dans Global Change Biology modélise l'expansion du moustique tigre (Aedes albopictus) et le risque de transmission autochtone de la dengue en France métropolitaine jusqu'en 2085. Dans un scénario de forte pression (émissions élevées et croissance démographique), 89 à 96 % du territoire présenterait des conditions climatiques favorables à l'implantation, seuls les massifs montagneux étant épargnés ; la transmission autochtone serait théoriquement possible sur 71 à 95 % des zones colonisées. L'espèce est passée d'un département en 2004 à 81 en 2025 ; plus de 99 % des changements projetés sont attribués au changement climatique selon les auteurs (IRD, Cirad, ICTP).",
+      "themes": ["biodiversite", "climat_adaptation", "especes_habitats"],
+      "signal_type": "publication_scientifique_appliquee",
+      "geography": ["France"],
+      "actors": ["IRD", "Cirad", "ICTP"],
+      "primary_source": {
+        "name": "Global Change Biology — Climate change drives the expansion of Aedes albopictus and dengue risk in mainland France",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/gcb.71017",
+        "type": "scientifique"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — moustique tigre 2085",
+          "url": "https://www.actu-environnement.com/ae/news/moustique-tigre-territoire-metropolitain-dengue-2085-48413.php4"
+        }
+      ],
+      "urls": [
+        "https://onlinelibrary.wiley.com/doi/10.1111/gcb.71017",
+        "https://www.actu-environnement.com/ae/news/moustique-tigre-territoire-metropolitain-dengue-2085-48413.php4"
+      ],
+      "published_at": "2026-08-10",
+      "detected_via": "Actu-Environnement (21/08/2026) ; source primaire scientifique confirmée (DOI Wiley)",
+      "relevance": {
+        "score": 4,
+        "why": "Projections opposables pour ARS, collectivités et gestionnaires de continuités écologiques sur la surveillance des vecteurs et l'adaptation sanitaire-climatique."
+      },
+      "entities": [
+        "Aedes albopictus",
+        "dengue",
+        "Global Change Biology",
+        "arbovirus"
+      ],
+      "tags": ["sante_environnement", "vecteurs", "projection_climatique"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-24-003",
+      "title": "Biométhane injecté : nouvel arrêté tarifaire réservant le soutien aux petites installations nouvelles",
+      "summary": "L'arrêté du 10 août 2026, paru au Journal officiel le 14 août, modifie les conditions d'achat du biométhane injecté fixées par l'arrêté du 10 juin 2023. Il abaisse le plafond de production annuelle ouvrant droit au contrat (de 25 à 13 GWh PCS), limite le guichet aux installations qualifiées de « nouvelles » selon des critères stricts (absence de travaux préalables, d'usage antérieur des équipements ou de contrat de soutien), met à jour les tarifs et le coefficient trimestriel K, interdit l'usage d'énergies fossiles hors démarrage et fixe un plafond de consommation électrique soutirée avec pénalités tarifaires. L'arrêté du 10 juin 2023 sera abrogé à une date précisée dans le texte.",
+      "themes": ["reglementation", "energie_biodiversite", "climat_adaptation"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France"],
+      "actors": ["Ministère de la Transition écologique", "GRDF", "producteurs de biométhane"],
+      "primary_source": {
+        "name": "Journal officiel — arrêté du 10 août 2026 (ECOR2618465A)",
+        "url": "https://www.actu-environnement.com/ae/reglementation/arrete-du-10-08-2026-ecor2618465a-40096.php",
+        "type": "juridique"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — biométhane tarifaire",
+          "url": "https://www.actu-environnement.com/ae/news/biomethane-arrete-tarifaire-injection-2026-48394.php4"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/ae/reglementation/arrete-du-10-08-2026-ecor2618465a-40096.php",
+        "https://www.actu-environnement.com/ae/news/biomethane-arrete-tarifaire-injection-2026-48394.php4"
+      ],
+      "published_at": "2026-08-14",
+      "detected_via": "Actu-Environnement (17/08/2026) ; texte JORF republié sur Actu-Environnement",
+      "relevance": {
+        "score": 4,
+        "why": "Restructuration du guichet tarifaire pour porteurs de projets de méthanisation et filières agro-industrielles planifiant l'injection en réseau gaz."
+      },
+      "entities": [
+        "biométhane",
+        "arrêté du 10 juin 2023",
+        "coefficient K",
+        "13 GWh PCS"
+      ],
+      "tags": ["gaz_vert", "tarif_achat", "methanisation"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-24-004",
+      "title": "Droits fondés en titre : décret n° 2026-740 retire aux préfets le pouvoir d'abrogation",
+      "summary": "Le décret n° 2026-740 du 6 août 2026, paru au Journal officiel le 7 août, modifie l'article R. 214-18-1 du code de l'environnement en supprimant la mention « le droit fondé en titre ou » au 3° du paragraphe II. Les préfets ne peuvent plus abroger un droit fondé en titre (usage de l'eau issu de l'Ancien Régime) dans le cadre des mesures de police de l'eau. Le texte exécute une décision du Conseil d'État du 10 octobre 2025 et fait suite à l'avis de la Mission interministérielle de l'eau.",
+      "themes": ["eau_zones_humides", "reglementation", "jurisprudence"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "Conseil d'État",
+        "Mission interministérielle de l'eau"
+      ],
+      "primary_source": {
+        "name": "Journal officiel — décret n° 2026-740 du 6 août 2026",
+        "url": "https://www.actu-environnement.com/ae/reglementation/decret-du-06-08-2026-2026-740-40127.php",
+        "type": "juridique"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — droits fondés en titre",
+          "url": "https://www.actu-environnement.com/ae/news/droits-fondes-titre-prefets-abrogation-decret-48407.php4"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/ae/reglementation/decret-du-06-08-2026-2026-740-40127.php",
+        "https://www.actu-environnement.com/ae/news/droits-fondes-titre-prefets-abrogation-decret-48407.php4"
+      ],
+      "published_at": "2026-08-07",
+      "detected_via": "Actu-Environnement (20/08/2026) ; texte JORF republié sur Actu-Environnement",
+      "relevance": {
+        "score": 4,
+        "why": "Clarifie le régime des droits d'eau historiques pour DREAL, services de police de l'eau, agriculteurs et usagers industriels concernés par les mesures de gestion quantitative."
+      },
+      "entities": [
+        "droits fondés en titre",
+        "article R. 214-18-1",
+        "police de l'eau",
+        "décret n° 2026-740"
+      ],
+      "tags": ["eau", "prefecture", "contentieux"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-24-005",
+      "title": "ICPE galvanisation discontinue : projet d'arrêté de prescriptions générales en consultation (échéance 7 septembre)",
+      "summary": "Le ministère de la Transition écologique consulte jusqu'au 7 septembre 2026 un projet d'arrêté ministériel de prescriptions générales pour les ICPE mettant en œuvre la galvanisation discontinue, en application des conclusions sur les meilleures techniques disponibles (MTD). L'objectif affiché est une application homogène des exigences MTD sur l'ensemble du territoire pour ce procédé de traitement de surface. Le texte s'inscrit dans le cadre de la directive IED (2010/75/UE) et de la décision d'exécution de 2022 sur les MTD galvanisation.",
+      "themes": ["reglementation", "sols"],
+      "signal_type": "consultation_publique",
+      "geography": ["France"],
+      "actors": ["Ministère de la Transition écologique", "CSPRT"],
+      "primary_source": {
+        "name": "Actu-Environnement — projet ICPE galvanisation discontinue",
+        "url": "https://www.actu-environnement.com/ae/news/icpe-galvanisation-discontinue-prescriptions-arrete-48404.php4",
+        "type": "media_secondaire"
+      },
+      "urls": [
+        "https://www.actu-environnement.com/ae/news/icpe-galvanisation-discontinue-prescriptions-arrete-48404.php4"
+      ],
+      "published_at": "2026-08-19",
+      "detected_via": "Actu-Environnement (19/08/2026) ; portail consultations-publiques MTE non consulté (maintenance signalée)",
+      "relevance": {
+        "score": 4,
+        "why": "Anticipation des prescriptions ICPE harmonisées pour sites de galvanisation et bureaux d'études risques industriels en charge de la mise en conformité."
+      },
+      "entities": [
+        "galvanisation discontinue",
+        "MTD",
+        "directive IED 2010/75/UE",
+        "prescriptions générales ICPE"
+      ],
+      "tags": ["ICPE", "industrie", "consultation"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-24-006",
+      "title": "Rubrique ICPE 2925 (charge de batteries) : projet de déclassement soumis à consultation (échéance 7 septembre)",
+      "summary": "Le ministère soumet à consultation du public jusqu'au 7 septembre 2026 un projet de décret modifiant la rubrique 2925 de la nomenclature ICPE, qui soumet au régime de déclaration les ateliers de charge d'accumulateurs électriques au-delà de certains seuils. Le texte vise à déclasser certaines installations de charge de batteries plomb-acide VRLA sous le seuil de déclaration. Il sera examiné par le Conseil supérieur de la prévention des risques technologiques (CSPRT) le 15 septembre 2026.",
+      "themes": ["reglementation", "energie_biodiversite"],
+      "signal_type": "consultation_publique",
+      "geography": ["France"],
+      "actors": ["Ministère de la Transition écologique", "CSPRT"],
+      "primary_source": {
+        "name": "Actu-Environnement — déclassement ICPE rubrique 2925",
+        "url": "https://www.actu-environnement.com/ae/news/icpe-declassement-charge-batteries-rubrique-2925-48399.php4",
+        "type": "media_secondaire"
+      },
+      "urls": [
+        "https://www.actu-environnement.com/ae/news/icpe-declassement-charge-batteries-rubrique-2925-48399.php4"
+      ],
+      "published_at": "2026-08-18",
+      "detected_via": "Actu-Environnement (18/08/2026) ; portail consultations-publiques MTE non consulté",
+      "relevance": {
+        "score": 3,
+        "why": "Impact sur le régime ICPE des sites logistiques et industriels équipés de stations de charge de batteries, utile aux exploitants et inspecteurs."
+      },
+      "entities": [
+        "rubrique ICPE 2925",
+        "batteries plomb-acide VRLA",
+        "déclassement ICPE"
+      ],
+      "tags": ["ICPE", "batteries", "consultation"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-24-007",
+      "title": "Hydroélectricité : arrêté du 28 mai 2026 modifie le régime H16 pour éviter le cumul d'aides",
+      "summary": "L'arrêté du 28 mai 2026, paru au Journal officiel le 1er août, modifie l'arrêté H16 du 13 décembre 2016 fixant les conditions d'achat et de complément de rémunération pour l'électricité hydraulique (lacs, cours d'eau, eaux captées). Il précise la notion de début des travaux et d'investissement irréversible, élargit le périmètre d'installation aux ouvrages de continuité écologique prescrits par les arrêtés d'autorisation, étend la prise en compte des aides publiques à tout régime local, régional, national ou européen, et prévoit des mesures transitoires pour les installations engagées avant l'arrêté du 22 mai 2024.",
+      "themes": ["reglementation", "eau_zones_humides", "energie_biodiversite"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France"],
+      "actors": ["Ministère de la Transition écologique", "producteurs hydroélectriques"],
+      "primary_source": {
+        "name": "Journal officiel — arrêté du 28 mai 2026 (ECOR2610822A)",
+        "url": "https://www.actu-environnement.com/ae/reglementation/arrete-du-28-05-2026-ecor2610822a-40153.php",
+        "type": "juridique"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — hydroélectricité H16",
+          "url": "https://www.actu-environnement.com/ae/news/hydroelectricite-modalites-soutien-arrete-h16-48396.php4"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/ae/reglementation/arrete-du-28-05-2026-ecor2610822a-40153.php",
+        "https://www.actu-environnement.com/ae/news/hydroelectricite-modalites-soutien-arrete-h16-48396.php4"
+      ],
+      "published_at": "2026-08-01",
+      "detected_via": "Actu-Environnement (18/08/2026) ; texte JORF republié sur Actu-Environnement",
+      "relevance": {
+        "score": 4,
+        "why": "Conditions d'éligibilité au contrat d'achat hydro directement applicables aux porteurs de projets et aux services de l'État instruisant les autorisations."
+      },
+      "entities": [
+        "arrêté H16",
+        "continuité écologique",
+        "complément de rémunération",
+        "arrêté du 22 mai 2024"
+      ],
+      "tags": ["hydroelectricite", "aides", "continuite_ecologique"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-24-008",
+      "title": "Conseil d'État : l'étude d'impact d'une extension éolienne doit intégrer le parc déjà en service",
+      "summary": "Par un arrêt du 30 juillet 2026, le Conseil d'État précise que l'étude d'impact d'une extension de parc éolien doit retenir l'état actuel de l'environnement, incluant les turbines déjà en service, et non l'état initial antérieur au premier parc. L'affaire concernait une autorisation environnementale délivrée en 2022 par le préfet de l'Allier à la société CPENR pour le parc de Saint-Nicolas-des-Biefs Nord. La Haute juridiction rappelle que l'évaluation des incidences cumulées doit partir de la situation existante au moment de l'extension.",
+      "themes": ["jurisprudence", "energie_biodiversite", "biodiversite"],
+      "signal_type": "jurisprudence_structurante",
+      "geography": ["France", "Allier"],
+      "actors": ["Conseil d'État", "CPENR"],
+      "primary_source": {
+        "name": "Actu-Environnement — Conseil d'État extension éolienne",
+        "url": "https://www.actu-environnement.com/ae/news/extension-parc-eolien-etude-impact-etat-actuel-48409.php4",
+        "type": "media_secondaire"
+      },
+      "urls": [
+        "https://www.actu-environnement.com/ae/news/extension-parc-eolien-etude-impact-etat-actuel-48409.php4"
+      ],
+      "published_at": "2026-07-30",
+      "detected_via": "Actu-Environnement (flash info) ; décision Conseil d'État non consultée sur Légifrance (accès filtré)",
+      "relevance": {
+        "score": 5,
+        "why": "Doctrine contentieuse structurante pour rédacteurs d'études d'impact, DREAL et porteurs de projets ENR en extension de parcs existants."
+      },
+      "entities": [
+        "étude d'impact",
+        "parc éolien",
+        "Saint-Nicolas-des-Biefs",
+        "autorisation environnementale"
+      ],
+      "tags": ["eolien", "EIE", "contentieux"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-24-009",
+      "title": "Dessalement à Mayotte : le tribunal administratif suspend l'autorisation de l'usine Ironi Bé (Dembéni)",
+      "summary": "Par une décision du 31 juillet 2026, le tribunal administratif de Mayotte a suspendu l'arrêté préfectoral du 3 juillet 2025 autorisant la construction de l'usine de dessalement d'Ironi Bé à Dembéni. Le juge a accordé six mois au Syndicat mixte Les Eaux de Mayotte (Lema) ou au préfet pour régulariser trois irrégularités identifiées dans la procédure d'autorisation. L'arrêté préfectoral autorisait le Lema à entreprendre les travaux de cette installation de production d'eau potable par dessalement, projet stratégique pour l'île en contexte de stress hydrique.",
+      "themes": ["eau_zones_humides", "jurisprudence", "climat_adaptation"],
+      "signal_type": "jurisprudence_structurante",
+      "geography": ["France", "Mayotte"],
+      "actors": [
+        "Tribunal administratif de Mayotte",
+        "Syndicat mixte Les Eaux de Mayotte",
+        "Préfecture de Mayotte"
+      ],
+      "primary_source": {
+        "name": "Actu-Environnement — suspension dessalement Mayotte",
+        "url": "https://www.actu-environnement.com/ae/news/dessalement-mayotte-ironi-be-tribunal-suspension-48412.php4",
+        "type": "media_secondaire"
+      },
+      "urls": [
+        "https://www.actu-environnement.com/ae/news/dessalement-mayotte-ironi-be-tribunal-suspension-48412.php4"
+      ],
+      "published_at": "2026-07-31",
+      "detected_via": "Actu-Environnement (flash info) ; décision TA non consultée sur Légifrance",
+      "relevance": {
+        "score": 4,
+        "why": "Contentieux majeur sur un ouvrage hydraulique structurant en outre-mer, avec enseignements procéduraux pour maîtres d'ouvrage eau et services instructeurs."
+      },
+      "entities": [
+        "Ironi Bé",
+        "dessalement",
+        "Dembéni",
+        "Lema"
+      ],
+      "tags": ["eau_potable", "contentieux", "outre_mer"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-24-010",
+      "title": "Incendies Gironde-Landes : doctrine de reconstruction et mesures d'adaptation annoncées (visite gouvernementale du 17 août)",
+      "summary": "Lors d'une visite gouvernementale en Gironde le 17 août 2026, après les feux ayant parcouru 42 000 ha en Gironde et 3 600 ha dans les Landes, le Premier ministre a annoncé une reconstruction « équivalente » sous un mois pour les permis simples, et confié à une mission interministérielle (nommée le 12 août) le soin de définir en trois mois une doctrine de reconstruction avec adaptation pour les cas sensibles environnementalement. Un amendement au projet de loi de relance du logement visera à réduire les délais d'instruction tout en maintenant la prévention des risques ; un référentiel national « habitat résistant au feu de forêt » est annoncé pour février 2027. Par ailleurs, des mesures facilitent les dérogations espèces protégées (RIIPM) pour les pistes DFCI et une aide au broyage des jeunes peuplements est prévue.",
+      "themes": ["incendies_risques", "biodiversite", "reglementation", "climat_adaptation"],
+      "signal_type": "changement_de_pratique_professionnel",
+      "geography": ["France", "Nouvelle-Aquitaine", "Gironde", "Landes"],
+      "actors": [
+        "Premier ministre",
+        "Ministère de la Transition écologique",
+        "Ministère de l'Agriculture"
+      ],
+      "primary_source": {
+        "name": "Actu-Environnement — reconstruction post-incendies",
+        "url": "https://www.actu-environnement.com/ae/news/incendies-foret-gouvernement-reconstruction-sylviculture-48395.php4",
+        "type": "media_secondaire"
+      },
+      "secondary_sources": [
+        {
+          "name": "Journal officiel — arrêté sinistre grande ampleur 31/07/2026",
+          "url": "https://www.actu-environnement.com/ae/reglementation/arrete-du-31-07-2026-tect2621249a-40138.php"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/ae/news/incendies-foret-gouvernement-reconstruction-sylviculture-48395.php4",
+        "https://www.actu-environnement.com/ae/reglementation/arrete-du-31-07-2026-tect2621249a-40138.php"
+      ],
+      "published_at": "2026-08-17",
+      "detected_via": "Actu-Environnement (17/08/2026) ; arrêté sinistre grande ampleur déjà signalé le 22/08 — ici complément sur doctrine reconstruction et adaptation",
+      "relevance": {
+        "score": 5,
+        "why": "Cadre opérationnel de reconstruction post-feux et d'adaptation du bâti en zone incendiable, directement mobilisable par collectivités, architectes et DREAL."
+      },
+      "entities": [
+        "doctrine de reconstruction",
+        "habitat résistant au feu",
+        "RIIPM",
+        "DFCI",
+        "sinistre de grande ampleur"
+      ],
+      "tags": ["incendies", "reconstruction", "foret"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-24-011",
+      "title": "Règlement véhicules fin de vie (ELV) : entrée en vigueur et objectifs de circularité renforcés",
+      "summary": "Le règlement européen sur les véhicules en fin de vie (End-of-Life Vehicles Regulation), révisant la directive 2000/53/CE, entre en vigueur le 13 août 2026. Il encourage une conception facilitant le démontage, la réutilisation et le recyclage, fixe des objectifs de contenu en plastique recyclé (15 % dès 2032, 25 % en 2036) et prévoit des cibles pour l'acier et l'aluminium à partir de 2033. Des mesures renforcent la traçabilité des véhicules en fin de vie, la responsabilité élargie des producteurs et interdisent à partir de mi-2031 l'export hors UE de véhicules non routiers. À partir de mi-2031, seuls les véhicules en état de marche pourront être exportés.",
+      "themes": ["reglementation", "donnees_outils"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["UE", "France"],
+      "actors": ["Commission européenne", "industrie automobile"],
+      "primary_source": {
+        "name": "Commission européenne — Environnement",
+        "url": "https://environment.ec.europa.eu/news/new-rules-more-circular-european-automotive-sector-2026-08-12_en",
+        "type": "institutionnel"
+      },
+      "urls": [
+        "https://environment.ec.europa.eu/news/new-rules-more-circular-european-automotive-sector-2026-08-12_en"
+      ],
+      "published_at": "2026-08-12",
+      "detected_via": "source primaire (Commission européenne)",
+      "relevance": {
+        "score": 4,
+        "why": "Obligations de conception, traçabilité et contenu recyclé impactant filières auto, centres VHU et politiques locales de déchets."
+      },
+      "entities": [
+        "ELV Regulation",
+        "directive 2000/53/CE",
+        "plastique recyclé",
+        "responsabilité élargie producteur"
+      ],
+      "tags": ["economie_circulaire", "vehicules", "UE"],
+      "is_new": true
+    }
+  ]
+}
