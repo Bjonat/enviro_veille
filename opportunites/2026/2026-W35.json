@@ -1,0 +1,276 @@
+{
+  "generated_at": "2026-08-24T10:30:00Z",
+  "based_on_trends": {
+    "file": "tendances/2026/2026-W35.json",
+    "period": {
+      "start": "2026-07-27",
+      "end": "2026-08-24"
+    }
+  },
+  "opportunities": [
+    {
+      "id": "opp-2026-W35-01",
+      "title": "Doctrine post-mégafeux : reconstruction forestière et habitat résistant au feu",
+      "hypothesis": "Dans les 3–12 mois suivant l'annonce de doctrine et le référentiel habitat résistant au feu (cible 2027), les collectivités sinistrées, propriétaires forestiers et aménageurs en zone DFCI devront produire des dossiers de reconstruction / reboisement / permis qui intègrent des critères d'adaptation au feu qu'ils ne formalisaient pas auparavant — créant une demande mesurable de prestations et d'outils méthodologiques.",
+      "central_question_answer": "Maîtriser et appliquer une doctrine de reconstruction adaptée (sylviculture post-feu, délais de permis, dérogations RIIPM pour pistes DFCI) et produire des projets/permis conformes à un référentiel national d'habitat résistant au feu, au-delà du seul abattage d'urgence.",
+      "need_type": ["prestation", "outil_methodologique", "expertise", "formation"],
+      "buyer_personas": [
+        "collectivité sinistrée / EPCI",
+        "propriétaire forestier privé et CRPF",
+        "architecte / aménageur en zone DFCI",
+        "DREAL / DDT",
+        "bureau d'études biodiversité / urbanisme"
+      ],
+      "jobs_to_be_done": [
+        "Traduire la doctrine interministérielle de reconstruction en cahiers des charges locaux et dossiers de reboisement",
+        "Intégrer les critères « habitat résistant au feu » dans les permis et opérations d'aménagement",
+        "Monter des dossiers de dérogation espèces protégées (RIIPM) pour pistes et ouvrages DFCI",
+        "Former les services instructeurs et les BE aux nouvelles exigences post-sinistre"
+      ],
+      "linked_trends": ["2026-W35-megafeux-reconstruction"],
+      "confidence": 5,
+      "risks_and_unknowns": [
+        "Calendrier et contenu exact du référentiel habitat résistant au feu encore non publiés",
+        "Volume de reconstruction dépend de la géographie des sinistres et des budgets publics effectifs",
+        "Risque que les dérogations RIIPM restent exceptionnelles et peu industrialisables"
+      ],
+      "validation_questions": [
+        "Des AO ou consultations publiques de collectivités sinistrées (Gironde/Landes ou autres) portent-ils déjà sur reconstruction / DFCI / habitat résistant au feu ?",
+        "Des AAP France Nation Verte / Cartogip ou équivalents sont-ils rouverts avec une nouvelle base juridique ?",
+        "Des cabinets d'architecture / BE urbanisme recrutent-ils ou communiquent-ils sur l'expertise « construction résiliente feux de forêt » ?",
+        "Le référentiel national annoncé pour 2027 a-t-il un calendrier de consultation ou un pilote régional identifiable ?"
+      ]
+    },
+    {
+      "id": "opp-2026-W35-02",
+      "title": "Surveillance eau potable renforcée et expérimentations eaux non conventionnelles (EICH)",
+      "hypothesis": "La publication des arrêtés de surveillance (pression UE) et l'élargissement expérimental aux eaux grises / osmoseurs obligent gestionnaires, ARS et BE à déployer des protocoles de contrôle, de traçabilité et de conception de réseaux qu'ils n'appliquaient pas à cette échelle — demande observable via marchés publics labo/BE et dossiers expérimentaux.",
+      "central_question_answer": "Mesurer plus finement la qualité de l'eau potable (paramètres et fréquences issus des arrêtés de transposition), et concevoir / instruire des projets expérimentaux de réutilisation d'eaux non conventionnelles (EICH, osmoseurs, eaux grises de cuisine) jusqu'à l'horizon 2034.",
+      "need_type": ["prestation", "donnee", "expertise", "formation", "outil_methodologique"],
+      "buyer_personas": [
+        "syndicat / gestionnaire d'eau potable",
+        "ARS",
+        "collectivité / promoteur (bâtiments expérimentaux)",
+        "bureau d'études eau",
+        "laboratoire agréé"
+      ],
+      "jobs_to_be_done": [
+        "Mettre à jour plans de surveillance et contrats labo selon les trois arrêtés publiés",
+        "Dimensionner et instruire des dossiers expérimentaux EICH / eaux grises / osmoseurs",
+        "Produire des jeux de données de conformité et tableaux de bord pour ARS et élus",
+        "Former les exploitants aux nouveaux points de contrôle et usages autorisés"
+      ],
+      "linked_trends": ["2026-W35-eau-stress-gouvernance"],
+      "confidence": 5,
+      "risks_and_unknowns": [
+        "Capacité réelle des labos agréés à absorber le volume de analyses",
+        "Nombre limité de sites volontaires pour l'expérimentation EICH",
+        "Évolution possible des arrêtés après retours d'expérience ou contentieux"
+      ],
+      "validation_questions": [
+        "Combien de marchés publics de surveillance / analyses eau potable ont été publiés depuis juillet 2026 ?",
+        "Des collectivités ou promoteurs ont-ils déposé des dossiers expérimentaux EICH / eaux grises identifiables ?",
+        "Les ARS publient-elles des notes d'application ou des appels à laboratoires sur les nouveaux paramètres ?",
+        "Des recrutements « hydrogéologue / ingénieur REUT / qualité eau » apparaissent-ils chez les syndicats d'eau ?"
+      ]
+    },
+    {
+      "id": "opp-2026-W35-03",
+      "title": "Mise en conformité ICPE : hydrogène électrolyse, galvanisation et charge de batteries",
+      "hypothesis": "Si les projets soumis à consultation (échéance sept. 2026, visée 2027 pour H₂) sont adoptés, porteurs de projets et exploitants devront reclasser, mettre à jour études de dangers / dossiers et prescriptions pour les rubriques 2611/3720, galvanisation discontinue et 2925 — générant une vague de prestations BE risques et formations inspection/industrie.",
+      "central_question_answer": "Reclasser et documenter les installations (électrolyse H₂, galvanisation discontinue, charge batteries VRLA) selon la nouvelle nomenclature et les prescriptions générales, et maîtriser les écarts MTD / allègements de régime.",
+      "need_type": ["prestation", "expertise", "formation", "outil_methodologique"],
+      "buyer_personas": [
+        "porteur de projet hydrogène",
+        "exploitant site de galvanisation",
+        "exploitant logistique / industriel (charge batteries)",
+        "DREAL / inspection des installations classées",
+        "bureau d'études risques industriels"
+      ],
+      "jobs_to_be_done": [
+        "Cartographier le parc d'installations impactées et simuler le futur régime (autorisation / enregistrement / déclaration)",
+        "Mettre à jour dossiers ICPE, études de dangers et arrêtés préfectoraux types",
+        "Former les équipes HSE et l'inspection aux nouvelles rubriques et MTD galvanisation",
+        "Préparer les contributions CSPRT / retours de consultation puis les plans de mise en conformité"
+      ],
+      "linked_trends": ["2026-W35-icpe-consultations-vague"],
+      "confidence": 4,
+      "risks_and_unknowns": [
+        "Textes encore en consultation : contenu final et calendrier peuvent glisser",
+        "Le déclassement 2925 peut réduire plutôt qu'augmenter la charge pour certains sites",
+        "Marché H₂ électrolyse encore concentré sur peu de projets"
+      ],
+      "validation_questions": [
+        "Après clôture de consultation (7/09) et CSPRT, les arrêtés sont-ils publiés ou reportés ?",
+        "Des AO DREAL ou industriels portent-ils sur l'accompagnement à la mise en conformité H₂ / galvanisation ?",
+        "Des cabinets risques publient-ils des notes clients ou recrutent-ils sur ces rubriques ?",
+        "Combien de projets d'électrolyse H₂ en instruction pourraient basculer sous 2611/3720 ?"
+      ]
+    },
+    {
+      "id": "opp-2026-W35-04",
+      "title": "Études d'impact d'extension ENR : état actuel = parc déjà en service",
+      "hypothesis": "La jurisprudence du Conseil d'État sur les extensions de parcs éoliens oblige les rédacteurs d'EI et les DREAL à changer de référentiel d'état actuel (parc existant inclus) ; les dossiers d'extension en cours devront être repris ou renforcés, créant une demande de méthodologie et de prestations spécialisées.",
+      "central_question_answer": "Produire des études d'impact d'extension qui intègrent le parc déjà en service comme état actuel de référence, et non plus un état « sans parc », et recalibrer les dossiers de soutien hydro/biométhane (anti-cumul, continuité écologique, plafond petites installations).",
+      "need_type": ["prestation", "expertise", "outil_methodologique", "formation"],
+      "buyer_personas": [
+        "porteur de projet ENR / développeur éolien",
+        "rédacteur d'études d'impact",
+        "DREAL",
+        "producteur hydroélectrique",
+        "porteur de projet méthanisation / biométhane"
+      ],
+      "jobs_to_be_done": [
+        "Réécrire le chapitre « état actuel » des EI d'extension (cumul effets, biodiversité, paysage, bruit)",
+        "Auditer le portefeuille d'extensions en instruction face au risque contentieux",
+        "Sécuriser les dossiers H16 (anti-cumul aides, continuité écologique) et biométhane (éligibilité ≤13 GWh PCS, installations réellement nouvelles)",
+        "Former les équipes projet et les instructeurs à la doctrine CE"
+      ],
+      "linked_trends": ["2026-W35-enr-ei-soutiens"],
+      "confidence": 4,
+      "risks_and_unknowns": [
+        "Portée exacte hors éolien terrestre encore à clarifier par la doctrine DREAL",
+        "Volume d'extensions réellement impactées inconnu sans inventaire portefeuille",
+        "Recalibrage tarifaire biométhane peut freiner plutôt que stimuler l'activité BE"
+      ],
+      "validation_questions": [
+        "Des DREAL ont-elles publié des notes d'instruction post-arrêt CE sur les EI d'extension ?",
+        "Des appels d'offres ou avenants de reprise d'EI d'extension sont-ils visibles chez les développeurs ?",
+        "Des contentieux similaires sont-ils engagés sur d'autres filières ENR (solaire, hydro) ?",
+        "Le guichet biométhane recentré génère-t-il des dossiers « petites installations nouvelles » ou un arrêt de projets ?"
+      ]
+    },
+    {
+      "id": "opp-2026-W35-05",
+      "title": "Conformité PFAS : substitution emballages et surveillance/traitement des rejets ICPE",
+      "hypothesis": "Les obligations PPWR (restriction PFAS emballages alimentaires) et les prescriptions ICPE 2790/2791 restent opératoires ; industriels et exploitants devront mesurer, substituer et traiter des flux PFAS qu'ils ne maîtrisaient pas de façon systématique — même sans nouveau texte cette semaine.",
+      "central_question_answer": "Mesurer les PFAS dans emballages et rejets aqueux, substituer les formulations non conformes côté produits, et mettre en place surveillance / traitement (voire refus temporaire de certains déchets) côté installations 2790/2791.",
+      "need_type": ["prestation", "donnee", "expertise", "outil_methodologique"],
+      "buyer_personas": [
+        "industrie emballage / distribution alimentaire",
+        "exploitant ICPE 2790/2791",
+        "inspection des installations classées",
+        "laboratoire d'analyses environnementales",
+        "bureau d'études eaux industrielles"
+      ],
+      "jobs_to_be_done": [
+        "Auditer les gammes d'emballages alimentaires face aux seuils PPWR",
+        "Mettre en place plans d'échantillonnage et analyses PFAS sur rejets",
+        "Dimensionner traitements ou filières alternatives pendant la mise en conformité",
+        "Documenter la traçabilité pour inspection et donneurs d'ordre"
+      ],
+      "linked_trends": ["2026-W35-pfas-multi-maillons"],
+      "confidence": 4,
+      "risks_and_unknowns": [
+        "Tendance passée en « stable » faute de nouveau signal : risque de plateau d'attention",
+        "Capacité analytique et coûts de méthodes PFAS variables selon laboratoires",
+        "Substitution emballages peut être internalisée par les grands groupes sans marché BE"
+      ],
+      "validation_questions": [
+        "Des marchés d'analyses PFAS ou de mise en conformité 2790/2791 ont-ils été notifiés récemment ?",
+        "Des fournisseurs d'emballages communiquent-ils déjà sur la conformité PPWR-PFAS en France ?",
+        "L'inspection a-t-elle engagé des contrôles ciblés PFAS sur les rubriques 2790/2791 ?",
+        "Des AAP ou aides ADEME ciblent-ils la substitution / traitement PFAS ?"
+      ]
+    },
+    {
+      "id": "opp-2026-W35-06",
+      "title": "Ingénierie de dossiers d'aides au renouvellement forestier post-annulation CE",
+      "hypothesis": "La consultation sur une nouvelle base juridique des aides au renouvellement (après annulation CE) et la procédure de sinistre de grande ampleur créeront un besoin de montage de dossiers techniques et juridiques pour propriétaires et collectivités, distinct de la seule expertise sylvicole classique.",
+      "central_question_answer": "Monter et sécuriser juridiquement des dossiers d'aides / reboisement (Cartogip / France Nation Verte ou successeur) sous la nouvelle base juridique, tout en articulant urgences d'abattage et plans de reconstitution.",
+      "need_type": ["prestation", "expertise", "outil_methodologique"],
+      "buyer_personas": [
+        "propriétaire forestier privé",
+        "CRPF / coopérative forestière",
+        "collectivité gestionnaire de massif",
+        "juriste environnement / forêt",
+        "bureau d'études forestier"
+      ],
+      "jobs_to_be_done": [
+        "Accompagner le dépôt de dossiers d'aide sous le futur texte post-consultation",
+        "Prioriser parcelles éligibles et plans de reconstitution à 3 mois / multi-années",
+        "Sécuriser le chaînage urgence (sinistre grande ampleur) → financement → suivi",
+        "Produire des outils de suivi cartographique des surfaces sinistrées et reconstituées"
+      ],
+      "linked_trends": ["2026-W35-megafeux-reconstruction"],
+      "confidence": 4,
+      "risks_and_unknowns": [
+        "Texte d'aide encore en consultation : règles finales inconnues",
+        "Concentration géographique (Gironde/Landes) peut limiter le marché national",
+        "CRPF et coopératives peuvent absorber une grande part sans acteurs nouveaux"
+      ],
+      "validation_questions": [
+        "La consultation sur la base juridique des aides a-t-elle abouti à un décret / arrêté publié ?",
+        "Des appels à prestataires (cartographie, montage de dossiers) sont-ils lancés par les CRPF ou collectivités ?",
+        "Le volume de dossiers Cartogip / équivalent est-il en hausse post-sinistre ?",
+        "Des cabinets juridiques forestiers affichent-ils une offre « post-CE renouvellement » ?"
+      ]
+    },
+    {
+      "id": "opp-2026-W35-07",
+      "title": "Expertise contentieuse et procédurale de la sécurisation hydrique (droits d'eau, dessalement)",
+      "hypothesis": "Le décret retirant le pouvoir préfectoral d'abroger les droits fondés en titre et la suspension contentieuse de l'usine de dessalement à Mayotte signalent que la sécurisation hydrique se joue désormais aussi au tribunal : maîtres d'ouvrage et services auront besoin d'expertise juridique-procédurale et d'instruction environnementale renforcée.",
+      "central_question_answer": "Sécuriser juridiquement les droits d'eau historiques et les grands ouvrages de sécurisation (ex. dessalement) : analyses de titres, dossiers d'autorisation robustes, et anticipation du contentieux procédural / environnemental.",
+      "need_type": ["expertise", "prestation", "formation"],
+      "buyer_personas": [
+        "maître d'ouvrage outre-mer / syndicat d'eau",
+        "service de police de l'eau",
+        "juriste droit de l'eau",
+        "bureau d'études eau / environnement",
+        "préfecture / DREAL"
+      ],
+      "jobs_to_be_done": [
+        "Auditer les droits fondés en titre et les options de gestion post-décret 2026-740",
+        "Renforcer les dossiers d'autorisation d'ouvrages de sécurisation (évaluation, participation, espèces)",
+        "Former les MOA aux pièges procéduraux révélés par le contentieux Ironi Bé",
+        "Cartographier les risques contentieux des projets REUT / dessalement / stockages"
+      ],
+      "linked_trends": ["2026-W35-eau-stress-gouvernance"],
+      "confidence": 3,
+      "risks_and_unknowns": [
+        "Marché très spécialisé et géographiquement concentré (outre-mer, bassins historiques)",
+        "Peu de récurrence si le contentieux reste isolé",
+        "Expertise souvent internalisée chez les cabinets d'avocats historiques du droit de l'eau"
+      ],
+      "validation_questions": [
+        "D'autres projets de dessalement ou de sécurisation hydrique font-ils l'objet de recours similaires ?",
+        "Des notes doctrinales (ministère, associations d'avocats) commentent-elles le décret 2026-740 ?",
+        "Des AO d'assistance à maîtrise d'ouvrage « sécurisation juridique eau » apparaissent-ils ?",
+        "Les services police de l'eau modifient-ils leurs procédures d'instruction des titres ?"
+      ]
+    },
+    {
+      "id": "opp-2026-W35-08",
+      "title": "Conformité ReFuelEU : traçabilité SAF et procédures de sanctions administratives",
+      "hypothesis": "Le décret 2026-747 rendant opposables les quotas SAF via amendes administratives créera, sur 6–18 mois, un besoin de systèmes de traçabilité, reporting et procédures contradictoires chez fournisseurs de carburants, exploitants d'aéronefs et gestionnaires d'aéroport.",
+      "central_question_answer": "Tracer et rapporter les volumes de carburants d'aviation durables (SAF), et maîtriser les procédures administratives contradictoires liées aux sanctions du code de l'environnement.",
+      "need_type": ["logiciel", "donnee", "expertise", "formation"],
+      "buyer_personas": [
+        "fournisseur de carburants d'aviation",
+        "exploitant d'aéronefs",
+        "gestionnaire d'aéroport",
+        "DGAC",
+        "consultant conformité aviation / climat"
+      ],
+      "jobs_to_be_done": [
+        "Mettre en place chaînes de traçabilité SAF et preuves de conformité aux quotas",
+        "Automatiser le reporting réglementaire et les alertes de non-atteinte",
+        "Préparer les procédures contradictoires et dossiers de défense administrative",
+        "Former les équipes fuel / compliance aux obligations ReFuelEU"
+      ],
+      "linked_trends": ["2026-W35-refueleu-sanctions"],
+      "confidence": 3,
+      "risks_and_unknowns": [
+        "Signal unique (décret de transposition) : marché encore émergent",
+        "Acteurs souvent internationaux avec solutions déjà packagées",
+        "Calendrier d'application effective des amendes à confirmer"
+      ],
+      "validation_questions": [
+        "La DGAC a-t-elle publié un guide d'application ou un calendrier de contrôles ?",
+        "Des appels d'offres aéroportuaires / compagnies portent-ils sur la traçabilité SAF ?",
+        "Des éditeurs logiciels fuel/compliance affichent-ils déjà une offre ReFuelEU France ?",
+        "Des recrutements « SAF compliance / sustainability aviation » sont-ils visibles en France ?"
+      ]
+    }
+  ]
+}
