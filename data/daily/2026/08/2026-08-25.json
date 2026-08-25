@@ -1,0 +1,465 @@
+{
+  "date": "2026-08-25",
+  "generated_at": "2026-08-25T06:02:00+02:00",
+  "timezone": "Europe/Paris",
+  "meta": {
+    "item_count": 12,
+    "sources_consulted": [
+      "actu_environnement",
+      "hcsp",
+      "cerema",
+      "commission_ue",
+      "energy_commission_ue",
+      "enedis",
+      "cndp",
+      "ademe",
+      "tribunal_administratif_paris",
+      "the_conversation_fr"
+    ],
+    "deduplicated_against_days": 3,
+    "notes": "Mardi post-week-end estival : flux dominé par textes parus 12–22/08 et avis HCSP mis en ligne le 17/08. ReFuelEU, biométhane, hydro H16, Esod, eaux non conventionnelles, PFAS ICPE, consultations ICPE (hydrogène, galvanisation, batteries), incendies/reconstruction, ELV, Posidonia, sécheresse, eau potable, décret 733, loi montagne et synthèses UE du 19/08 exclus comme déjà couverts 22–24/08. Articles Actu-Environnement souvent verrouillés (corps payant) ; textes JORF republiés utilisés quand accessibles. Légifrance, OFB et ecologie.gouv.fr parfois injoignables (timeout)."
+  },
+  "items": [
+    {
+      "id": "2026-08-25-001",
+      "title": "PFAS dans les boues et matières fertilisantes : l'HCSP propose un cadre de gestion en trois catégories",
+      "summary": "Dans un avis rendu le 18 juin 2026 et mis en ligne le 17 août, le Haut Conseil de la santé publique (HCSP) répond à la saisine gouvernementale sur les PFAS présents dans les boues d'épuration et, plus largement, dans les matières fertilisantes et d'amendement des sols (MFAS). Il recommande une réduction à la source des rejets de PFAS dans les réseaux d'assainissement, une mise à jour des listes de PFAS à suivre dans les sommes réglementaires, et un classement des MFAS en trois catégories. La première catégorie correspond à une somme des 37 PFAS analysés inférieure à 100 µg/kg MS, ou à des concentrations en PFOA (< 5 µg/kg MS) ou PFOS (< 10 µg/kg MS), avec des flux surfaciques maximaux associés. L'épandage reste possible pour les catégories 1 et 2 sous conditions (protection des captages EDCH, plafonds d'apport annuel, information des propriétaires). Aucune valeur guide n'a pu être fixée pour le TFA faute de données suffisantes.",
+      "themes": ["eau_zones_humides", "sols", "reglementation"],
+      "signal_type": "rapport_institutionnel_majeur",
+      "geography": ["France"],
+      "actors": ["Haut Conseil de la santé publique", "Ministère de la Transition écologique", "Ministère de la Santé"],
+      "primary_source": {
+        "name": "HCSP — Avis relatif aux boues et autres MFAS contenant des PFAS",
+        "url": "https://www.hcsp.fr/Explore.cgi/avisrapportsdomaine?clefr=1542",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — PFAS boues HCSP",
+          "url": "https://www.actu-environnement.com/ae/news/pfas-matieres-fertilisantes-boues-cadre-gestion-haut-comite-sante-publique-48423.php4"
+        }
+      ],
+      "urls": [
+        "https://www.hcsp.fr/Explore.cgi/avisrapportsdomaine?clefr=1542",
+        "https://www.hcsp.fr/Explore.cgi/Telecharger?NomFichier=hcspa20260618_bouescontenantdespfas.pdf",
+        "https://www.actu-environnement.com/ae/news/pfas-matieres-fertilisantes-boues-cadre-gestion-haut-comite-sante-publique-48423.php4"
+      ],
+      "published_at": "2026-06-18",
+      "detected_via": "Actu-Environnement (24/08/2026) ; source primaire HCSP confirmée (avis en ligne 17/08/2026)",
+      "relevance": {
+        "score": 5,
+        "why": "Cadre sanitaire attendu pour l'épandage agricole des boues, stations d'épuration, filières agricoles et services de l'État en charge du plan d'action PFAS."
+      },
+      "entities": [
+        "PFAS",
+        "boues d'épuration",
+        "MFAS",
+        "TFA",
+        "PFOA",
+        "PFOS"
+      ],
+      "tags": ["PFAS", "epandage", "HCSP"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-25-002",
+      "title": "Stratégie nationale de gestion intégrée du trait de côte 2025-2030 adoptée par le décret n° 2026-803",
+      "summary": "Le décret n° 2026-803 du 20 août 2026, paru au Journal officiel le 21 août, adopte la Stratégie nationale de gestion intégrée du trait de côte (SNGITC) pour 2025-2030, cadre de référence prévu par la loi Climat et Résilience (article L. 321-13 A du code de l'environnement). Elle s'applique en métropole, Corse et outre-mer et décline 60 mesures en cinq axes : connaissance, engagement territorial, outils d'adaptation, sensibilisation et financement. Les collectivités exposées à l'érosion côtière devront élaborer des cartes locales d'évolution du trait de côte à 30 et 100 ans ; l'État vise l'inscription au décret-liste, d'ici 2027, de toutes les communes identifiées par l'IGEDD et l'IGA comme ayant plus de 30 biens menacés à l'horizon 2050. Un guide pratique co-édité avec le Cerema est annoncé pour l'automne 2026.",
+      "themes": ["climat_adaptation", "reglementation", "eau_zones_humides"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "Cerema",
+        "Conseil national de la mer et des littoraux"
+      ],
+      "primary_source": {
+        "name": "Journal officiel — décret n° 2026-803 du 20 août 2026",
+        "url": "https://www.actu-environnement.com/ae/reglementation/decret-du-20-08-2026-2026-803-40209.php",
+        "type": "juridique"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — stratégie érosion côtière",
+          "url": "https://www.actu-environnement.com/ae/news/strategie-nationale-trait-cote-erosion-littoral-48424.php4"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/ae/reglementation/decret-du-20-08-2026-2026-803-40209.php",
+        "https://www.actu-environnement.com/ae/news/strategie-nationale-trait-cote-erosion-littoral-48424.php4"
+      ],
+      "published_at": "2026-08-21",
+      "detected_via": "Actu-Environnement (21–24/08/2026) ; texte JORF republié sur Actu-Environnement (communiqué ecologie.gouv.fr non consulté — timeout)",
+      "relevance": {
+        "score": 5,
+        "why": "Cadre national opposable pour collectivités littorales, DREAL, aménageurs et gestionnaires de risques submersion/érosion en lien avec les outils de la loi Climat et Résilience."
+      },
+      "entities": [
+        "SNGITC",
+        "décret n° 2026-803",
+        "carte locale d'évolution du trait de côte",
+        "décret-liste"
+      ],
+      "tags": ["littoral", "erosion", "adaptation"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-25-003",
+      "title": "EPR2 à Gravelines : décret n° 2026-807 accordant une autorisation environnementale pour les travaux préparatoires",
+      "summary": "Le décret n° 2026-807 du 20 août 2026, paru au Journal officiel le 22 août, accorde à EDF une autorisation environnementale pour les travaux préparatoires à l'implantation d'une paire d'unités EPR2 sur les communes de Gravelines, Craywick, Loon-Plage et Bourbourg (Nord). Le texte autorise la viabilisation des plateformes, des terrassements, le renforcement des sols, la relocalisation du terminal ferroviaire et des premiers ouvrages de génie civil, avec prescriptions sur l'eau, la biodiversité, les nuisances et un suivi environnemental du chantier. Il ne constitue pas l'autorisation de création des réacteurs ni la construction de bâtiments recevant des matières nucléaires.",
+      "themes": ["reglementation", "energie_biodiversite", "eau_zones_humides"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France", "Hauts-de-France", "Nord"],
+      "actors": ["EDF", "Ministère de la Transition écologique", "DREAL Hauts-de-France"],
+      "primary_source": {
+        "name": "Journal officiel — décret n° 2026-807 du 20 août 2026",
+        "url": "https://www.actu-environnement.com/ae/reglementation/decret-du-20-08-2026-2026-807-40215.php",
+        "type": "juridique"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — EPR2 Gravelines",
+          "url": "https://www.actu-environnement.com/ae/news/epr2-gravelines-decret-autorisation-environnementale-48418.php4"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/ae/reglementation/decret-du-20-08-2026-2026-807-40215.php",
+        "https://www.actu-environnement.com/ae/news/epr2-gravelines-decret-autorisation-environnementale-48418.php4"
+      ],
+      "published_at": "2026-08-22",
+      "detected_via": "Actu-Environnement (22/08/2026) ; texte JORF republié sur Actu-Environnement",
+      "relevance": {
+        "score": 4,
+        "why": "Première étape administrative opérationnelle pour un grand chantier nucléaire avec prescriptions environnementales directement mobilisables par services instructeurs et bureaux d'études."
+      },
+      "entities": [
+        "EPR2",
+        "Gravelines",
+        "autorisation environnementale",
+        "décret n° 2026-807"
+      ],
+      "tags": ["nucleaire", "chantier", "biodiversite"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-25-004",
+      "title": "Canicule et bas niveaux d'eau : le groupe de coordination électricité de l'UE se réunit",
+      "summary": "Le 19 août 2026, la Commission européenne a convoqué une réunion ad hoc du groupe de coordination pour l'électricité avec les États membres, l'ENTSO-E, les centres de coordination régionaux et le Secrétariat de la Communauté de l'énergie. Face aux températures élevées persistantes et aux niveaux d'eau historiquement bas en Europe centrale et sud-est, le groupe a confirmé une sécurité d'approvisionnement stable sans risque d'adéquation à court terme, tout en anticipant des semaines tendues. Il a insisté sur la préservation des débits du Danube lors d'interventions nationales visant à soutenir la production hydroélectrique, et sur le maintien de la coordination du marché intérieur de l'électricité.",
+      "themes": ["climat_adaptation", "incendies_risques", "eau_zones_humides"],
+      "signal_type": "changement_de_pratique_professionnel",
+      "geography": ["UE", "France"],
+      "actors": [
+        "Commission européenne",
+        "ENTSO-E",
+        "Energy Community Secretariat"
+      ],
+      "primary_source": {
+        "name": "Commission européenne — Énergie",
+        "url": "https://energy.ec.europa.eu/news/electricity-coordination-group-discusses-extreme-weather-impacts-electricity-security-supply-central-2026-08-19_en",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — système électrique européen",
+          "url": "https://www.actu-environnement.com/ae/news/canicule-systeme-electrique-europeen-nucleaire-48408.php4"
+        }
+      ],
+      "urls": [
+        "https://energy.ec.europa.eu/news/electricity-coordination-group-discusses-extreme-weather-impacts-electricity-security-supply-central-2026-08-19_en",
+        "https://www.actu-environnement.com/ae/news/canicule-systeme-electrique-europeen-nucleaire-48408.php4"
+      ],
+      "published_at": "2026-08-19",
+      "detected_via": "source primaire (Commission européenne — DG Énergie) ; reprise Actu-Environnement",
+      "relevance": {
+        "score": 4,
+        "why": "Articulation sécheresse–production hydro–sécurité électrique utile pour gestionnaires de réseaux, producteurs ENR et services de l'État en période de canicule."
+      },
+      "entities": [
+        "Electricity Coordination Group",
+        "Danube",
+        "adéquation électrique"
+      ],
+      "tags": ["canicule", "hydroelectricite", "secheresse"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-25-005",
+      "title": "COP17 UNCCD : l'UE appelle à renforcer la résilience face à la sécheresse et à la dégradation des sols",
+      "summary": "Dans un communiqué du 14 août 2026, la Commission européenne présente sa position pour la 17e Conférence des parties à la Convention des Nations unies sur la lutte contre la désertification (UNCCD COP17), qui se tient à Ulaanbaatar du 17 au 28 août 2026 sous le thème « Restoring Land, Restoring Hope ». Face à une nouvelle série estivale de chaleur extrême, sécheresse et stress hydrique en Europe, l'UE plaide pour passer d'une gestion de crise réactive à une gestion proactive des risques de sécheresse, via la restauration des terres, la protection des écosystèmes et une gestion durable de l'eau. Elle met en avant le Global Gateway, Copernicus et des initiatives comme la Grande Muraille Verte.",
+      "themes": ["climat_adaptation", "sols", "eau_zones_humides"],
+      "signal_type": "rapport_institutionnel_majeur",
+      "geography": ["UE", "France"],
+      "actors": ["Commission européenne", "UNCCD"],
+      "primary_source": {
+        "name": "Commission européenne — Environnement",
+        "url": "https://environment.ec.europa.eu/news/eu-calls-global-action-make-land-and-water-more-resilient-drought-and-desertification-intensify-2026-08-14_en",
+        "type": "institutionnel"
+      },
+      "urls": [
+        "https://environment.ec.europa.eu/news/eu-calls-global-action-make-land-and-water-more-resilient-drought-and-desertification-intensify-2026-08-14_en"
+      ],
+      "published_at": "2026-08-14",
+      "detected_via": "source primaire (Commission européenne)",
+      "relevance": {
+        "score": 4,
+        "why": "Contexte international et priorités UE sur sécheresse et sols directement mobilisables pour stratégies d'adaptation et projets de restauration en France."
+      },
+      "entities": [
+        "UNCCD COP17",
+        "sécheresse",
+        "dégradation des sols",
+        "Global Gateway"
+      ],
+      "tags": ["secheresse", "desertification", "UE"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-25-006",
+      "title": "Cétacés du golfe de Gascogne : le TA de Paris reconnaît un préjudice écologique et enjoint un plan national d'actions",
+      "summary": "Par un jugement du 25 juin 2026, le tribunal administratif de Paris a fait droit partiellement aux demandes de France Nature Environnement, Défense des milieux aquatiques et Sea Shepherd France. Il reconnaît une carence partielle de l'État dans la protection contre les captures accidentelles de dauphins communs, grands dauphins et marsouins communs, et la responsabilité de l'État dans un préjudice écologique lié à la dégradation de l'état de conservation de ces espèces protégées entre 2018 et 2025. Il enjoint l'État d'élaborer et de commencer à mettre en œuvre, sous un an et sous astreinte de 15 000 € par mois de retard, un plan national d'actions visant l'amélioration de l'état de conservation et la réduction durable des captures. Des mesures complémentaires doivent être prises sous six mois pour réduire les captures dès l'hiver 2026-2027.",
+      "themes": ["jurisprudence", "biodiversite", "especes_habitats"],
+      "signal_type": "jurisprudence_structurante",
+      "geography": ["France", "Atlantique", "Golfe de Gascogne"],
+      "actors": [
+        "Tribunal administratif de Paris",
+        "France Nature Environnement",
+        "Ministère de la Mer"
+      ],
+      "primary_source": {
+        "name": "Tribunal administratif de Paris",
+        "url": "https://paris.tribunal-administratif.fr/decisions-de-justice/dernieres-decisions/captures-accidentelles-de-petits-cetaces-dans-le-golfe-de-gascogne-le-tribunal-reconnait-l-existence-d-un-prejudice-ecologique",
+        "type": "juridique"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — préjudice écologique dauphins",
+          "url": "https://www.actu-environnement.com/ae/news/prejudice-ecologique-cetaces-gascogne-tribunal-administratif-48406.php4"
+        }
+      ],
+      "urls": [
+        "https://paris.tribunal-administratif.fr/decisions-de-justice/dernieres-decisions/captures-accidentelles-de-petits-cetaces-dans-le-golfe-de-gascogne-le-tribunal-reconnait-l-existence-d-un-prejudice-ecologique",
+        "https://www.actu-environnement.com/ae/news/prejudice-ecologique-cetaces-gascogne-tribunal-administratif-48406.php4"
+      ],
+      "published_at": "2026-06-25",
+      "detected_via": "Actu-Environnement (20/08/2026) ; source primaire tribunal confirmée",
+      "relevance": {
+        "score": 5,
+        "why": "Jurisprudence structurante sur la réparation du préjudice écologique et les obligations de l'État en matière de pêche et de protection des mammifères marins."
+      },
+      "entities": [
+        "préjudice écologique",
+        "dauphin commun",
+        "marsouin commun",
+        "captures accidentelles"
+      ],
+      "tags": ["cetaces", "peche", "contentieux"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-25-007",
+      "title": "Limicoles d'outre-mer : arrêté du 12 août classant courlis hudsonien, barge hudsonienne et petit chevalier comme espèces protégées",
+      "summary": "Un arrêté ministériel publié le 12 août 2026 classe le courlis hudsonien (Numenius hudsonicus), la barge hudsonienne (Limosa haemastica) et le petit chevalier (Tringa flavipes) comme espèces protégées en Guadeloupe, Saint-Martin, Martinique et Saint-Pierre-et-Miquelon, les retirant des listes d'espèces chassables dans ces collectivités. Le texte fait suite à une consultation publique close en juillet 2026 et à l'inscription de ces limicoles à l'annexe I de la Convention sur les espèces migratrices (CMS COP15). Il met fin à une incohérence réglementaire signalée par la LPO entre statut international de conservation et régime cynégétique local.",
+      "themes": ["biodiversite", "especes_habitats", "reglementation"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France", "Guadeloupe", "Martinique", "Saint-Martin", "Saint-Pierre-et-Miquelon"],
+      "actors": ["Ministère de la Transition écologique", "LPO"],
+      "primary_source": {
+        "name": "Actu-Environnement — dépêche arrêté limicoles outre-mer",
+        "url": "https://www.actu-environnement.com/depeches/oiseaux-arrete-publie-12-n-1303.html",
+        "type": "media_secondaire"
+      },
+      "secondary_sources": [
+        {
+          "name": "LPO — protection des limicoles",
+          "url": "https://www.lpo.fr/qui-sommes-nous/toutes-nos-actualites/articles/actus-2026/trois-limicoles-menaces-bientot-proteges-en-france-participez-a-la-consultation-publique"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/depeches/oiseaux-arrete-publie-12-n-1303.html",
+        "https://www.lpo.fr/qui-sommes-nous/toutes-nos-actualites/articles/actus-2026/trois-limicoles-menaces-bientot-proteges-en-france-participez-a-la-consultation-publique"
+      ],
+      "published_at": "2026-08-12",
+      "detected_via": "Actu-Environnement dépêche (24/08/2026) ; arrêté JORF non consulté individuellement (Légifrance filtré)",
+      "relevance": {
+        "score": 4,
+        "why": "Modification du régime de protection et de chasse en outre-mer pour trois limicoles migrateurs, avec impacts pour fédérations de chasseurs, DREAL et gestionnaires de sites naturels."
+      },
+      "entities": [
+        "courlis hudsonien",
+        "barge hudsonienne",
+        "petit chevalier",
+        "CMS"
+      ],
+      "tags": ["oiseaux", "outre_mer", "chasse"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-25-008",
+      "title": "Guyane : avis de mise en concurrence pour trois autorisations de recherche minières d'or (Tortue, Saimiri)",
+      "summary": "Des avis de mise en concurrence publiés le 4 août 2026 concernent trois nouvelles demandes d'autorisation de recherche minières (ARM) pour l'or au profit de la Sasu Tortue et de la SAS Saimiri, sur les communes de Roura, Régina et Saint-Élie. Conformément à l'article L. 621-22 du code minier, ces avis ouvrent un délai d'un mois pour déposer des demandes concurrentes auprès du préfet de Guyane. Les dossiers et documents cartographiques sont consultables auprès de la DGTM/SPRIE à Cayenne.",
+      "themes": ["biodiversite", "sols", "reglementation"],
+      "signal_type": "consultation_publique",
+      "geography": ["France", "Guyane"],
+      "actors": ["Préfecture de Guyane", "Sasu Tortue", "SAS Saimiri"],
+      "primary_source": {
+        "name": "Actu-Environnement — dépêche mines Guyane",
+        "url": "https://www.actu-environnement.com/depeches/mines-guyane-avis-mise-n-1304.html",
+        "type": "media_secondaire"
+      },
+      "urls": [
+        "https://www.actu-environnement.com/depeches/mines-guyane-avis-mise-n-1304.html"
+      ],
+      "published_at": "2026-08-04",
+      "detected_via": "Actu-Environnement dépêche (24/08/2026) ; avis JORF « Concessions diverses » non consultés individuellement",
+      "relevance": {
+        "score": 4,
+        "why": "Procédure minière ouvrant la voie à de nouvelles recherches aurifères en forêt guyanaise, avec enjeux biodiversité, eau et réhabilitation des sites."
+      },
+      "entities": [
+        "autorisation de recherche minière",
+        "or",
+        "Roura",
+        "Régina",
+        "Saint-Élie"
+      ],
+      "tags": ["mines", "guyane", "foret"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-25-009",
+      "title": "Enedis : bilan record des raccordements 2025 (6,6 GW EnR) et cartographie des zones saturées",
+      "summary": "Conformément à la délibération CRE n° 2025-78 (TURPE 7), Enedis a publié fin juillet 2026 son rapport annuel sur les raccordements 2025 : 584 000 opérations de raccordement et de mise en service, dont un record de 6,6 GW d'énergies renouvelables raccordées (contre 3,6 GW en 2022) et 11 700 nouveaux raccordements IRVE. Parallèlement, Enedis et RTE ont mis à jour une cartographie des zones en contrainte (données arrêtées fin avril 2026) : 239 zones saturées sur 2 293 analysées, soit 10,4 % du territoire couvert par Enedis, sans capacité supplémentaire disponible avant au moins cinq ans.",
+      "themes": ["energie_biodiversite", "donnees_outils", "climat_adaptation"],
+      "signal_type": "nouveau_referentiel_ou_jeu_de_donnees",
+      "geography": ["France"],
+      "actors": ["Enedis", "RTE", "CRE"],
+      "primary_source": {
+        "name": "Enedis — Rapport annuel sur les raccordements 2025",
+        "url": "https://www.enedis.fr/presse/rapport-annuel-sur-les-raccordements-2025",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — bilan Enedis",
+          "url": "https://www.actu-environnement.com/ae/news/enedis-bilan-raccordements-2025-reseau-sature-48410.php4"
+        }
+      ],
+      "urls": [
+        "https://www.enedis.fr/presse/rapport-annuel-sur-les-raccordements-2025",
+        "https://www.actu-environnement.com/ae/news/enedis-bilan-raccordements-2025-reseau-sature-48410.php4"
+      ],
+      "published_at": "2026-07-28",
+      "detected_via": "source primaire (Enedis) ; reprise Actu-Environnement (20/08/2026)",
+      "relevance": {
+        "score": 5,
+        "why": "Données opposables pour le dimensionnement des projets solaires/éoliens, l'instruction des raccordements et l'aménagement territorial énergétique."
+      },
+      "entities": [
+        "zones saturées",
+        "6,6 GW",
+        "Open Services Enedis",
+        "S3REnR"
+      ],
+      "tags": ["EnR", "reseau", "raccordement"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-25-010",
+      "title": "Publicité énergies fossiles : projet de décret d'application soumis à consultation (échéance 31 août)",
+      "summary": "Le gouvernement a ouvert une consultation publique, du 31 juillet au 31 août 2026, sur un projet de décret d'application de l'article L. 229-61 du code de l'environnement (loi Climat et Résilience de 2021). Le texte vise à préciser le périmètre de l'interdiction de publicité relative à la commercialisation ou à la promotion des énergies fossiles (pétrole, gaz naturel fossile, charbon, hydrogène gris, chaleur fossile) et à lister les dérogations (carburants > 50 % d'énergie renouvelable, mécénat, communication institutionnelle, etc.). Les observations recueillies doivent alimenter la publication attendue d'ici fin 2026.",
+      "themes": ["reglementation", "climat_adaptation"],
+      "signal_type": "consultation_publique",
+      "geography": ["France"],
+      "actors": ["Ministère de la Transition écologique"],
+      "primary_source": {
+        "name": "Actu-Environnement — consultation décret publicité fossiles",
+        "url": "https://www.actu-environnement.com/ae/news/decret-interdiction-publicite-energies-fossiles-48417.php4",
+        "type": "media_secondaire"
+      },
+      "urls": [
+        "https://www.actu-environnement.com/ae/news/decret-interdiction-publicite-energies-fossiles-48417.php4"
+      ],
+      "published_at": "2026-07-31",
+      "detected_via": "Actu-Environnement ; page consultation MTE non confirmée individuellement (historique 2022 sur consultations-publiques.developpement-durable.gouv.fr)",
+      "relevance": {
+        "score": 4,
+        "why": "Échéance imminente (31/08) pour les acteurs publicité/énergie et les services juridiques devant anticiper le régime d'interdiction des publicités fossiles."
+      },
+      "entities": [
+        "article L. 229-61",
+        "loi Climat et Résilience",
+        "énergies fossiles"
+      ],
+      "tags": ["publicite", "climat", "consultation"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-25-011",
+      "title": "Exportation de déchets UE : consultation sur un projet de règlement délégué modifiant la liste verte (échéance 15 septembre)",
+      "summary": "Jusqu'au 15 septembre 2026, la Commission européenne consulte sur un projet de règlement délégué modifiant l'annexe III (liste verte) du règlement (UE) 2024/1157 sur les transferts de déchets. Le projet prévoit notamment la suppression des rubriques GC010 et GC020 à partir de 2027 et l'ajout de mélanges de déchets textiles à l'annexe IIIA, avec des seuils de contamination pour distinguer les codes « A » et « B ». L'objectif affiché est de faciliter certains flux de déchets destinés à la valorisation entre États membres tout en renforçant le contrôle des mélanges.",
+      "themes": ["reglementation", "donnees_outils"],
+      "signal_type": "consultation_publique",
+      "geography": ["UE", "France"],
+      "actors": ["Commission européenne"],
+      "primary_source": {
+        "name": "Commission européenne — Have Your Say",
+        "url": "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/14712-Inscription-sur-la-liste-verte-de-certains-dechets-destines-a-etre-transferes-entre-Etats-membres-en-vue-de-leur-valorisation_fr",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — export déchets liste verte",
+          "url": "https://www.actu-environnement.com/ae/news/exportation-dechets-reglement-delegue-liste-verte-48422.php4"
+        }
+      ],
+      "urls": [
+        "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/14712-Inscription-sur-la-liste-verte-de-certains-dechets-destines-a-etre-transferes-entre-Etats-membres-en-vue-de-leur-valorisation_fr",
+        "https://www.actu-environnement.com/ae/news/exportation-dechets-reglement-delegue-liste-verte-48422.php4"
+      ],
+      "published_at": "2026-08-01",
+      "detected_via": "Actu-Environnement ; initiative UE confirmée (Have Your Say)",
+      "relevance": {
+        "score": 4,
+        "why": "Évolution des procédures de transfert intra-UE de déchets valorisables, directement mobilisable par exportateurs, filières déchets et bureaux de contrôle."
+      },
+      "entities": [
+        "règlement (UE) 2024/1157",
+        "liste verte",
+        "déchets textiles"
+      ],
+      "tags": ["dechets", "economie_circulaire", "UE"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-25-012",
+      "title": "Retrait-gonflement des sols argileux : le Cerema insiste sur le diagnostic préventif après l'été 2026",
+      "summary": "Publié le 24 août 2026, un article du Cerema rappelle l'extension du phénomène de retrait et gonflement des sols argileux (RGA) sur la quasi-totalité du territoire métropolitain, avec 61,5 % des maisons individuelles exposées moyennement ou fortement selon la carte BRGM 2026. Le RGA reste la première cause d'indemnisations Cat Nat entre 2016 et 2026. Face aux cinq canicules successives de l'été 2026, le Cerema met en avant des diagnostics (réseaux, végétation, eaux pluviales, fondations) et des expérimentations de remédiation (injection d'eau de pluie, observatoire des routes sinistrées par la sécheresse). Le nouveau zonage RGA s'applique aux ventes de terrains et contrats de construction depuis le 1er juillet 2026.",
+      "themes": ["incendies_risques", "climat_adaptation", "sols", "rapports_guides"],
+      "signal_type": "nouveau_guide_methodologique",
+      "geography": ["France"],
+      "actors": ["Cerema", "BRGM", "CSTB"],
+      "primary_source": {
+        "name": "Cerema — Retrait et gonflement des sols argileux",
+        "url": "https://www.cerema.fr/index.php/fr/actualites/retrait-gonflement-sols-argileux-partir-diagnostic",
+        "type": "technique"
+      },
+      "urls": [
+        "https://www.cerema.fr/index.php/fr/actualites/retrait-gonflement-sols-argileux-partir-diagnostic"
+      ],
+      "published_at": "2026-08-24",
+      "detected_via": "source primaire (actualités Cerema)",
+      "relevance": {
+        "score": 4,
+        "why": "Retour d'expérience opérationnel sur un risque climatique majeur pour collectivités, maîtres d'ouvrage, assureurs et bureaux d'études géotechniques."
+      },
+      "entities": [
+        "retrait-gonflement des argiles",
+        "Cat Nat",
+        "Observatoire des routes sinistrées par la sécheresse",
+        "fonds de prévention des argiles"
+      ],
+      "tags": ["RGA", "canicule", "bati"],
+      "is_new": true
+    }
+  ]
+}
