@@ -1,0 +1,418 @@
+{
+  "date": "2026-08-26",
+  "generated_at": "2026-08-26T06:00:00+02:00",
+  "timezone": "Europe/Paris",
+  "meta": {
+    "item_count": 11,
+    "sources_consulted": [
+      "actu_environnement",
+      "cerema",
+      "copernicus_c3s",
+      "brgm",
+      "the_conversation_fr",
+      "commission_ue_climat"
+    ],
+    "deduplicated_against_days": 4,
+    "notes": "Mercredi estival : nouveautés surtout issues des publications Actu-Environnement du 24–25/08 (textes JORF des 2–25/08) et du communiqué Copernicus du 24/08. SNGITC (803), EPR2 Gravelines (807), PFAS boues HCSP, Enedis, export déchets liste verte, RGA Cerema, Esod, renouvellement forestier, publicité fossiles, etc. exclus comme déjà couverts 22–25/08. Articles Actu-Environnement souvent verrouillés (corps payant) ; synthèses JORF republiées utilisées. OFB, ecologie.gouv.fr consultations et Reporterre partiellement injoignables."
+  },
+  "items": [
+    {
+      "id": "2026-08-26-001",
+      "title": "Plan national d'actions sur le loup : le décret n° 2026-815 renforce les pouvoirs du préfet coordonnateur",
+      "summary": "Le décret n° 2026-815 du 24 août 2026, paru au Journal officiel le 25 août, modifie le décret du 12 septembre 2018 relatif aux attributions du préfet coordonnateur du plan national d'actions sur le loup (Canis lupus). Il aligne le texte sur l'arrêté récent fixant le statut de protection du loup et les conditions de destruction. Le préfet coordonnateur peut désormais suspendre, par arrêté jusqu'à la fin de l'année civile, les tirs autorisés ou déclarés par les préfets de département, sans contrainte calendaire ni plafond de tir préalable. Il peut aussi soumettre à son accord préalable les décisions préfectorales concernant les opérations de tir des lieutenants de louveterie et des agents de l'Office français de la biodiversité. Le décret entre en vigueur le lendemain de sa publication.",
+      "themes": ["biodiversite", "especes_habitats", "reglementation"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "Office français de la biodiversité",
+        "Préfet coordonnateur PNAGLC"
+      ],
+      "primary_source": {
+        "name": "Journal officiel — décret n° 2026-815 du 24 août 2026",
+        "url": "https://www.actu-environnement.com/ae/reglementation/decret-du-24-08-2026-2026-815-40225.php",
+        "type": "juridique"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — décret loup",
+          "url": "https://www.actu-environnement.com/ae/reglementation/decret-du-24-08-2026-2026-815-40225.php"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/ae/reglementation/decret-du-24-08-2026-2026-815-40225.php"
+      ],
+      "published_at": "2026-08-25",
+      "detected_via": "Actu-Environnement page réglementation (25/08/2026) ; texte JORF republié",
+      "relevance": {
+        "score": 4,
+        "why": "Recentralise la gestion des opérations de tir sur le loup pour services de l'État, fédérations de chasseurs et gestionnaires de continuités écologiques en zone de présence permanente."
+      },
+      "entities": [
+        "Canis lupus",
+        "PNAGLC",
+        "décret n° 2026-815",
+        "préfet coordonnateur"
+      ],
+      "tags": ["loup", "faune_sauvage", "chasse"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-26-002",
+      "title": "Déchets de pneus : deux arrêtés encadrent la sortie de statut de déchet pour l'huile de pyrolyse et les granulés",
+      "summary": "Deux arrêtés parus au Journal officiel le 2 août 2026 fixent les critères de sortie de statut de déchet (SSD) pour des produits issus de pneumatiques hors d'usage. L'arrêté TECP2528362A encadre l'huile de thermolyse ou vapothermolyse de déchets de pneus en vue d'une valorisation matière en installation pétrochimique ou chimique : intrants limités aux pneus non dangereux broyés, critères de qualité (soufre, azote, halogènes, métaux), contrôles POP, contrat de cession et attestation de conformité par lot. L'arrêté TECP2528360A vise les particules de caoutchouc (broyage ou granulation) destinées à la fabrication de pneus ou bandes de convoyeur, avec exclusions d'intrants, autocontrôle et traçabilité lot par lot. L'huile issue de pneus bénéficie de valeurs limites moins strictes que celle issue de plastiques.",
+      "themes": ["reglementation", "donnees_outils"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France"],
+      "actors": ["Ministère de la Transition écologique", "filière pneumatiques"],
+      "primary_source": {
+        "name": "Journal officiel — arrêté du 21 juillet 2026 (TECP2528362A)",
+        "url": "https://www.actu-environnement.com/ae/reglementation/arrete-du-21-07-2026-tecp2528362a-40147.php",
+        "type": "juridique"
+      },
+      "secondary_sources": [
+        {
+          "name": "Journal officiel — arrêté du 21 juillet 2026 (TECP2528360A)",
+          "url": "https://www.actu-environnement.com/ae/reglementation/arrete-du-21-07-2026-tecp2528360a-40146.php"
+        },
+        {
+          "name": "Actu-Environnement — SSD pneus",
+          "url": "https://www.actu-environnement.com/ae/news/dechets-pneus-huile-pyrolyse-granules-sortie-statu-dechets-48425.php4"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/ae/reglementation/arrete-du-21-07-2026-tecp2528362a-40147.php",
+        "https://www.actu-environnement.com/ae/reglementation/arrete-du-21-07-2026-tecp2528360a-40146.php",
+        "https://www.actu-environnement.com/ae/news/dechets-pneus-huile-pyrolyse-granules-sortie-statu-dechets-48425.php4"
+      ],
+      "published_at": "2026-08-02",
+      "detected_via": "Actu-Environnement (25/08/2026) ; textes JORF republiés sur Actu-Environnement",
+      "relevance": {
+        "score": 4,
+        "why": "Ouvre des filières de valorisation matière pour recycleurs de pneus, opérateurs de pyrolyse et industriels utilisateurs, avec exigences de qualité et traçabilité opposables."
+      },
+      "entities": [
+        "sortie de statut de déchet",
+        "huile de pyrolyse",
+        "particules de caoutchouc",
+        "pneus hors d'usage"
+      ],
+      "tags": ["dechets", "pneus", "economie_circulaire"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-26-003",
+      "title": "DPE logements : arrêté du 11 juin 2026 prévoit la mention A0 et l'intégration des EnR dès le 1er janvier 2027",
+      "summary": "L'arrêté VLOL2607636A du 11 juin 2026, paru au Journal officiel le 13 août 2026, adapte l'arrêté du 31 mars 2021 sur le diagnostic de performance énergétique (DPE) des bâtiments d'habitation en métropole à la directive (UE) 2024/1275 sur la performance énergétique des bâtiments. Applicable à compter du 1er janvier 2027, il impose de nouvelles mentions obligatoires : production d'énergie renouvelable sur site par source et en valeur totale, rapport à la consommation finale, vecteur énergétique principal, durée de vie résiduelle des systèmes de chauffage et climatisation, capacité de flexibilité électrique et de fonctionnement des réseaux de chaleur à basse température. Une étiquette « A0 » distingue les bâtiments à émissions nulles (étiquette A ou B, énergies renouvelables/électricité/réseau efficace, sans fossile). L'annexe sur les énergies renouvelables est entièrement refondue.",
+      "themes": ["climat_adaptation", "reglementation", "energie_biodiversite"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France", "UE"],
+      "actors": ["Ministère de la Transition écologique", "diagnostiqueurs immobiliers"],
+      "primary_source": {
+        "name": "Journal officiel — arrêté du 11 juin 2026 (VLOL2607636A)",
+        "url": "https://www.actu-environnement.com/ae/reglementation/arrete-du-11-06-2026-vlol2607636a-40099.php",
+        "type": "juridique"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — évolutions DPE 2027",
+          "url": "https://www.actu-environnement.com/ae/news/dpe-evolutions-2027-mention-a0-passoires-energies-renouvelables-flexibilite-electrique-48431.php4"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/ae/reglementation/arrete-du-11-06-2026-vlol2607636a-40099.php",
+        "https://www.actu-environnement.com/ae/news/dpe-evolutions-2027-mention-a0-passoires-energies-renouvelables-flexibilite-electrique-48431.php4"
+      ],
+      "published_at": "2026-08-13",
+      "detected_via": "Actu-Environnement (25/08/2026) ; texte JORF republié sur Actu-Environnement",
+      "relevance": {
+        "score": 4,
+        "why": "Anticipation des obligations de diagnostic pour bureaux de contrôle, promoteurs et collectivités pilotant la rénovation énergétique et le déploiement des EnR en habitat."
+      },
+      "entities": [
+        "DPE",
+        "mention A0",
+        "directive 2024/1275",
+        "arrêté VLOL2607636A"
+      ],
+      "tags": ["batiment", "EnR", "transposition"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-26-004",
+      "title": "Réseaux de distribution d'électricité : le décret n° 2026-805 encadre les plans de développement",
+      "summary": "Le décret n° 2026-805 du 20 août 2026, paru au Journal officiel le 21 août, insère dans le code de l'énergie une section dédiée au plan de développement de réseau des gestionnaires de réseau public de distribution d'électricité. Le plan décrit, sur cinq et dix ans, les scénarios d'évolution du système électrique, leurs conséquences sur le réseau et les trajectoires d'investissement, en cohérence avec les documents de planification énergétique et environnementale. Il est élaboré par zone de desserte, soumis au comité du système de distribution, à la CRE et au ministère de l'énergie, avec consultation publique et possibilité de nouvelle consultation si la CRE estime qu'une modification affecte significativement les prévisions. Le contenu minimal inclut l'état des lieux technique, les scénarios, la politique d'investissement par catégories et les enjeux industriels.",
+      "themes": ["energie_biodiversite", "reglementation", "donnees_outils"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France"],
+      "actors": ["Enedis", "CRE", "Ministère de la Transition écologique"],
+      "primary_source": {
+        "name": "Journal officiel — décret n° 2026-805 du 20 août 2026",
+        "url": "https://www.actu-environnement.com/ae/reglementation/decret-du-20-08-2026-2026-805-40212.php",
+        "type": "juridique"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — plan de développement réseau",
+          "url": "https://www.actu-environnement.com/ae/news/decret-plan-developpement-reseau-distribution-electricite-48426.php4"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/ae/reglementation/decret-du-20-08-2026-2026-805-40212.php",
+        "https://www.actu-environnement.com/ae/news/decret-plan-developpement-reseau-distribution-electricite-48426.php4"
+      ],
+      "published_at": "2026-08-21",
+      "detected_via": "Actu-Environnement (25/08/2026) ; texte JORF republié sur Actu-Environnement",
+      "relevance": {
+        "score": 4,
+        "why": "Cadre opposable pour la planification des investissements réseau, le raccordement EnR et l'articulation avec les contraintes de capacité identifiées par Enedis/RTE."
+      },
+      "entities": [
+        "plan de développement de réseau",
+        "décret n° 2026-805",
+        "CRE",
+        "distribution d'électricité"
+      ],
+      "tags": ["reseau", "EnR", "planification"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-26-005",
+      "title": "Température de surface des océans : record mondial à 21,1 °C le 22 août 2026 (Copernicus)",
+      "summary": "Le Copernicus Climate Change Service (C3S) a confirmé le 24 août 2026 qu'à la date du 22 août, la température moyenne quotidienne de surface de la mer (TSM) sur l'océan extra-polaire (60°S–60°N) a atteint 21,1 °C, dépassant le record de 21,09 °C daté de mars 2024. Ce pic en août est atypique (les maxima surviennent habituellement en mars-avril) et excède aussi le précédent record d'août (20,98 °C en 2023). Copernicus relie cette anomalie à un El Niño extrême en développement dans le Pacifique tropical, s'ajoutant au réchauffement océanique de long terme. Les conséquences évoquées incluent hausse du niveau marin, intensification des canicules marines (triplement des jours de heatwave depuis les années 1990) et moindre absorption de CO₂ par l'océan.",
+      "themes": ["climat_adaptation", "biodiversite", "eau_zones_humides"],
+      "signal_type": "rapport_institutionnel_majeur",
+      "geography": ["UE", "France", "Monde"],
+      "actors": ["Copernicus C3S", "ECMWF", "Organisation météorologique mondiale"],
+      "primary_source": {
+        "name": "Copernicus — record température surface mer",
+        "url": "https://climate.copernicus.eu/copernicus-daily-global-sea-surface-temperature-breaks-2024-record",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — record océans",
+          "url": "https://www.actu-environnement.com/ae/news/record-temperature-surface-oceans-copernicus-48427.php4"
+        }
+      ],
+      "urls": [
+        "https://climate.copernicus.eu/copernicus-daily-global-sea-surface-temperature-breaks-2024-record",
+        "https://www.actu-environnement.com/ae/news/record-temperature-surface-oceans-copernicus-48427.php4"
+      ],
+      "published_at": "2026-08-24",
+      "detected_via": "source primaire Copernicus ; reprise Actu-Environnement (25/08/2026)",
+      "relevance": {
+        "score": 4,
+        "why": "Indicateur climatique majeur pour gestionnaires littoraux, milieux marins, stratégies d'adaptation PCAET/PPR et filières aquaculture/pêche en France."
+      },
+      "entities": [
+        "ERA5",
+        "El Niño",
+        "canicule marine",
+        "température de surface de la mer"
+      ],
+      "tags": ["ocean", "climat", "Copernicus"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-26-006",
+      "title": "Mines d'or en Guyane : la réhabilitation limite l'érosion mais restaure peu les fonctions biologiques des sols (BRGM)",
+      "summary": "Dans un article paru le 17 août 2026 sur The Conversation, relayé par le BRGM, Naomi Nitschke (géochimiste BRGM) synthétise cinq ans de suivi de sites miniers guyanais. Les normes de réhabilitation des mines d'or légales (terrassement, remise en état du cours d'eau, plantation d'arbres sur au moins 30 % de la surface) divisent l'érosion par trois en six mois et la rendent quasi nulle en trois ans, réduisant les exports de particules et de mercure vers les rivières. En revanche, la diversité microbienne, les nutriments et l'activité enzymatique des sols restent très inférieurs à la forêt environnante sur cinq ans, freinant le passage du stade herbacé à la forêt secondaire. Des gradients « effet lisière » et l'inoculation d'arbres avec bactéries fixatrices d'azote sont identifiés comme leviers, avec un coût additionnel.",
+      "themes": ["sols", "biodiversite", "eau_zones_humides", "rapports_guides"],
+      "signal_type": "publication_scientifique_appliquee",
+      "geography": ["France", "Guyane"],
+      "actors": ["BRGM", "Naomi Nitschke", "compagnies minières"],
+      "primary_source": {
+        "name": "The Conversation — réhabilitation mines Guyane",
+        "url": "https://theconversation.com/dans-les-mines-dor-de-guyane-le-bilan-mitige-de-la-rehabilitation-des-sols-285959",
+        "type": "scientifique"
+      },
+      "secondary_sources": [
+        {
+          "name": "BRGM — article de synthèse",
+          "url": "https://www.brgm.fr/en/news/article/gold-mines-french-guiana-soil-remediation-has-mixed-record"
+        },
+        {
+          "name": "Actu-Environnement — mines Guyane",
+          "url": "https://www.actu-environnement.com/ae/news/rehabilitation-mines-or-guyane-sols-biologiques-48420.php4"
+        }
+      ],
+      "urls": [
+        "https://theconversation.com/dans-les-mines-dor-de-guyane-le-bilan-mitige-de-la-rehabilitation-des-sols-285959",
+        "https://www.brgm.fr/en/news/article/gold-mines-french-guiana-soil-remediation-has-mixed-record",
+        "https://www.actu-environnement.com/ae/news/rehabilitation-mines-or-guyane-sols-biologiques-48420.php4"
+      ],
+      "published_at": "2026-08-17",
+      "detected_via": "Actu-Environnement (24/08/2026) ; source primaire The Conversation et BRGM confirmées",
+      "relevance": {
+        "score": 4,
+        "why": "Éclaire les limites des prescriptions de réhabilitation minière actuelles pour DREAL, bureaux d'études sols/eau et opérateurs en Guyane, complémentaire aux procédures ARM signalées le 25/08."
+      },
+      "entities": [
+        "réhabilitation minière",
+        "mercure",
+        "effet lisière",
+        "forêt secondaire"
+      ],
+      "tags": ["guyane", "mines", "mercure"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-26-007",
+      "title": "Stockage batteries en zone agricole (Sarthe) : le TA de Nantes suspend le refus préfectoral de permis de construire",
+      "summary": "Par une ordonnance du 4 août 2026, le juge des référés du tribunal administratif de Nantes (req. n° 2614155) a suspendu l'exécution de la décision par laquelle le préfet de la Sarthe avait refusé de délivrer un permis de construire à TagEnergy Development France pour un projet de stockage d'électricité par batteries en zone agricole. Le juge retient un intérêt public particulier pour le réseau électrique. L'affaire illustre les contentieux d'implantation des systèmes de stockage d'énergie en milieu rural, dans un contexte de saturation réseau et de besoin de flexibilité.",
+      "themes": ["jurisprudence", "energie_biodiversite", "zan_artificialisation"],
+      "signal_type": "jurisprudence_structurante",
+      "geography": ["France", "Pays de la Loire", "Sarthe"],
+      "actors": [
+        "Tribunal administratif de Nantes",
+        "Préfecture de la Sarthe",
+        "TagEnergy Development France"
+      ],
+      "primary_source": {
+        "name": "Actu-Environnement — TA Nantes batteries Sarthe",
+        "url": "https://www.actu-environnement.com/ae/news/stockage-electricite-batteries-zone-agricole-sarthe-48430.php4",
+        "type": "media_secondaire"
+      },
+      "urls": [
+        "https://www.actu-environnement.com/ae/news/stockage-electricite-batteries-zone-agricole-sarthe-48430.php4"
+      ],
+      "published_at": "2026-08-04",
+      "detected_via": "Actu-Environnement (25/08/2026) ; décision TA non consultée sur Légifrance",
+      "relevance": {
+        "score": 4,
+        "why": "Jurisprudence utile pour porteurs de projets BESS, services urbanisme et DREAL arbitrant permis de construire et intérêt public énergétique en zone agricole."
+      },
+      "entities": [
+        "stockage par batteries",
+        "permis de construire",
+        "req. n° 2614155",
+        "zone agricole"
+      ],
+      "tags": ["BESS", "contentieux", "agriculture"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-26-008",
+      "title": "Emballages professionnels : consultation sur le report de la REP au 1er janvier 2027",
+      "summary": "Le 10 août 2026, le ministère de la Transition écologique a ouvert une consultation sur le projet de révision du cahier des charges de la filière de responsabilité élargie des producteurs d'emballages professionnels (REP Epro). Le projet entérine le report de l'entrée en vigueur initialement prévue au 1er juillet 2026 au 1er janvier 2027, afin de laisser aux opérateurs le temps de se mettre en conformité. Les observations recueillies alimenteront la publication du texte définitif.",
+      "themes": ["reglementation", "donnees_outils"],
+      "signal_type": "consultation_publique",
+      "geography": ["France"],
+      "actors": ["Ministère de la Transition écologique", "producteurs d'emballages professionnels"],
+      "primary_source": {
+        "name": "Actu-Environnement — consultation REP Epro",
+        "url": "https://www.actu-environnement.com/ae/news/consultation-emballages-professionnels-report-REP-janvier-2027-48429.php4",
+        "type": "media_secondaire"
+      },
+      "urls": [
+        "https://www.actu-environnement.com/ae/news/consultation-emballages-professionnels-report-REP-janvier-2027-48429.php4"
+      ],
+      "published_at": "2026-08-10",
+      "detected_via": "Actu-Environnement (25/08/2026) ; portail consultations-publiques MTE non confirmé individuellement",
+      "relevance": {
+        "score": 3,
+        "why": "Calendrier opérationnel pour industriels, logisticiens et éco-organismes devant organiser la filière emballages professionnels et la traçabilité associée."
+      },
+      "entities": [
+        "REP Epro",
+        "emballages professionnels",
+        "cahier des charges"
+      ],
+      "tags": ["emballages", "REP", "consultation"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-26-009",
+      "title": "DPE : consultation sur le facteur de conversion électricité (échéance 12 novembre 2026)",
+      "summary": "Une consultation publique, ouverte le 13 août 2026 et close le 12 novembre 2026, porte sur un projet d'arrêté modifiant le facteur de conversion de l'énergie finale en énergie primaire de l'électricité dans le diagnostic de performance énergétique. Ce paramètre influence directement l'étiquette énergétique des logements chauffés ou partiellement chauffés à l'électricité et fait l'objet de débats récurrents depuis la réforme du coefficient en 2024.",
+      "themes": ["reglementation", "climat_adaptation"],
+      "signal_type": "consultation_publique",
+      "geography": ["France"],
+      "actors": ["Ministère de la Transition écologique", "diagnostiqueurs immobiliers"],
+      "primary_source": {
+        "name": "Actu-Environnement — consultation facteur conversion DPE",
+        "url": "https://www.actu-environnement.com/ae/reglementation/consultation-du-13-08-2026-40161.php",
+        "type": "media_secondaire"
+      },
+      "urls": [
+        "https://www.actu-environnement.com/ae/reglementation/consultation-du-13-08-2026-40161.php"
+      ],
+      "published_at": "2026-08-13",
+      "detected_via": "Actu-Environnement page consultations (25/08/2026) ; portail MTE non confirmé",
+      "relevance": {
+        "score": 4,
+        "why": "Paramètre structurant pour la classification DPE et les politiques locales de rénovation ; complète l'arrêté VLOL2607636A applicable au 1er janvier 2027."
+      },
+      "entities": [
+        "facteur de conversion électricité",
+        "DPE",
+        "énergie primaire"
+      ],
+      "tags": ["DPE", "consultation", "batiment"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-26-010",
+      "title": "Centrale de Fessenheim : consultation ASNR sur les rejets et prélèvements d'eau (échéance 15 octobre 2026)",
+      "summary": "Jusqu'au 15 octobre 2026, l'Autorité de sûreté nucléaire et de radioprotection (ASNR) consulte sur des projets de décision encadrant les rejets et prélèvements d'eau de la centrale nucléaire de Fessenheim, en phase de démantèlement. Les textes visent à préciser les conditions de surveillance et de limitation des impacts sur le milieu aquatique pour cette installation arrêtée définitivement en 2020.",
+      "themes": ["eau_zones_humides", "reglementation"],
+      "signal_type": "consultation_publique",
+      "geography": ["France", "Grand Est", "Haut-Rhin"],
+      "actors": ["ASNR", "EDF", "Commission locale d'information"],
+      "primary_source": {
+        "name": "Actu-Environnement — consultation Fessenheim ASNR",
+        "url": "https://www.actu-environnement.com/ae/reglementation/consultation-du-16-07-2026-39981.php",
+        "type": "media_secondaire"
+      },
+      "urls": [
+        "https://www.actu-environnement.com/ae/reglementation/consultation-du-16-07-2026-39981.php"
+      ],
+      "published_at": "2026-07-16",
+      "detected_via": "Actu-Environnement page consultations ; source primaire ASNR indiquée (texte intégral non consulté)",
+      "relevance": {
+        "score": 3,
+        "why": "Conditions de prélèvement/rejet en phase de démantèlement nucléaire, pertinentes pour gestionnaires de l'eau, DREAL et acteurs du bassin Rhin."
+      },
+      "entities": [
+        "Fessenheim",
+        "ASNR",
+        "démantèlement",
+        "prélèvements d'eau"
+      ],
+      "tags": ["nucleaire", "eau", "consultation"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-26-011",
+      "title": "Cerema : guide sur la valorisation des graves de déconstruction en travaux publics",
+      "summary": "Publié le 24 août 2026, le guide Cerema « La valorisation des graves en travaux publics : guide d'utilisation des graves de déconstruction » actualise un référentiel régional Rhône-Alpes. Il fixe les règles d'élaboration et d'usage des graves et matériaux fins issus de la déconstruction de routes, bâtiments et infrastructures : classification, caractérisation (normes sols et granulats), domaines d'usage en remblai et couches de chaussée, prescriptions de compactage, plan d'assurance qualité et éléments de DCE (CCAP, CCTP). Réalisé avec Unicem Auvergne-Rhône-Alpes et la Fédération régionale du BTP, il s'inscrit dans la continuité du guide 2025 sur l'acceptabilité environnementale et sanitaire des matériaux alternatifs.",
+      "themes": ["sols", "rapports_guides", "donnees_outils"],
+      "signal_type": "nouveau_guide_methodologique",
+      "geography": ["France"],
+      "actors": ["Cerema", "Unicem Auvergne-Rhône-Alpes", "Fédération régionale du BTP"],
+      "primary_source": {
+        "name": "Cerema — guide graves de déconstruction",
+        "url": "https://www.cerema.fr/fr/actualites/valorisation-graves-travaux-publics-guide-utilisation-graves",
+        "type": "technique"
+      },
+      "urls": [
+        "https://www.cerema.fr/fr/actualites/valorisation-graves-travaux-publics-guide-utilisation-graves"
+      ],
+      "published_at": "2026-08-24",
+      "detected_via": "source primaire (actualités Cerema)",
+      "relevance": {
+        "score": 4,
+        "why": "Référence opérationnelle pour MOA/MOE TP, producteurs de matériaux et services de l'État instruisant la réutilisation de déchets inertes du BTP sur chantiers routiers."
+      },
+      "entities": [
+        "graves de déconstruction",
+        "matériaux alternatifs",
+        "plan d'assurance qualité",
+        "économie circulaire"
+      ],
+      "tags": ["BTP", "routes", "recyclage"],
+      "is_new": true
+    }
+  ]
+}
