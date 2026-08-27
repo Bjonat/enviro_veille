@@ -1,0 +1,379 @@
+{
+  "date": "2026-08-27",
+  "generated_at": "2026-08-27T06:00:00+02:00",
+  "timezone": "Europe/Paris",
+  "meta": {
+    "item_count": 10,
+    "sources_consulted": [
+      "actu_environnement",
+      "cerema",
+      "copernicus_c3s",
+      "consultations_publiques_mte",
+      "commission_ue_climat"
+    ],
+    "deduplicated_against_days": 5,
+    "notes": "Jeudi estival : nouveautés dominées par textes JORF parus 19–26/08 (DPE coefficient 1,7, CEE, RGE, tertiaire USE, PNR Perche) et livrables Cerema/Copernicus. Loup (815), SNGITC (803), DPE A0, décret 805 réseau, record SST 22/08, PFAS HCSP, Enedis, publicité fossiles (31/08), REP Epro, etc. exclus comme déjà couverts 22–26/08. Arrêté DPE coefficient 1,7 non encore republié sur Actu-Environnement/réglementation ; dépêche JORF 26/08 utilisée. Robin des bois : plainte signalée, source primaire association non confirmée. OFB, Légifrance, Reporterre et BRGM partiellement injoignables."
+  },
+  "items": [
+    {
+      "id": "2026-08-27-001",
+      "title": "DPE : l'arrêté du 19 août 2026 abaisse le coefficient électrique à 1,7 dès le 1er janvier 2027",
+      "summary": "Un arrêté du 19 août 2026, paru au Journal officiel le 26 août, modifie le facteur de conversion de l'énergie finale en énergie primaire de l'électricité dans le diagnostic de performance énergétique (DPE) et les audits énergétiques utilisant la même méthode. À compter du 1er janvier 2027, ce coefficient passe de 1,9 à 1,7 (après une première baisse de 2,3 à 1,9 au 1er janvier 2026), afin de mieux refléter le mix électrique français et soutenir l'électrification des usages dans le bâtiment. Les logements chauffés à l'électricité verront mécaniquement leur étiquette s'améliorer sans travaux ; les estimations évoquent environ 300 000 logements sortis du statut de passoire thermique. Une attestation de changement d'étiquette pourra être téléchargée gratuitement via l'Observatoire DPE-Audit de l'ADEME pour les diagnostics encore valides. Jusqu'au 31 décembre 2026, les professionnels continuent d'appliquer le coefficient 1,9.",
+      "themes": ["climat_adaptation", "reglementation"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France"],
+      "actors": ["Ministère de la Transition écologique", "ADEME", "diagnostiqueurs immobiliers"],
+      "primary_source": {
+        "name": "Actu-Environnement — dépêche arrêté DPE coefficient 1,7",
+        "url": "https://www.actu-environnement.com/depeches/dpe-arrete-paru-au-n-1307.html",
+        "type": "media_secondaire"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — consultation facteur conversion (13/08)",
+          "url": "https://www.actu-environnement.com/ae/reglementation/consultation-du-13-08-2026-40161.php"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/depeches/dpe-arrete-paru-au-n-1307.html",
+        "https://www.actu-environnement.com/ae/reglementation/consultation-du-13-08-2026-40161.php"
+      ],
+      "published_at": "2026-08-26",
+      "detected_via": "Actu-Environnement dépêche (26/08/2026) ; arrêté JORF du 19/08 paru le 26/08 non encore republié sur Actu-Environnement/réglementation",
+      "relevance": {
+        "score": 5,
+        "why": "Paramètre opposable pour diagnostiqueurs, bailleurs et collectivités pilotant la rénovation ; complète l'arrêté VLOL2607636A (mention A0) et la consultation encore ouverte sur le même sujet."
+      },
+      "entities": [
+        "coefficient de conversion électricité",
+        "DPE",
+        "passoire thermique",
+        "Observatoire DPE-Audit"
+      ],
+      "tags": ["DPE", "batiment", "electrification"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-27-002",
+      "title": "CEE : deux arrêtés du 17 août recentrent la rénovation d'ampleur et bonifient le solaire thermique",
+      "summary": "Deux arrêtés parus au Journal officiel le 23 août 2026 modifient le dispositif des certificats d'économies d'énergie (CEE) à compter du 1er septembre 2026. L'arrêté ECOR2620460A restreint les fiches BAR-TH-174 (maison) et BAR-TH-175 (appartement) aux logements classés E, F ou G avant travaux ; pour les maisons, le chauffage ou l'eau chaude sanitaire ne doit intégrer aucun équipement fossile après rénovation (hors réseau de chaleur/froid). L'arrêté ECOR2620461A crée des bonifications pour le solaire thermique (fiches BAR-TH-101, 148, 162, 168) et le chauffe-eau thermodynamique, conditionnées à l'absence de combustibles fossiles, avec coefficients multiplicateurs différenciés selon les ménages modestes. Ces évolutions compensent partiellement l'arrêt de MaPrimeRénov' pour certains monogestes et renforcent les contrôles sur site à partir du 1er septembre.",
+      "themes": ["climat_adaptation", "reglementation", "energie_biodiversite"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France"],
+      "actors": ["Ministère de la Transition écologique", "obligés CEE", "professionnels RGE"],
+      "primary_source": {
+        "name": "Journal officiel — arrêté du 17 août 2026 (ECOR2620460A)",
+        "url": "https://www.actu-environnement.com/ae/reglementation/arrete-du-17-08-2026-ecor2620460a-40221.php",
+        "type": "juridique"
+      },
+      "secondary_sources": [
+        {
+          "name": "Journal officiel — arrêté du 17 août 2026 (ECOR2620461A)",
+          "url": "https://www.actu-environnement.com/ae/reglementation/arrete-du-17-08-2026-ecor2620461a-40222.php"
+        },
+        {
+          "name": "Actu-Environnement — CEE rénovation d'ampleur",
+          "url": "https://www.actu-environnement.com/ae/news/cee-renovation-ampleur-passoires-bonifications-solaire-48436.php4"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/ae/reglementation/arrete-du-17-08-2026-ecor2620460a-40221.php",
+        "https://www.actu-environnement.com/ae/reglementation/arrete-du-17-08-2026-ecor2620461a-40222.php",
+        "https://www.actu-environnement.com/ae/news/cee-renovation-ampleur-passoires-bonifications-solaire-48436.php4"
+      ],
+      "published_at": "2026-08-23",
+      "detected_via": "Actu-Environnement (26/08/2026) ; textes JORF republiés sur Actu-Environnement",
+      "relevance": {
+        "score": 4,
+        "why": "Recalibrage immédiat (01/09/2026) des leviers CEE pour rénovateurs, obligés et maîtres d'ouvrage social après resserrement de MaPrimeRénov'."
+      },
+      "entities": [
+        "BAR-TH-174",
+        "BAR-TH-175",
+        "solaire thermique",
+        "Coup de pouce rénovation d'ampleur"
+      ],
+      "tags": ["CEE", "renovation", "EnR"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-27-003",
+      "title": "Cerema : mise à jour 2026 de l'Indicateur national de l'érosion côtière (INEC)",
+      "summary": "Publiée le 26 août 2026, la mise à jour majeure de l'Indicateur national de l'érosion côtière (INEC) s'inscrit dans la Stratégie nationale de gestion intégrée du trait de côte 2025-2030. Elle analyse l'évolution du trait de côte sur plusieurs périodes (vers 1950, 1975, 2000, 2010, 2020) avec un maillage resserré à 50 m (contre 200 m en 2017), intègre les données des observatoires locaux et actualise la cartographie de près de 20 000 ouvrages littoraux. Sur 89 565 profils analysables sur la période longue, 19,8 % sont en recul, 12,2 % en avancée ; en croisant secteurs naturels en recul et zones aménagées, 27,6 % du littoral français apparaît concerné par une problématique d'érosion (50,1 % sur les plages). Près de la moitié des profils de plage changent de tendance selon les périodes. Les résultats sont consultables via une application cartographique sur GéoLittoral ; l'outil MobiTC du Cerema automatise les calculs.",
+      "themes": ["climat_adaptation", "eau_zones_humides", "donnees_outils"],
+      "signal_type": "nouveau_referentiel_ou_jeu_de_donnees",
+      "geography": ["France", "Corse", "DROM"],
+      "actors": ["Cerema", "observatoires régionaux du trait de côte"],
+      "primary_source": {
+        "name": "Cerema — INEC mise à jour 2026",
+        "url": "https://www.cerema.fr/fr/actualites/indicateur-national-erosion-cotiere-enrichi-mieux-connaitre",
+        "type": "technique"
+      },
+      "secondary_sources": [
+        {
+          "name": "GéoLittoral — cartographie INEC",
+          "url": "https://www.geolittoral.developpement-durable.gouv.fr/"
+        }
+      ],
+      "urls": [
+        "https://www.cerema.fr/fr/actualites/indicateur-national-erosion-cotiere-enrichi-mieux-connaitre",
+        "https://www.geolittoral.developpement-durable.gouv.fr/"
+      ],
+      "published_at": "2026-08-26",
+      "detected_via": "source primaire (actualités Cerema)",
+      "relevance": {
+        "score": 5,
+        "why": "Référentiel opérationnel pour collectivités littorales, DREAL et bureaux d'études en appui des cartes locales d'évolution du trait de côte exigées par la SNGITC."
+      },
+      "entities": [
+        "INEC",
+        "GéoLittoral",
+        "MobiTC",
+        "trait de côte"
+      ],
+      "tags": ["littoral", "erosion", "SIG"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-27-004",
+      "title": "Copernicus : juillet 2026, record de température des océans et feux exceptionnels en Europe occidentale",
+      "summary": "Le bulletin climatique de juillet 2026 du Copernicus Climate Change Service (C3S) documente la sécheresse et la chaleur persistantes en Europe occidentale : période juin-juillet la plus chaude jamais enregistrée pour l'ouest de l'Europe, sols et débits fluviaux très bas (Seine, Rhin, Danube), et activité de feux exceptionnelle. En France, les incendies en Gironde ont brûlé près de 42 000 ha, record national dans le système EFFIS du Copernicus EMS ; les émissions quotidiennes de feux en France ont atteint un record pour la période le 24 juillet. La température moyenne de surface de la mer sur l'océan extra-polaire (60°S–60°N) a atteint 20,96 °C, record pour un mois de juillet, avec canicules marines sévères le long de l'Atlantique et de la Méditerranée occidentale, amplifiées par un El Niño en développement.",
+      "themes": ["climat_adaptation", "incendies_risques", "eau_zones_humides"],
+      "signal_type": "rapport_institutionnel_majeur",
+      "geography": ["UE", "France", "Europe occidentale"],
+      "actors": ["Copernicus C3S", "Copernicus CAMS", "Copernicus EMS"],
+      "primary_source": {
+        "name": "Copernicus — bulletin juillet 2026",
+        "url": "https://climate.copernicus.eu/copernicus-highest-july-global-ocean-surface-temperatures-exceptionally-hot-dry-conditions-fuel",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "Copernicus — humidité des sols et débits juillet 2026",
+          "url": "https://climate.copernicus.eu/precipitation-relative-humidity-soil-moisture-and-river-flow-july-2026"
+        }
+      ],
+      "urls": [
+        "https://climate.copernicus.eu/copernicus-highest-july-global-ocean-surface-temperatures-exceptionally-hot-dry-conditions-fuel",
+        "https://climate.copernicus.eu/precipitation-relative-humidity-soil-moisture-and-river-flow-july-2026"
+      ],
+      "published_at": "2026-08-10",
+      "detected_via": "source primaire Copernicus ; complète le record SST quotidien du 22/08 signalé le 26/08 avec bilan mensuel et données incendies/débits",
+      "relevance": {
+        "score": 5,
+        "why": "Données consolidées sécheresse–incendies–hydrologie–mer pour PCAET, PPR, gestion de l'eau et stratégies d'adaptation littorale en France."
+      },
+      "entities": [
+        "ERA5",
+        "EFFIS",
+        "Gironde",
+        "canicule marine"
+      ],
+      "tags": ["secheresse", "incendies", "ocean"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-27-005",
+      "title": "REP emballages : consultation sur des pénalités renforcées pour les plastiques à faible recyclage",
+      "summary": "Le ministère de la Transition écologique consulte jusqu'au 11 septembre 2026 sur un projet d'arrêté modifiant le cahier des charges de la filière à responsabilité élargie des producteurs (REP) des emballages ménagers, imprimés papiers et papiers graphiques (arrêté du 7 décembre 2023). Le projet traduit le plan Plastique validé au Conseil de planification écologique de juin 2026 : renforcement des éco-modulations (pénalité sur les petites bouteilles plastique ≤ 0,5 L dès 2027, pénalités sur résines peu recyclées jusqu'à 200 % de l'écocontribution, pénalité sur suremballage), organisation du réemploi (enveloppe 50 M€ en 2027), contractualisation territoriale collecte/tri (150 M€/an 2027-2029) et soutiens aux collectivités pour améliorer les performances. Entrée en vigueur prévue au 1er janvier 2027 ; les éco-organismes disposeront de trois mois après publication pour mettre à jour leur agrément.",
+      "themes": ["reglementation", "donnees_outils"],
+      "signal_type": "consultation_publique",
+      "geography": ["France"],
+      "actors": ["Ministère de la Transition écologique", "éco-organismes emballages", "collectivités"],
+      "primary_source": {
+        "name": "Consultations publiques MTE — REP emballages",
+        "url": "https://www.consultations-publiques.developpement-durable.gouv.fr/projet-d-arrete-modifiant-l-arrete-du-7-decembre-a3410.html",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — écomodulations plastiques",
+          "url": "https://www.actu-environnement.com/ae/news/rep-emballages-ecomodulations-plastiques-48433.php4"
+        }
+      ],
+      "urls": [
+        "https://www.consultations-publiques.developpement-durable.gouv.fr/projet-d-arrete-modifiant-l-arrete-du-7-decembre-a3410.html",
+        "https://www.actu-environnement.com/ae/news/rep-emballages-ecomodulations-plastiques-48433.php4"
+      ],
+      "published_at": "2026-08-13",
+      "detected_via": "Actu-Environnement (26/08/2026) ; portail consultations-publiques MTE confirmé",
+      "relevance": {
+        "score": 4,
+        "why": "Échéance 11/09 pour industriels, éco-organismes et collectivités devant anticiper les pénalités plastique et la contractualisation territoriale de la filière emballages."
+      },
+      "entities": [
+        "REP emballages",
+        "éco-modulation",
+        "plan Plastique",
+        "PPWR"
+      ],
+      "tags": ["emballages", "plastique", "economie_circulaire"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-27-006",
+      "title": "Rénovation énergétique : le décret n° 2026-774 impose la qualification RGE à l'entreprise facturante",
+      "summary": "Le décret n° 2026-774 du 12 août 2026, paru au Journal officiel le 14 août, modifie le décret du 16 juillet 2014 sur les signes de qualité requis pour les dispositifs fiscaux et financiers de rénovation énergétique, en application de l'article 26 de la loi du 30 juin 2025 contre les fraudes aux aides publiques. À compter du 1er janvier 2027, lorsque des travaux éligibles aux aides (MaPrimeRénov', éco-PTZ, etc.) sont réalisés avec sous-traitance, c'est l'entreprise principale qui facture qui doit détenir la qualification Reconnu garant de l'environnement (RGE). Le texte précise les caractéristiques du signe de qualité et la procédure de conventionnement des organismes certificateurs. Depuis le 1er janvier 2026, les travaux aidés ne peuvent donner lieu qu'à deux rangs maximum de sous-traitance.",
+      "themes": ["reglementation", "climat_adaptation"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France"],
+      "actors": ["Ministère de la Transition écologique", "professionnels du bâtiment RGE"],
+      "primary_source": {
+        "name": "Journal officiel — décret n° 2026-774 du 12 août 2026",
+        "url": "https://www.actu-environnement.com/ae/reglementation/decret-du-12-08-2026-2026-774-40098.php",
+        "type": "juridique"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — RGE entreprise principale",
+          "url": "https://www.actu-environnement.com/ae/news/rge-entreprise-principale-renovation-energetique-sous-traitance-48428.php4"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/ae/reglementation/decret-du-12-08-2026-2026-774-40098.php",
+        "https://www.actu-environnement.com/ae/news/rge-entreprise-principale-renovation-energetique-sous-traitance-48428.php4"
+      ],
+      "published_at": "2026-08-14",
+      "detected_via": "Actu-Environnement (25/08/2026) ; texte JORF republié sur Actu-Environnement",
+      "relevance": {
+        "score": 4,
+        "why": "Obligation opposable pour entreprises générales et sous-traitants du bâtiment devant facturer des travaux aidés à partir de 2027."
+      },
+      "entities": [
+        "RGE",
+        "décret n° 2026-774",
+        "loi anti-fraudes 30/06/2025",
+        "sous-traitance"
+      ],
+      "tags": ["renovation", "batiment", "qualification"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-27-007",
+      "title": "Éco-énergie tertiaire : arrêté du 11 août 2026 corrige les formules USE pour sept sous-catégories",
+      "summary": "L'arrêté VLOL2620023A du 11 août 2026, paru au Journal officiel le 19 août, modifie l'arrêté du 10 avril 2020 relatif aux obligations de réduction des consommations d'énergie finale dans les bâtiments tertiaires (dispositif Éco-énergie tertiaire). Il corrige une erreur matérielle dans les formules de modulation de la composante « usages spécifiques de l'énergie » (USE) de l'annexe II : pour six sous-catégories (centres et galeries commerciales, grands magasins, palais des congrès, transport aérien et ferroviaire de voyageurs), la valeur Transétalon manquante est fixée ; pour la blanchisserie pénitentiaire, la valeur Nb_détenusétalon est précisée. Le texte entre en vigueur le 20 août 2026 et permet le calcul correct des objectifs en valeur absolue pour ces activités tertiaires.",
+      "themes": ["reglementation", "climat_adaptation"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France"],
+      "actors": ["Ministère de la Transition écologique", "gestionnaires de bâtiments tertiaires"],
+      "primary_source": {
+        "name": "Journal officiel — arrêté du 11 août 2026 (VLOL2620023A)",
+        "url": "https://www.actu-environnement.com/ae/reglementation/arrete-du-11-08-2026-vlol2620023a-40203.php",
+        "type": "juridique"
+      },
+      "urls": [
+        "https://www.actu-environnement.com/ae/reglementation/arrete-du-11-08-2026-vlol2620023a-40203.php",
+        "https://www.actu-environnement.com/depeches/decret-batiments-tertiaires-arrete-n-1306.html"
+      ],
+      "published_at": "2026-08-19",
+      "detected_via": "Actu-Environnement dépêche (25/08/2026) ; texte JORF republié sur Actu-Environnement",
+      "relevance": {
+        "score": 3,
+        "why": "Correction opérationnelle pour exploitants et bureaux d'études thermiques calculant les trajectoires OPERAT des bâtiments tertiaires concernés."
+      },
+      "entities": [
+        "Éco-énergie tertiaire",
+        "USE",
+        "OPERAT",
+        "arrêté du 10 avril 2020"
+      ],
+      "tags": ["tertiaire", "batiment", "EET"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-27-008",
+      "title": "Incendies : Robin des Bois dépose plainte contre Enedis pour destruction involontaire de forêts",
+      "summary": "Le 26 août 2026, l'association Robin des Bois a déposé une plainte auprès du Procureur de la République du tribunal judiciaire de Bordeaux contre X et Enedis pour « destruction involontaire de forêts et plantations ayant eu pour effet de provoquer un incendie », dans le contexte des feux de forêt estivaux en Nouvelle-Aquitaine. Le contentieux vise la responsabilité du gestionnaire de réseau électrique dans la genèse ou la propagation d'incendies, thématique récurrente lors des sécheresses et canicules. La plainte intervient après une saison marquée par des feux record en Gironde (42 000 ha en juillet selon Copernicus EMS) et les annonces gouvernementales de doctrine de reconstruction post-incendies.",
+      "themes": ["incendies_risques", "jurisprudence", "energie_biodiversite"],
+      "signal_type": "jurisprudence_structurante",
+      "geography": ["France", "Nouvelle-Aquitaine", "Gironde"],
+      "actors": ["Robin des Bois", "Enedis", "Tribunal judiciaire de Bordeaux"],
+      "primary_source": {
+        "name": "Actu-Environnement — dépêche plainte Robin des Bois",
+        "url": "https://www.actu-environnement.com/depeches/incendies-association-robin-bois-n-1309.html",
+        "type": "media_secondaire"
+      },
+      "urls": [
+        "https://www.actu-environnement.com/depeches/incendies-association-robin-bois-n-1309.html"
+      ],
+      "published_at": "2026-08-26",
+      "detected_via": "Actu-Environnement dépêche (26/08/2026) ; plainte association non consultée directement",
+      "relevance": {
+        "score": 3,
+        "why": "Signal contentieux sur la responsabilité du réseau électrique dans les incendies de forêt, pertinent pour Enedis, DREAL et gestionnaires DFCI."
+      },
+      "entities": [
+        "destruction involontaire de forêts",
+        "Enedis",
+        "Robin des Bois"
+      ],
+      "tags": ["incendies", "contentieux", "reseau"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-27-009",
+      "title": "Parc naturel régional du Perche : décret n° 2026-818 renouvelle le classement pour quinze ans",
+      "summary": "Le décret n° 2026-818 du 24 août 2026, paru au Journal officiel le 26 août, renouvelle pour quinze ans le classement du parc naturel régional (PNR) du Perche, à cheval sur les régions Normandie et Centre-Val de Loire. Il définit le périmètre en énumérant les communes classées dans l'Orne, l'Eure-et-Loir et le Loir-et-Cher, ainsi qu'un périmètre de classement potentiel de trois communes de l'Orne. Le décret adopte la charte du PNR et précise les lieux de consultation (ministère, préfectures, conseils régionaux, organisme de gestion). La procédure a impliqué délibérations des conseils régionaux et départementaux, enquête publique, avis de la Fédération des parcs naturels régionaux de France, du Conseil national de la protection de la nature et de l'Autorité environnementale.",
+      "themes": ["biodiversite", "natura2000", "reglementation"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France", "Normandie", "Centre-Val de Loire"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "Parc naturel régional du Perche",
+        "Autorité environnementale"
+      ],
+      "primary_source": {
+        "name": "Journal officiel — décret n° 2026-818 du 24 août 2026",
+        "url": "https://www.actu-environnement.com/ae/reglementation/decret-du-24-08-2026-2026-818-40227.php",
+        "type": "juridique"
+      },
+      "urls": [
+        "https://www.actu-environnement.com/ae/reglementation/decret-du-24-08-2026-2026-818-40227.php"
+      ],
+      "published_at": "2026-08-26",
+      "detected_via": "Actu-Environnement page réglementation (26/08/2026) ; texte JORF republié",
+      "relevance": {
+        "score": 3,
+        "why": "Renouvellement opposable du statut PNR et de sa charte pour collectivités, gestionnaires de sites et porteurs de projets en zone Perche."
+      },
+      "entities": [
+        "PNR du Perche",
+        "décret n° 2026-818",
+        "charte de parc"
+      ],
+      "tags": ["PNR", "biodiversite", "amenagement"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-27-010",
+      "title": "Pollution sonore routière : étude Inserm/Sorbonne sur les troubles émotionnels des enfants (Lancet, août 2026)",
+      "summary": "Une étude de l'Inserm et de Sorbonne Université, publiée dans The Lancet en août 2026, analyse l'exposition au bruit chez près de 8 000 enfants de la cohorte Elfe suivis jusqu'à 10 ans et demi. Les scientifiques estiment l'exposition moyenne au bruit routier au domicile à 2 mois, 3 ans et demi et 5 ans et demi. Les enfants exposés de manière persistante à un niveau ≥ 60 dB(A) de la naissance à 5 ans et demi présentent des niveaux plus élevés de symptômes internalisés (difficultés émotionnelles, interactions avec les pairs) à 10 ans et demi. Aucune association significative n'est observée pour le bruit aérien ; le bruit ferroviaire montre une association inverse non robuste après analyses de sensibilité. Les auteurs recommandent des mesures d'aménagement urbain, de réduction du trafic, de limitation de vitesse et d'isolation acoustique.",
+      "themes": ["climat_adaptation", "rapports_guides"],
+      "signal_type": "publication_scientifique_appliquee",
+      "geography": ["France"],
+      "actors": ["Inserm", "Sorbonne Université", "cohorte Elfe"],
+      "primary_source": {
+        "name": "Actu-Environnement — pollution sonore enfants",
+        "url": "https://www.actu-environnement.com/ae/news/pollution-sonore-bruit-routier-sante-mentale-enfants-48434.php4",
+        "type": "media_secondaire"
+      },
+      "urls": [
+        "https://www.actu-environnement.com/ae/news/pollution-sonore-bruit-routier-sante-mentale-enfants-48434.php4"
+      ],
+      "published_at": "2026-08-26",
+      "detected_via": "Actu-Environnement (26/08/2026) ; article Lancet non consulté directement",
+      "relevance": {
+        "score": 3,
+        "why": "Données épidémiologiques françaises mobilisables pour PCAET, plans de déplacement urbain et études d'impact bruit des infrastructures routières."
+      },
+      "entities": [
+        "pollution sonore",
+        "cohorte Elfe",
+        "60 dB(A)",
+        "The Lancet"
+      ],
+      "tags": ["bruit", "sante", "urbanisme"],
+      "is_new": true
+    }
+  ]
+}
