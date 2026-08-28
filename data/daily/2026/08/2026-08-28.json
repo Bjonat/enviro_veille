@@ -1,0 +1,338 @@
+{
+  "date": "2026-08-28",
+  "generated_at": "2026-08-28T06:00:00+02:00",
+  "timezone": "Europe/Paris",
+  "meta": {
+    "item_count": 8,
+    "sources_consulted": [
+      "actu_environnement",
+      "fondation_biodiversite",
+      "ecologie_gouv",
+      "commission_ue_jrc",
+      "collectivites_locales_gouv"
+    ],
+    "deduplicated_against_days": 6,
+    "notes": "Vendredi estival : nouveautés dominées par publications JORF du 27/08 (lithium Limagne, MaPrimeRénov monogestes) et dépêches Actu-Environnement du 27/08 (FRB/Biodiversa+, Pure Salmon, pesticides JRC). DPE, CEE, INEC, Copernicus, Robin des Bois, Esod, eau potable août, publicité fossiles (31/08), etc. exclus comme déjà couverts 22–27/08. Échéance plan national restauration nature (1/09/2026) signalée dans item FRB. OFB, Légifrance et consultations-publiques MTE partiellement injoignables."
+  },
+  "items": [
+    {
+      "id": "2026-08-28-001",
+      "title": "Restauration de la nature : la FRB et Biodiversa+ publient huit notes pour la mise en œuvre du règlement UE",
+      "summary": "Le 27 août 2026, Biodiversa+, Water JPI et leurs partenaires, dont la Fondation pour la recherche sur la biodiversité (FRB), publient huit notes à l'attention des décideurs et gestionnaires d'espaces. Elles traduisent une décennie de recherche en orientations pratiques pour accompagner la mise en œuvre du règlement européen sur la restauration de la nature (adopté en 2024). Quatre notes ciblent des écosystèmes (forêt-climat-eau, marin et côtier, eaux urbaines résilientes, eau douce) ; quatre autres abordent les conditions de réussite (zoonoses/One Health, chaîne d'approvisionnement en semences, pépinières biosécurisées, partenariats public-privé). Les auteurs rappellent que les États membres doivent remettre leurs projets de plans nationaux à la Commission européenne avant le 1er septembre 2026 (plan français « Agir pour restaurer la nature »), estiment le déficit de financement privé de la restauration à 65 Md€/an en Europe et soulignent l'apport des solutions fondées sur la nature face aux sécheresses, incendies et inondations.",
+      "themes": ["biodiversite", "climat_adaptation", "eau_zones_humides", "rapports_guides"],
+      "signal_type": "rapport_institutionnel_majeur",
+      "geography": ["France", "UE"],
+      "actors": [
+        "Fondation pour la recherche sur la biodiversité",
+        "Biodiversa+",
+        "Water JPI",
+        "Commission européenne"
+      ],
+      "primary_source": {
+        "name": "FRB — huit notes restauration et règlement UE",
+        "url": "https://www.fondationbiodiversite.fr/actualites/apres-un-ete-marque-par-la-secheresse-les-incendies-et-les-canicules-restaurer-la-nature-est-plus-que-jamais-necessaire/",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — dépêche FRB notes",
+          "url": "https://www.actu-environnement.com/depeches/restauration-ecosystemes-frb-autres-n-1312.html"
+        }
+      ],
+      "urls": [
+        "https://www.fondationbiodiversite.fr/actualites/apres-un-ete-marque-par-la-secheresse-les-incendies-et-les-canicules-restaurer-la-nature-est-plus-que-jamais-necessaire/",
+        "https://www.actu-environnement.com/depeches/restauration-ecosystemes-frb-autres-n-1312.html"
+      ],
+      "published_at": "2026-08-27",
+      "detected_via": "Actu-Environnement dépêche (27/08/2026) ; source primaire FRB confirmée",
+      "relevance": {
+        "score": 5,
+        "why": "Référentiel opérationnel pour collectivités, DREAL et bureaux d'études préparant le plan national « Agir pour restaurer la nature » à remettre à la Commission début septembre 2026."
+      },
+      "entities": [
+        "règlement restauration de la nature",
+        "Agir pour restaurer la nature",
+        "Biodiversa+",
+        "solutions fondées sur la nature"
+      ],
+      "tags": ["restauration", "UE", "plan_national"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-28-002",
+      "title": "Lithium au Puy-de-Dôme : permis exclusif de recherches « Bassin de Limagne » accordé à 2Gré",
+      "summary": "L'arrêté du 31 juillet 2026, paru au Journal officiel le 27 août, accorde à la société 2Gré un permis exclusif de recherches de mines de lithium dénommé « Bassin de Limagne » pour cinq ans. Le périmètre couvre tout ou partie de plus d'une soixantaine de communes du Puy-de-Dôme (Clermont-Ferrand, Riom, Volvic, Cournon-d'Auvergne, Châtel-Guyon, etc.), avec une superficie inférieure à la demande initiale de 2019 suite à une réduction sollicitée en avril 2026. Le cahier des charges impose, au plus tard dans les six mois, un programme d'identification et de suivi des incidences comprenant un suivi sismique, des eaux souterraines et superficielles, et de la radioactivité dans les saumures géothermales. Le préfet du Puy-de-Dôme est chargé de la notification et de la publicité de l'arrêté.",
+      "themes": ["sols", "reglementation", "energie_biodiversite"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France", "Auvergne-Rhône-Alpes", "Puy-de-Dôme"],
+      "actors": ["Ministère de l'Économie", "2Gré", "Préfecture du Puy-de-Dôme"],
+      "primary_source": {
+        "name": "Journal officiel — arrêté du 31 juillet 2026 (ECOR2617123A)",
+        "url": "https://www.actu-environnement.com/ae/reglementation/arrete-du-31-07-2026-ecor2617123a-40230.php",
+        "type": "juridique"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — dépêche lithium Limagne",
+          "url": "https://www.actu-environnement.com/depeches/mines-lithium-arrete-accorde-n-1311.html"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/ae/reglementation/arrete-du-31-07-2026-ecor2617123a-40230.php",
+        "https://www.actu-environnement.com/depeches/mines-lithium-arrete-accorde-n-1311.html"
+      ],
+      "published_at": "2026-08-27",
+      "detected_via": "Actu-Environnement dépêche (27/08/2026) ; texte JORF republié sur Actu-Environnement",
+      "relevance": {
+        "score": 4,
+        "why": "Autorisation opposable pour l'exploration lithium en zone urbanisée et géothermique, avec prescriptions eau/sismique/radioactivité mobilisables par DREAL, services mines et collectivités du Limagne."
+      },
+      "entities": [
+        "Bassin de Limagne",
+        "permis exclusif de recherches",
+        "lithium",
+        "saumures géothermales"
+      ],
+      "tags": ["mines", "lithium", "eau"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-28-003",
+      "title": "MaPrimeRénov' : le décret n° 2026-822 et un arrêté excluent plusieurs monogestes dès le 1er septembre 2026",
+      "summary": "Le décret n° 2026-822 du 25 août 2026 et l'arrêté VLOL2620605A du 25 août 2026, parus au Journal officiel le 27 août, modifient le dispositif MaPrimeRénov' à compter du 1er septembre 2026. Les forfaits « par geste » pour le chauffage au bois/biomasse, les pompes à chaleur eau chaude sanitaire, la ventilation et certains équipements solaires thermiques (hors outre-mer) sont supprimés de MaPrimeRénov' ; leurs critères techniques sont transférés vers l'éco-PTZ. Le parcours accompagné en maison individuelle exclut désormais l'installation ou la conservation de systèmes intégrant des combustibles fossiles (hors raccordement réseau de chaleur/froid) ; les PAC avec appoint fossile ne sont plus finançables. Les logements classés F ou G en métropole conservent l'accès au parcours par geste jusqu'au 31 décembre 2027. De nouveaux modèles d'attestation de travaux s'appliquent aux dossiers déposés à partir du 1er septembre.",
+      "themes": ["reglementation", "climat_adaptation"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "Ministère du Logement",
+        "ANAH"
+      ],
+      "primary_source": {
+        "name": "Journal officiel — décret n° 2026-822 du 25 août 2026",
+        "url": "https://www.actu-environnement.com/ae/reglementation/decret-du-25-08-2026-2026-822-40231.php",
+        "type": "juridique"
+      },
+      "secondary_sources": [
+        {
+          "name": "Journal officiel — arrêté du 25 août 2026 (VLOL2620605A)",
+          "url": "https://www.actu-environnement.com/ae/reglementation/arrete-du-25-08-2026-vlol2620605a-40233.php"
+        },
+        {
+          "name": "Actu-Environnement — MaPrimeRénov monogestes",
+          "url": "https://www.actu-environnement.com/ae/news/maprimerenov-monogestes-suppression-septembre-2026-48439.php4"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/ae/reglementation/decret-du-25-08-2026-2026-822-40231.php",
+        "https://www.actu-environnement.com/ae/reglementation/arrete-du-25-08-2026-vlol2620605a-40233.php",
+        "https://www.actu-environnement.com/ae/news/maprimerenov-monogestes-suppression-septembre-2026-48439.php4"
+      ],
+      "published_at": "2026-08-27",
+      "detected_via": "Actu-Environnement (27/08/2026) ; textes JORF republiés sur Actu-Environnement",
+      "relevance": {
+        "score": 5,
+        "why": "Recalibrage immédiat (01/09/2026) des aides rénovation pour artisans RGE, ANAH, bailleurs et collectivités pilotant la rénovation énergétique, complémentaire aux arrêtés CEE du 23/08."
+      },
+      "entities": [
+        "MaPrimeRénov'",
+        "décret n° 2026-822",
+        "éco-PTZ",
+        "parcours accompagné"
+      ],
+      "tags": ["renovation", "batiment", "aides"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-28-004",
+      "title": "Anguille européenne : consultation sur le projet d'arrêté de repeuplement (échéance 16 septembre 2026)",
+      "summary": "Un projet d'arrêté relatif aux mesures de repeuplement de l'anguille européenne (Anguilla anguilla) en France est soumis à consultation publique jusqu'au 16 septembre 2026. Le texte s'inscrit dans le cadre du règlement (CE) n° 1100/2007 instituant des opérations de repeuplement en civelles pour lutter contre le déclin des populations, documenté depuis plusieurs décennies en France. Le projet intervient dans la continuité des restrictions de pêche et des plans de gestion nationaux sur cette espèce migratrice.",
+      "themes": ["biodiversite", "especes_habitats", "eau_zones_humides", "reglementation"],
+      "signal_type": "consultation_publique",
+      "geography": ["France", "UE"],
+      "actors": ["Ministère de la Transition écologique", "Office français de la biodiversité"],
+      "primary_source": {
+        "name": "Actu-Environnement — consultation repeuplement anguille",
+        "url": "https://www.actu-environnement.com/ae/reglementation/consultation-du-27-08-2026-40234.php",
+        "type": "media_secondaire"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — article anguille",
+          "url": "https://www.actu-environnement.com/ae/news/arrete-repeuplement-anguille-europeenne-consultation-48440.php4"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/ae/reglementation/consultation-du-27-08-2026-40234.php",
+        "https://www.actu-environnement.com/ae/news/arrete-repeuplement-anguille-europeenne-consultation-48440.php4"
+      ],
+      "published_at": "2026-08-27",
+      "detected_via": "Actu-Environnement (27/08/2026) ; portail consultations-publiques MTE non confirmé individuellement",
+      "relevance": {
+        "score": 4,
+        "why": "Échéance 16/09 pour fédérations de pêche, gestionnaires de continuités écologiques et services de l'État en charge du plan de gestion anguille et des continuités migratoires."
+      },
+      "entities": [
+        "Anguilla anguilla",
+        "règlement (CE) n° 1100/2007",
+        "civelles",
+        "repeuplement"
+      ],
+      "tags": ["anguille", "peche", "consultation"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-28-005",
+      "title": "DSEC : le décret n° 2026-788 simplifie et élargit la dotation aux collectivités sinistrées",
+      "summary": "Le décret n° 2026-788 du 12 août 2026, paru au Journal officiel le 15 août et présenté par le ministère le 27 août, réforme la dotation de solidarité en faveur de l'équipement des collectivités territoriales touchées par des événements climatiques ou géologiques (DSEC). Il élargit les biens éligibles (pistes cyclables non attenantes, passerelles piétonnes), intègre les dépenses de fonctionnement hors personnel pour les travaux d'urgence, introduit un taux maximal de 60 % lorsque les dégâts représentent 30 à 50 % du budget de la collectivité, et une majoration d'assiette de 10 % pour les collectivités couvertes par un PAPI ou une stratégie montagne. L'instruction peut être progressive par collectivité ; le budget DSEC 2026 atteint 70 M€ (contre 30 M€ en 2025). Le décret s'applique aux événements survenus après sa publication.",
+      "themes": ["incendies_risques", "reglementation", "climat_adaptation"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "Direction générale des collectivités locales"
+      ],
+      "primary_source": {
+        "name": "Journal officiel — décret n° 2026-788 du 12 août 2026",
+        "url": "https://www.actu-environnement.com/ae/reglementation/decret-du-12-08-2026-2026-788-40090.php",
+        "type": "juridique"
+      },
+      "secondary_sources": [
+        {
+          "name": "Collectivités Locales — aide catastrophes naturelles",
+          "url": "https://www.collectivites-locales.gouv.fr/gerer-les-finances-publiques-locales/execution-des-recettes-et-des-depenses-locales/recettes-locales/dotations/autres-dotations/aide-aux-collectivites-territoriales-victimes-de-catastrophes"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/ae/reglementation/decret-du-12-08-2026-2026-788-40090.php",
+        "https://www.ecologie.gouv.fr/actualites",
+        "https://www.collectivites-locales.gouv.fr/gerer-les-finances-publiques-locales/execution-des-recettes-et-des-depenses-locales/recettes-locales/dotations/autres-dotations/aide-aux-collectivites-territoriales-victimes-de-catastrophes"
+      ],
+      "published_at": "2026-08-27",
+      "detected_via": "Actu-Environnement page réglementation ; actualité ecologie.gouv.fr (27/08/2026) ; texte JORF republié",
+      "relevance": {
+        "score": 4,
+        "why": "Cadre opposable pour collectivités et DREAL instruisant la remise en état d'infrastructures publiques après sécheresse, incendies ou inondations, avec budget doublé en 2026."
+      },
+      "entities": [
+        "DSEC",
+        "décret n° 2026-788",
+        "PAPI",
+        "travaux d'urgence"
+      ],
+      "tags": ["collectivites", "catastrophes_naturelles", "financement"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-28-006",
+      "title": "Pesticides interdits dans l'UE : la Commission publie une étude JRC sur l'abaissement des LMR des importations",
+      "summary": "Le Centre commun de recherche (JRC) de la Commission européenne a publié le 11 août 2026 une étude (JRC147659) évaluant l'impact économique d'un abaissement des limites maximales de résidus (LMR) au seuil de quantification pour 18 substances actives interdites dans l'UE mais encore autorisées à l'importation. Trois scénarios d'adaptation des pays tiers sont modélisés : dans le scénario favorable (adaptation à 5 % de surcoût), les importations agricoles baisseraient de 0,4 % et les prix de moins de 1 % ; dans le scénario intermédiaire, −8 % d'importations et +0,23 % de production UE ; dans le scénario sans adaptation, −41 % d'importations avec hausses marquées sur agrumes, soja et café. L'étude alimentera l'analyse d'impact sur la réciprocité des normes phytosanitaires évoquée dans la Vision agriculture et alimentation, dans un contexte où la loi d'urgence agricole française ouvre des pistes d'interdiction d'importations.",
+      "themes": ["reglementation", "sols", "climat_adaptation"],
+      "signal_type": "rapport_institutionnel_majeur",
+      "geography": ["UE", "France"],
+      "actors": ["Commission européenne", "Joint Research Centre"],
+      "primary_source": {
+        "name": "JRC — JRC147659 pesticides import LMR",
+        "url": "https://publications.jrc.ec.europa.eu/repository/bitstream/JRC147659/JRC147659_01.pdf",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — pesticides importations UE",
+          "url": "https://www.actu-environnement.com/ae/news/pesticides-interdits-ue-importations-evaluation-48442.php4"
+        }
+      ],
+      "urls": [
+        "https://publications.jrc.ec.europa.eu/repository/bitstream/JRC147659/JRC147659_01.pdf",
+        "https://www.actu-environnement.com/ae/news/pesticides-interdits-ue-importations-evaluation-48442.php4"
+      ],
+      "published_at": "2026-08-11",
+      "detected_via": "Actu-Environnement (27/08/2026) ; source primaire JRC confirmée (PDF)",
+      "relevance": {
+        "score": 4,
+        "why": "Base analytique pour filières agricoles, importateurs et services de l'État anticipant d'éventuelles mesures de réciprocité sur les résidus de phytos interdits en UE."
+      },
+      "entities": [
+        "JRC147659",
+        "limites maximales de résidus",
+        "seuil de quantification",
+        "Omnibus X"
+      ],
+      "tags": ["pesticides", "importations", "UE"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-28-007",
+      "title": "Saumon du Médoc (Pure Salmon) : dix associations annoncent un recours contre l'autorisation environnementale",
+      "summary": "Une dizaine d'associations, dont Greenpeace France, Bloom, L214, FNE Nouvelle-Aquitaine, Seastemik et Longitude 181, annoncent leur intention de déposer un recours contre l'arrêté préfectoral du 3 août 2026 accordant une autorisation environnementale et le permis de construire du projet « Saumon du Médoc » (Pure Salmon) au Verdon-sur-Mer (Gironde). Le site prévoit une production de 10 000 t/an de saumons en système RAS (recirculation), avec prélèvement d'environ 6 500 m³/jour d'eau, entre deux aires naturelles protégées. Les opposants contestent les densités d'élevage, la consommation énergétique, les risques sanitaires et l'impact sur la biodiversité aquatique ; la préfecture impose une montée en puissance progressive conditionnée aux suivis environnementaux. Le contentieux relève de la Cour administrative d'appel de Bordeaux en application de la loi Industrie verte.",
+      "themes": ["biodiversite", "eau_zones_humides", "jurisprudence", "energie_biodiversite"],
+      "signal_type": "jurisprudence_structurante",
+      "geography": ["France", "Nouvelle-Aquitaine", "Gironde"],
+      "actors": [
+        "Préfecture de la Gironde",
+        "Pure Salmon / Saumon du Médoc",
+        "Greenpeace France",
+        "L214"
+      ],
+      "primary_source": {
+        "name": "Actu-Environnement — dépêche Pure Salmon recours",
+        "url": "https://www.actu-environnement.com/depeches/mega-usine-saumons-pure-n-1310.html",
+        "type": "media_secondaire"
+      },
+      "secondary_sources": [
+        {
+          "name": "France 3 — autorisation préfectorale Pure Salmon",
+          "url": "https://france3-regions.franceinfo.fr/nouvelle-aquitaine/gironde/bordeaux/mega-ferme-de-saumons-pure-salmon-la-prefete-de-gironde-donne-son-feu-vert-malgre-la-vive-opposition-des-habitants-et-ecologistes-3396586.html"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/depeches/mega-usine-saumons-pure-n-1310.html",
+        "https://france3-regions.franceinfo.fr/nouvelle-aquitaine/gironde/bordeaux/mega-ferme-de-saumons-pure-salmon-la-prefete-de-gironde-donne-son-feu-vert-malgre-la-vive-opposition-des-habitants-et-ecologistes-3396586.html"
+      ],
+      "published_at": "2026-08-27",
+      "detected_via": "Actu-Environnement dépêche (27/08/2026) ; autorisation préfectorale confirmée via France 3 (03/08/2026)",
+      "relevance": {
+        "score": 4,
+        "why": "Contentieux structurant sur une ICPE aquacole terrestre majeure en estuaire, pertinent pour DREAL, gestionnaires de l'eau et bureaux d'études ERC/eau en milieu littoral."
+      },
+      "entities": [
+        "Pure Salmon",
+        "Verdon-sur-Mer",
+        "RAS",
+        "Saumon du Médoc"
+      ],
+      "tags": ["aquaculture", "contentieux", "estuaire"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-28-008",
+      "title": "Consultation publicité énergies fossiles : échéance 31 août 2026 pour le projet de décret d'application",
+      "summary": "La consultation publique ouverte le 31 juillet 2026 sur le projet de décret d'application de l'article L. 229-61 du code de l'environnement (loi Climat et Résilience) se clôt le 31 août 2026. Le texte vise à préciser le périmètre de l'interdiction de publicité relative aux énergies fossiles (pétrole, gaz fossile, charbon, hydrogène gris, chaleur fossile) et à lister les dérogations (carburants > 50 % d'énergie renouvelable, mécénat, communication institutionnelle, etc.). Les observations recueillies doivent alimenter la publication attendue d'ici fin 2026. Signal de rappel : échéance imminente pour acteurs publicité, énergie et services juridiques.",
+      "themes": ["reglementation", "climat_adaptation"],
+      "signal_type": "consultation_publique",
+      "geography": ["France"],
+      "actors": ["Ministère de la Transition écologique"],
+      "primary_source": {
+        "name": "Actu-Environnement — consultation décret publicité fossiles",
+        "url": "https://www.actu-environnement.com/ae/news/decret-interdiction-publicite-energies-fossiles-48417.php4",
+        "type": "media_secondaire"
+      },
+      "urls": [
+        "https://www.actu-environnement.com/ae/news/decret-interdiction-publicite-energies-fossiles-48417.php4"
+      ],
+      "published_at": "2026-07-31",
+      "detected_via": "Actu-Environnement ; sujet déjà signalé le 25/08 — rappel échéance 31/08/2026",
+      "relevance": {
+        "score": 3,
+        "why": "Dernière journée de consultation pour les acteurs concernés par le futur régime d'interdiction des publicités fossiles."
+      },
+      "entities": [
+        "article L. 229-61",
+        "loi Climat et Résilience",
+        "énergies fossiles"
+      ],
+      "tags": ["publicite", "consultation", "climat"],
+      "is_new": true
+    }
+  ]
+}
