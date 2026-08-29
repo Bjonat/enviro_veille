@@ -1,0 +1,354 @@
+{
+  "generated_at": "2026-08-29T21:15:00Z",
+  "based_on_opportunities": {
+    "file": "opportunites/2026/2026-W36.json"
+  },
+  "validations": [
+    {
+      "opportunity_id": "opp-2026-W36-01",
+      "opportunity_title": "Package rénovation : DPE 2027, CEE d'ampleur, MaPrimeRénov' et RGE facturant",
+      "verdict": "signale_fort",
+      "market_signal_strength": 5,
+      "evidence": [
+        {
+          "type": "obligation",
+          "title": "Décret n° 2026-822 — exclusion monogestes MaPrimeRénov' au 1er septembre 2026",
+          "summary": "Décret du 25/08/2026 (JO 27/08) et arrêtés associés : plusieurs monogestes (isolation combles/toitures, fenêtres, VMC, CET, solaire thermique, poêles biomasse) sortent du parcours « par geste » pour les demandes déposées à compter du 01/09/2026 ; ces travaux restent éligibles via rénovation d'ampleur. Service-public confirme aussi l'exclusion d'ampleur si chauffage gaz conservé (maisons individuelles).",
+          "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18332",
+          "date": "2026-08-27",
+          "actor": "État / Anah / DILA"
+        },
+        {
+          "type": "obligation",
+          "title": "Arrêtés CEE du 17 août 2026 — recentrage rénovation d'ampleur (BAR-TH-174/175)",
+          "summary": "Arrêtés JO 23/08 modifiant les fiches CEE de rénovation d'ampleur et la bonification Coup de pouce ; entrée en vigueur 01/09/2026 pour opérations engagées à compter de cette date ; recentrage sur logements E/F/G et exigences de décarbonation (BAR-TH-174).",
+          "url": "https://www.actu-environnement.com/ae/reglementation/arrete-du-17-08-2026-ecor2620460a-40221.php",
+          "date": "2026-08-23",
+          "actor": "Ministère / dispositif CEE"
+        },
+        {
+          "type": "obligation",
+          "title": "Arrêté du 19 août 2026 — coefficient électrique DPE 1,7 au 1er janvier 2027",
+          "summary": "Publication JO 26/08 : facteur de conversion électricité abaissé de 1,9 à 1,7 pour DPE et audits énergétiques à compter du 01/01/2027 ; diagnostiqueurs et éditeurs de logiciels devront intégrer le nouveau coefficient ; attestation ADEME prévue pour DPE existants.",
+          "url": "https://batinfo.com/actualite/dpe-certains-logements-chauffes-a-lelectricite-mieux-classes-sans-travaux-des-le-1er-janvier-2027_37052",
+          "date": "2026-08-26",
+          "actor": "État / ADEME Observatoire DPE-Audit"
+        },
+        {
+          "type": "obligation",
+          "title": "Décret n° 2026-774 — qualification RGE de l'entreprise facturante",
+          "summary": "Décret du 12/08/2026 imposant la qualification RGE à l'entreprise qui facture les travaux aidés, recentrant la responsabilité hors sous-traitance opaque.",
+          "url": "https://www.actu-environnement.com/ae/reglementation/decret-du-12-08-2026-2026-774-40098.php",
+          "date": "2026-08-14",
+          "actor": "État"
+        },
+        {
+          "type": "appel_offres",
+          "title": "Hauts-de-Seine Habitat — marché global de performance, réhabilitation énergétique 156 logements",
+          "summary": "Marché global de performance (conception-réalisation-exploitation) pour réhabilitation énergétique et patrimoniale de deux résidences à Asnières-sur-Seine (156 logements), candidatures clôturées 17/07/2026 — signal de demande bailleurs sociaux sur la performance énergétique, antérieur au décret 822 mais cohérent avec le recentrage « ampleur ».",
+          "url": "https://hautsdeseine-habitat.e-marchespublics.com/pack/dossier_de_consultation_electronique_6038_1163468.html",
+          "date": "2026-07-17",
+          "actor": "Hauts-de-Seine Habitat (OPH)",
+          "amount_or_scale": "156 logements, site occupé (montant non publié dans l'extrait consulté)"
+        }
+      ],
+      "competitors_or_alternatives": [
+        "Éditeurs logiciels DPE / audit (mises à jour moteurs)",
+        "Entreprises RGE et mandataires Anah / CEE",
+        "Accompagnateurs Rénov' / France Rénov'",
+        "Bailleurs sociaux (marchés globaux de performance)"
+      ],
+      "economic_reading": "Package réglementaire déjà publié et calendrier immédiat (01/09/2026 pour MPR/CEE, 01/01/2027 pour DPE 1,7) : demande captive de recalibrage logiciels, formations, bouquets d'ampleur et sécurisation RGE facturante. Les AO bailleurs observés portent encore surtout sur la réhabilitation énergétique « classique » ; la preuve monétaire spécifique « post-décret 822 » reste à confirmer sur septembre–octobre 2026.",
+      "recommended_next_step": "Prototyper une offre packagée « bascule monogeste → ampleur » (outil DPE 1,7 + checklist RGE facturante + montage CEE/MPR) destinée mandataires et TPE RGE ; mesurer les AO bailleurs post-01/09."
+    },
+    {
+      "opportunity_id": "opp-2026-W36-02",
+      "opportunity_title": "PFAS : classification boues/MFAS et ingénierie de financement de la dépollution",
+      "verdict": "signale_fort",
+      "market_signal_strength": 5,
+      "evidence": [
+        {
+          "type": "demande_explicite",
+          "title": "Avis HCSP — cadre de gestion PFAS des boues/MFAS en trois catégories",
+          "summary": "Avis HCSP (18/06/2026, diffusion août) proposant une classification temporaire des matières fertilisantes selon teneurs PFAS (cat. 1/2/3), avec conditions d'épandage, flux et préservation des captages ; complète la circulaire interministérielle du 27/04/2026. Pas encore d'arrêté opposable de transcription.",
+          "url": "https://www.hcsp.fr/Explore.cgi/avisrapportsdomaine?clefr=1542",
+          "date": "2026-08-17",
+          "actor": "Haut Conseil de la santé publique"
+        },
+        {
+          "type": "financement",
+          "title": "Rapport IGEDD-IGAS-CGAAER — coûts de dépollution EDCH 1,3 à 5,7 Md€/an",
+          "summary": "Mission inter-inspections (remise 2026, diffusion juillet–août) : scénarios de surcoûts annuels 1,3–5,7 Md€2026 pour dépollution pesticides/PFAS de l'eau potable ; cumul avec rattrapage infra et DERU2 jusqu'à ~6–11 Md€/an. Cadre explicite pour ingénierie de plans de financement territoriaux.",
+          "url": "https://www.actu-environnement.com/media/pdf/news-48448-rapport-igeed-igas-cgaaer-financement-decontamination-eaux.pdf",
+          "date": "2026-07-30",
+          "actor": "IGEDD / IGAS / CGAAER",
+          "amount_or_scale": "1,3–5,7 Md€/an (scénarios dépollution)"
+        },
+        {
+          "type": "appel_offres",
+          "title": "Région Grand Est — stations mobiles de traitement PFAS (eau potable)",
+          "summary": "Accord-cadre à bons de commandes pour acquisition et exploitation de stations mobiles de traitement PFAS dans l'EDCH ; montant maximum 2 430 000 € HT sur 48 mois ; démarrage estimé 27/10/2026.",
+          "url": "https://www.marchesonline.com/appels-offres/avis/acquisition-et-exploitation-de-stations-mobiles-de-trai/ao-9626410-1",
+          "date": "2026-07",
+          "actor": "Région Grand Est",
+          "amount_or_scale": "2,43 M€ HT max / 48 mois"
+        },
+        {
+          "type": "appel_offres",
+          "title": "CAPI — unité pilote traitement PFAS (captages du Loup et de la Ronta)",
+          "summary": "Procédure adaptée pour installation et suivi d'une unité pilote de traitement PFAS sur captages ; limite de réponse 23/09/2026.",
+          "url": "https://www.marchesonline.com/appels-offres/avis/installation-et-suivi-d-une-unite-pilote-pour-le-traite/ao-9640219-1",
+          "date": "2026-08-02",
+          "actor": "Communauté d'agglomération Porte de l'Isère"
+        },
+        {
+          "type": "appel_offres",
+          "title": "CA Boulonnais — campagne prélèvements et analyses PFAS (STEP + incinérateur)",
+          "summary": "Consultation adaptée (mise en ligne 24/07, limite 21/08/2026) pour campagnes PFAS sur plusieurs STEP et l'incinérateur de Boulogne-sur-Mer.",
+          "url": "https://www.marchesonline.com/appels-offres/avis/stations-d-epuration-de-boulogne-sur-mer-nesles-le-p/ao-9636322-1",
+          "date": "2026-07-24",
+          "actor": "Communauté d'agglomération du Boulonnais"
+        },
+        {
+          "type": "appel_offres",
+          "title": "CA Pays Basque — analyses PFAS eaux brutes/traitées STEP (campagne 2026)",
+          "summary": "Marché notifié 04/08/2026 au Laboratoires des Pyrénées et des Landes ; forfait 74 942 € (déjà signalé en W35, toujours pertinent pour le volet analyses).",
+          "url": "https://www.macellum.fr/marche/e8f2a25403eef5c838c7ca27f74457b59bd7a60c-recherche-pfas-eaux-brutes-traites-step-capb-campagne-2026",
+          "date": "2026-08-04",
+          "actor": "Communauté d'agglomération du Pays Basque",
+          "amount_or_scale": "74 942 €"
+        }
+      ],
+      "competitors_or_alternatives": [
+        "Laboratoires environnementaux (ex. Laboratoires des Pyrénées et des Landes)",
+        "Fournisseurs de traitement (stations mobiles / pilotes)",
+        "BE eaux industrielles / assainissement",
+        "Agences de l'eau (financement)"
+      ],
+      "economic_reading": "Évolution claire depuis W35-05 : au-delà de la conformité PPWR/ICPE, le marché monétise déjà analyses + traitement (pilotes, stations mobiles multi-M€). Le HCSP et le rapport inter-inspections créent une demande d'ingénierie de filières boues et de plans de financement, encore surtout en amont réglementaire (pas d'arrêté HCSP trouvé).",
+      "recommended_next_step": "Prototyper une offre « diagnostic PFAS boues/MFAS + scénario de financement dépollution » pour STEU/agences ; surveiller la transcription réglementaire du cadre HCSP."
+    },
+    {
+      "opportunity_id": "opp-2026-W36-03",
+      "opportunity_title": "Expérimentation azote/algues vertes Bretagne : suivi par reliquats et sortie du plan de fumure",
+      "verdict": "signale_modere",
+      "market_signal_strength": 4,
+      "evidence": [
+        {
+          "type": "obligation",
+          "title": "Décret n° 2026-823 du 27 août 2026 — expérimentation Bretagne",
+          "summary": "Décret portant expérimentation en Région Bretagne (texte paru fin août 2026) cadrant le dispositif alternatif de gestion de l'azote (reliquats / obligations de résultat) en lien avec la révision du PAR nitrates.",
+          "url": "https://www.actu-environnement.com/ae/reglementation/decret-du-27-08-2026-2026-823-40235.php",
+          "date": "2026-08-27",
+          "actor": "État / JO"
+        },
+        {
+          "type": "obligation",
+          "title": "Préfecture Bretagne — nouveau PAR nitrates au 1er septembre 2026",
+          "summary": "Communiqué préfectoral du 28/08/2026 : le nouveau Programme d'actions régional nitrates (arrêté préfectoral) entre en vigueur le 01/09/2026 ; expérimentation de suppression/simplification du plan prévisionnel de fumure au profit d'indicateurs de reliquats de début de drainage, avec ciblage d'exploitations à risque et contrôles de sols (ordre de grandeur presse : ~3 000 fermes échantillonnées).",
+          "url": "https://www.agra.fr/lives/nitrates-top-depart-lexperimentation-de-la-suppression-du-plan-de-fumure-en-bretagne",
+          "date": "2026-08-28",
+          "actor": "Préfecture de la région Bretagne"
+        }
+      ],
+      "competitors_or_alternatives": [
+        "Chambres d'agriculture / GREN Bretagne",
+        "Laboratoires agronomiques (analyses de reliquats)",
+        "BE eau-agriculture déjà présents sur bassins algues vertes"
+      ],
+      "economic_reading": "Obligation opérationnelle dès le 01/09/2026 : demande potentielle forte de protocoles, analyses de reliquats, outils de conseil et formation. Aucun AO public « suivi reliquats / accompagnement GREN » ni recrutement dédié clairement identifié au 29/08 — le marché de prestations est annoncé mais pas encore visible en transactions.",
+      "recommended_next_step": "Approfondir dès septembre : cartographier marchés de labos/conseil et appels chambres d'agriculture ; prototyper uniquement si un volume d'analyses ou un AO territorial apparaît."
+    },
+    {
+      "opportunity_id": "opp-2026-W36-04",
+      "opportunity_title": "Post-extrêmes : montage DSEC, reconstruction adaptée et responsabilité réseaux",
+      "verdict": "signale_modere",
+      "market_signal_strength": 4,
+      "evidence": [
+        {
+          "type": "financement",
+          "title": "Décret n° 2026-788 — simplification/élargissement DSEC ; enveloppe 70 M€ en 2026",
+          "summary": "Décret du 12/08/2026 (JO 15/08) : élargissement des dépenses éligibles (travaux d'urgence de fonctionnement hors personnel, pistes cyclables, passerelles), majoration possible liée à la prévention, nouveau taux max 60 % selon intensité des dégâts ; enveloppe budgétaire annoncée à 70 M€ en 2026 (vs 30 M€ en 2025).",
+          "url": "https://batinfo.com/actualite/catastrophes-naturelles-la-dsec-portee-a-70-millions-deuros-et-elargie-aux-travaux-durgence_37046",
+          "date": "2026-08-15",
+          "actor": "État / collectivités",
+          "amount_or_scale": "Enveloppe DSEC 70 M€ (2026)"
+        },
+        {
+          "type": "appel_offres",
+          "title": "ONF — travaux DFCI pistes et aires de dépôt (Landes Nord-Aquitaine)",
+          "summary": "Marché alloti de mise aux normes / remise à niveau de pistes DFCI et création d'aires de dépôt (forêts domaniales Le Porge, CAEPE, Sainte-Eulalie-en-Born, Campet, Le Maine, Lège et Garonne) ; mise en ligne fin avril 2026, limite 29/05/2026 — marché travaux déjà observable, distinct du montage DSEC.",
+          "url": "https://www.marchesonline.com/appels-offres/avis/travaux-de-mise-aux-normes-ou-de-remise-a-niveau-oper/ao-9596006-1",
+          "date": "2026-04-28",
+          "actor": "Office national des forêts"
+        },
+        {
+          "type": "autre",
+          "title": "Plainte Robin des Bois contre Enedis — mégafeu de Saumos (Gironde)",
+          "summary": "Plainte déposée le 26/08/2026 auprès du parquet de Bordeaux visant Enedis et X pour destruction/dégradation liée à un incendie et habitats/espèces protégés, en lien avec des travaux de débroussaillement du 22/07/2026 ; signal de responsabilité réseaux, pas encore d'AO d'audit de diligence.",
+          "url": "https://rmc.bfmtv.com/actualites/police-justice/info-rmc-un-manque-de-bon-sens-et-de-la-negligence-une-plainte-deposee-contre-enedis-apres-le-megafeu-de-gironde_AN-202608270054.html",
+          "date": "2026-08-26",
+          "actor": "Association Robin des Bois / Enedis"
+        },
+        {
+          "type": "financement",
+          "title": "Aides renouvellement forestier — consultation jusqu'au 31/08 ; Cartogip toujours fermé",
+          "summary": "Page officielle : guichet nouveaux dossiers suspendu ; consultation publique du décret de refonte du 6 au 31/08/2026 pour dossiers antérieurs au 10/06 ; second texte annoncé pour une éventuelle réouverture. Pas de JO de republication constaté au 29/08.",
+          "url": "https://www.ecologie.gouv.fr/politiques-publiques/dispositif-daide-renouvellement-forestier",
+          "date": "2026-08-10",
+          "actor": "Ministère de la Transition écologique"
+        }
+      ],
+      "competitors_or_alternatives": [
+        "ONF / fédérations DFCI",
+        "CRPF / coopératives forestières",
+        "Cabinets juridiques risques / environnement",
+        "Services préfectoraux (instruction DSEC)"
+      ],
+      "economic_reading": "Le volet financement public (DSEC 70 M€, règles élargies) et les travaux DFCI sont concrets. En revanche : pas d'AO « AMO montage DSEC » trouvé ; référentiel habitat résistant feu et doctrine MRAT toujours non publiés ; aides forêt encore gelées pour nouveaux dossiers. Le contentieux Enedis ouvre un angle audit/diligence encore non monétisé en AO publics.",
+      "recommended_next_step": "Approfondir les dossiers DSEC post-incendie Nouvelle-Aquitaine et surveiller JO aides forêt + doctrine reconstruction ; ne pas prototyper « habitat feu » tant que le référentiel 2027 n'existe pas."
+    },
+    {
+      "opportunity_id": "opp-2026-W36-05",
+      "opportunity_title": "Réseaux et stockage EnR : plans de développement, zones saturées et dossiers stationnaires",
+      "verdict": "signale_modere",
+      "market_signal_strength": 4,
+      "evidence": [
+        {
+          "type": "obligation",
+          "title": "Décret n° 2026-805 — plan de développement du réseau de distribution",
+          "summary": "Décret du 20/08/2026 fixant contenu et procédure (consultation, CRE, comité système) des plans de développement des GRD : scénarios 5 et 10 ans, trajectoires d'investissement, articulation PPE/SNBC/schémas régionaux EnR.",
+          "url": "https://www.actu-environnement.com/ae/reglementation/decret-du-20-08-2026-2026-805-40212.php",
+          "date": "2026-08-20",
+          "actor": "État / CRE / GRD"
+        },
+        {
+          "type": "demande_explicite",
+          "title": "Carte Enedis/RTE des zones saturées pour projets EnR",
+          "summary": "Outil public Enedis (avec RTE) indiquant les zones sans capacité de raccordement avant au moins 5 ans ; couverture médiatisée à >10 % du territoire Enedis (données printemps 2026, publication juillet) ; mise à jour trimestrielle.",
+          "url": "https://www.enedis.fr/jidentifie-la-meilleure-implantation-de-mon-projet-de-production-enr-vue-du-reseau-electrique",
+          "date": "2026-07-15",
+          "actor": "Enedis / RTE"
+        },
+        {
+          "type": "demande_explicite",
+          "title": "TA Nantes, référé 4 août 2026, n° 2614155 — stockage batteries en zone agricole",
+          "summary": "Suspension du refus préfectoral (Sarthe) de permis pour installation de stockage par containers de batteries en zone A ; doute sérieux sur un refus fondé sur le seul critère d'emprise (~7 % de la parcelle) ; injonction de certificat de PC tacite provisoire.",
+          "url": "https://www.gossement-avocats.com/blog/stockage-delectricite-nouvelle-suspension-de-lexecution-dun-refus-de-permis-de-construire-une-installation-de-stockage-delectricite-tribunal-administratif-de-nantes-ref-4-a/",
+          "date": "2026-08-04",
+          "actor": "Tribunal administratif de Nantes / TagEnergy"
+        }
+      ],
+      "competitors_or_alternatives": [
+        "Cabinets urbanisme/énergie (permitting BESS)",
+        "BE études de raccordement / S3REnR",
+        "Enedis et ELD (données saturation)",
+        "Développeurs EnR intégrés"
+      ],
+      "economic_reading": "Le goulot réseau est désormais documenté (carte + décret plans) et le contentieux stockage agricole se consolide (ligne Nantes/Rennes/Lille/Rouen). Aucun AO public « étude de saturation / contribution plan de développement » trouvé : la demande reste surtout privée (portefeuilles développeurs) et donc sous-observée.",
+      "recommended_next_step": "Approfondir via entretiens développeurs stockage/EnR sur besoins de notes de saturation et de sécurisation permis zone A ; ignorer une offre générique sans pipeline client."
+    },
+    {
+      "opportunity_id": "opp-2026-W36-06",
+      "opportunity_title": "Trait de côte : plans locaux SNGITC 2025-2030 branchés sur l'INEC 2026",
+      "verdict": "signale_modere",
+      "market_signal_strength": 3,
+      "evidence": [
+        {
+          "type": "obligation",
+          "title": "Décret n° 2026-803 — adoption SNGITC jusqu'en 2030",
+          "summary": "Décret du 20/08/2026 (JO 21/08) adoptant la stratégie nationale de gestion intégrée du trait de côte ; 5 axes (connaissance, trajectoires territoriales, outils, sensibilisation, financement) ; priorité aux cartes locales d'exposition ; guide Cerema annoncé pour l'automne 2026.",
+          "url": "https://www.ecologie.gouv.fr/presse/adapter-nos-littoraux-changement-climatique-adoption-strategie-nationale-gestion-integree-du",
+          "date": "2026-08-21",
+          "actor": "Ministère de la Transition écologique / Cerema"
+        },
+        {
+          "type": "donnee",
+          "title": "INEC 2026 et application « Le littoral de ma commune »",
+          "summary": "Mise à jour de l'Indicateur national d'érosion côtière (INEC 2026) diffusée sur GéoLittoral ; application grand public en ligne depuis juin 2026 — socle de données pour diagnostics locaux.",
+          "url": "https://www.ecologie.gouv.fr/presse/adapter-nos-littoraux-changement-climatique-adoption-strategie-nationale-gestion-integree-du",
+          "date": "2026-08-21",
+          "actor": "État / Cerema"
+        },
+        {
+          "type": "financement",
+          "title": "Fonds vert 2026 — mesure adaptation littorale / recul du trait de côte",
+          "summary": "Cahier Fonds vert 2026 (v4.1) flèche cartes de projection, stratégies locales (SLGITC), actions souples, études de recomposition et relocalisation ; taux d'aide jusqu'à 80 % pour cartes de projection selon les notices préfectorales.",
+          "url": "https://www.charente-maritime.gouv.fr/Actions-de-l-Etat/Relations-avec-les-collectivites-locales/Les-dotations-de-l-Etat-aux-collectivites-locales/Subventions/FONDS-VERT-2026",
+          "date": "2026-04-08",
+          "actor": "État / préfectures"
+        }
+      ],
+      "competitors_or_alternatives": [
+        "Cerema (référentiels, guide, inventaires)",
+        "BE littoral / GEMAPI",
+        "Observatoires du trait de côte (RNOTC)"
+      ],
+      "economic_reading": "Cadre national et canal de financement (Fonds vert) sont en place, mais aucun AO « plan de gestion du trait de côte / SNGITC » clairement post-décret 803 n'a été trouvé au 29/08. Horizon 6–18 mois pour la vague de prestations locales (cartes, SLGITC, recomposition).",
+      "recommended_next_step": "Surveiller les AO littoraux et dossiers Fonds vert post-guide Cerema (automne 2026) ; préparer une offre « carte locale + SLGITC » sans commercialiser avant pipeline territorial."
+    },
+    {
+      "opportunity_id": "opp-2026-W36-07",
+      "opportunity_title": "Surveillance eau potable et sécurisation juridique des restrictions / titres",
+      "verdict": "signale_modere",
+      "market_signal_strength": 4,
+      "evidence": [
+        {
+          "type": "appel_offres",
+          "title": "Vendée Eau — analyses et suivi qualité de l'eau (toujours ouvert)",
+          "summary": "Accord-cadre procédure avec négociation, publié 05/08/2026, clôture 11/09/2026 ; plafond total ~670 k€ (lot 1 eaux brutes/traitées/distribuées ~380 k€ ; lot 2 CVM ~290 k€). Confirme la récurrence des marchés labo AEP (continuité W35-02).",
+          "url": "https://www.akkel.fr/appel-offre/2026-77446-analyses-suivi-qualite-leau-lensemble",
+          "date": "2026-08-05",
+          "actor": "Vendée Eau",
+          "amount_or_scale": "Plafond ~670 k€ (2 lots)"
+        },
+        {
+          "type": "autre",
+          "title": "TA Nice, 25 août 2026, n° 2605774 — maintien des restrictions Siagne",
+          "summary": "Rejet en référé de la demande de suspension de l'arrêté préfectoral du 14/08/2026 (alerte renforcée bassin Siagne) présentée par SICASIL et collectivités (Cannes, Mandelieu, etc.) ; urgence non démontrée. Consolide la robustesse contentieuse des arrêtés de restriction, sans générer d'AO visible.",
+          "url": "https://www.actu-environnement.com/media/pdf/jurisprudence/862.pdf",
+          "date": "2026-08-25",
+          "actor": "Tribunal administratif de Nice"
+        },
+        {
+          "type": "obligation",
+          "title": "Décret n° 2026-740 — droits fondés en titre (rappel W35)",
+          "summary": "Décret du 06/08/2026 retirant le pouvoir préfectoral d'abroger un droit fondé en titre ; clarifie la police de l'eau sur les titres historiques. Aucun AO d'audit de titres trouvé depuis W35.",
+          "url": "https://aida.ineris.fr/reglementation/decret-ndeg-2026-740-060826-ajustant-mesures-police-leau-applicables-droits-fondes",
+          "date": "2026-08-06",
+          "actor": "État / JO"
+        }
+      ],
+      "competitors_or_alternatives": [
+        "Laboratoires agréés AEP",
+        "Cabinets d'avocats droit de l'eau",
+        "Grands groupes eau / syndicats"
+      ],
+      "economic_reading": "Maturation de W35-02/07 : le signal labo reste monétisé (Vendée Eau encore ouvert) ; le contentieux Siagne renforce la valeur de sécurisation juridique des restrictions mais sans marché public observable. EICH peu documenté cette semaine (plateau possible). Verdict abaissé vs W35-02 (fort → modéré) faute de nouvelles obligations surveillance et d'AO EICH.",
+      "recommended_next_step": "Maintenir la veille AO labo AEP ; ignorer une offre générique « contentieux restrictions » hors niches locales ; revoir EICH si dossiers expérimentaux réapparaissent."
+    },
+    {
+      "opportunity_id": "opp-2026-W36-08",
+      "opportunity_title": "Restauration de la nature : traduction opérationnelle des notes FRB et plans d'actions espèces",
+      "verdict": "signale_faible",
+      "market_signal_strength": 2,
+      "evidence": [
+        {
+          "type": "demande_explicite",
+          "title": "Biodiversa+ — huit policy briefs pour les plans nationaux de restauration",
+          "summary": "Publication du 26/08/2026 : huit notes opérationnelles pour aider les États membres à rédiger leurs National Restoration Plans (brouillons attendus au 01/09/2026, plans finaux 2027) ; déficit de financement européen estimé ~65 Md€/an. Orientation de politique publique, non opposable en droit français.",
+          "url": "https://www.biodiversa.eu/2026/08/26/eight-policy-briefs-to-support-nature-restoration-regulation/",
+          "date": "2026-08-26",
+          "actor": "Biodiversa+ / BiodivRestore Knowledge Hub"
+        }
+      ],
+      "competitors_or_alternatives": [
+        "OFB / DREAL (pilotage plans)",
+        "BE biodiversité / restauration écologique",
+        "Opérateurs LIFE / financement UE"
+      ],
+      "economic_reading": "Signal méthodologique UE fort mais marché français de prestations non observé : aucun AO OFB/DREAL/collectivité citant explicitement le règlement restauration ou les notes FRB/Biodiversa+ trouvé. Horizon 6–18 mois après dépôt du plan national français.",
+      "recommended_next_step": "Ignorer pour l'instant comme offre commerciale ; surveiller le dépôt du plan national français et d'éventuels AO de déclinaison territoriale en 2027."
+    }
+  ]
+}
