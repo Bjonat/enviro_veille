@@ -1,0 +1,393 @@
+{
+  "date": "2026-08-29",
+  "generated_at": "2026-08-29T06:21:42+02:00",
+  "timezone": "Europe/Paris",
+  "meta": {
+    "item_count": 9,
+    "sources_consulted": [
+      "actu_environnement",
+      "cerema",
+      "brgm",
+      "ofremi",
+      "ecologie_gouv",
+      "commission_ue_transport",
+      "consultations_publiques_mte",
+      "tribunal_administratif_nice",
+      "tribunal_administratif_mayotte"
+    ],
+    "deduplicated_against_days": 7,
+    "notes": "Samedi estival : nouveautés dominées par textes JORF du 28/08 (algues vertes Bretagne, décret n° 2026-823) et dépêches Actu-Environnement du 28/08 (CEE TRA-EQ-128, Ofremi, bruit aéroportuaire UE). Communiqués MTE 27–28/08 (trafics CITES, aide centres de soins). FRB notes restauration, MaPrimeRénov, lithium Limagne, Pure Salmon, DPE, CEE BAR-TH, INEC, Copernicus, publicité fossiles (31/08), etc. exclus comme déjà couverts 22–28/08. OFB, Reporterre et consultations-publiques MTE partiellement injoignables en fetch automatisé."
+  },
+  "items": [
+    {
+      "id": "2026-08-29-001",
+      "title": "Algues vertes en Bretagne : le décret n° 2026-823 et un arrêté expérimentent une nouvelle gestion de l'azote dès le 1er septembre 2026",
+      "summary": "Le décret n° 2026-823 du 27 août 2026 et l'arrêté TECL2621732A du même jour, parus au Journal officiel le 28 août, instaurent une expérimentation de cinq ans en région Bretagne à compter du 1er septembre 2026. En zone vulnérable, certains exploitants peuvent être exemptés du plan prévisionnel de fumure au profit d'un suivi par reliquats d'azote en début de drainage, avec parcelles de référence et évaluation annuelle par le GREN Bretagne. En cas de non-conformité deux années conséquentes, des plafonds d'azote plus contraignants s'appliquent. La préfecture de Bretagne annonce parallèlement un renforcement des analyses sur les exploitations à risque, des bandes enherbées de 10 m le long des cours d'eau et des mesures sur 20 % de la surface agricole, dans la continuité d'une ordonnance du tribunal administratif de Rennes (mars 2025) et du programme d'actions régional révisé.",
+      "themes": ["eau_zones_humides", "reglementation", "sols", "biodiversite"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France", "Bretagne"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "Préfecture de Bretagne",
+        "Chambre régionale d'agriculture de Bretagne"
+      ],
+      "primary_source": {
+        "name": "Journal officiel — décret n° 2026-823 du 27 août 2026",
+        "url": "https://www.actu-environnement.com/ae/reglementation/decret-du-27-08-2026-2026-823-40235.php",
+        "type": "juridique"
+      },
+      "secondary_sources": [
+        {
+          "name": "Journal officiel — arrêté du 27 août 2026 (TECL2621732A)",
+          "url": "https://www.actu-environnement.com/ae/reglementation/arrete-du-27-08-2026-tecl2621732a-40237.php"
+        },
+        {
+          "name": "Actu-Environnement — dépêche algues vertes Bretagne",
+          "url": "https://www.actu-environnement.com/depeches/"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/ae/reglementation/decret-du-27-08-2026-2026-823-40235.php",
+        "https://www.actu-environnement.com/ae/reglementation/arrete-du-27-08-2026-tecl2621732a-40237.php"
+      ],
+      "published_at": "2026-08-28",
+      "detected_via": "Actu-Environnement page réglementation (28/08/2026) ; annonces préfecture et médias (28/08) ; textes JORF republiés",
+      "relevance": {
+        "score": 5,
+        "why": "Changement opposable de la gestion des nitrates en zone vulnérable bretonne, avec retombées directes pour agriculteurs, agences de l'eau, DREAL et gestionnaires de milieux littoraux confrontés aux algues vertes."
+      },
+      "entities": [
+        "décret n° 2026-823",
+        "TECL2621732A",
+        "reliquats d'azote",
+        "algues vertes",
+        "GREN Bretagne"
+      ],
+      "tags": ["nitrates", "agriculture", "littoral"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-29-002",
+      "title": "Ruissellement pluvial : le Cerema publie une synthèse opérationnelle des méthodes et retours d'expérience territoriaux",
+      "summary": "Le 28 août 2026, le Cerema publie un article de synthèse sur les inondations par ruissellement, phénomène amplifié par l'intensification des épisodes pluvieux, l'imperméabilisation des sols et l'exposition croissante des enjeux. L'article présente les outils Cartino 2D (modélisation hydraulique 2D), CRUS (cartographie de sensibilité des sols) et les méthodes complémentaires (Hec-Ras, Telemac), ainsi que des retours d'expérience 2024 en Haute-Marne, Vosges et Meurthe-et-Moselle, et une étude pour l'agglomération d'Épinal. Trois typologies de ruissellement sont distinguées (agricole, urbain, crue éclair/accumulation en points bas), avec des mesures associées : infiltration, gestion durable des eaux pluviales, zonage pluvial, entretien des fossés et concertation avec le milieu agricole.",
+      "themes": ["incendies_risques", "climat_adaptation", "eau_zones_humides", "rapports_guides"],
+      "signal_type": "nouveau_guide_methodologique",
+      "geography": ["France"],
+      "actors": ["Cerema", "Directions départementales des territoires"],
+      "primary_source": {
+        "name": "Cerema — ruissellements et travaux territoriaux",
+        "url": "https://www.cerema.fr/fr/actualites/ruissellements-phenomene-complexe-fort-impact-territoires",
+        "type": "technique"
+      },
+      "urls": [
+        "https://www.cerema.fr/fr/actualites/ruissellements-phenomene-complexe-fort-impact-territoires"
+      ],
+      "published_at": "2026-08-28",
+      "detected_via": "source primaire (actualités Cerema)",
+      "relevance": {
+        "score": 5,
+        "why": "Référentiel méthodologique pour collectivités, services de l'État et bureaux d'études instruisant PPRi, PCS et schémas de gestion des eaux pluviales après les épisodes estivaux 2024–2026."
+      },
+      "entities": [
+        "Cartino 2D",
+        "CRUS",
+        "zonage pluvial",
+        "ruissellement"
+      ],
+      "tags": ["inondations", "eaux_pluviales", "adaptation"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-29-003",
+      "title": "Métaux critiques : l'Ofremi publie son rapport d'activité 2025 (cuivre, tungstène, terres rares)",
+      "summary": "L'Observatoire français des ressources minérales pour les filières industrielles (Ofremi), animé par le BRGM avec le CEA, l'Ademe, l'IFPEN, l'Ifri et le Cnam, a publié fin août 2026 son rapport d'activité 2025. L'année a été marquée par les restrictions chinoises sur les aimants et terres rares, avec création d'un groupe de travail public-privé bimensuel à Bercy et contribution à la stratégie nationale de désensibilisation publiée en mai 2026. Le rapport détaille notamment la stratégie nationale du cuivre, un stress-test sur le tungstène, une veille sur le titane et les platinoïdes, un serious game sur les risques d'approvisionnement, des analyses de criticité et de formation des prix, ainsi que la contribution au CRM Act européen.",
+      "themes": ["sols", "donnees_outils", "energie_biodiversite", "rapports_guides"],
+      "signal_type": "rapport_institutionnel_majeur",
+      "geography": ["France", "UE"],
+      "actors": [
+        "Ofremi",
+        "BRGM",
+        "Commission européenne"
+      ],
+      "primary_source": {
+        "name": "Ofremi — rapport d'activité 2025",
+        "url": "https://www.ofremi.fr/fr/actualite/actualite/decouvrez-rapport-dactivite-2025-de-lofremi",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "BRGM — actualité Ofremi 2025",
+          "url": "https://www.brgm.fr/fr/actualite/rapport-annuel/ressources-minerales-ofremi-publie-rapport-activite-2025"
+        },
+        {
+          "name": "Actu-Environnement — dépêche Ofremi",
+          "url": "https://www.actu-environnement.com/depeches/"
+        }
+      ],
+      "urls": [
+        "https://www.ofremi.fr/fr/actualite/actualite/decouvrez-rapport-dactivite-2025-de-lofremi",
+        "https://www.brgm.fr/fr/actualite/rapport-annuel/ressources-minerales-ofremi-publie-rapport-activite-2025"
+      ],
+      "published_at": "2026-08-25",
+      "detected_via": "Actu-Environnement dépêche (28/08/2026) ; sources primaires Ofremi et BRGM confirmées",
+      "relevance": {
+        "score": 4,
+        "why": "Panorama des vulnérabilités d'approvisionnement en minerais stratégiques pour filières énergie, défense et transition numérique, utile aux DREAL, services mines et industriels anticipant le CRM Act."
+      },
+      "entities": [
+        "Ofremi",
+        "CRM Act",
+        "cuivre",
+        "tungstène",
+        "terres rares"
+      ],
+      "tags": ["minerais", "souverainete", "approvisionnement"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-29-004",
+      "title": "Bruit aéroportuaire : la Commission européenne consulte sur l'évaluation du règlement « approche équilibrée » (échéance 19 novembre 2026)",
+      "summary": "Le 27 août 2026, la Commission européenne a ouvert une consultation publique sur l'évaluation du règlement (UE) n° 598/2014 relatif aux restrictions d'exploitation liées au bruit dans les aéroports de l'Union. Le texte encadre la hiérarchie des mesures (réduction à la source, aménagement du territoire, procédures opérationnelles, restrictions) avant toute limitation de trafic. La consultation, accessible sur le portail « Have Your Say », vise autorités, gestionnaires d'aéroports, compagnies aériennes et ONG ; les contributions sont attendues avant le 19 novembre 2026. L'initiative s'inscrit dans le plan d'action « zéro pollution » visant une réduction de 30 % de la population chroniquement gênée par le bruit des transports à l'horizon 2030.",
+      "themes": ["reglementation", "climat_adaptation"],
+      "signal_type": "consultation_publique",
+      "geography": ["UE", "France"],
+      "actors": [
+        "Commission européenne",
+        "DG MOVE"
+      ],
+      "primary_source": {
+        "name": "Commission européenne (DG MOVE) — consultation Balanced Approach Regulation",
+        "url": "https://transport.ec.europa.eu/news-events/news/european-commission-launches-public-consultation-balanced-approach-regulation-evaluation-2026-08-27_en",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — dépêche bruit aéroportuaire",
+          "url": "https://www.actu-environnement.com/depeches/bruit-aeroportuaire-dans-cadre-n-1315.html"
+        }
+      ],
+      "urls": [
+        "https://transport.ec.europa.eu/news-events/news/european-commission-launches-public-consultation-balanced-approach-regulation-evaluation-2026-08-27_en",
+        "https://www.actu-environnement.com/depeches/bruit-aeroportuaire-dans-cadre-n-1315.html"
+      ],
+      "published_at": "2026-08-27",
+      "detected_via": "Actu-Environnement dépêche (28/08/2026) ; source primaire Commission confirmée",
+      "relevance": {
+        "score": 4,
+        "why": "Échéance 19/11 pour collectivités riveraines, DREAL, exploitants aéroportuaires et services acoustiques impliqués dans les études d'impact bruit (Roissy, Orly, Nice, Toulouse, etc.)."
+      },
+      "entities": [
+        "règlement (UE) n° 598/2014",
+        "approche équilibrée",
+        "plan zéro pollution"
+      ],
+      "tags": ["bruit", "aeroport", "UE"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-29-005",
+      "title": "Trafics d'espèces sauvages : le gouvernement renforce contrôles frontières, CITES et traque en ligne",
+      "summary": "Le 27 août 2026, Mathieu Lefèvre, ministre délégué chargé de la Transition écologique, a annoncé à l'aéroport Paris-Charles-de-Gaulle un renforcement de la lutte contre les trafics d'espèces sauvages. Les mesures incluent l'élargissement du groupe de travail interministériel à l'ensemble des trafics CITES, l'inscription de ces trafics parmi les priorités de la stratégie nationale de lutte contre les infractions environnementales, une mission CGAAER-IGEDD sur les annonces illicites en ligne, un plan d'action sur l'ivoire, le déploiement de cinq pôles CITES spécialisés pour harmoniser l'instruction des 160 000 dossiers annuels, la publication sous trois mois d'un décret sur la « liste positive » de détention d'animaux non domestiques et un durcissement des critères d'importation de trophées de chasse.",
+      "themes": ["biodiversite", "especes_habitats", "reglementation"],
+      "signal_type": "changement_de_pratique_professionnel",
+      "geography": ["France"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "Office français de la biodiversité",
+        "Douanes",
+        "Gendarmerie"
+      ],
+      "primary_source": {
+        "name": "Ministère — communiqué trafics d'espèces sauvages",
+        "url": "https://www.ecologie.gouv.fr/presse/communique-presse-lutte-contre-trafics-despeces-sauvages-mathieu-lefevre-annonce",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — trafics espèces sauvages",
+          "url": "https://www.actu-environnement.com/"
+        }
+      ],
+      "urls": [
+        "https://www.ecologie.gouv.fr/presse/communique-presse-lutte-contre-trafics-despeces-sauvages-mathieu-lefevre-annonce",
+        "https://www.ecologie.gouv.fr/politiques-publiques/commerce-international-especes-sauvages-cites"
+      ],
+      "published_at": "2026-08-27",
+      "detected_via": "Actu-Environnement (27/08/2026) ; source primaire ecologie.gouv.fr confirmée",
+      "relevance": {
+        "score": 4,
+        "why": "Recalibrage opérationnel pour OFB, douanes, services CITES et plateformes numériques devant instruire permis d'importation et retirer annonces illicites."
+      },
+      "entities": [
+        "CITES",
+        "liste positive",
+        "trophées de chasse",
+        "viande de brousse"
+      ],
+      "tags": ["trafic", "faune", "controles"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-29-006",
+      "title": "Canicules et sécheresse : 500 000 euros d'aide exceptionnelle pour les centres de soins de la faune sauvage",
+      "summary": "Le 28 août 2026, lors d'un déplacement au centre APUS APUCES à Combreux (Loiret), Mathieu Lefèvre a annoncé une aide exceptionnelle de 500 000 euros pour les centres de soins de la faune sauvage, confrontés à un afflux d'animaux en détresse lié aux canicules et à la sécheresse (déshydratation, hyperthermie, assèchement des points d'eau). L'enveloppe doit compenser surcoûts vétérinaires, alimentation et équipements de rafraîchissement ; les fonds seront versés avant fin 2026 après contractualisation départementale. Le ministère rappelle parallèlement les bons réflexes du grand public : observer à distance, ne pas abreuver ou nourrir de force, contacter une structure agréée avant toute intervention.",
+      "themes": ["biodiversite", "incendies_risques", "climat_adaptation"],
+      "signal_type": "appel_a_projets_ou_financement",
+      "geography": ["France"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "centres de soins faune sauvage",
+        "Réseau Centre de Soins Faune Sauvage"
+      ],
+      "primary_source": {
+        "name": "Ministère — aide centres de soins faune sauvage",
+        "url": "https://www.ecologie.gouv.fr/presse/protection-faune-sauvage-face-secheresse-aux-canicules-mathieu-lefevre-annonce-aide",
+        "type": "institutionnel"
+      },
+      "urls": [
+        "https://www.ecologie.gouv.fr/presse/protection-faune-sauvage-face-secheresse-aux-canicules-mathieu-lefevre-annonce-aide",
+        "https://www.ecologie.gouv.fr/politiques-publiques/faune-sauvage-captive"
+      ],
+      "published_at": "2026-08-28",
+      "detected_via": "source primaire ecologie.gouv.fr (28/08/2026)",
+      "relevance": {
+        "score": 4,
+        "why": "Soutien immédiat pour la centaine de centres agréés et les services départementaux coordonnant le recueil d'espèces protégées en période de stress climatique."
+      },
+      "entities": [
+        "centres de soins",
+        "faune sauvage",
+        "canicule",
+        "APUS APUCES"
+      ],
+      "tags": ["faune", "secours", "financement"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-29-007",
+      "title": "CEE : consultation sur le renforcement des bonifications pour autobus et autocars électriques (fiche TRA-EQ-128)",
+      "summary": "Un projet d'arrêté modifiant la fiche TRA-EQ-128 (achat ou location d'autobus/autocar électrique neuf ou rétrofit) est en consultation publique du 27 août au 17 septembre 2026 sur le portail du ministère. Le texte réhausse les bonifications pour les agglomérations de moins de 250 000 habitants (coefficient x4 → x5 pour les autobus) et pour les autocars (x4 → x6), et conditionne désormais les bonifications au respect d'un critère de conception du véhicule dans l'Espace économique européen, avec instruction des demandes par l'ADEME. Entrée en vigueur échelonnée : 1er octobre 2026 (autobus neufs), 1er novembre 2026 (autobus rétrofités), 1er janvier 2027 (autocars), pour des opérations engagées au plus tard le 31 décembre 2029.",
+      "themes": ["reglementation", "climat_adaptation", "energie_biodiversite"],
+      "signal_type": "consultation_publique",
+      "geography": ["France"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "ADEME",
+        "collectivités et exploitants de transport"
+      ],
+      "primary_source": {
+        "name": "Consultations publiques MTE — TRA-EQ-128",
+        "url": "https://www.consultations-publiques.developpement-durable.gouv.fr/projet-d-arrete-modifiant-les-niveaux-de-bonification-et-a3418.html",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — dépêche CEE autobus",
+          "url": "https://www.actu-environnement.com/depeches/cee-projet-arrete-consultation-n-1314.html"
+        }
+      ],
+      "urls": [
+        "https://www.consultations-publiques.developpement-durable.gouv.fr/projet-d-arrete-modifiant-les-niveaux-de-bonification-et-a3418.html",
+        "https://www.actu-environnement.com/depeches/cee-projet-arrete-consultation-n-1314.html"
+      ],
+      "published_at": "2026-08-27",
+      "detected_via": "Actu-Environnement dépêche (28/08/2026) ; portail consultations-publiques MTE confirmé",
+      "relevance": {
+        "score": 3,
+        "why": "Échéance 17/09 pour autorités organisatrices de transport et industriels calibrant le basculement des flottes interurbaines vers l'électrique via les CEE."
+      },
+      "entities": [
+        "TRA-EQ-128",
+        "certificats d'économies d'énergie",
+        "rétrofit électrique"
+      ],
+      "tags": ["transport", "CEE", "consultation"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-29-008",
+      "title": "Sécheresse dans les Alpes-Maritimes : le juge des référés de Nice rejette la suspension de l'arrêté « alerte renforcée » sur la Siagne",
+      "summary": "Par ordonnance du 25 août 2026 (n° 2605774), le juge des référés du tribunal administratif de Nice a rejeté la demande de suspension de l'arrêté préfectoral du 14 août 2026 maintenant la zone aval du bassin de la Siagne (zone 13) en alerte renforcée. Sicasil, Cannes, Mandelieu-la-Napoule, Théoule-sur-Mer et la communauté d'agglomération Cannes Pays de Lérins invoquaient atteintes au patrimoine végétal, activités nautiques et équilibre financier du syndicat ; le juge a estimé que l'urgence n'était pas caractérisée faute d'éléments financiers démontrant un impact immédiat. Les restrictions (interdiction d'arrosage des espaces verts et massifs fleuris, fermeture des douches de plage dans dix communes) demeurent applicables en attendant le jugement au fond.",
+      "themes": ["eau_zones_humides", "jurisprudence", "incendies_risques"],
+      "signal_type": "jurisprudence_structurante",
+      "geography": ["France", "Provence-Alpes-Côte d'Azur", "Alpes-Maritimes"],
+      "actors": [
+        "Tribunal administratif de Nice",
+        "Préfecture des Alpes-Maritimes",
+        "Sicasil"
+      ],
+      "primary_source": {
+        "name": "Tribunal administratif de Nice — ordonnance du 25 août 2026 (n° 2605774)",
+        "url": "https://www.actu-environnement.com/media/pdf/jurisprudence/862.pdf",
+        "type": "juridique"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — sécheresse Alpes-Maritimes",
+          "url": "https://www.actu-environnement.com/ae/news/secheresse-alpes-maritimes-juge-referes-restrictions-eau-48444.php4"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/media/pdf/jurisprudence/862.pdf",
+        "https://www.actu-environnement.com/ae/news/secheresse-alpes-maritimes-juge-referes-restrictions-eau-48444.php4"
+      ],
+      "published_at": "2026-08-25",
+      "detected_via": "Actu-Environnement (28/08/2026) ; ordonnance TA Nice (PDF) confirmée",
+      "relevance": {
+        "score": 4,
+        "why": "Jurisprudence de référé utile pour syndicats des eaux et collectivités contestant ou appliquant des arrêtés sécheresse estivaux en zone touristique."
+      },
+      "entities": [
+        "Siagne",
+        "alerte renforcée",
+        "référé L. 521-1",
+        "Sicasil"
+      ],
+      "tags": ["secheresse", "contentieux", "eau"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-29-009",
+      "title": "PFAS et pesticides dans l'eau potable : un rapport IGEDD-IGAS-CGAAER chiffre la dépollution entre 1,3 et 5,7 Md€/an",
+      "summary": "Un rapport interministériel (IGEDD, IGAS, IGF, CGAAER) remis en mai 2026 et diffusé fin juillet évalue le financement de la dépollution des eaux destinées à la consommation humaine face aux pesticides et PFAS. En 2024, près de 29 % de la population française a été exposée à des concentrations dépassant les limites européennes dans les eaux distribuées ; les auteurs estiment un surcoût annuel de 1,3 Md€ (socle minimal traitant les non-conformités actuelles) à 5,7 Md€ (scénario étendant la dépollution au grand cycle de l'eau, sols et prévention agricole). Ils conditionnent la faisabilité financière à l'intégration de mesures préventives dans le futur plan d'actions ministériel sur les PFAS et pesticides, et alertent sur un risque de hausse du prix de l'eau de 3,5 à 59 % selon l'ambition retenue.",
+      "themes": ["eau_zones_humides", "reglementation", "rapports_guides"],
+      "signal_type": "rapport_institutionnel_majeur",
+      "geography": ["France"],
+      "actors": [
+        "IGEDD",
+        "IGAS",
+        "CGAAER",
+        "agences de l'eau",
+        "personnes responsables de la production et distribution de l'eau"
+      ],
+      "primary_source": {
+        "name": "IGEDD-IGAS-CGAAER — Dépollution de l'eau potable (rapport mai 2026)",
+        "url": "https://www.actu-environnement.com/media/pdf/news-48448-rapport-igeed-igas-cgaaer-financement-decontamination-eaux.pdf",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — focus PFAS pesticides eau",
+          "url": "https://www.actu-environnement.com/"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/media/pdf/news-48448-rapport-igeed-igas-cgaaer-financement-decontamination-eaux.pdf"
+      ],
+      "published_at": "2026-05-01",
+      "detected_via": "Actu-Environnement focus et dépêches (fin juillet–août 2026) ; PDF rapport confirmé",
+      "relevance": {
+        "score": 5,
+        "why": "Base chiffrée pour gestionnaires de l'eau, DREAL, agences de l'eau et collectivités anticipant investissements de traitement et débats sur le pollueur-payeur (taxe PFAS au 1/09/2026)."
+      },
+      "entities": [
+        "PFAS",
+        "pesticides",
+        "limites de qualité européennes",
+        "pollueur-payeur"
+      ],
+      "tags": ["eau_potable", "PFAS", "financement"],
+      "is_new": true
+    }
+  ]
+}
