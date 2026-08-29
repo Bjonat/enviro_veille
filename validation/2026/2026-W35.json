@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T11:25:00Z",
+  "generated_at": "2026-08-29T19:30:00Z",
   "based_on_opportunities": {
     "file": "opportunites/2026/2026-W35.json"
   },
@@ -7,13 +7,22 @@
     {
       "opportunity_id": "opp-2026-W35-01",
       "opportunity_title": "Doctrine post-mégafeux : reconstruction forestière et habitat résistant au feu",
-      "verdict": "signale_modere",
+      "verdict": "signale_fort",
       "market_signal_strength": 4,
       "evidence": [
         {
           "type": "appel_offres",
+          "title": "ONF — prestations sylvicoles Landes Nord-Aquitaine (reboisement)",
+          "summary": "Accord-cadre ouvert (publication 24/07/2026, limite 28/08/2026) : préparation de terrains, fourniture et mise en place de plants forestiers, protections gibier, sur 7 lots en forêts domaniales Gironde/Landes (CAEPE, Biscarrosse, La Teste, Lagnereau, Sainte-Eulalie, Lit-et-Mixe, etc.).",
+          "url": "https://www.marchesonline.com/appels-offres/avis/prestations-de-services-sylvicoles-sur-le-territoire-de/ao-9639363-1",
+          "date": "2026-07-24",
+          "actor": "ONF — Agence Landes Nord-Aquitaine",
+          "amount_or_scale": "7 lots ; durée type 12 mois (montants non publiés dans l'extrait consulté)"
+        },
+        {
+          "type": "appel_offres",
           "title": "ONF — mise aux normes pistes DFCI et aires de dépôt (Landes Nord-Aquitaine)",
-          "summary": "Marché public de travaux (procédure formalisée, lots sur forêts domaniales dont Le Porge, CAEPE, Sainte-Eulalie-en-Born, Campet, Le Maine, Lège et Garonne) pour remise à niveau opérationnelle de pistes DFCI et création d'aires de dépôt de bois ; mise en ligne fin avril 2026, limite de réponse 29/05/2026.",
+          "summary": "Marché public alloti (procédure formalisée) pour remise à niveau opérationnelle de pistes DFCI et création d'aires de dépôt de bois ; forêts domaniales Le Porge, CAEPE, Sainte-Eulalie-en-Born, Campet, Le Maine, Lège et Garonne ; mise en ligne fin avril 2026, limite 29/05/2026.",
           "url": "https://www.marchesonline.com/appels-offres/avis/travaux-de-mise-aux-normes-ou-de-remise-a-niveau-oper/ao-9596006-1",
           "date": "2026-04-28",
           "actor": "Office national des forêts (Agence Landes Nord-Aquitaine)",
@@ -31,7 +40,7 @@
         {
           "type": "demande_explicite",
           "title": "Annonces gouvernementales reconstruction / habitat résistant au feu",
-          "summary": "Après les feux 2026, Matignon annonce une mission Reconstruction et Adaptation des Territoires, une doctrine de reconstitution forestière sous 3 mois, et un référentiel national « habitat résistant au feu de forêt » ciblé février 2027 ; mesures de simplification des permis de reconstruction équivalente.",
+          "summary": "Après les feux 2026, Matignon annonce une mission Reconstruction et Adaptation des Territoires, une doctrine de reconstitution forestière sous 3 mois, et un référentiel national « habitat résistant au feu de forêt » ciblé février 2027 ; permis de reconstruction équivalente en un mois.",
           "url": "https://www.actu-environnement.com/ae/news/incendies-foret-gouvernement-reconstruction-sylviculture-48395.php4",
           "date": "2026-08-17",
           "actor": "Gouvernement / Matignon"
@@ -39,20 +48,21 @@
         {
           "type": "budget",
           "title": "Enveloppe État annoncée pour la Gironde post-incendies",
-          "summary": "Annonce médiatique d'une enveloppe de 10 M€ de l'État pour la Gironde sinistrée, en parallèle d'orientations régionales (pilote Nouvelle-Aquitaine, réorientation de fonds européens DFCI évoquée).",
+          "summary": "Annonce médiatique d'une enveloppe de 10 M€ de l'État pour la Gironde sinistrée ; la Région Nouvelle-Aquitaine évoque un territoire pilote (42 000 ha) et une réorientation de 4,2 M€ de fonds européens vers la DFCI.",
           "url": "https://bordeaux-gazette.com/apres-les-incendies-l-etat-annonce-10-millions-d-euros-pour-la.html",
           "date": "2026-08",
-          "actor": "État / acteurs locaux Nouvelle-Aquitaine",
-          "amount_or_scale": "10 M€ annoncés (Gironde) — détail budgétaire non vérifié au JO"
+          "actor": "État / Région Nouvelle-Aquitaine",
+          "amount_or_scale": "10 M€ État (Gironde) + 4,2 M€ UE évoqués — détail budgétaire non vérifié au JO"
         }
       ],
       "competitors_or_alternatives": [
         "ONF et fédérations DFCI (maîtrise d'ouvrage travaux)",
+        "Entreprises de travaux forestiers / sylviculteurs",
         "CRPF / coopératives forestières",
-        "Bureaux d'études urbanisme-incendie (offre encore peu visible en public)"
+        "Bureaux d'études urbanisme-incendie (offre méthodologique encore peu visible en public)"
       ],
-      "economic_reading": "Le marché immédiatement observable est celui des travaux DFCI (pistes, empierrements, aires de dépôt) en Gironde/Landes, déjà en AO 2026. La demande de prestations méthodologiques « doctrine reconstruction / habitat résistant au feu » reste prospective tant que la doctrine (3 mois) et le référentiel 2027 ne sont pas publiés : signal politique fort, marché BE encore embryonnaire.",
-      "recommended_next_step": "Approfondir : cartographier les AO DFCI 2026–2027 et surveiller la publication de la doctrine MRAT puis du référentiel habitat ; prototyper une offre BE uniquement après texte ou cahier des charges local."
+      "economic_reading": "Évolution depuis la validation du 24/08 : le marché monétisé s'étend des travaux DFCI aux prestations sylvicoles de reboisement (AO ONF juillet–août 2026). La demande BE « doctrine / habitat résistant » reste prospective tant que la doctrine (délai 3 mois post-17/08) et le référentiel 2027 ne sont pas publiés. Signal économique fort sur les travaux ; signal méthodologique encore politique.",
+      "recommended_next_step": "Prototyper une offre travaux/AMO DFCI-reboisement sur Nouvelle-Aquitaine ; différer l'offre « habitat résistant » jusqu'à publication du référentiel ou d'un cahier des charges local."
     },
     {
       "opportunity_id": "opp-2026-W35-02",
@@ -64,8 +74,8 @@
           "type": "obligation",
           "title": "Arrêté du 29 juillet 2026 — expérimentation EICH / eaux non conventionnelles domestiques",
           "summary": "Cadre expérimental (autorisation préfectorale + avis ARS, durée ≤5 ans, horizon 31/12/2034) élargissant les couples eaux/usages (eaux grises de cuisine, rejets d'osmoseurs, etc.) avec classes de qualité A/A+ et surveillance renforcée.",
-          "url": "https://legalplanet.pro/eaux-impropres-a-usage-domestique-nouveau-cadre-experimental-et-risques-a-gerer/",
-          "date": "2026-08-14",
+          "url": "https://www.lofficieldesmetiers.fr/reutilisation-des-eaux-non-potables-nouvelles-experimentations/",
+          "date": "2026-07-29",
           "actor": "Ministère / JO"
         },
         {
@@ -96,7 +106,7 @@
         },
         {
           "type": "recrutement",
-          "title": "Offres ingénierie AEP / EU / REUT et qualité eau (PFAS)",
+          "title": "Offres ingénierie AEP / EU / REUT et qualité eau",
           "summary": "Recrutements publics visibles : ingénieur projet AEP-EU-REUT (Montpellier, CDI), ingénieur traitement des eaux Artelia (études PFAS mentionnées), ingénieur qualité produit eau potable Saur (suivi micropolluants type PFAS).",
           "url": "https://www.hellowork.com/fr-fr/emplois/78818067.html",
           "date": "2026-05-07",
@@ -108,8 +118,8 @@
         "Grands groupes eau (Veolia, Saur, Suez)",
         "BE hydraulique / process (Artelia et équivalents)"
       ],
-      "economic_reading": "Double signal économique déjà monétisé : (1) marchés récurrents d'analyses / contrôle sanitaire qui se renouvellent sous contrainte réglementaire 2026 ; (2) cadre expérimental EICH qui crée une file d'autorisations préfectorales + conception de réseaux séparés. Le volume EICH dépendra du nombre de sites volontaires, mais le besoin labo/BE pour la surveillance AEP est déjà observable en AO.",
-      "recommended_next_step": "Prototyper une offre ciblée « dossier expérimental EICH + plan de surveillance » pour promoteurs/collectivités, et suivre les notifications d'AO labo post-arrêtés août 2026."
+      "economic_reading": "Verdict inchangé (signale_fort) : marchés labo AEP toujours actifs (Vendée Eau encore ouvert au 29/08). Aucun AO public « dossier expérimental EICH » trouvé — la file d'autorisations préfectorales reste à observer. Le besoin labo/BE pour la surveillance AEP est déjà monétisé ; l'EICH crée surtout une demande de conception de dossiers et de réseaux séparés chez les volontaires.",
+      "recommended_next_step": "Prototyper une offre « dossier expérimental EICH + plan de surveillance » pour promoteurs/collectivités ; suivre les attributions Vendée Eau post-11/09."
     },
     {
       "opportunity_id": "opp-2026-W35-03",
@@ -120,7 +130,7 @@
         {
           "type": "obligation",
           "title": "Consultation publique projets ICPE H₂ électrolyse (rubriques 2611 / 3720)",
-          "summary": "Consultation du 17/08 au 07/09/2026 sur un décret et deux AMPG pour encadrer la production d'hydrogène par électrolyse (seuils déclaration / enregistrement / autorisation ; passage CSPRT prévu 15/09/2026) ; entrée en vigueur évoquée au 01/01/2027.",
+          "summary": "Consultation du 17/08 au 06/09/2026 inclus sur un décret et deux AMPG pour encadrer la production d'hydrogène par électrolyse (seuils déclaration 500 kg–5 t/j, enregistrement 5–50 t/j, autorisation >50 t/j via 3720 ; CSPRT prévu 15/09/2026) ; entrée en vigueur évoquée au 01/01/2027. Allègement relatif au régime actuel (autorisation dès le premier gramme sous 3420).",
           "url": "https://www.consultations-publiques.developpement-durable.gouv.fr/projets-de-textes-un-decret-et-deux-arretes-a3413.html",
           "date": "2026-08-17",
           "actor": "DGPR / ministère Transition écologique"
@@ -131,22 +141,30 @@
         "INERIS / AIDA (référentiels)",
         "Porteurs de projets H₂ intégrés"
       ],
-      "economic_reading": "Signal réglementaire clair mais textes non encore adoptés : pas d'AO de mise en conformité H₂/galvanisation/2925 trouvé sur la période. La vague de prestations BE risques est plausible pour 2027, pas encore mesurable en 2026. Le déclassement possible de certains régimes peut même réduire la charge pour une partie du parc.",
-      "recommended_next_step": "Revoir l'hypothèse après clôture consultation + avis CSPRT : ne prototyper une offre conformité 2611/3720 qu'une fois les textes publiés au JO."
+      "economic_reading": "Pas d'évolution économique depuis le 24/08 : consultation encore ouverte, aucun AO de mise en conformité trouvé. Lecture importante : le texte allège plutôt qu'il n'alourdit le régime pour une partie du parc (sortie de l'autorisation systématique 3420) — la vague BE risques 2027 pourrait être plus faible que l'hypothèse initiale, concentrée sur les sites >5 t/j et les AMPG eau.",
+      "recommended_next_step": "Revoir l'hypothèse après clôture consultation + avis CSPRT (15/09) : cibler plutôt les prescriptions eau / AMPG que le « reclassement massif »."
     },
     {
       "opportunity_id": "opp-2026-W35-04",
       "opportunity_title": "Études d'impact d'extension ENR : état actuel = parc déjà en service",
       "verdict": "signale_modere",
-      "market_signal_strength": 3,
+      "market_signal_strength": 4,
       "evidence": [
         {
           "type": "demande_explicite",
           "title": "Conseil d'État, 30 juillet 2026, n° 504266 — état initial des EI d'extension éolienne",
           "summary": "Le CE confirme que l'étude d'impact d'une extension de parc éolien doit décrire l'état actuel en intégrant le parc déjà en service (art. R. 122-5), et non un état antérieur à la première installation.",
-          "url": "https://master.juricaf.org/arret/FRANCE-CONSEILDETAT-20260730-504266",
+          "url": "https://juricaf.org/arret/FRANCE-CONSEILDETAT-20260730-504266",
           "date": "2026-07-30",
           "actor": "Conseil d'État"
+        },
+        {
+          "type": "demande_explicite",
+          "title": "Circulaire du 20 mars 2026 — renouvellement / extension des parcs éoliens terrestres",
+          "summary": "Doctrine administrative : les incidences d'un renouvellement ou d'une extension s'apprécient au regard des impacts différentiels par rapport au parc existant ; l'extension (augmentation du nombre d'éoliennes ou seuils 2980) est une modification substantielle nécessitant nouvelle autorisation.",
+          "url": "https://aida.ineris.fr/reglementation/circulaire-200326-relative-a-lappreciation-projets-renouvellement-parcs-eoliens",
+          "date": "2026-03-20",
+          "actor": "Ministère Transition écologique / DREAL"
         }
       ],
       "competitors_or_alternatives": [
@@ -154,8 +172,8 @@
         "Cabinets spécialisés éolien / contentieux",
         "DREAL (instruction)"
       ],
-      "economic_reading": "Doctrine immédiatement opposable pour les dossiers d'extension éoliens : risque de reprise méthodologique des chapitres « état actuel ». Aucun AO public ni note DREAL post-arrêt, ni recrutement dédié trouvé — la demande reste surtout privée (portefeuilles développeurs) et donc peu visible.",
-      "recommended_next_step": "Approfondir via entretiens développeurs / BE EI : inventaire des extensions en instruction et besoin de reprise ; ignorer une offre générique sans preuve de volume."
+      "economic_reading": "Force relevée (3→4) grâce à la circulaire mars 2026 qui cadre déjà la méthode « impacts différentiels » avant l'arrêt CE. Doctrine claire et opposable ; aucun AO public ni recrutement dédié trouvé — la demande de reprise EI reste privée (portefeuilles développeurs).",
+      "recommended_next_step": "Approfondir via entretiens développeurs / BE EI : inventaire des extensions en instruction ; ignorer une offre générique sans preuve de volume."
     },
     {
       "opportunity_id": "opp-2026-W35-05",
@@ -163,6 +181,15 @@
       "verdict": "signale_fort",
       "market_signal_strength": 5,
       "evidence": [
+        {
+          "type": "appel_offres",
+          "title": "Région Grand Est — stations mobiles de traitement PFAS eau potable",
+          "summary": "Accord-cadre mono-attributaire à bons de commandes (mise en ligne 02/07/2026, limite 25/08/2026) : acquisition et exploitation de stations mobiles de traitement PFAS pour collectivités confrontées à des restrictions de consommation ; plafond 2 430 000 € HT sur 48 mois ; copilotage Région / ARS / agences de l'eau.",
+          "url": "https://www.marchesonline.com/appels-offres/avis/acquisition-et-exploitation-de-stations-mobiles-de-trai/ao-9626410-1",
+          "date": "2026-07-02",
+          "actor": "Région Grand Est",
+          "amount_or_scale": "2 430 000 € HT max (48 mois)"
+        },
         {
           "type": "obligation",
           "title": "Arrêté du 16 juillet 2026 — traitement déchets liquides PFAS (ICPE 2790/2791)",
@@ -173,11 +200,12 @@
         },
         {
           "type": "obligation",
-          "title": "PPWR — restrictions PFAS emballages alimentaires (12 août 2026)",
-          "summary": "Règlement (UE) 2025/40 : seuils PFAS pour emballages au contact alimentaire (50 ppm fluor total / 25 ppb unitaire / 250 ppb somme) ; communication Commission C/2026/3084 (juin 2026) sur la méthode de contrôle en 3 étapes.",
-          "url": "https://www.lne.fr/fr/service/essais/conformite-ppwr-analyses-pfas-expertise-fluor-total-emballages-alimentaires",
-          "date": "2026-08-12",
-          "actor": "Union européenne / LNE (offre concurrente)"
+          "title": "Contrôle sanitaire PFAS eau potable obligatoire (20 substances) depuis janvier 2026",
+          "summary": "Analyse réglementaire des 20 PFAS dans l'eau potable via marchés ARS/laboratoires agréés ; surcoût estimé 40–50 € HT par analyse (FNCCR) ; coûts répercutés sur factures usagers.",
+          "url": "https://www.weka.fr/actualite/sante/article/detection-des-pfas-une-nouvelle-ligne-dans-la-facture-d-eau-210502/",
+          "date": "2026-01",
+          "actor": "ARS / FNCCR / DGS",
+          "amount_or_scale": "~40–50 € HT / analyse (somme des 20 PFAS)"
         },
         {
           "type": "appel_offres",
@@ -189,29 +217,22 @@
           "amount_or_scale": "74 942 €"
         },
         {
-          "type": "appel_offres",
-          "title": "Aéroport La Réunion Roland Garros — diagnostic terrain PFAS",
-          "summary": "Avis BOAMP (publié 24/07/2026, limite 24/08/2026) pour diagnostic terrain relatif aux PFAS sur la concession aéroportuaire.",
-          "url": "https://bidsfactory.com/fr/tenders/diagnostic-terrain-relatif-aux-pfas-sur-la-concess-france_boamp-85a8a227991cb4a7",
-          "date": "2026-07-24",
-          "actor": "Aéroport La Réunion Roland Garros"
-        },
-        {
           "type": "concurrent",
           "title": "LNE — offre commerciale conformité PPWR / analyses PFAS emballages",
-          "summary": "Le LNE commercialise explicitement fluor total, analyses ciblées, migration et assistance à la substitution PFAS pour emballages alimentaires.",
+          "summary": "Le LNE commercialise explicitement fluor total, analyses ciblées, migration et assistance à la substitution PFAS pour emballages alimentaires (seuils PPWR applicables depuis le 12/08/2026).",
           "url": "https://www.lne.fr/fr/service/essais/conformite-ppwr-analyses-pfas-expertise-fluor-total-emballages-alimentaires",
-          "date": "2026-08",
+          "date": "2026-08-12",
           "actor": "LNE"
         }
       ],
       "competitors_or_alternatives": [
+        "Fournisseurs de stations de traitement / filtration PFAS",
         "LNE et laboratoires privés d'analyses matériaux",
         "Laboratoires environnementaux (ex. Laboratoires des Pyrénées et des Landes)",
         "BE eaux industrielles / ICPE déchets"
       ],
-      "economic_reading": "Obligation en vigueur des deux côtés de la chaîne (emballages PPWR + rejets ICPE 2790/2791) et transactions déjà visibles (marché analyses ~75 k€, diagnostic aéroportuaire, offre labo nationale). La substitution emballages peut rester internalisée chez les grands groupes, mais la demande analytique et de diagnostic terrain est déjà monétisée.",
-      "recommended_next_step": "Prototyper une offre « audit + plan de surveillance PFAS 2790/2791 » et/ou pack conformité PPWR pour PME emballage ; surveiller les AO diagnostic sols/eaux PFAS."
+      "economic_reading": "Signal renforcé : au-delà des analyses (~75 k€) et du diagnostic aéroportuaire déjà notés, un marché régional de traitement mobile à 2,43 M€ confirme la monétisation du volet « traitement » (pas seulement labo). Triple demande captive : contrôle sanitaire AEP, ICPE 2790/2791, PPWR emballages.",
+      "recommended_next_step": "Prototyper une offre « diagnostic + plan de traitement / surveillance PFAS » (AEP et 2790/2791) ; surveiller attributions type Grand Est et réplications régionales."
     },
     {
       "opportunity_id": "opp-2026-W35-06",
@@ -222,7 +243,7 @@
         {
           "type": "financement",
           "title": "Guichet France Nation Verte renouvellement forestier — suspension + consultation de refonte",
-          "summary": "Page officielle : dépôt Cartogip suspendu (succès du dispositif) ; décret base juridique annulé par CE (15/07/2026) ; consultation publique du nouveau décret du 6 au 31 août 2026 inclus.",
+          "summary": "Page officielle (maj 10/08/2026) : dépôt Cartogip suspendu ; décret base juridique annulé par CE (15/07/2026) ; consultation publique du nouveau décret du 6 au 31 août 2026 inclus — encore ouverte au 29/08 ; aucun JO de republication trouvé.",
           "url": "https://www.ecologie.gouv.fr/politiques-publiques/dispositif-daide-renouvellement-forestier",
           "date": "2026-08-10",
           "actor": "Ministère de la Transition écologique"
@@ -234,6 +255,14 @@
           "url": "https://juricaf.org/arret/FRANCE-CONSEILDETAT-20260715-509638",
           "date": "2026-07-15",
           "actor": "Conseil d'État"
+        },
+        {
+          "type": "financement",
+          "title": "Projet de décret — éligibilité limitée aux dossiers déposés avant le 10 juin 2026",
+          "summary": "Le projet soumis à consultation ne vise que les demandes transmises avant le 10/06/2026 ; pour les nouveaux dossiers post-réouverture, un autre décret/arrêté est annoncé. Matignon a évoqué des moyens en hausse dans le prochain PLF après les incendies.",
+          "url": "https://www.actu-environnement.com/ae/news/renouvellement-forestier-base-juridique-consultation-48411.php4",
+          "date": "2026-08-20",
+          "actor": "Ministère / Matignon"
         }
       ],
       "competitors_or_alternatives": [
@@ -241,8 +270,8 @@
         "Cabinets juridiques environnement-forêt",
         "BE forestiers montage de dossiers Cartogip"
       ],
-      "economic_reading": "Le marché d'ingénierie de dossiers est gelé côté nouveaux dépôts (guichet fermé) mais un stock de dossiers et une demande latente de remédiation juridique/technique existent dès republication. Pas d'AO « montage de dossiers » trouvé ; la valeur économique dépend du calendrier de republication post-consultation 31/08.",
-      "recommended_next_step": "Approfondir dès publication du décret/arrêté refondus : offre « audit éligibilité + dépôt Cartogip » ciblée sinistrés incendie Nouvelle-Aquitaine ; ne pas commercialiser tant que le guichet reste fermé."
+      "economic_reading": "Pas de republication JO au 29/08 (consultation jusqu'au 31/08). Le marché « nouveaux dossiers » reste gelé ; le projet de décret recentre la remédiation juridique sur le stock pré-10/06. La demande d'ingénierie post-incendie pour nouveaux dossiers dépend d'une seconde consultation non encore ouverte.",
+      "recommended_next_step": "Approfondir dès JO du décret stock + surveiller l'annonce du second texte « nouveaux dossiers » ; ne pas commercialiser tant que Cartogip reste fermé."
     },
     {
       "opportunity_id": "opp-2026-W35-07",
@@ -261,10 +290,11 @@
         {
           "type": "autre",
           "title": "TA Mayotte — suspension autorisation usine de dessalement Ironi Bé",
-          "summary": "Jugement du 31/07/2026 : suspension de l'autorisation environnementale et sursis à statuer ; 6 mois pour régulariser trois illégalités (information parc marin, compensation zones humides, protection espèce / MES).",
+          "summary": "Jugement du 31/07/2026 : suspension de l'autorisation environnementale et sursis à statuer ; 6 mois (échéance ~31/01/2027) pour régulariser trois illégalités. Presse locale : LEMA prépare les éléments correctifs et évoque un surcoût de retard ~13 M€ ; aucun AO AMO/BE de régularisation trouvé.",
           "url": "https://mayotte.tribunal-administratif.fr/decisions-de-justice/dernieres-decisions/suspension-de-l-autorisation-environnementale-pour-l-usine-de-dessalement-d-ironi-be",
           "date": "2026-07-31",
-          "actor": "Tribunal administratif de Mayotte / LEMA"
+          "actor": "Tribunal administratif de Mayotte / LEMA",
+          "amount_or_scale": "Surcoût retard ~13 M€ (estimation presse LEMA, non vérifiée en marché public)"
         }
       ],
       "competitors_or_alternatives": [
@@ -272,8 +302,8 @@
         "AMO environnement grands ouvrages",
         "Services police de l'eau"
       ],
-      "economic_reading": "Deux signaux juridiques forts mais marché de prestations peu visible : aucun AO d'assistance juridique « sécurisation hydrique » trouvé. Le contentieux Mayotte crée une demande ponctuelle de régularisation (6 mois) ; le décret 2026-740 clarifie surtout la police de l'eau sur les titres historiques, sans générer à lui seul un flux d'AO.",
-      "recommended_next_step": "Surveiller les marchés AMO / BE liés à la régularisation Ironi Bé et d'éventuels autres dessalements ; hors cela, ignorer comme axe produit générique (trop niche)."
+      "economic_reading": "Verdict inchangé : signaux juridiques forts, marché de prestations non visible en AO publics au 29/08. La régularisation Ironi Bé crée une demande ponctuelle (compensation zones humides, écrans MES, espèce protégée) probablement internalisée ou en marchés privés.",
+      "recommended_next_step": "Ignorer comme axe produit générique ; surveiller uniquement d'éventuels marchés AMO LEMA avant fin janvier 2027."
     },
     {
       "opportunity_id": "opp-2026-W35-08",
@@ -284,27 +314,36 @@
         {
           "type": "obligation",
           "title": "Décret n° 2026-747 du 5 août 2026 — sanctions administratives CAD / ReFuelEU",
-          "summary": "Insère dans le code de l'environnement le régime de déclaration, contrôle, mise en demeure et amendes pour fournisseurs, exploitants d'aéronefs et gestionnaires d'aéroport (ReFuelEU Aviation).",
-          "url": "https://www.actu-environnement.com/ae/reglementation/decret-du-05-08-2026-2026-747-40133.php",
-          "date": "2026-08-07",
+          "summary": "Insère dans le code de l'environnement le régime de déclaration, contrôle, mise en demeure et amendes pour fournisseurs, exploitants d'aéronefs et gestionnaires d'aéroport ; traçabilité mensuelle CAD et déclaration annuelle via base nationale (CarbuRe).",
+          "url": "https://aida.ineris.fr/reglementation/decret-ndeg-2026-747-050826-relatif-sanctions-administratives-matiere-fourniture",
+          "date": "2026-08-05",
           "actor": "État / JO"
         },
         {
           "type": "demande_explicite",
           "title": "Page officielle CAD / SAF — autorités compétentes et reporting",
-          "summary": "Le ministère précise DGDDI (fournisseurs) et DGAC (exploitants / aéroports) comme autorités de suivi et de sanctions ; obligations de rapportage déjà en place ; plateforme CarbuRe pour la traçabilité nationale.",
+          "summary": "Le ministère précise DGDDI (fournisseurs) et DGAC (exploitants / aéroports) comme autorités de suivi et de sanctions ; plateforme CarbuRe pour la traçabilité nationale.",
           "url": "https://www.ecologie.gouv.fr/politiques-publiques/carburants-daviation-durables-cad-sustainable-aviation-fuels-saf",
           "date": "2026-04-01",
           "actor": "DGAC / DGEC / DGDDI"
+        },
+        {
+          "type": "concurrent",
+          "title": "Offre conseil conformité déclarative ReFuelEU Aviation (cabinet fiscalité/douane)",
+          "summary": "Cabinet spécialisé accises propose un accompagnement « Conformité 360° » alignant reportings accises et ReFuelEU (sourcing, mass balance, traçabilité, données douanières).",
+          "url": "https://www.fiscalead.com/accises/expertise-accises-produits-petroliers/refuel_aviation/",
+          "date": "2026",
+          "actor": "Fiscalead (offre concurrente)"
         }
       ],
       "competitors_or_alternatives": [
+        "Plateforme CarbuRe (outil public)",
+        "Cabinets fiscalité/douane/accises",
         "Solutions internes des majors pétroliers / aéroports",
-        "Éditeurs compliance aviation internationaux",
-        "Plateforme CarbuRe (outil public)"
+        "Éditeurs compliance aviation internationaux"
       ],
-      "economic_reading": "L'obligation de sanctions est désormais opérationnelle en droit français, ce qui captive la demande de traçabilité/reporting. En revanche, aucun AO aéroportuaire ni recrutement « SAF compliance » clairement dédié n'a été trouvé ; le marché semble déjà partiellement couvert (CarbuRe, acteurs internationaux).",
-      "recommended_next_step": "Approfondir auprès des 17 aéroports UE français et des fournisseurs : besoin résiduel hors CarbuRe (procédures contradictoires, audit quotas) ; sinon revoir l'hypothèse vers un créneau juridique très étroit."
+      "economic_reading": "Obligation de sanctions opérationnelle ; un concurrent conseil est visible. Aucun AO aéroportuaire ni recrutement « SAF compliance » dédié trouvé. Marché probablement capté par CarbuRe + cabinets accises/internationaux.",
+      "recommended_next_step": "Approfondir le créneau étroit « procédures contradictoires / audit quotas hors CarbuRe » ; sinon revoir l'hypothèse vers un produit logiciel générique non différenciant."
     }
   ]
 }
