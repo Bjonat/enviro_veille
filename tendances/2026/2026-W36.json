@@ -1,0 +1,512 @@
+{
+  "period": {
+    "start": "2026-08-02",
+    "end": "2026-08-29",
+    "label": "2026-W36"
+  },
+  "generated_at": "2026-08-29T14:20:00Z",
+  "meta": {
+    "daily_files_used": 8,
+    "items_analyzed": 79,
+    "method_notes": "Run hebdomadaire (28 jours glissants 2026-08-02 → 2026-08-29). Corpus : 8 journées de veille (22–29/08), 79 items. Comparaison à tendances/2026/2026-W35 pour mesurer les signaux indépendants nouveaux (25–29/08) plutôt que rediscourir. Scores baissés sans progression documentaire ; ré-accélération PFAS et nouvelle vague DPE/CEE/MaPrimeRénov'. Validité : ≥2 signaux indépendants ou 1 signal structurel majeur."
+  },
+  "trends": [
+    {
+      "id": "2026-W36-renovation-dpe-cee-mpr",
+      "title": "Rénovation énergétique : recalibrage simultané du DPE, des CEE et de MaPrimeRénov'",
+      "status": "en_acceleration",
+      "themes": ["climat_adaptation", "reglementation", "energie_biodiversite"],
+      "acceleration_score": 5,
+      "summary": "En une semaine, l'État enchaîne coefficient électrique DPE à 1,7, mention A0/EnR, recentrage CEE sur la rénovation d'ampleur, obligation RGE pour l'entreprise facturante, correction USE tertiaire et exclusion de monogestes MaPrimeRénov' au 1er septembre 2026.",
+      "drivers": ["réglementation", "financement", "pratique"],
+      "evidence": [
+        {
+          "daily_item_id": "2026-08-27-001",
+          "date": "2026-08-26",
+          "title": "DPE : l'arrêté du 19 août 2026 abaisse le coefficient électrique à 1,7 dès le 1er janvier 2027",
+          "url": "https://www.actu-environnement.com/depeches/dpe-arrete-paru-au-n-1307.html"
+        },
+        {
+          "daily_item_id": "2026-08-26-003",
+          "date": "2026-08-13",
+          "title": "DPE logements : arrêté du 11 juin 2026 prévoit la mention A0 et l'intégration des EnR dès le 1er janvier 2027",
+          "url": "https://www.actu-environnement.com/ae/reglementation/arrete-du-11-06-2026-vlol2607636a-40099.php"
+        },
+        {
+          "daily_item_id": "2026-08-27-002",
+          "date": "2026-08-23",
+          "title": "CEE : deux arrêtés du 17 août recentrent la rénovation d'ampleur et bonifient le solaire thermique",
+          "url": "https://www.actu-environnement.com/ae/reglementation/arrete-du-17-08-2026-ecor2620460a-40221.php"
+        },
+        {
+          "daily_item_id": "2026-08-28-003",
+          "date": "2026-08-27",
+          "title": "MaPrimeRénov' : le décret n° 2026-822 et un arrêté excluent plusieurs monogestes dès le 1er septembre 2026",
+          "url": "https://www.actu-environnement.com/ae/reglementation/decret-du-25-08-2026-2026-822-40231.php"
+        },
+        {
+          "daily_item_id": "2026-08-27-006",
+          "date": "2026-08-14",
+          "title": "Rénovation énergétique : le décret n° 2026-774 impose la qualification RGE à l'entreprise facturante",
+          "url": "https://www.actu-environnement.com/ae/reglementation/decret-du-12-08-2026-2026-774-40098.php"
+        },
+        {
+          "daily_item_id": "2026-08-27-007",
+          "date": "2026-08-19",
+          "title": "Éco-énergie tertiaire : arrêté du 11 août 2026 corrige les formules USE pour sept sous-catégories",
+          "url": "https://www.actu-environnement.com/ae/reglementation/arrete-du-11-08-2026-vlol2620023a-40203.php"
+        }
+      ],
+      "what_is_changing": "La rénovation quitte le registre des monogestes subventionnés pour un package cohérent : labels DPE plus favorables à l'électrique/EnR, aides CEE/MPR recentrées sur les bouquets d'ampleur, et responsabilité RGE portée par l'entreprise qui facture — avec un calendrier d'entrée en vigueur très court (sept. 2026 / janv. 2027).",
+      "who_is_affected": [
+        "diagnostiqueurs DPE",
+        "entreprises RGE et sous-traitants",
+        "mandataires MaPrimeRénov'/CEE",
+        "bailleurs et propriétaires",
+        "gestionnaires tertiaires (DECRETS)"
+      ],
+      "time_horizon": "0-6_mois"
+    },
+    {
+      "id": "2026-W36-pfas-couts-filieres",
+      "title": "PFAS : des obligations produits/ICPE aux coûts de dépollution et au cadre boues/MFAS",
+      "status": "en_acceleration",
+      "themes": ["reglementation", "sols", "eau_zones_humides"],
+      "acceleration_score": 5,
+      "summary": "Après PPWR et prescriptions 2790/2791, deux rapports pivots (HCSP boues/MFAS ; IGEDD-IGAS-CGAAER sur l'eau potable) chiffrent et cadrent la gestion PFAS/pesticides, ré-accélérant la dynamique après une semaine W35 sans nouveau maillon.",
+      "drivers": ["réglementation", "UE", "financement", "science"],
+      "evidence": [
+        {
+          "daily_item_id": "2026-08-25-001",
+          "date": "2026-06-18",
+          "title": "PFAS dans les boues et matières fertilisantes : l'HCSP propose un cadre de gestion en trois catégories",
+          "url": "https://www.hcsp.fr/Explore.cgi/avisrapportsdomaine?clefr=1542"
+        },
+        {
+          "daily_item_id": "2026-08-29-009",
+          "date": "2026-05-01",
+          "title": "PFAS et pesticides dans l'eau potable : un rapport IGEDD-IGAS-CGAAER chiffre la dépollution entre 1,3 et 5,7 Md€/an",
+          "url": "https://www.actu-environnement.com/media/pdf/news-48448-rapport-igeed-igas-cgaaer-financement-decontamination-eaux.pdf"
+        },
+        {
+          "daily_item_id": "2026-08-22-007",
+          "date": "2026-08-11",
+          "title": "Règlement emballages UE (PPWR) : entrée en application et restriction des PFAS dans les emballages alimentaires",
+          "url": "https://environment.ec.europa.eu/news/new-rules-packaging-enter-application-2026-08-11_en"
+        },
+        {
+          "daily_item_id": "2026-08-23-003",
+          "date": "2026-07-25",
+          "title": "PFAS : contrôle des rejets des installations de traitement de déchets liquides (rubriques 2790/2791)",
+          "url": "https://www.actu-environnement.com/ae/reglementation/arrete-du-16-07-2026-tecp2618033a-40039.php"
+        }
+      ],
+      "what_is_changing": "Le débat PFAS bascule du seul contrôle réglementaire (produits, rejets) vers l'architecture de financement et de gestion des filières (épandage boues/MFAS en trois catégories ; ordres de grandeur budgétaires pour l'eau potable), ce qui implique collectivités, STEU et agences de l'eau.",
+      "who_is_affected": [
+        "collectivités et STEU",
+        "agences de l'eau",
+        "exploitants ICPE 2790/2791",
+        "filières fertilisants/épandage",
+        "industrie de l'emballage"
+      ],
+      "time_horizon": "6-18_mois"
+    },
+    {
+      "id": "2026-W36-eau-stress-azote-contentieux",
+      "title": "Stress hydrique : contentieux local des restrictions et expérimentation azote/algues vertes",
+      "status": "en_acceleration",
+      "themes": ["eau_zones_humides", "reglementation", "climat_adaptation", "jurisprudence", "sols"],
+      "acceleration_score": 5,
+      "summary": "La dynamique sécheresse/eau potable/EICH s'élargit à la confirmation judiciaire des arrêtés locaux (Siagne) et à une expérimentation structurelle de gestion de l'azote en Bretagne (décret 2026-823), sur fond de gouvernance quantitative déjà reconfigurée.",
+      "drivers": ["crise climatique", "réglementation", "jurisprudence", "pratique agricole"],
+      "evidence": [
+        {
+          "daily_item_id": "2026-08-29-001",
+          "date": "2026-08-28",
+          "title": "Algues vertes en Bretagne : le décret n° 2026-823 et un arrêté expérimentent une nouvelle gestion de l'azote dès le 1er septembre 2026",
+          "url": "https://www.actu-environnement.com/ae/reglementation/decret-du-27-08-2026-2026-823-40235.php"
+        },
+        {
+          "daily_item_id": "2026-08-29-008",
+          "date": "2026-08-25",
+          "title": "Sécheresse dans les Alpes-Maritimes : le juge des référés de Nice rejette la suspension de l'arrêté « alerte renforcée » sur la Siagne",
+          "url": "https://www.actu-environnement.com/media/pdf/jurisprudence/862.pdf"
+        },
+        {
+          "daily_item_id": "2026-08-22-008",
+          "date": "2026-07-03",
+          "title": "Sécheresse estivale 2026 : sols très secs, cours d'eau à l'étiage précoce et dispositif de restrictions",
+          "url": "https://www.ecologie.gouv.fr/actualites/savoir-secheresse"
+        },
+        {
+          "daily_item_id": "2026-08-22-001",
+          "date": "2026-08-21",
+          "title": "Trois arrêtés de surveillance de l'eau potable publiés pour répondre à la mise en demeure de la Commission européenne",
+          "url": "https://www.actu-environnement.com/ae/news/surveillance-qualite-eau-potable-arretes-transposition-directive-publies-mise-en-demeure-commission-europeenne-48414.php4"
+        },
+        {
+          "daily_item_id": "2026-08-24-004",
+          "date": "2026-08-07",
+          "title": "Droits fondés en titre : décret n° 2026-740 retire aux préfets le pouvoir d'abrogation",
+          "url": "https://www.actu-environnement.com/ae/reglementation/decret-du-06-08-2026-2026-740-40127.php"
+        }
+      ],
+      "what_is_changing": "Deux fronts s'ajoutent à la crise hydrique : les juges des référés consolident les arrêtés de restriction face aux syndicats/collectivités, et l'État expérimente en Bretagne une sortie partielle du plan de fumure vers un suivi par reliquats — lien direct qualité de l'eau / pressions agricoles.",
+      "who_is_affected": [
+        "ARS et police de l'eau",
+        "syndicats d'eau et collectivités",
+        "exploitants agricoles en zone vulnérable Bretagne",
+        "chambres d'agriculture / GREN",
+        "bureaux d'études eau-agriculture"
+      ],
+      "time_horizon": "0-6_mois"
+    },
+    {
+      "id": "2026-W36-megafeux-financement-responsabilite",
+      "title": "Post-extrêmes climatiques : DSEC élargie, contentieux réseaux et aides faune",
+      "status": "en_acceleration",
+      "themes": ["incendies_risques", "biodiversite", "climat_adaptation", "reglementation", "jurisprudence"],
+      "acceleration_score": 5,
+      "summary": "Après sinistre de grande ampleur et doctrine de reconstruction, la réponse aux extrêmes s'équipe d'une DSEC simplifiée/élargie, d'un contentieux visant Enedis après incendies, et d'une aide exceptionnelle aux centres de soins faune.",
+      "drivers": ["crise", "financement", "jurisprudence", "pratique"],
+      "evidence": [
+        {
+          "daily_item_id": "2026-08-28-005",
+          "date": "2026-08-27",
+          "title": "DSEC : le décret n° 2026-788 simplifie et élargit la dotation aux collectivités sinistrées",
+          "url": "https://www.actu-environnement.com/ae/reglementation/decret-du-12-08-2026-2026-788-40090.php"
+        },
+        {
+          "daily_item_id": "2026-08-27-008",
+          "date": "2026-08-26",
+          "title": "Incendies : Robin des Bois dépose plainte contre Enedis pour destruction involontaire de forêts",
+          "url": "https://www.actu-environnement.com/depeches/incendies-association-robin-bois-n-1309.html"
+        },
+        {
+          "daily_item_id": "2026-08-29-006",
+          "date": "2026-08-28",
+          "title": "Canicules et sécheresse : 500 000 euros d'aide exceptionnelle pour les centres de soins de la faune sauvage",
+          "url": "https://www.ecologie.gouv.fr/presse/protection-faune-sauvage-face-secheresse-aux-canicules-mathieu-lefevre-annonce-aide"
+        },
+        {
+          "daily_item_id": "2026-08-24-010",
+          "date": "2026-08-17",
+          "title": "Incendies Gironde-Landes : doctrine de reconstruction et mesures d'adaptation annoncées",
+          "url": "https://www.actu-environnement.com/ae/news/incendies-foret-gouvernement-reconstruction-sylviculture-48395.php4"
+        },
+        {
+          "daily_item_id": "2026-08-22-003",
+          "date": "2026-08-06",
+          "title": "Incendies Gironde et Landes : reconnaissance d'un sinistre de grande ampleur pour les forêts brûlées",
+          "url": "https://agriculture.gouv.fr/incendies-en-gironde-et-dans-les-landes-reconnaissance-dun-sinistre-de-grande-ampleur-pour-les"
+        }
+      ],
+      "what_is_changing": "La séquence post-feux dépasse forêt/urbanisme : financements d'équipement des collectivités sinistrées (DSEC), mise en cause pénale potentielle des gestionnaires de réseaux, et filet d'urgence pour la faune — signal d'une gouvernance multi-acteurs des extrêmes.",
+      "who_is_affected": [
+        "collectivités sinistrées",
+        "Enedis / gestionnaires de réseaux",
+        "propriétaires forestiers et CRPF",
+        "centres de soins faune sauvage",
+        "DREAL et services DFCI"
+      ],
+      "time_horizon": "0-6_mois"
+    },
+    {
+      "id": "2026-W36-reseaux-stockage-enr",
+      "title": "Réseaux et stockage : saturation des raccordements EnR et contentieux du stationnaire agricole",
+      "status": "en_acceleration",
+      "themes": ["energie_biodiversite", "reglementation", "donnees_outils", "jurisprudence", "zan_artificialisation"],
+      "acceleration_score": 4,
+      "summary": "La doctrine ENR de W35 (EI d'extension, soutiens) bascule vers l'infrastructure : record de raccordements Enedis, décret 2026-805 sur les plans de développement des réseaux, et premier contentieux de stockage batteries en zone agricole.",
+      "drivers": ["tech", "réglementation", "jurisprudence", "pratique"],
+      "evidence": [
+        {
+          "daily_item_id": "2026-08-25-009",
+          "date": "2026-07-28",
+          "title": "Enedis : bilan record des raccordements 2025 (6,6 GW EnR) et cartographie des zones saturées",
+          "url": "https://www.enedis.fr/presse/rapport-annuel-sur-les-raccordements-2025"
+        },
+        {
+          "daily_item_id": "2026-08-26-004",
+          "date": "2026-08-21",
+          "title": "Réseaux de distribution d'électricité : le décret n° 2026-805 encadre les plans de développement",
+          "url": "https://www.actu-environnement.com/ae/reglementation/decret-du-20-08-2026-2026-805-40212.php"
+        },
+        {
+          "daily_item_id": "2026-08-26-007",
+          "date": "2026-08-04",
+          "title": "Stockage batteries en zone agricole (Sarthe) : le TA de Nantes suspend le refus préfectoral de permis",
+          "url": "https://www.actu-environnement.com/ae/news/stockage-electricite-batteries-zone-agricole-sarthe-48430.php4"
+        },
+        {
+          "daily_item_id": "2026-08-24-008",
+          "date": "2026-07-30",
+          "title": "Conseil d'État : l'étude d'impact d'une extension éolienne doit intégrer le parc déjà en service",
+          "url": "https://www.actu-environnement.com/ae/news/extension-parc-eolien-etude-impact-etat-actuel-48409.php4"
+        }
+      ],
+      "what_is_changing": "Le goulot n'est plus seulement l'autorisation de produire : c'est la capacité de réseau (zones saturées, plans de développement opposables) et l'acceptabilité foncière du stockage stationnaire hors sites industriels.",
+      "who_is_affected": [
+        "Enedis et gestionnaires de réseau",
+        "porteurs de projets EnR et stockage",
+        "préfectures / DDT(M)",
+        "collectivités et chambres d'agriculture",
+        "rédacteurs d'études d'impact"
+      ],
+      "time_horizon": "0-6_mois"
+    },
+    {
+      "id": "2026-W36-trait-de-cote",
+      "title": "Trait de côte : SNGITC 2025-2030 et mise à jour de l'INEC",
+      "status": "en_acceleration",
+      "themes": ["climat_adaptation", "eau_zones_humides", "reglementation", "donnees_outils"],
+      "acceleration_score": 4,
+      "summary": "Le décret n° 2026-803 adopte la stratégie nationale de gestion intégrée du trait de côte 2025-2030 tandis que le Cerema publie l'actualisation 2026 de l'Indicateur national de l'érosion côtière.",
+      "drivers": ["réglementation", "données", "pratique"],
+      "evidence": [
+        {
+          "daily_item_id": "2026-08-25-002",
+          "date": "2026-08-21",
+          "title": "Stratégie nationale de gestion intégrée du trait de côte 2025-2030 adoptée par le décret n° 2026-803",
+          "url": "https://www.actu-environnement.com/ae/reglementation/decret-du-20-08-2026-2026-803-40209.php"
+        },
+        {
+          "daily_item_id": "2026-08-27-003",
+          "date": "2026-08-26",
+          "title": "Cerema : mise à jour 2026 de l'Indicateur national de l'érosion côtière (INEC)",
+          "url": "https://www.cerema.fr/fr/actualites/indicateur-national-erosion-cotiere-enrichi-mieux-connaitre"
+        }
+      ],
+      "what_is_changing": "Cadre stratégique (SNGITC) et référentiel de données (INEC) convergent : les collectivités littorales disposent d'une stratégie nationale opposable et d'un indicateur actualisé pour prioriser relocalisation, protection et observation.",
+      "who_is_affected": [
+        "collectivités littorales",
+        "DREAL et DDTM",
+        "Cerema / services observation",
+        "aménageurs et urbanistes côtiers"
+      ],
+      "time_horizon": "6-18_mois"
+    },
+    {
+      "id": "2026-W36-restauration-nature",
+      "title": "Restauration de la nature : notes opérationnelles FRB et pressions sur les espèces aquatiques",
+      "status": "emergente",
+      "themes": ["biodiversite", "especes_habitats", "eau_zones_humides", "climat_adaptation", "rapports_guides"],
+      "acceleration_score": 4,
+      "summary": "FRB/Biodiversa+ publient huit notes pour la mise en œuvre du règlement restauration ; en parallèle, consultation anguille et jurisprudence cétacés du golfe de Gascogne ancrent la pression sur les milieux aquatiques.",
+      "drivers": ["réglementation", "UE", "science", "jurisprudence"],
+      "evidence": [
+        {
+          "daily_item_id": "2026-08-28-001",
+          "date": "2026-08-27",
+          "title": "Restauration de la nature : la FRB et Biodiversa+ publient huit notes pour la mise en œuvre du règlement",
+          "url": "https://www.fondationbiodiversite.fr/actualites/apres-un-ete-marque-par-la-secheresse-les-incendies-et-les-canicules-restaurer-la-nature-est-plus-que-jamais-necessaire/"
+        },
+        {
+          "daily_item_id": "2026-08-28-004",
+          "date": "2026-08-27",
+          "title": "Anguille européenne : consultation sur le projet d'arrêté de repeuplement (échéance 16 septembre 2026)",
+          "url": "https://www.actu-environnement.com/ae/reglementation/consultation-du-27-08-2026-40234.php"
+        },
+        {
+          "daily_item_id": "2026-08-25-006",
+          "date": "2026-06-25",
+          "title": "Cétacés du golfe de Gascogne : le TA de Paris reconnaît un préjudice écologique et enjoint un plan national d'actions",
+          "url": "https://paris.tribunal-administratif.fr/decisions-de-justice/dernieres-decisions/captures-accidentelles-de-petits-cetaces-dans-le-golfe-de-gascogne-le-tribunal-reconnait-l-existence-d-un-prejudice-ecologique"
+        }
+      ],
+      "what_is_changing": "Le règlement restauration passe du texte européen à des outils opérationnels nationaux (notes FRB) pendant que le contentieux et les arrêtés d'espèces forcent des plans d'actions concrets sur les milieux marins et migrateurs.",
+      "who_is_affected": [
+        "État / OFB",
+        "collectivités et gestionnaires d'espaces naturels",
+        "filières pêche et aquaculture",
+        "bureaux d'études biodiversité"
+      ],
+      "time_horizon": "6-18_mois"
+    },
+    {
+      "id": "2026-W36-circularite-dechets",
+      "title": "Circularité : ELV, sortie de statut pneus et resserrage REP emballages",
+      "status": "en_acceleration",
+      "themes": ["reglementation", "donnees_outils", "sols"],
+      "acceleration_score": 3,
+      "summary": "Le règlement ELV en vigueur se double d'arrêtés SSD pneus (huile de pyrolyse/granulés) et de consultations REP emballages (report professionnels, pénalités plastiques peu recyclables).",
+      "drivers": ["réglementation", "UE", "pratique industrielle"],
+      "evidence": [
+        {
+          "daily_item_id": "2026-08-24-011",
+          "date": "2026-08-12",
+          "title": "Règlement véhicules fin de vie (ELV) : entrée en vigueur et objectifs de circularité renforcés",
+          "url": "https://environment.ec.europa.eu/news/new-rules-more-circular-european-automotive-sector-2026-08-12_en"
+        },
+        {
+          "daily_item_id": "2026-08-26-002",
+          "date": "2026-08-02",
+          "title": "Déchets de pneus : deux arrêtés encadrent la sortie de statut de déchet pour l'huile de pyrolyse et les granulés",
+          "url": "https://www.actu-environnement.com/ae/reglementation/arrete-du-21-07-2026-tecp2528362a-40147.php"
+        },
+        {
+          "daily_item_id": "2026-08-27-005",
+          "date": "2026-08-13",
+          "title": "REP emballages : consultation sur des pénalités renforcées pour les plastiques à faible recyclage",
+          "url": "https://www.consultations-publiques.developpement-durable.gouv.fr/projet-d-arrete-modifiant-l-arrete-du-7-decembre-a3410.html"
+        },
+        {
+          "daily_item_id": "2026-08-26-008",
+          "date": "2026-08-10",
+          "title": "Emballages professionnels : consultation sur le report de la REP au 1er janvier 2027",
+          "url": "https://www.actu-environnement.com/ae/news/consultation-emballages-professionnels-report-REP-janvier-2027-48429.php4"
+        }
+      ],
+      "what_is_changing": "La circularité s'opérationnalise filière par filière : objectifs auto (ELV), critères SSD pour valorisation pneus, et leviers économiques REP (pénalités / calendrier) qui poussent l'écoconception plastiques.",
+      "who_is_affected": [
+        "constructeurs et centres VHU",
+        "filières pneus / pyrolyse",
+        "metteurs sur le marché emballages",
+        "éco-organismes REP"
+      ],
+      "time_horizon": "18_mois_plus"
+    },
+    {
+      "id": "2026-W36-gouvernance-faune",
+      "title": "Gouvernance de la faune : PNA loup, trafics CITES et tension Esod",
+      "status": "emergente",
+      "themes": ["biodiversite", "especes_habitats", "reglementation", "jurisprudence"],
+      "acceleration_score": 3,
+      "summary": "Le décret 2026-815 renforce le préfet coordonnateur du PNA loup ; l'État annonce un tour de vis anti-trafics d'espèces ; l'arrêté Esod 2026 reste sous tension contentieuse Habitats.",
+      "drivers": ["réglementation", "pratique", "jurisprudence"],
+      "evidence": [
+        {
+          "daily_item_id": "2026-08-26-001",
+          "date": "2026-08-25",
+          "title": "Plan national d'actions sur le loup : le décret n° 2026-815 renforce les pouvoirs du préfet coordonnateur",
+          "url": "https://www.actu-environnement.com/ae/reglementation/decret-du-24-08-2026-2026-815-40225.php"
+        },
+        {
+          "daily_item_id": "2026-08-29-005",
+          "date": "2026-08-27",
+          "title": "Trafics d'espèces sauvages : le gouvernement renforce contrôles frontières, CITES et traque en ligne",
+          "url": "https://www.ecologie.gouv.fr/presse/communique-presse-lutte-contre-trafics-despeces-sauvages-mathieu-lefevre-annonce"
+        },
+        {
+          "daily_item_id": "2026-08-23-001",
+          "date": "2026-08-21",
+          "title": "Esod 2026 : neuf espèces indigènes reconduites pour trois ans malgré avis scientifiques et décisions de justice",
+          "url": "https://www.actu-environnement.com/ae/reglementation/arrete-du-10-08-2026-tecl2619337a-40210.php"
+        }
+      ],
+      "what_is_changing": "Trois leviers de gouvernance faune se resserrent en parallèle : coordination préfectorale du loup, contrôles CITES/frontières, et liste Esod toujours contestée — sans encore de décision contentieuse nouvelle sur Esod.",
+      "who_is_affected": [
+        "préfets et DDT",
+        "éleveurs et fédérations",
+        "douanes / OFB",
+        "associations de protection de la nature"
+      ],
+      "time_horizon": "0-6_mois"
+    },
+    {
+      "id": "2026-W36-adaptation-sols-eau-urbaine",
+      "title": "Adaptation opérationnelle : RGA, ruissellement et guides Cerema",
+      "status": "emergente",
+      "themes": ["sols", "incendies_risques", "climat_adaptation", "eau_zones_humides", "rapports_guides"],
+      "acceleration_score": 3,
+      "summary": "Deux publications Cerema (diagnostic RGA post-été 2026 ; synthèse méthodes ruissellement) traduisent l'adaptation climatique en outils opérationnels pour collectivités et aménageurs.",
+      "drivers": ["pratique", "science", "tech"],
+      "evidence": [
+        {
+          "daily_item_id": "2026-08-25-012",
+          "date": "2026-08-24",
+          "title": "Retrait-gonflement des sols argileux : le Cerema insiste sur le diagnostic préventif après l'été 2026",
+          "url": "https://www.cerema.fr/index.php/fr/actualites/retrait-gonflement-sols-argileux-partir-diagnostic"
+        },
+        {
+          "daily_item_id": "2026-08-29-002",
+          "date": "2026-08-28",
+          "title": "Ruissellement pluvial : le Cerema publie une synthèse opérationnelle des méthodes et retours d'expérience territoriaux",
+          "url": "https://www.cerema.fr/fr/actualites/ruissellements-phenomene-complexe-fort-impact-territoires"
+        }
+      ],
+      "what_is_changing": "L'adaptation urbaine/rurale se précise en diagnostics préventifs (RGA) et en boîtes à outils de modélisation/gestion du ruissellement (Cartino 2D, retours d'expérience), au-delà des seuls arrêtés de crise.",
+      "who_is_affected": [
+        "collectivités et services GEMAPI",
+        "bureaux d'études géotechnique/hydraulique",
+        "assureurs et propriétaires exposés RGA",
+        "aménageurs"
+      ],
+      "time_horizon": "6-18_mois"
+    },
+    {
+      "id": "2026-W36-metaux-extractif",
+      "title": "Métaux critiques et extractif : lithium Limagne, Ofremi et pressions minières Guyane",
+      "status": "emergente",
+      "themes": ["sols", "energie_biodiversite", "reglementation", "donnees_outils", "biodiversite"],
+      "acceleration_score": 3,
+      "summary": "Permis exclusif de recherches lithium « Bassin de Limagne », rapport d'activité Ofremi 2025 et avis de mise en concurrence miniers en Guyane signalent une accélération de la sécurisation des ressources critiques.",
+      "drivers": ["réglementation", "industrie", "données"],
+      "evidence": [
+        {
+          "daily_item_id": "2026-08-28-002",
+          "date": "2026-08-27",
+          "title": "Lithium au Puy-de-Dôme : permis exclusif de recherches « Bassin de Limagne » accordé à 2Gré",
+          "url": "https://www.actu-environnement.com/ae/reglementation/arrete-du-31-07-2026-ecor2617123a-40230.php"
+        },
+        {
+          "daily_item_id": "2026-08-29-003",
+          "date": "2026-08-25",
+          "title": "Métaux critiques : l'Ofremi publie son rapport d'activité 2025 (cuivre, tungstène, terres rares)",
+          "url": "https://www.ofremi.fr/fr/actualite/actualite/decouvrez-rapport-dactivite-2025-de-lofremi"
+        },
+        {
+          "daily_item_id": "2026-08-25-008",
+          "date": "2026-08-04",
+          "title": "Guyane : avis de mise en concurrence pour trois autorisations de recherche minières d'or (Tortue, Saimiri)",
+          "url": "https://www.actu-environnement.com/depeches/mines-guyane-avis-mise-n-1304.html"
+        }
+      ],
+      "what_is_changing": "La souveraineté matières premières se traduit en actes administratifs (PER lithium, ARM or) et en observation institutionnelle (Ofremi), avec tensions biodiversité/territoires à anticiper.",
+      "who_is_affected": [
+        "industriels batteries/métaux",
+        "collectivités du Puy-de-Dôme et de Guyane",
+        "BRGM / Ofremi",
+        "associations environnementales"
+      ],
+      "time_horizon": "18_mois_plus"
+    },
+    {
+      "id": "2026-W36-icpe-consultations",
+      "title": "Consultations ICPE H₂ / galvanisation / batteries : en attente de clôture",
+      "status": "stable",
+      "themes": ["reglementation", "energie_biodiversite", "sols"],
+      "acceleration_score": 2,
+      "summary": "Les trois consultations ICPE ouvertes en W35 (échéance 7 septembre) n'ont pas produit de nouveau texte cette semaine ; la dynamique reste ouverte sans signal indépendant nouveau.",
+      "drivers": ["réglementation", "pratique industrielle"],
+      "evidence": [
+        {
+          "daily_item_id": "2026-08-23-004",
+          "date": "2026-08-19",
+          "title": "Hydrogène par électrolyse : projet de rubriques ICPE 2611 et 3720 soumis à consultation",
+          "url": "https://www.actu-environnement.com/ae/news/hydrogene-electrolyse-icpe-reglementation-2027-48403.php4"
+        },
+        {
+          "daily_item_id": "2026-08-24-005",
+          "date": "2026-08-19",
+          "title": "ICPE galvanisation discontinue : projet d'arrêté de prescriptions générales en consultation",
+          "url": "https://www.actu-environnement.com/ae/news/icpe-galvanisation-discontinue-prescriptions-arrete-48404.php4"
+        },
+        {
+          "daily_item_id": "2026-08-24-006",
+          "date": "2026-08-18",
+          "title": "Rubrique ICPE 2925 (charge de batteries) : projet de déclassement soumis à consultation",
+          "url": "https://www.actu-environnement.com/ae/news/icpe-declassement-charge-batteries-rubrique-2925-48399.php4"
+        }
+      ],
+      "what_is_changing": "Pas de progression normative cette semaine : score abaissé ; à réévaluer dès clôture des consultations (7/09) et avis CSPRT (15/09 pour 2925).",
+      "who_is_affected": [
+        "DREAL / inspection",
+        "porteurs de projets hydrogène",
+        "sites de galvanisation",
+        "exploitants charge de batteries"
+      ],
+      "time_horizon": "0-6_mois"
+    }
+  ]
+}
