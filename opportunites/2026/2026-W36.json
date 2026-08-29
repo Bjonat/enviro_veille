@@ -1,0 +1,335 @@
+{
+  "generated_at": "2026-08-29T19:20:00Z",
+  "based_on_trends": {
+    "file": "tendances/2026/2026-W36.json",
+    "period": {
+      "start": "2026-08-02",
+      "end": "2026-08-29"
+    }
+  },
+  "opportunities": [
+    {
+      "id": "opp-2026-W36-01",
+      "title": "Package rénovation : DPE 2027, CEE d'ampleur, MaPrimeRénov' et RGE facturant",
+      "hypothesis": "Si le package réglementaire (coefficient électrique 1,7, mention A0/EnR, recentrage CEE, exclusion monogestes MPR au 1er sept. 2026, RGE imposé à l'entreprise facturante, corrections USE tertiaire) tient son calendrier, diagnostiqueurs, entreprises RGE, mandataires et gestionnaires tertiaires devront reconfigurer outils, offres et dossiers de financement qu'ils produisaient encore en monogestes — demande observable dès sept. 2026 via formations, logiciels DPE et marchés d'accompagnement.",
+      "central_question_answer": "Recalculer et produire des DPE sous les nouvelles règles (janv. 2027), monter des bouquets de rénovation d'ampleur éligibles CEE/MPR (plus de monogestes exclus), et garantir que l'entreprise facturante porte la qualification RGE — y compris pour le tertiaire (USE).",
+      "need_type": [
+        "logiciel",
+        "formation",
+        "prestation",
+        "outil_methodologique",
+        "expertise"
+      ],
+      "buyer_personas": [
+        "diagnostiqueur DPE",
+        "entreprise RGE / sous-traitant",
+        "mandataire MaPrimeRénov' / CEE",
+        "bailleur / propriétaire",
+        "gestionnaire tertiaire (DECRETS)"
+      ],
+      "jobs_to_be_done": [
+        "Mettre à jour logiciels et méthodes de calcul DPE (coefficient 1,7, A0/EnR)",
+        "Reconcevoir les offres commerciales en bouquets d'ampleur compatibles CEE/MPR",
+        "Sécuriser la chaîne de sous-traitance pour que l'entreprise facturante soit RGE",
+        "Former diagnostiqueurs et commerciaux aux exclusions monogestes et au calendrier sept. 2026 / janv. 2027",
+        "Recalculer les trajectoires Éco-énergie tertiaire après correction des formules USE"
+      ],
+      "linked_trends": ["2026-W36-renovation-dpe-cee-mpr"],
+      "confidence": 5,
+      "risks_and_unknowns": [
+        "Consultation encore ouverte sur le facteur de conversion électricité (échéance nov. 2026) peut ajuster les paramètres",
+        "Capacité du marché RGE à absorber la demande de bouquets d'ampleur",
+        "Risque de report ou d'assouplissement politique des exclusions MPR"
+      ],
+      "validation_questions": [
+        "Des éditeurs de logiciels DPE annoncent-ils déjà des mises à jour coefficient 1,7 / A0 ?",
+        "Combien de formations RGE / mandataires MPR-CEE sont ouvertes depuis août 2026 ?",
+        "Des AO bailleurs ou collectivités portent-ils sur l'accompagnement « rénovation d'ampleur » post-décret 2026-822 ?",
+        "Les organismes certificateurs RGE communiquent-ils sur le contrôle de l'entreprise facturante ?"
+      ]
+    },
+    {
+      "id": "opp-2026-W36-02",
+      "title": "PFAS : classification boues/MFAS et ingénierie de financement de la dépollution",
+      "hypothesis": "Après la pause documentaire W35, les rapports HCSP (trois catégories boues/MFAS) et IGEDD-IGAS-CGAAER (ordres de grandeur de coût pour l'eau potable) feront basculer collectivités, STEU et agences de l'eau d'une simple surveillance PFAS vers des plans de gestion de filières et de financement qu'elles ne structuraient pas auparavant — évoluant l'hypothèse W35-05 (confiance 4 → 5).",
+      "central_question_answer": "Classer et gérer les boues/matières fertilisantes selon un cadre PFAS en catégories, mesurer les PFAS dans l'eau potable et les rejets, et construire des plans de financement / priorisation de dépollution (au-delà de la seule conformité PPWR et ICPE 2790/2791).",
+      "need_type": [
+        "prestation",
+        "donnee",
+        "expertise",
+        "outil_methodologique",
+        "formation"
+      ],
+      "buyer_personas": [
+        "collectivité / STEU",
+        "agence de l'eau",
+        "exploitant ICPE 2790/2791",
+        "filière fertilisants / épandage",
+        "laboratoire d'analyses",
+        "bureau d'études eaux industrielles"
+      ],
+      "jobs_to_be_done": [
+        "Auditer stocks et flux de boues/MFAS face au cadre HCSP en trois catégories",
+        "Dimensionner programmes d'analyses PFAS eau potable / rejets et tableaux de bord pour élus",
+        "Élaborer scénarios de financement et de priorisation de dépollution (référence rapport IGEDD-IGAS-CGAAER)",
+        "Maintenir la conformité PPWR emballages et prescriptions 2790/2791",
+        "Former les services eau/assainissement au basculement « contrôle → filières + budget »"
+      ],
+      "linked_trends": ["2026-W36-pfas-couts-filieres"],
+      "confidence": 5,
+      "risks_and_unknowns": [
+        "Le cadre HCSP n'est pas encore un arrêté opposable : calendrier de transcription inconnu",
+        "Les ordres de grandeur budgétaires du rapport sont nationaux — traduction locale incertaine",
+        "Substitution emballages peut rester internalisée chez les grands groupes"
+      ],
+      "validation_questions": [
+        "Un projet d'arrêté ou une instruction ministérielle reprend-il le cadre HCSP boues/MFAS ?",
+        "Des AO STEU/agences portent-ils sur diagnostics PFAS boues ou plans de financement dépollution ?",
+        "Des recrutements « ingénieur PFAS / micropolluants » apparaissent-ils chez les syndicats d'eau ?",
+        "L'inspection a-t-elle engagé des contrôles ciblés 2790/2791 post-arrêté juillet 2026 ?"
+      ]
+    },
+    {
+      "id": "opp-2026-W36-03",
+      "title": "Expérimentation azote/algues vertes Bretagne : suivi par reliquats et sortie du plan de fumure",
+      "hypothesis": "Le décret 2026-823 et son arrêté (expérimentation dès le 1er septembre 2026) obligeront exploitants agricoles en zones concernées, chambres d'agriculture/GREN et BE eau-agriculture à déployer un suivi par reliquats et une ingénierie de conseil distincts du plan de fumure classique — hypothèse falsifiable dès la campagne 2026-2027.",
+      "central_question_answer": "Mesurer et suivre les reliquats azotés selon le protocole expérimental, produire les dossiers de suivi/conformité, et accompagner la transition hors (ou en complément) du plan de fumure dans les bassins algues vertes.",
+      "need_type": [
+        "prestation",
+        "donnee",
+        "expertise",
+        "outil_methodologique",
+        "formation",
+        "logiciel"
+      ],
+      "buyer_personas": [
+        "exploitant agricole en zone vulnérable Bretagne",
+        "chambre d'agriculture / GREN",
+        "collectivité / SAGE baie à algues vertes",
+        "bureau d'études eau-agriculture",
+        "laboratoire agronomique"
+      ],
+      "jobs_to_be_done": [
+        "Déployer protocoles d'échantillonnage et d'analyse de reliquats",
+        "Adapter outils de conseil agronomique et reporting expérimental",
+        "Former conseillers et agriculteurs au nouveau cadre dès sept. 2026",
+        "Produire bilans territoriaux pour SAGE / services de l'État",
+        "Articuler l'expérimentation avec les obligations eau potable et nitrates existantes"
+      ],
+      "linked_trends": ["2026-W36-eau-stress-azote-contentieux"],
+      "confidence": 5,
+      "risks_and_unknowns": [
+        "Périmètre géographique et durée exacts de l'expérimentation à confirmer dans l'arrêté d'application",
+        "Acceptabilité agricole et capacité analytique locale",
+        "Risque que l'expérimentation reste pilote sans généralisation"
+      ],
+      "validation_questions": [
+        "Quels bassins / cantons sont listés dans l'arrêté d'expérimentation au 1er septembre 2026 ?",
+        "Des marchés de suivi reliquats ou d'accompagnement GREN ont-ils été notifiés ?",
+        "Des labos agronomiques annoncent-ils une hausse de capacité d'analyses de reliquats en Bretagne ?",
+        "Des recrutements « conseiller azote / qualité de l'eau » apparaissent-ils dans les chambres d'agriculture ?"
+      ]
+    },
+    {
+      "id": "opp-2026-W36-04",
+      "title": "Post-extrêmes : montage DSEC, reconstruction adaptée et responsabilité réseaux",
+      "hypothesis": "La DSEC simplifiée/élargie (décret 2026-788), la doctrine de reconstruction post-mégafeux et le contentieux visant les gestionnaires de réseaux créeront une demande de prestations de montage de dossiers, d'ingénierie DFCI/habitat feu et d'audit de risques réseaux — évolution de W35-01/06 vers un package multi-acteurs (confiance maintenue haute mais recalibrée à 4 faute de référentiel habitat feu encore publié).",
+      "central_question_answer": "Monter des dossiers DSEC pour collectivités sinistrées, produire des projets de reconstruction/reboisement/DFCI compatibles avec la doctrine annoncée, et auditer/documenter les risques de responsabilité des réseaux en zone exposée aux feux.",
+      "need_type": [
+        "prestation",
+        "expertise",
+        "outil_methodologique",
+        "formation"
+      ],
+      "buyer_personas": [
+        "collectivité sinistrée / EPCI",
+        "Enedis / gestionnaire de réseau",
+        "propriétaire forestier / CRPF",
+        "DREAL / services DFCI",
+        "juriste risques / environnement",
+        "bureau d'études urbanisme / biodiversité"
+      ],
+      "jobs_to_be_done": [
+        "Accompagner le dépôt et le suivi de dossiers DSEC post-décret 2026-788",
+        "Traduire la doctrine de reconstruction en cahiers des charges locaux",
+        "Cartographier exposition des réseaux et preuves de diligence DFCI",
+        "Articuler urgences forestières, aides et plans de reconstitution",
+        "Former les services techniques aux nouveaux guichets de financement sinistre"
+      ],
+      "linked_trends": ["2026-W36-megafeux-financement-responsabilite"],
+      "confidence": 4,
+      "risks_and_unknowns": [
+        "Référentiel national habitat résistant au feu (cible 2027) toujours non publié",
+        "La plainte Robin des Bois / Enedis peut rester isolée sans doctrine pénale claire",
+        "Concentration géographique des sinistres limite le marché national à court terme"
+      ],
+      "validation_questions": [
+        "Des collectivités ont-elles déjà déposé des dossiers DSEC sous le décret 2026-788 ?",
+        "Des AO d'AMO « reconstruction post-incendie / DFCI » sont-ils publiés (Gironde, Landes, autres) ?",
+        "Enedis ou d'autres GRD lancent-ils des audits de vulnérabilité feux de forêt ?",
+        "La consultation aides au renouvellement forestier (échéance 31/08) a-t-elle abouti à un texte ?"
+      ]
+    },
+    {
+      "id": "opp-2026-W36-05",
+      "title": "Réseaux et stockage EnR : plans de développement, zones saturées et dossiers stationnaires",
+      "hypothesis": "Le goulot EnR bascule de l'autorisation de produire vers la capacité de réseau (cartographie Enedis, décret 2026-805) et l'acceptabilité foncière du stockage (TA Nantes) : développeurs, DDT et BE devront produire des analyses de saturation, des contributions aux plans de développement et des dossiers d'urbanisme/EI pour le stockage stationnaire qu'ils ne standardisaient pas — évolution de W35-04.",
+      "central_question_answer": "Analyser la saturation des postes/réseaux, contribuer aux plans de développement opposables, et monter des dossiers de permis / études d'impact pour le stockage batteries y compris en zone agricole, tout en maintenant la doctrine CE d'état actuel pour les extensions.",
+      "need_type": [
+        "prestation",
+        "donnee",
+        "expertise",
+        "outil_methodologique",
+        "logiciel"
+      ],
+      "buyer_personas": [
+        "porteur de projet EnR / stockage",
+        "Enedis / gestionnaire de réseau",
+        "préfecture / DDT(M)",
+        "chambre d'agriculture",
+        "rédacteur d'études d'impact",
+        "collectivité"
+      ],
+      "jobs_to_be_done": [
+        "Croiser portefeuilles projets avec la cartographie des zones saturées",
+        "Rédiger contributions et études d'accompagnement des plans de développement réseaux",
+        "Sécuriser juridiquement et environnementalement les permis de stockage en zone agricole",
+        "Maintenir la reprise des EI d'extension (état actuel = parc existant)",
+        "Produire des outils SIG de priorisation de raccordement"
+      ],
+      "linked_trends": ["2026-W36-reseaux-stockage-enr"],
+      "confidence": 4,
+      "risks_and_unknowns": [
+        "Doctrine préfectorale sur le stockage en zone agricole encore hétérogène",
+        "Données de saturation Enedis parfois agrégées / peu actionnables à la parcelle",
+        "Volume réel de contentieux stockage post-TA Nantes inconnu"
+      ],
+      "validation_questions": [
+        "Des AO de développeurs portent-ils sur « étude de saturation / S3REnR / plan de développement » ?",
+        "D'autres TA suivent-ils la ligne Nantes sur le stockage en zone agricole ?",
+        "Des DDT publient-elles des notes d'instruction sur le stationnaire agricole ?",
+        "Des recrutements « raccordement EnR / storage permitting » sont-ils visibles ?"
+      ]
+    },
+    {
+      "id": "opp-2026-W36-06",
+      "title": "Trait de côte : plans locaux SNGITC 2025-2030 branchés sur l'INEC 2026",
+      "hypothesis": "L'adoption de la SNGITC par décret 2026-803 et la mise à jour Cerema de l'INEC obligeront collectivités littorales, DDTM et BE à produire des stratégies locales de gestion du trait de côte (observation, protection, relocalisation) adossées à un indicateur national actualisé — besoin nouveau de prestations et de données.",
+      "central_question_answer": "Intégrer la SNGITC et l'INEC 2026 dans les documents d'urbanisme et les plans locaux de gestion du trait de côte : cartographier l'érosion, prioriser actions, et instruire des projets de relocalisation / protection.",
+      "need_type": [
+        "prestation",
+        "donnee",
+        "expertise",
+        "outil_methodologique",
+        "formation"
+      ],
+      "buyer_personas": [
+        "collectivité littorale / EPCI",
+        "DDTM / DREAL",
+        "Cerema / service observation",
+        "aménageur / urbaniste côtier",
+        "bureau d'études littoral / GEMAPI"
+      ],
+      "jobs_to_be_done": [
+        "Mettre à jour diagnostics d'érosion avec l'INEC 2026",
+        "Rédiger ou réviser plans locaux de gestion du trait de côte alignés SNGITC",
+        "Traduire la stratégie en pièces PLU/SCoT et dossiers de financement",
+        "Former élus et services instructeurs aux nouveaux référentiels",
+        "Prioriser segments côtiers pour observation, protection ou relocalisation"
+      ],
+      "linked_trends": ["2026-W36-trait-de-cote"],
+      "confidence": 4,
+      "risks_and_unknowns": [
+        "Horizon 6–18 mois : peu d'AO immédiats si les crédits de relocalisation restent limités",
+        "Hétérogénéité de maturité entre façades (Atlantique, Méditerranée, outre-mer)",
+        "Conflits d'usage littoraux peuvent bloquer la traduction opérationnelle"
+      ],
+      "validation_questions": [
+        "Des collectivités ont-elles lancé des AO « plan de gestion du trait de côte / SNGITC » depuis le décret 2026-803 ?",
+        "Le Cerema propose-t-il des formations ou prestations d'accompagnement INEC 2026 ?",
+        "Des AAP nationaux ou régionaux flèchent-ils explicitement la SNGITC 2025-2030 ?",
+        "Des recrutements « chargé de mission trait de côte / relocalisation » apparaissent-ils ?"
+      ]
+    },
+    {
+      "id": "opp-2026-W36-07",
+      "title": "Surveillance eau potable et sécurisation juridique des restrictions / titres",
+      "hypothesis": "Les arrêtés de surveillance (pression UE), le contentieux consolidant les arrêtés de restriction (Siagne) et le décret sur les droits fondés en titre maintiennent une demande d'expertise laboratoire/BE et de sécurisation juridique pour syndicats et services — maturation de W35-02/07 (confiance 4 : signal surveillance toujours actif, mais le pic d'attention bascule vers l'azote Bretagne).",
+      "central_question_answer": "Mesurer la qualité de l'eau potable selon les arrêtés de transposition, instruire/défendre les arrêtés de restriction, et auditer les droits d'eau historiques post-décret 2026-740.",
+      "need_type": [
+        "prestation",
+        "donnee",
+        "expertise",
+        "formation"
+      ],
+      "buyer_personas": [
+        "syndicat / gestionnaire d'eau",
+        "ARS / police de l'eau",
+        "collectivité sous restriction",
+        "juriste droit de l'eau",
+        "laboratoire agréé",
+        "bureau d'études eau"
+      ],
+      "jobs_to_be_done": [
+        "Mettre à jour plans de surveillance et contrats labo",
+        "Sécuriser juridiquement les arrêtés de restriction face aux recours",
+        "Auditer les droits fondés en titre et options de gestion",
+        "Produire tableaux de bord conformité pour ARS et élus",
+        "Former les services aux pièges contentieux de la crise hydrique"
+      ],
+      "linked_trends": ["2026-W36-eau-stress-azote-contentieux"],
+      "confidence": 4,
+      "risks_and_unknowns": [
+        "Part du marché absorbée par les labos et cabinets historiques",
+        "EICH/expérimentations eaux non conventionnelles peu mentionnées cette semaine (risque de plateau)",
+        "Contentieux Siagne peut rester localisé"
+      ],
+      "validation_questions": [
+        "Combien de marchés publics d'analyses eau potable depuis juillet 2026 ?",
+        "D'autres recours contre arrêtés de restriction ont-ils été tranchés dans le même sens que Nice ?",
+        "Des notes doctrinales commentent-elles le décret 2026-740 ?",
+        "Des dossiers expérimentaux EICH / eaux grises sont-ils toujours déposés ?"
+      ]
+    },
+    {
+      "id": "opp-2026-W36-08",
+      "title": "Restauration de la nature : traduction opérationnelle des notes FRB et plans d'actions espèces",
+      "hypothesis": "Les huit notes FRB/Biodiversa+ et la pression contentieuse/réglementaire sur les espèces aquatiques (anguille, cétacés) pousseront État, collectivités et BE biodiversité à produire des plans de restauration et d'actions qu'ils ne formalisaient pas encore sous le règlement UE — opportunité émergente à horizon 6–18 mois.",
+      "central_question_answer": "Traduire le règlement restauration et les notes FRB en diagnostics, objectifs et mesures territoriales ; et monter des plans nationaux/régionaux d'actions pour espèces aquatiques sous contrainte contentieuse.",
+      "need_type": [
+        "prestation",
+        "expertise",
+        "outil_methodologique",
+        "formation",
+        "donnee"
+      ],
+      "buyer_personas": [
+        "État / OFB",
+        "collectivité / gestionnaire d'espace naturel",
+        "bureau d'études biodiversité",
+        "filière pêche / aquaculture",
+        "DREAL"
+      ],
+      "jobs_to_be_done": [
+        "Cartographier habitats et opportunités de restauration à l'échelle des territoires",
+        "Rédiger plans de mesures alignés notes FRB / règlement UE",
+        "Instruire consultations et dossiers espèces (anguille, cétacés, autres)",
+        "Former les instructeurs et gestionnaires aux outils opérationnels de restauration",
+        "Suivre indicateurs et reporting européen"
+      ],
+      "linked_trends": ["2026-W36-restauration-nature"],
+      "confidence": 3,
+      "risks_and_unknowns": [
+        "Notes FRB non opposables : dépendent de la transcription nationale et des budgets",
+        "Calendrier de mise en œuvre du règlement restauration encore flou en France",
+        "Contentieux cétacés / consultation anguille peuvent rester sectoriels"
+      ],
+      "validation_questions": [
+        "Un calendrier officiel de plans nationaux de restauration a-t-il été publié ?",
+        "Des AO OFB/DREAL/collectivités citent-ils explicitement le règlement restauration ou les notes FRB ?",
+        "Le projet d'arrêté anguille aboutit-il avant fin 2026 ?",
+        "Des recrutements « restauration écologique / Nature Restoration Law » apparaissent-ils ?"
+      ]
+    }
+  ]
+}
