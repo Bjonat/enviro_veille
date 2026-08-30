@@ -1,0 +1,250 @@
+{
+  "date": "2026-08-30",
+  "generated_at": "2026-08-30T06:17:21+02:00",
+  "timezone": "Europe/Paris",
+  "meta": {
+    "item_count": 6,
+    "sources_consulted": [
+      "sdes",
+      "consultations_publiques_mte",
+      "commission_ue_nrr",
+      "actu_environnement",
+      "ecologie_gouv",
+      "cerema",
+      "igedd"
+    ],
+    "deduplicated_against_days": 8,
+    "notes": "Dimanche estival : peu de dépêches Actu-Environnement après le 28/08. Items centrés sur publications SDES (26–28/08), échéances consultations (publicité fossiles 31/08, plan restauration 09/2026) et ouverture consultation Permis de Larchant (31/08). Algues vertes Bretagne, MaPrimeRénov, FRB restauration, CEE, Ofremi, PFAS eau potable, etc. exclus comme déjà couverts 22–29/08. OFB (anti-bot), IGEDD (pages protégées), Reporterre et BRGM partiellement injoignables."
+  },
+  "items": [
+    {
+      "id": "2026-08-30-001",
+      "title": "Aides publiques environnementales : le SDES publie le bilan 2023 (15,2 Md€)",
+      "summary": "Le 26 août 2026, le SDES publie une note sur les aides publiques environnementales en France en 2023, sur la base des comptes économiques de l'environnement 2025. Les subventions et transferts courants ou en capital à finalité environnementale s'élèvent à 15,2 milliards d'euros, soit 15 % des dépenses environnementales totales (99,9 Md€) et 4,7 % des aides versées par les administrations publiques hors prestations sociales. Elles se répartissent en 6,3 Md€ pour la protection de l'environnement et 8,8 Md€ pour la gestion durable des ressources naturelles. Plus de la moitié (7,7 Md€) vise la réduction de la consommation d'énergies fossiles (maîtrise de l'énergie 4,3 Md€, EnR 3,3 Md€). Les aides à la biodiversité et aux paysages atteignent 1,3 Md€, dont 0,3 Md€ via les agences de l'eau et 0,3 Md€ pour les associations de protection. Le périmètre couvre désormais l'ensemble des activités environnementales mais exclut encore les exonérations fiscales et les effets des instruments de régulation carbone.",
+      "themes": ["donnees_outils", "climat_adaptation", "biodiversite", "eau_zones_humides"],
+      "signal_type": "nouveau_referentiel_ou_jeu_de_donnees",
+      "geography": ["France"],
+      "actors": ["SDES", "Ministère de la Transition écologique", "agences de l'eau", "ADEME"],
+      "primary_source": {
+        "name": "SDES — Les aides publiques environnementales en France en 2023",
+        "url": "https://www.statistiques.developpement-durable.gouv.fr/les-aides-publiques-environnementales-en-france-en-2023",
+        "type": "institutionnel"
+      },
+      "urls": [
+        "https://www.statistiques.developpement-durable.gouv.fr/les-aides-publiques-environnementales-en-france-en-2023"
+      ],
+      "published_at": "2026-08-26",
+      "detected_via": "source primaire SDES (page d'accueil et publication du 26/08/2026)",
+      "relevance": {
+        "score": 4,
+        "why": "Référence chiffrée pour DREAL, collectivités et bureaux d'études comparant le poids des aides publiques par domaine (EnR, eau, biodiversité) dans les politiques environnementales."
+      },
+      "entities": [
+        "comptes économiques de l'environnement",
+        "MaPrimeRénov'",
+        "Fonds vert",
+        "charges de service public de l'énergie"
+      ],
+      "tags": ["financement", "statistiques", "subventions"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-30-002",
+      "title": "Construction de logements : le SDES publie les résultats à fin juillet 2026 (Sitadel3)",
+      "summary": "Publié le 28 août 2026, le SDES diffuse les statistiques mensuelles de construction neuve à partir de la base Sitadel3, qui remplace Sitadel2 depuis mars 2026. En juillet 2026, 29 577 logements ont été autorisés (−2,5 % vs juin en données CVS) et 27 677 mises en chantier (+8,9 %). Sur les douze mois glissants (août 2025 – juillet 2026), 370 673 logements ont été autorisés, soit 9,5 % de moins que la moyenne des cinq années précédentes ; le niveau mensuel moyen sur les sept premiers mois de 2026 reste toutefois supérieur de 1,4 % à celui de 2025. Les séries sont disponibles via explorateur de données et API. Sitadel3 prévoit une révision légère des séries historiques et l'intégration progressive de variables Cerfa absentes de Sitadel2 (jusqu'à 15 parcelles cadastrales).",
+      "themes": ["zan_artificialisation", "donnees_outils", "climat_adaptation"],
+      "signal_type": "nouveau_referentiel_ou_jeu_de_donnees",
+      "geography": ["France"],
+      "actors": ["SDES", "centres instructeurs DAU"],
+      "primary_source": {
+        "name": "SDES — Construction de logements à fin juillet 2026",
+        "url": "https://www.statistiques.developpement-durable.gouv.fr/construction-de-logements-resultats-fin-juillet-2026-france-entiere",
+        "type": "institutionnel"
+      },
+      "urls": [
+        "https://www.statistiques.developpement-durable.gouv.fr/construction-de-logements-resultats-fin-juillet-2026-france-entiere"
+      ],
+      "published_at": "2026-08-28",
+      "detected_via": "source primaire SDES (actualités du 28/08/2026)",
+      "relevance": {
+        "score": 3,
+        "why": "Indicateur de consommation d'espaces et de pression urbanistique utile pour collectivités, observatoires ZAN et services de l'État suivant la trajectoire 2021–2031."
+      },
+      "entities": [
+        "Sitadel3",
+        "autorisations de logements",
+        "mises en chantier"
+      ],
+      "tags": ["logement", "ZAN", "statistiques"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-30-003",
+      "title": "Règlement restauration de la nature : échéance de remise des plans nationaux à la Commission (septembre 2026)",
+      "summary": "La Commission européenne rappelle que les États membres doivent transmettre leurs projets de plans nationaux de restauration (NRP) avant septembre 2026, en application du règlement (UE) 2024/1991 entré en vigueur en août 2024. La France prépare le plan « Agir pour restaurer la nature » ; huit notes de recherche publiées le 27 août par la FRB et Biodiversa+ rappellent l'échéance au 1er septembre 2026. L'EEA met à disposition un outil de préparation (format uniforme, modèles Reportnet), un portail de référence NRR et un helpdesk. Les plans devront couvrir notamment la restauration des écosystèmes terrestres, aquatiques et marins, les habitats d'espèces et les continuités écologiques, avec un suivi et un reporting réguliers.",
+      "themes": ["biodiversite", "natura2000", "reglementation", "climat_adaptation"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France", "UE"],
+      "actors": [
+        "Commission européenne",
+        "EEA",
+        "Ministère de la Transition écologique",
+        "FRB"
+      ],
+      "primary_source": {
+        "name": "Commission européenne — Nature Restoration Regulation implementation",
+        "url": "https://green-forum.ec.europa.eu/nature-and-biodiversity/nature-restoration-regulation-implementation_en",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "FRB — huit notes restauration (27/08/2026)",
+          "url": "https://www.fondationbiodiversite.fr/actualites/apres-un-ete-marque-par-la-secheresse-les-incendies-et-les-canicules-restaurer-la-nature-est-plus-que-jamais-necessaire/"
+        }
+      ],
+      "urls": [
+        "https://green-forum.ec.europa.eu/nature-and-biodiversity/nature-restoration-regulation-implementation_en",
+        "https://www.fondationbiodiversite.fr/actualites/apres-un-ete-marque-par-la-secheresse-les-incendies-et-les-canicules-restaurer-la-nature-est-plus-que-jamais-necessaire/"
+      ],
+      "published_at": "2026-08-27",
+      "detected_via": "Commission UE (portail NRR) ; rappel échéance via notes FRB du 27/08 déjà signalées — angle échéance imminente septembre 2026",
+      "relevance": {
+        "score": 5,
+        "why": "Échéance structurante pour DREAL, gestionnaires Natura 2000, collectivités et bureaux d'études devant aligner programmes de restauration sur le plan national à remettre à la Commission."
+      },
+      "entities": [
+        "Agir pour restaurer la nature",
+        "National Restoration Plans",
+        "règlement restauration de la nature",
+        "Reportnet"
+      ],
+      "tags": ["restauration", "UE", "échéance"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-30-004",
+      "title": "Publicité énergies fossiles : dernière journée de consultation sur le projet de décret (31 août 2026)",
+      "summary": "La consultation publique sur le projet de décret d'application de l'article L. 229-61 du code de l'environnement (loi Climat et Résilience) se clôt le 31 août 2026. Le texte vise à interdire la publicité relative à la commercialisation ou à la promotion des énergies fossiles (pétrole, gaz fossile, charbon, hydrogène gris, chaleur fossile) et précise des dérogations (carburants > 50 % d'énergie renouvelable, mécénat, communication institutionnelle, etc.). Les contributions récentes proviennent notamment de l'ANODE (définition de la publicité, préservation de l'information consommateur) et de QuotaClimat (extension du périmètre à l'automobile fossile, transport aérien, croisières, chauffage fossile). La publication du décret est attendue d'ici fin 2026.",
+      "themes": ["reglementation", "climat_adaptation"],
+      "signal_type": "consultation_publique",
+      "geography": ["France"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "ANODE",
+        "QuotaClimat"
+      ],
+      "primary_source": {
+        "name": "Consultations publiques MTE — décret publicité énergies fossiles",
+        "url": "https://www.consultations-publiques.developpement-durable.gouv.fr/consultation-du-public-sur-le-projet-de-decret-a3404.html",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — article consultation (24/08/2026)",
+          "url": "https://www.actu-environnement.com/ae/news/decret-interdiction-publicite-energies-fossiles-48417.php4"
+        }
+      ],
+      "urls": [
+        "https://www.consultations-publiques.developpement-durable.gouv.fr/consultation-du-public-sur-le-projet-de-decret-a3404.html",
+        "https://www.actu-environnement.com/ae/news/decret-interdiction-publicite-energies-fossiles-48417.php4"
+      ],
+      "published_at": "2026-07-31",
+      "detected_via": "portail consultations-publiques MTE confirmé ; sujet signalé le 25–28/08 — rappel échéance 31/08/2026 et contributions ANODE/QuotaClimat (28–29/08)",
+      "relevance": {
+        "score": 3,
+        "why": "Dernière fenêtre de contribution pour services juridiques, agences de communication et filières énergie avant la rédaction finale du décret d'interdiction."
+      },
+      "entities": [
+        "article L. 229-61",
+        "loi Climat et Résilience",
+        "énergies fossiles"
+      ],
+      "tags": ["publicite", "consultation", "climat"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-30-005",
+      "title": "Permis de Larchant (Seine-et-Marne) : consultation publique sur la prolongation dès le 31 août 2026",
+      "summary": "La société Sibelco a demandé la prolongation, sur un périmètre réduit et pour dix ans, du permis exclusif de carrières dit « Permis de Larchant » en Seine-et-Marne (demande initiale du 7 juillet 2016). Une consultation du public dématérialisée s'ouvre le lundi 31 août 2026 pour quinze jours sur le portail du ministère, étape obligatoire au titre de l'article L. 123-19-2 du code de l'environnement. Au terme de la procédure, la prolongation pourra être acceptée en totalité ou partiellement par arrêté conjoint des ministres chargés des mines et de l'environnement, ou refusée. Les renseignements sont disponibles auprès du Bureau de la politique des ressources minérales (DGEC).",
+      "themes": ["sols", "reglementation", "biodiversite"],
+      "signal_type": "consultation_publique",
+      "geography": ["France", "Île-de-France", "Seine-et-Marne"],
+      "actors": [
+        "Sibelco",
+        "Ministère de la Transition écologique",
+        "Ministère de l'Économie",
+        "DGEC"
+      ],
+      "primary_source": {
+        "name": "Consultations publiques MTE — Permis de Larchant",
+        "url": "https://www.consultations-publiques.developpement-durable.gouv.fr/avis-de-consultation-a-venir-demande-de-a3416.html",
+        "type": "institutionnel"
+      },
+      "urls": [
+        "https://www.consultations-publiques.developpement-durable.gouv.fr/avis-de-consultation-a-venir-demande-de-a3416.html"
+      ],
+      "published_at": "2026-08-21",
+      "detected_via": "portail consultations-publiques MTE (avis du 21/08/2026, ouverture 31/08/2026)",
+      "relevance": {
+        "score": 3,
+        "why": "Fenêtre de participation pour collectivités, associations et riverains concernés par l'extension d'une carrière en zone forestière du massif de Fontainebleau."
+      },
+      "entities": [
+        "Permis de Larchant",
+        "Sibelco",
+        "permis exclusif de carrières"
+      ],
+      "tags": ["carrieres", "mines", "consultation"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-30-006",
+      "title": "Échéances réglementaires du 1er septembre 2026 : algues vertes Bretagne, MaPrimeRénov' et taxe PFAS",
+      "summary": "Plusieurs textes environnementaux majeurs entrent en application ou produisent leurs effets dès le 1er septembre 2026. Le décret n° 2026-823 et l'arrêté TECL2621732A (JORF 28/08) lancent en Bretagne une expérimentation quinquennale sur la gestion de l'azote en zone vulnérable (reliquats de drainage, bandes enherbées, contrôles renforcés). Le décret n° 2026-822 et l'arrêté VLOL2620605A (JORF 27/08) modifient MaPrimeRénov' : suppression de plusieurs forfaits monogestes (bois/biomasse, PAC ECS, ventilation, solaire thermique hors outre-mer), transfert de critères vers l'éco-PTZ et exclusion des équipements fossiles du parcours accompagné. Par ailleurs, la taxe « pollueur-payeur » sur les PFAS entre en vigueur au 1er septembre 2026, dans un contexte où un rapport IGEDD-IGAS-CGAAER chiffre le surcoût de dépollution de l'eau potable entre 1,3 et 5,7 Md€/an.",
+      "themes": ["reglementation", "eau_zones_humides", "climat_adaptation"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France", "Bretagne"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "ANAH",
+        "Préfecture de Bretagne",
+        "agences de l'eau"
+      ],
+      "primary_source": {
+        "name": "Journal officiel — décret n° 2026-823 du 27 août 2026",
+        "url": "https://www.actu-environnement.com/ae/reglementation/decret-du-27-08-2026-2026-823-40235.php",
+        "type": "juridique"
+      },
+      "secondary_sources": [
+        {
+          "name": "Journal officiel — décret n° 2026-822 (MaPrimeRénov')",
+          "url": "https://www.actu-environnement.com/ae/reglementation/decret-du-25-08-2026-2026-822-40231.php"
+        },
+        {
+          "name": "Actu-Environnement — rapport PFAS/pesticides eau potable",
+          "url": "https://www.actu-environnement.com/media/pdf/news-48448-rapport-igeed-igas-cgaaer-financement-decontamination-eaux.pdf"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/ae/reglementation/decret-du-27-08-2026-2026-823-40235.php",
+        "https://www.actu-environnement.com/ae/reglementation/decret-du-25-08-2026-2026-822-40231.php",
+        "https://www.actu-environnement.com/media/pdf/news-48448-rapport-igeed-igas-cgaaer-financement-decontamination-eaux.pdf"
+      ],
+      "published_at": "2026-08-28",
+      "detected_via": "textes JORF republiés sur Actu-Environnement (27–28/08) ; synthèse échéances rentrée non couverte comme item unique",
+      "relevance": {
+        "score": 5,
+        "why": "Triple bascule opposable dès le 1/09 pour agriculteurs bretons, filière rénovation (ANAH, RGE) et gestionnaires de l'eau confrontés à la taxe PFAS et aux investissements de traitement."
+      },
+      "entities": [
+        "décret n° 2026-823",
+        "décret n° 2026-822",
+        "MaPrimeRénov'",
+        "taxe PFAS",
+        "algues vertes"
+      ],
+      "tags": ["échéance", "rentrée", "eau"],
+      "is_new": true
+    }
+  ]
+}
