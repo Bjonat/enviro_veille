@@ -1,0 +1,144 @@
+{
+  "generated_at": "2026-08-30T22:30:00Z",
+  "based_on_validation": {
+    "file": "validation/2026/2026-W36.json",
+    "period": "2026-W36"
+  },
+  "offers": [
+    {
+      "id": "offre-2026-W36-pfas-boues-financement",
+      "title": "Diagnostic PFAS boues/MFAS + scénario de financement de dépollution",
+      "status": "pret_a_prototyper",
+      "be_fit": 5,
+      "linked_opportunity_id": "opp-2026-W36-02",
+      "linked_validation_verdict": "signale_fort",
+      "one_liner": "Nous classons vos boues et matières fertilisantes selon le cadre HCSP, posons un plan d'analyses PFAS et un scénario de financement de dépollution pour l'eau et l'assainissement.",
+      "buyer": {
+        "persona": "collectivité / STEU / agence de l'eau",
+        "trigger": "campagne d'analyses PFAS, inspection, projet d'épandage, ou besoin de prioriser un budget dépollution"
+      },
+      "deliverables": [
+        "Audit des flux boues/MFAS et classement provisoire en 3 catégories (avis HCSP)",
+        "Plan d'échantillonnage PFAS (eaux brutes/traitées, STEP, rejets) prêt à passer en marché labo",
+        "Note de priorisation et scénarios de financement territoriaux (référence mission IGEDD-IGAS-CGAAER)",
+        "Calendrier de mise en conformité ICPE 2790/2791 si le site est concerné"
+      ],
+      "skills_required": [
+        "chimie/micropolluants",
+        "assainissement / épandage",
+        "ingénierie financière collectivités",
+        "réglementation ICPE / eau potable"
+      ],
+      "why_now": "La validation W36 confirme un marché déjà monétisé (analyses + pilotes + stations mobiles) alors que le cadre HCSP n'est pas encore transcrit en arrêté : c'est le moment où un BE peut vendre l'ingénierie avant que les labos et les constructeurs n'occupent tout le créneau.",
+      "evidence_refs": [
+        {
+          "title": "Avis HCSP — cadre PFAS boues/MFAS en trois catégories",
+          "url": "https://www.hcsp.fr/Explore.cgi/avisrapportsdomaine?clefr=1542",
+          "type": "demande_explicite"
+        },
+        {
+          "title": "Rapport IGEDD-IGAS-CGAAER — coûts de dépollution EDCH",
+          "url": "https://www.actu-environnement.com/media/pdf/news-48448-rapport-igeed-igas-cgaaer-financement-decontamination-eaux.pdf",
+          "type": "financement"
+        },
+        {
+          "title": "Région Grand Est — stations mobiles PFAS (2,43 M€ HT / 48 mois)",
+          "url": "https://www.marchesonline.com/appels-offres/avis/acquisition-et-exploitation-de-stations-mobiles-de-trai/ao-9626410-1",
+          "type": "appel_offres"
+        },
+        {
+          "title": "CAPI — unité pilote traitement PFAS (limite 23/09/2026)",
+          "url": "https://www.marchesonline.com/appels-offres/avis/installation-et-suivi-d-une-unite-pilote-pour-le-traite/ao-9640219-1",
+          "type": "appel_offres"
+        },
+        {
+          "title": "CA Pays Basque — analyses PFAS STEP 74 942 €",
+          "url": "https://www.macellum.fr/marche/e8f2a25403eef5c838c7ca27f74457b59bd7a60c-recherche-pfas-eaux-brutes-traites-step-capb-campagne-2026",
+          "type": "appel_offres"
+        }
+      ],
+      "price_signal": "AO analyses déjà notifié à 74 942 € (CAPB) ; pilotes et stations mobiles jusqu'à 2,43 M€ HT / 48 mois (Grand Est). Prestation BE d'ingénierie non chiffrée dans la validation.",
+      "competitors": [
+        "Laboratoires environnementaux",
+        "Fournisseurs de traitement (stations mobiles / pilotes)",
+        "BE eaux industrielles / assainissement",
+        "Agences de l'eau (financement)"
+      ],
+      "first_action_this_month": "Rédiger une note d'offre 4 pages et cibler 5 STEU / EPCI déjà en campagne PFAS ; évaluer une réponse ou un groupement sur le pilote CAPI (échéance 23/09/2026).",
+      "do_not_sell": "Ne pas vendre une « solution de traitement clé en main » ni inventer un arrêté HCSP déjà opposable — le cadre n'est pas encore transcrit."
+    },
+    {
+      "id": "offre-2026-W36-azote-bretagne",
+      "title": "Protocole de suivi par reliquats — expérimentation algues vertes Bretagne",
+      "status": "preparer_attendre_signal",
+      "be_fit": 4,
+      "linked_opportunity_id": "opp-2026-W36-03",
+      "linked_validation_verdict": "signale_modere",
+      "one_liner": "Nous mettons en place le suivi par reliquats azotés et le dossier d'accompagnement des exploitations concernées par l'expérimentation Bretagne dès septembre 2026.",
+      "buyer": {
+        "persona": "chambre d'agriculture / GREN / collectivité de bassin / exploitant ciblé",
+        "trigger": "entrée en vigueur du décret 2026-823 et du PAR nitrates au 1er septembre 2026"
+      },
+      "deliverables": [
+        "Protocole d'échantillonnage des reliquats de début de drainage",
+        "Dossier de suivi expérimental par exploitation ou petit groupe",
+        "Note d'articulation avec le plan de fumure historique (ce qui change / ce qui reste)"
+      ],
+      "skills_required": [
+        "agronomie / nitrates",
+        "eau agricole",
+        "connaissance PAR / GREN Bretagne"
+      ],
+      "why_now": "Obligation opérationnelle au 01/09/2026, mais la validation W36 n'a trouvé aucun AO ni recrutement « reliquats » au 29/08. Le besoin est annoncé, pas encore acheté.",
+      "evidence_refs": [
+        {
+          "title": "Décret n° 2026-823 — expérimentation Bretagne",
+          "url": "https://www.actu-environnement.com/ae/reglementation/decret-du-27-08-2026-2026-823-40235.php",
+          "type": "obligation"
+        },
+        {
+          "title": "Préfecture Bretagne — PAR nitrates au 01/09/2026",
+          "url": "https://www.agra.fr/lives/nitrates-top-depart-lexperimentation-de-la-suppression-du-plan-de-fumure-en-bretagne",
+          "type": "obligation"
+        }
+      ],
+      "price_signal": "non chiffré",
+      "competitors": [
+        "Chambres d'agriculture / GREN Bretagne",
+        "Laboratoires agronomiques",
+        "BE eau-agriculture déjà présents sur les bassins algues vertes"
+      ],
+      "first_action_this_month": "Appeler 2–3 chambres / syndicats de bassin pour savoir qui porte le suivi ; ne pas imprimer une plaquette avant un volume d'analyses ou un AO.",
+      "do_not_sell": "Ne pas commercialiser un « remplacement du plan de fumure » tant que le périmètre d'exploitations et les marchés labo ne sont pas visibles."
+    },
+    {
+      "id": "offre-2026-W36-renovation-dpe",
+      "title": "Package DPE / CEE / MaPrimeRénov' / RGE",
+      "status": "hors_metier_be",
+      "be_fit": 1,
+      "linked_opportunity_id": "opp-2026-W36-01",
+      "linked_validation_verdict": "signale_fort",
+      "one_liner": "Marché réel (calendrier sept. 2026 / janv. 2027) mais destiné aux diagnostiqueurs, RGE et mandataires — pas à un bureau d'études environnementale.",
+      "buyer": {
+        "persona": "diagnostiqueur DPE / entreprise RGE / mandataire MPR",
+        "trigger": "exclusions monogestes au 01/09/2026 et coefficient DPE 1,7 au 01/01/2027"
+      },
+      "deliverables": [
+        "Hors périmètre BE env — pas de livrable à industrialiser ici"
+      ],
+      "skills_required": [
+        "hors métier"
+      ],
+      "why_now": "Signal marché le plus fort de W36, utile à connaître pour ne pas le confondre avec une offre BE.",
+      "evidence_refs": [],
+      "price_signal": "non pertinent",
+      "competitors": [
+        "Éditeurs logiciels DPE",
+        "Entreprises RGE",
+        "Mandataires Anah / CEE"
+      ],
+      "first_action_this_month": "Ne rien prototyper. Garder le signal dans le radar uniquement.",
+      "do_not_sell": "Toute offre « rénovation énergétique d'ampleur » sous marque BE environnementale diluerait le positionnement."
+    }
+  ]
+}

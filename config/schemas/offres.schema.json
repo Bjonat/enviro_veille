@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Bjonat/enviro_veille/config/schemas/offres.schema.json",
+  "title": "Fiches offre bureau d'études environnementale",
+  "type": "object",
+  "required": ["generated_at", "based_on_validation", "offers"],
+  "properties": {
+    "generated_at": { "type": "string", "format": "date-time" },
+    "based_on_validation": {
+      "type": "object",
+      "properties": {
+        "file": { "type": "string" },
+        "period": { "type": "string" }
+      }
+    },
+    "offers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "status",
+          "be_fit",
+          "linked_opportunity_id",
+          "one_liner",
+          "buyer",
+          "deliverables",
+          "why_now",
+          "do_not_sell"
+        ],
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "status": {
+            "type": "string",
+            "enum": [
+              "pret_a_prototyper",
+              "preparer_attendre_signal",
+              "surveiller",
+              "hors_metier_be"
+            ]
+          },
+          "be_fit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5,
+            "description": "1 = hors métier BE, 5 = prestation BE classique vendable maintenant"
+          },
+          "linked_opportunity_id": { "type": "string" },
+          "linked_validation_verdict": { "type": "string" },
+          "one_liner": { "type": "string" },
+          "buyer": {
+            "type": "object",
+            "properties": {
+              "persona": { "type": "string" },
+              "trigger": {
+                "type": "string",
+                "description": "Événement qui fait acheter (échéance, AO, inspection, sinistre…)"
+              }
+            }
+          },
+          "deliverables": {
+            "type": "array",
+            "items": { "type": "string" },
+            "minItems": 2
+          },
+          "skills_required": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "why_now": { "type": "string" },
+          "evidence_refs": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "title": { "type": "string" },
+                "url": { "type": "string" },
+                "type": { "type": "string" }
+              }
+            }
+          },
+          "price_signal": {
+            "type": "string",
+            "description": "Ordres de grandeur UNIQUEMENT s'ils viennent de la validation (AO notifiés). Sinon « non chiffré »."
+          },
+          "competitors": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "first_action_this_month": { "type": "string" },
+          "do_not_sell": { "type": "string" }
+        }
+      }
+    }
+  }
+}

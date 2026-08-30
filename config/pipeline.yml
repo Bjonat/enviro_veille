@@ -52,6 +52,19 @@ stages:
       - validation/YYYY/{period}.md
       - validation/YYYY/{period}.json
 
+  - id: fiches_offre_be
+    automation_doc: config/automations/06-fiches-offre-be.md
+    schedule: "0 10 * * 1"
+    model: high-reasoning
+    depends_on: [validation_marche]
+    inputs:
+      - validation/**/*.json
+      - opportunites/**/*.json
+      - config/be-personas.yml
+    outputs:
+      - offres/YYYY/{period}.md
+      - offres/YYYY/{period}.json
+
   - id: validation_pr
     automation_doc: config/automations/05-validation-pr.md
     trigger: github_pr_opened_or_pushed
@@ -59,7 +72,7 @@ stages:
     depends_on: []
     role: >
       Garde-fou qualité sur toute PR (veille, tendances, opportunités,
-      validation marché, docs). Commente ; ne merge pas.
+      validation marché, offres BE, docs). Commente ; ne merge pas.
     inputs:
       - pull_request_diff
       - config/schemas/**
