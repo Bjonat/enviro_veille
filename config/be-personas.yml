@@ -1,0 +1,39 @@
+# Personas et métiers d'un bureau d'études environnementale.
+# Filtre pour les automations 3 et 6 : une opportunité n'est « BE-fit »
+# que si un BE env peut la vendre comme prestation, donnée, expertise ou méthode.
+
+core_offers:
+  - etude_impact_evaluation_environnementale
+  - evaluation_incidences_natura2000
+  - inventaire_biodiversite_habitats
+  - dossier_loi_sur_leau_iota
+  - dossier_icpe
+  - sites_sols_pollues
+  - mesures_erc_compensation
+  - diagnostic_zones_humides
+  - suivi_ecologique
+  - amo_environnementale
+  - plan_gestion_espace_naturel
+  - gemapi_trait_de_cote
+  - diagnostic_pfas_micropolluants
+  - urbanisme_environnemental_zan
+
+typical_buyers:
+  - collectivite_epci
+  - steu_syndicat_eau
+  - agence_de_leau
+  - dreal_ddt_ddtm
+  - developpeur_enr
+  - exploitant_icpe
+  - amenageur_promoteur
+  - gestionnaire_espace_naturel
+  - proprietaire_forestier_crpf
+
+# Signaux marché forts mais hors métier BE env (à noter, pas à prototyper)
+out_of_scope_unless_env_angle:
+  - diagnostiqueur_dpe
+  - entreprise_rge
+  - mandataire_maprimerenov_cee
+  - editeur_logiciel_dpe
+  - compagnie_aerienne_saf
+  - fournisseur_carburant_aviation

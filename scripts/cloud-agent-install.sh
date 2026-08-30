@@ -15,16 +15,20 @@ required_paths=(
   config/schemas/tendances.schema.json
   config/schemas/opportunites.schema.json
   config/schemas/validation.schema.json
+  config/schemas/offres.schema.json
+  config/be-personas.yml
   config/automations/01-veille-quotidienne.md
   config/automations/02-analyse-tendances.md
   config/automations/03-detection-opportunites.md
   config/automations/04-validation-marche.md
   config/automations/05-validation-pr.md
+  config/automations/06-fiches-offre-be.md
   veille
   data/daily
   tendances
   opportunites
   validation
+  offres
 )
 
 for path in "${required_paths[@]}"; do

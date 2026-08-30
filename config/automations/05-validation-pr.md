@@ -9,7 +9,7 @@
 | Repository | `Bjonat/enviro_veille` |
 | Modèle | Composer 2.5 Standard ou modèle léger/équilibré |
 | Outils | Comment on pull request (ON), éventuellement Request reviewers ; **ne pas** merger automatiquement |
-| Rôle | Contrôle qualité avant merge des sorties des automations 1–4 |
+| Rôle | Contrôle qualité avant merge des sorties des automations 1–4 et 6 |
 
 ---
 
@@ -33,6 +33,7 @@ D'après le titre / chemins modifiés :
 - `tendances:` ou `tendances/` → type TENDANCES (#2)
 - `opportunites:` ou `opportunites/` → type OPPORTUNITES (#3)
 - `validation:` ou `validation/` → type VALIDATION_MARCHE (#4)
+- `offres:` ou `offres/` → type OFFRES_BE (#6)
 - sinon → type AUTRE (config, docs, scaffold…)
 
 ## Checks communs
@@ -63,6 +64,12 @@ D'après le titre / chemins modifiés :
 - [ ] Paire MD + JSON sous `validation/`
 - [ ] Preuves datées avec URL quand possible ; sinon verdict `non_confirme` assumé
 - [ ] Aucun AO / recrutement / montant inventé
+
+## Checks OFFRES_BE (#6)
+- [ ] Paire MD + JSON sous `offres/`
+- [ ] Aligné sur `config/schemas/offres.schema.json`
+- [ ] Chaque fiche `pret_a_prototyper` a un `be_fit` ≥ 4 et des preuves reprises de `validation/` (pas de nouvel AO inventé)
+- [ ] Les marchés hors métier BE (DPE, RGE, SAF…) sont en `hors_metier_be`, pas en offre à vendre
 
 ## Sortie sur la PR
 Poste UN commentaire structuré :
