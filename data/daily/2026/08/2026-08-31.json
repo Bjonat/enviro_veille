@@ -1,0 +1,291 @@
+{
+  "date": "2026-08-31",
+  "generated_at": "2026-08-31T06:03:00+02:00",
+  "timezone": "Europe/Paris",
+  "meta": {
+    "item_count": 7,
+    "sources_consulted": [
+      "consultations_publiques_mte",
+      "actu_environnement",
+      "ecologie_gouv",
+      "commission_ue_nrr",
+      "brgm",
+      "cerema",
+      "sdes"
+    ],
+    "deduplicated_against_days": 9,
+    "notes": "Lundi de fin d'été : peu de dépêches Actu-Environnement après le 28/08. Items centrés sur clôtures de consultations (31/08), décret haies (28/08), rentrée réglementaire (1/09), visites gouvernementales Mayotte (26–27/08) et synthèse OFB/PatriNat. SDES Sitadel3, aides publiques, algues vertes, MaPrimeRénov, PFAS, FRB restauration, CEE TRA-EQ-128, Permis Larchant (signalé 30/08), etc. exclus comme déjà couverts 22–30/08. OFB (anti-bot), Reporterre, ADEME et BRGM partiellement injoignables."
+  },
+  "items": [
+    {
+      "id": "2026-08-31-001",
+      "title": "Décret n° 2026-829 : entrée en vigueur du régime unique de protection des haies",
+      "summary": "Paru au Journal officiel le 28 août 2026, le décret n° 2026-829 fixe les règles et procédures applicables à la destruction de haies au sens de l'article L. 412-21 du code de l'environnement, en application de la loi du 24 mars 2025 (souveraineté alimentaire). Il institue une déclaration unique préalable dématérialisée auprès du préfet, avec délai d'opposition de deux mois, bascule en autorisation lorsque le projet nécessite une dérogation espèces ou une évaluation Natura 2000, et articulation avec l'autorisation environnementale (L. 181-1). Le dossier doit préciser linéaires, types de haies, mesures de compensation et dates de replantation ; des compléments sont exigés en zone de captage, site classé ou ripisylve. L'autorisation environnementale tient lieu de déclaration lorsque la destruction intervient dans le périmètre d'une ICPE. Le texte encadre aussi les travaux d'urgence et les périodes d'interdiction territorialisées.",
+      "themes": ["biodiversite", "reglementation", "especes_habitats", "natura2000"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "préfectures de département",
+        "DREAL"
+      ],
+      "primary_source": {
+        "name": "Journal officiel — décret n° 2026-829 du 28 août 2026",
+        "url": "https://www.actu-environnement.com/ae/reglementation/decret-du-28-08-2026-2026-829-40240.php",
+        "type": "juridique"
+      },
+      "urls": [
+        "https://www.actu-environnement.com/ae/reglementation/decret-du-28-08-2026-2026-829-40240.php",
+        "https://www.consultations-publiques.developpement-durable.gouv.fr/IMG/pdf/tecl2521973d_projet_de_cret_haies.pdf"
+      ],
+      "published_at": "2026-08-28",
+      "detected_via": "Actu-Environnement page réglementation (28/08/2026) ; projet de décret consulté en 2025 confirmé",
+      "relevance": {
+        "score": 5,
+        "why": "Cadre opposable pour agriculteurs, collectivités, bureaux d'études et services de l'État instruisant toute destruction de haie, avec articulation Natura 2000 et autorisation environnementale."
+      },
+      "entities": [
+        "décret n° 2026-829",
+        "régime unique de la haie",
+        "déclaration unique préalable",
+        "article L. 412-21"
+      ],
+      "tags": ["haies", "TVB", "agriculture"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-31-002",
+      "title": "Publicité énergies fossiles : la consultation publique se clôt avec 191 contributions (31 août 2026)",
+      "summary": "La consultation sur le projet de décret d'application de l'article L. 229-61 du code de l'environnement (loi Climat et Résilience), ouverte le 31 juillet 2026, s'est achevée le 31 août 2026 avec 191 contributions recensées sur le portail du ministère. Le texte vise à interdire la publicité relative à la commercialisation ou promotion des énergies fossiles (pétrole, gaz fossile, charbon, hydrogène gris, chaleur fossile) et précise des dérogations (carburants > 50 % d'énergie renouvelable, mécénat, communication institutionnelle, etc.). Les contributions fin août proviennent notamment de QuotaClimat et InfluenceMap (promotion indirecte, parrainage, équipements consommateurs), de l'ANODE et de l'U.S. Grains Council (maintien de la publicité pour carburants renouvelables). Les observations alimenteront la publication attendue d'ici fin 2026.",
+      "themes": ["reglementation", "climat_adaptation"],
+      "signal_type": "consultation_publique",
+      "geography": ["France"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "ANODE",
+        "QuotaClimat",
+        "InfluenceMap"
+      ],
+      "primary_source": {
+        "name": "Consultations publiques MTE — décret publicité énergies fossiles",
+        "url": "https://www.consultations-publiques.developpement-durable.gouv.fr/consultation-du-public-sur-le-projet-de-decret-a3404.html",
+        "type": "institutionnel"
+      },
+      "urls": [
+        "https://www.consultations-publiques.developpement-durable.gouv.fr/consultation-du-public-sur-le-projet-de-decret-a3404.html"
+      ],
+      "published_at": "2026-08-31",
+      "detected_via": "portail consultations-publiques MTE confirmé (191 contributions, clôture 31/08/2026)",
+      "relevance": {
+        "score": 4,
+        "why": "Bilan de consultation utile pour services juridiques et filières énergie/publicité anticipant le contenu final du décret d'intervention."
+      },
+      "entities": [
+        "article L. 229-61",
+        "loi Climat et Résilience",
+        "énergies fossiles"
+      ],
+      "tags": ["publicite", "consultation", "climat"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-31-003",
+      "title": "Aide au renouvellement forestier : clôture de la consultation avec 6 509 contributions (31 août 2026)",
+      "summary": "La consultation publique sur le projet de décret et d'arrêté rétablissant la base juridique de l'aide au renouvellement forestier (France Nation Verte) s'est terminée le 31 août 2026 avec 6 509 contributions. Le décret n° 2025-401 du 2 mai 2025 avait été annulé le 15 juillet 2026 par le Conseil d'État pour défaut de consultation du public, interrompant la contractualisation depuis cette date. Les textes soumis reprennent les critères antérieurs pour les dossiers déposés avant le 10 juin 2026 (fermeture du guichet Cartogip). Les contributions fin août expriment massivement des avis défavorables (associations Canopée, propriétaires forestiers) sur le risque de subventionner les coupes rases et les plantations en monoculture résineuse, et demandent de privilégier la régénération naturelle et la sylviculture continue.",
+      "themes": ["biodiversite", "climat_adaptation", "reglementation", "incendies_risques"],
+      "signal_type": "consultation_publique",
+      "geography": ["France"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "Conseil d'État",
+        "ONF",
+        "Canopée"
+      ],
+      "primary_source": {
+        "name": "Consultations publiques MTE — renouvellement forestier",
+        "url": "https://www.consultations-publiques.developpement-durable.gouv.fr/consultation-publique-sur-un-projet-de-decret-portant-a3405.html",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — consultation renouvellement forestier",
+          "url": "https://www.actu-environnement.com/ae/news/renouvellement-forestier-base-juridique-consultation-48411.php4"
+        }
+      ],
+      "urls": [
+        "https://www.consultations-publiques.developpement-durable.gouv.fr/consultation-publique-sur-un-projet-de-decret-portant-a3405.html",
+        "https://www.actu-environnement.com/ae/news/renouvellement-forestier-base-juridique-consultation-48411.php4"
+      ],
+      "published_at": "2026-08-31",
+      "detected_via": "portail consultations-publiques MTE (6 509 contributions, clôture 31/08/2026)",
+      "relevance": {
+        "score": 5,
+        "why": "Consultation record pour un dispositif bloqué depuis l'annulation CE ; enjeu direct pour propriétaires forestiers, DDT et filières bois post-incendies estivaux."
+      },
+      "entities": [
+        "décret n° 2025-401",
+        "France Nation Verte",
+        "Cartogip",
+        "coupes rases"
+      ],
+      "tags": ["foret", "consultation", "subventions"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-31-004",
+      "title": "Permis de Larchant (Seine-et-Marne) : ouverture de la consultation publique sur la prolongation (31 août 2026)",
+      "summary": "Conformément à l'avis publié le 21 août 2026, la consultation dématérialisée sur la demande de prolongation du permis exclusif de carrières « Permis de Larchant » s'ouvre le lundi 31 août 2026 pour quinze jours. La société Sibelco sollicite dix ans de prolongation sur un périmètre réduit dans le département de Seine-et-Marne (demande initiale du 7 juillet 2016). L'étape est obligatoire au titre de l'article L. 123-19-2 du code de l'environnement ; au terme de la procédure, la prolongation pourra être acceptée en totalité ou partiellement par arrêté conjoint des ministres chargés des mines et de l'environnement, ou refusée. Les renseignements sont disponibles auprès du Bureau de la politique des ressources minérales (DGEC).",
+      "themes": ["sols", "reglementation", "biodiversite"],
+      "signal_type": "consultation_publique",
+      "geography": ["France", "Île-de-France", "Seine-et-Marne"],
+      "actors": [
+        "Sibelco",
+        "Ministère de la Transition écologique",
+        "Ministère de l'Économie",
+        "DGEC"
+      ],
+      "primary_source": {
+        "name": "Consultations publiques MTE — Permis de Larchant",
+        "url": "https://www.consultations-publiques.developpement-durable.gouv.fr/avis-de-consultation-a-venir-demande-de-a3416.html",
+        "type": "institutionnel"
+      },
+      "urls": [
+        "https://www.consultations-publiques.developpement-durable.gouv.fr/avis-de-consultation-a-venir-demande-de-a3416.html"
+      ],
+      "published_at": "2026-08-31",
+      "detected_via": "portail consultations-publiques MTE (ouverture effective 31/08/2026)",
+      "relevance": {
+        "score": 3,
+        "why": "Fenêtre de participation ouverte pour collectivités, associations et riverains concernés par l'extension d'une carrière en zone forestière du massif de Fontainebleau."
+      },
+      "entities": [
+        "Permis de Larchant",
+        "Sibelco",
+        "permis exclusif de carrières"
+      ],
+      "tags": ["carrieres", "mines", "consultation"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-31-005",
+      "title": "Règlement restauration de la nature : dernière ligne droite avant la remise des plans nationaux (1er septembre 2026)",
+      "summary": "Les États membres de l'Union européenne doivent transmettre leurs projets de plans nationaux de restauration (NRP) à la Commission européenne avant le 1er septembre 2026, conformément au règlement (UE) 2024/1991. La France finalise le plan « Agir pour restaurer la nature » ; la Commission met à disposition un portail de référence NRR, un outil de préparation au format uniforme (Reportnet) et un helpdesk. Huit notes de recherche publiées le 27 août par la FRB et Biodiversa+ rappellent l'échéance et traduisent une décennie de travaux en orientations opérationnelles (forêt-climat-eau, milieux marins, eaux douces, semences, partenariats public-privé). Les plans devront couvrir la restauration des écosystèmes terrestres, aquatiques et marins, les habitats d'espèces et les continuités écologiques.",
+      "themes": ["biodiversite", "natura2000", "reglementation", "climat_adaptation"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France", "UE"],
+      "actors": [
+        "Commission européenne",
+        "EEA",
+        "Ministère de la Transition écologique",
+        "FRB"
+      ],
+      "primary_source": {
+        "name": "Commission européenne — Nature Restoration Regulation implementation",
+        "url": "https://green-forum.ec.europa.eu/nature-and-biodiversity/nature-restoration-regulation-implementation_en",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "FRB — huit notes restauration (27/08/2026)",
+          "url": "https://www.fondationbiodiversite.fr/actualites/apres-un-ete-marque-par-la-secheresse-les-incendies-et-les-canicules-restaurer-la-nature-est-plus-que-jamais-necessaire/"
+        }
+      ],
+      "urls": [
+        "https://green-forum.ec.europa.eu/nature-and-biodiversity/nature-restoration-regulation-implementation_en",
+        "https://www.fondationbiodiversite.fr/actualites/apres-un-ete-marque-par-la-secheresse-les-incendies-et-les-canicules-restaurer-la-nature-est-plus-que-jamais-necessaire/"
+      ],
+      "published_at": "2026-08-31",
+      "detected_via": "Commission UE (portail NRR) ; rappel échéance J-1 au 01/09/2026 — sujet couvert 27–30/08 avec angle calendrier imminente",
+      "relevance": {
+        "score": 5,
+        "why": "Échéance demain pour DREAL, gestionnaires Natura 2000 et collectivités devant aligner leurs programmes sur le plan national à remettre à Bruxelles."
+      },
+      "entities": [
+        "Agir pour restaurer la nature",
+        "National Restoration Plans",
+        "règlement restauration de la nature",
+        "Reportnet"
+      ],
+      "tags": ["restauration", "UE", "échéance"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-31-006",
+      "title": "Mayotte post-Chido : le gouvernement accélère reconstruction et accès à l'eau (26–27 août 2026)",
+      "summary": "Lors d'une visite les 26 et 27 août 2026, le Premier ministre Sébastien Lecornu et la ministre Monique Barbut ont annoncé des mesures pour accélérer la reconstruction post-cyclone Chido (décembre 2024) et sécuriser l'accès à l'eau à Mayotte. Seulement 11,7 % des crédits 2026 délégués ont été dépensés ; les avances de l'État aux communes passeront de 30 % à 60 % des marchés, avec renfort d'ingénierie et comité de suivi mensuel. Sur l'eau, le territoire produit 37 000 m³/jour pour un besoin de 48 000 m³ ; l'État prévoit des cuves dans 90 écoles dès l'automne, un programme de 8 M€ pour équiper 13 000 foyers vulnérables à partir du 1er janvier 2027, le rétablissement du plafonnement du prix de l'eau en bouteille, et la mise en service de l'usine de dessalement Ironi Bé (10 000 m³/jour supplémentaires) au plus tard début 2028 — dans un contexte où le TA de Mayotte a suspendu fin juillet l'autorisation de cette usine.",
+      "themes": ["eau_zones_humides", "incendies_risques", "climat_adaptation", "reglementation"],
+      "signal_type": "changement_de_pratique_professionnel",
+      "geography": ["France", "Mayotte"],
+      "actors": [
+        "Premier ministre",
+        "Ministère de la Transition écologique",
+        "Syndicat mixte Les Eaux de Mayotte",
+        "Préfecture de Mayotte"
+      ],
+      "primary_source": {
+        "name": "Actu-Environnement — reconstruction Mayotte post-Chido",
+        "url": "https://www.actu-environnement.com/ae/news/reconstruction-mayotte-chido-eau-gouvernement-48447.php4",
+        "type": "media_secondaire"
+      },
+      "secondary_sources": [
+        {
+          "name": "RFI — Mayotte reconstruction Chido",
+          "url": "https://www.rfi.fr/fr/france/20260827-mayotte-pr%C3%A8s-de-deux-ans-apr%C3%A8s-le-passage-de-chido-le-gouvernement-revoit-sa-copie"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/ae/news/reconstruction-mayotte-chido-eau-gouvernement-48447.php4",
+        "https://www.rfi.fr/fr/france/20260827-mayotte-pr%C3%A8s-de-deux-ans-apr%C3%A8s-le-passage-de-chido-le-gouvernement-revoit-sa-copie"
+      ],
+      "published_at": "2026-08-28",
+      "detected_via": "Actu-Environnement (28/08/2026) ; annonces gouvernementales confirmées via RFI",
+      "relevance": {
+        "score": 4,
+        "why": "Calendrier opérationnel eau/reconstruction pour gestionnaires de l'eau, DREAL et collectivités mahoraises, complémentaire au contentieux dessalement Ironi Bé signalé le 24/08."
+      },
+      "entities": [
+        "cyclone Chido",
+        "Ironi Bé",
+        "plan Eau Mayotte",
+        "dessalement"
+      ],
+      "tags": ["outre-mer", "eau", "reconstruction"],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-31-007",
+      "title": "Faune sauvage et événements extrêmes : l'OFB/PatriNat analyse le cumul sécheresse–incendie",
+      "summary": "Dans une interview publiée le 28 août 2026, Julien Touroult, directeur de PatriNat (centre d'expertise OFB–MNHN–CNRS–IRD), distingue mortalité directe et effets indirects des épisodes estivaux sur la faune sauvage. Les assecs de cours d'eau — 1 373 petits cours d'eau touchés début août — concentrent les espèces dans des mares résiduelles où montent température, eutrophisation et baisse d'oxygène. La sécheresse réduit la disponibilité florale, décale l'activité des insectes et affecte la chaîne trophique jusqu'aux oiseaux. Touroult insiste sur le fait que « c'est le cumul incendie/sécheresse qui est le plus problématique » : la mortalité directe dans les feux reste généralement inférieure à 10 % pour les vertébrés, mais la récurrence des stress climatiques favorise les espèces thermophiles et fragilise amphibiens et milieux humides. L'interview complète l'annonce gouvernementale de 500 000 € d'aide aux centres de soins (28/08).",
+      "themes": ["biodiversite", "incendies_risques", "climat_adaptation", "eau_zones_humides"],
+      "signal_type": "publication_scientifique_appliquee",
+      "geography": ["France"],
+      "actors": [
+        "PatriNat",
+        "Office français de la biodiversité",
+        "MNHN"
+      ],
+      "primary_source": {
+        "name": "Actu-Environnement — interview Julien Touroult OFB/PatriNat",
+        "url": "https://www.actu-environnement.com/ae/news/faune-sauvage-incendie-secheresse-impacts-48443.php4",
+        "type": "media_secondaire"
+      },
+      "urls": [
+        "https://www.actu-environnement.com/ae/news/faune-sauvage-incendie-secheresse-impacts-48443.php4"
+      ],
+      "published_at": "2026-08-28",
+      "detected_via": "Actu-Environnement interview (28/08/2026) ; source primaire OFB/PatriNat non consultée directement (anti-bot)",
+      "relevance": {
+        "score": 4,
+        "why": "Éclairage expert pour gestionnaires d'espaces, DREAL et centres de soins faune sur l'articulation sécheresse–incendie–continuités écologiques en contexte estival 2026."
+      },
+      "entities": [
+        "PatriNat",
+        "assecs de cours d'eau",
+        "amphibiens",
+        "mortalité faune"
+      ],
+      "tags": ["faune", "secheresse", "incendies"],
+      "is_new": true
+    }
+  ]
+}
