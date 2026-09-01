@@ -1,0 +1,285 @@
+{
+  "date": "2026-09-01",
+  "generated_at": "2026-09-01T06:00:00+02:00",
+  "timezone": "Europe/Paris",
+  "meta": {
+    "item_count": 7,
+    "sources_consulted": [
+      "commission_ue_nrr",
+      "biodiversite_gouv",
+      "actu_environnement",
+      "cerema",
+      "banque_territoires_localtis",
+      "public_senat",
+      "marine_oceans_afp"
+    ],
+    "deduplicated_against_days": 10,
+    "notes": "Rentrée du 1/09 : échéance UE plans restauration, bascules réglementaires déjà signalées (MaPrimeRénov', algues vertes Bretagne, taxe PFAS, décret haies, CEE BAR-TH du 27/08) non reprises. Clôtures consultations 31/08 (publicité fossiles, renouvellement forestier), Permis Larchant, Mayotte, faune sauvage OFB/PatriNat, anguille (28/08), DSEC 2026-788 (28/08) exclus. OFB site direct anti-bot ; Légifrance non consulté pour textes complets tourterelle/RGA."
+  },
+  "items": [
+    {
+      "id": "2026-09-01-001",
+      "title": "Règlement restauration de la nature : échéance de remise des projets de plans nationaux à la Commission (1er septembre 2026)",
+      "summary": "Conformément au règlement (UE) 2024/1991, les États membres devaient transmettre à la Commission européenne leurs projets de plans nationaux de restauration (NRP) avant septembre 2026. La France finalise le plan « Agir pour restaurer la nature », alimenté par la concertation préalable CNDP (mai–août 2025), la concertation continuée et les travaux avec les préfets de région et le Comité national biodiversité (avis du 25 juin 2026). Le portail biodiversite.gouv.fr rappelle que la participation du public se poursuit en amont de la consultation électronique prévue en octobre 2026, et que le plan devra respecter le format uniforme (outil EEA/Reportnet). La Commission met à disposition un portail NRR, un helpdesk et des ressources méthodologiques ; l'adoption définitive des plans est attendue en 2027.",
+      "themes": ["biodiversite", "natura2000", "reglementation", "climat_adaptation"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France", "UE"],
+      "actors": [
+        "Commission européenne",
+        "EEA",
+        "Ministère de la Transition écologique",
+        "CNDP"
+      ],
+      "primary_source": {
+        "name": "Commission européenne — Nature Restoration Regulation implementation",
+        "url": "https://green-forum.ec.europa.eu/nature-and-biodiversity/nature-restoration-regulation-implementation_en",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "Biodiversité.gouv.fr — plan Agir pour restaurer la nature",
+          "url": "https://biodiversite.gouv.fr/le-plan-national-agir-pour-restaurer-la-nature"
+        }
+      ],
+      "urls": [
+        "https://green-forum.ec.europa.eu/nature-and-biodiversity/nature-restoration-regulation-implementation_en",
+        "https://biodiversite.gouv.fr/le-plan-national-agir-pour-restaurer-la-nature"
+      ],
+      "published_at": "2026-09-01",
+      "detected_via": "Commission UE (portail NRR, échéance septembre 2026) ; biodiversite.gouv.fr (concertation continuée) — sujet signalé 27–31/08 avec angle échéance imminente, actualisé au jour J",
+      "relevance": {
+        "score": 5,
+        "why": "Jalon opposable pour DREAL, gestionnaires Natura 2000 et collectivités devant caler programmes de restauration sur le plan national transmis à Bruxelles."
+      },
+      "entities": [
+        "Agir pour restaurer la nature",
+        "National Restoration Plans",
+        "règlement restauration de la nature",
+        "Reportnet"
+      ],
+      "tags": ["restauration", "UE", "échéance"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-01-002",
+      "title": "Tourterelle des bois : arrêté du 26 août 2026 fixant un quota de 12 000 oiseaux et ouvrant la saison le 30 août",
+      "summary": "L'arrêté TECL2622860A du 26 août 2026, paru au Journal officiel le 29 août, encadre la chasse de la tourterelle des bois (Streptopelia turtur) pour la saison cynégétique 2026-2027 en France métropolitaine. Le quota national de prélèvements est fixé à 12 000 individus, contre 10 560 la saison précédente, sur avis du Comité d'experts sur la gestion adaptative (CEGA) du 17 juillet 2026 ; 7 483 oiseaux avaient été prélevés et déclarés en 2025-2026 (71 % du quota). L'ouverture intervient le dimanche 30 août 2026. Les prélèvements restent soumis au dispositif de gestion adaptative et à la déclaration via l'application ChassAdapt. L'association One Voice a annoncé le 31 août un référé au Conseil d'État demandant la suspension immédiate de la chasse.",
+      "themes": ["biodiversite", "especes_habitats", "reglementation", "jurisprudence"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "CEGA",
+        "One Voice",
+        "fédérations de chasse"
+      ],
+      "primary_source": {
+        "name": "Journal officiel — arrêté TECL2622860A du 26 août 2026",
+        "url": "https://www.actu-environnement.com/ae/reglementation/arrete-du-26-08-2026-tecl2622860a-40241.php",
+        "type": "juridique"
+      },
+      "secondary_sources": [
+        {
+          "name": "One Voice — référé Conseil d'État (31/08/2026)",
+          "url": "https://savoir-animal.fr/one-voice-demande-au-conseil-detat-suspendre-arrete-qui-autorise-mise-a-mort-12-000-tourterelles-des-bois/"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/ae/reglementation/arrete-du-26-08-2026-tecl2622860a-40241.php",
+        "https://savoir-animal.fr/one-voice-demande-au-conseil-detat-suspendre-arrete-qui-autorise-mise-a-mort-12-000-tourterelles-des-bois/"
+      ],
+      "published_at": "2026-08-29",
+      "detected_via": "Actu-Environnement dépêche (31/08/2026) ; texte JORF republié ; référé One Voice confirmé via association",
+      "relevance": {
+        "score": 4,
+        "why": "Quota opposable et contentieux imminent pour services CITES/OFB, fédérations cynégétiques et associations de protection des oiseaux migrateurs."
+      },
+      "entities": [
+        "TECL2622860A",
+        "tourterelle des bois",
+        "CEGA",
+        "ChassAdapt",
+        "directive Oiseaux"
+      ],
+      "tags": ["chasse", "oiseaux", "contentieux"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-01-003",
+      "title": "Retrait-gonflement des argiles : qualification obligatoire des sociétés d'expertise assurance (textes du 11 août 2026)",
+      "summary": "Deux décrets (n° 2026-765 et n° 2026-766 du 9 août 2026) et un arrêté (VLOL2427997A du 9 août 2026), parus au Journal officiel le 11 août et entrés en vigueur le 12 août, encadrent pour la première fois la qualification des personnes morales réalisant des expertises d'assurance sur les sinistres liés au retrait-gonflement des sols argileux (RGA). L'arrêté fixe un socle de compétences (pathologie du bâtiment, investigations géotechniques, mécanique des sols, interactions sol-structure), une formation initiale minimale de 70 heures (dont 35 heures de terrain) et 14 heures de formation continue tous les deux ans, avec dérogations pour les professionnels justifiant d'au moins 30 sinistres traités sur deux années au cours des cinq dernières années. La qualification est délivrée pour quatre ans par un organisme agréé ; les frais sont à la charge du demandeur.",
+      "themes": ["sols", "incendies_risques", "reglementation", "rapports_guides"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "sociétés d'expertise d'assurance",
+        "organismes de qualification"
+      ],
+      "primary_source": {
+        "name": "Journal officiel — arrêté VLOL2427997A du 9 août 2026",
+        "url": "https://www.actu-environnement.com/ae/reglementation/arrete-du-09-08-2026-vlol2427997a-40117.php",
+        "type": "juridique"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — qualification experts RGA",
+          "url": "https://www.actu-environnement.com/ae/news/retrait-gonflement-argiles-qualification-experts-assurance-48449.php4"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/ae/reglementation/arrete-du-09-08-2026-vlol2427997a-40117.php",
+        "https://www.actu-environnement.com/ae/news/retrait-gonflement-argiles-qualification-experts-assurance-48449.php4"
+      ],
+      "published_at": "2026-08-11",
+      "detected_via": "Actu-Environnement article (31/08/2026) ; textes JORF republiés sur page réglementation",
+      "relevance": {
+        "score": 4,
+        "why": "Cadre opposable pour bureaux d'études géotechniques, experts assurance et collectivités instruisant des dossiers Cat-Nat sécheresse-RGA après l'été 2026."
+      },
+      "entities": [
+        "décret n° 2026-765",
+        "décret n° 2026-766",
+        "retrait-gonflement des argiles",
+        "catastrophes naturelles"
+      ],
+      "tags": ["RGA", "expertise", "assurance"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-01-004",
+      "title": "Cerema : le « design actif » pour aménager villes et villages à faible coût (publication du 31 août 2026)",
+      "summary": "Publié le 31 août 2026, un article du Cerema présente le design actif — aménagement de l'espace public favorisant l'activité physique, la mixité des usages et la frugalité — comme levier d'adaptation et de lien social pour collectivités urbaines et rurales. Le texte distingue plusieurs échelles d'intervention (stratégie globale, aménagement ponctuel, actions rapides sur placettes ou abords d'écoles) et détaille des leviers opérationnels : jalonnement piéton et cyclable, signalétique des temps de marche, mobilier inclusif, continuités piétonnes vers les équipements du quotidien, aménagements temporaires testables. Il renvoie aux programmes Sentiers de nature, EcoQuartiers et Petites Villes de Demain, et rappelle le rôle des CAUE, PNR, PETR et agences d'urbanisme comme relais méthodologiques.",
+      "themes": ["climat_adaptation", "rapports_guides", "zan_artificialisation"],
+      "signal_type": "nouveau_guide_methodologique",
+      "geography": ["France"],
+      "actors": ["Cerema", "collectivités territoriales", "CAUE", "PNR"],
+      "primary_source": {
+        "name": "Cerema — design actif, villes et villages",
+        "url": "https://www.cerema.fr/fr/actualites/design-actif-amenager-villes-villages-peu-moyens-favoriser",
+        "type": "technique"
+      },
+      "urls": [
+        "https://www.cerema.fr/fr/actualites/design-actif-amenager-villes-villages-peu-moyens-favoriser"
+      ],
+      "published_at": "2026-08-31",
+      "detected_via": "source primaire Cerema (actualités du 31/08/2026)",
+      "relevance": {
+        "score": 3,
+        "why": "Guide opérationnel pour élus, services voirie et aménagement recherchant des interventions sobres sur l'espace public en complément des programmes nationaux de revitalisation."
+      },
+      "entities": [
+        "design actif",
+        "Sentiers de nature",
+        "EcoQuartiers",
+        "modes actifs"
+      ],
+      "tags": ["aménagement", "espace_public", "adaptation"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-01-005",
+      "title": "Sécheresse estivale : l'OFB constate des assecs record sur les cours d'eau (tournée ONDE dans l'Oise, 30 août 2026)",
+      "summary": "Lors d'une tournée de l'Observatoire national des étiages (ONDE) dans l'Oise le 30 août 2026, Yves Jossart, agent OFB, a constaté de nombreux cours d'eau en assec complet, dont la Dordonne (affluent de l'Oise). En juillet 2026, 35 % des points observés dans le département étaient en assec (niveau 3 du dispositif), contre 19 % en juin. À l'échelle nationale, l'OFB recensait fin juillet 1 373 petits cours d'eau en rupture d'écoulement ou à sec (+554 en un mois), qualifiés de situation « la plus critique jamais enregistrée à cette période ». L'agent cite un déficit pluviométrique de près de 50 % en juin et 70 % en juillet, des canicules quasi continues depuis fin mai, des prélèvements agricoles et le canal du Nord comme facteurs aggravants ; la remontée des niveaux n'est pas anticipée avant octobre.",
+      "themes": ["eau_zones_humides", "incendies_risques", "climat_adaptation", "biodiversite"],
+      "signal_type": "nouveau_referentiel_ou_jeu_de_donnees",
+      "geography": ["France", "Hauts-de-France", "Oise"],
+      "actors": [
+        "Office français de la biodiversité",
+        "Observatoire national des étiages"
+      ],
+      "primary_source": {
+        "name": "AFP / Marine & Océans — tournée ONDE Oise",
+        "url": "https://marine-oceans.com/actualites/secheresse-dans-loise-le-triste-decompte-des-rivieres-disparues/",
+        "type": "media_secondaire"
+      },
+      "urls": [
+        "https://marine-oceans.com/actualites/secheresse-dans-loise-le-triste-decompte-des-rivieres-disparues/"
+      ],
+      "published_at": "2026-08-30",
+      "detected_via": "AFP relayée par Marine & Océans (31/08/2026) ; chiffres ONDE/OFB cohérents avec interview PatriNat signalée 28–31/08",
+      "relevance": {
+        "score": 4,
+        "why": "Retour terrain utile pour gestionnaires de l'eau, DREAL et syndicats instruisant restrictions et continuités écologiques en rentrée hydrologique tendue."
+      },
+      "entities": [
+        "ONDE",
+        "assecs de cours d'eau",
+        "Dordonne",
+        "niveau 3 assec"
+      ],
+      "tags": ["secheresse", "hydrologie", "cours_deau"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-01-006",
+      "title": "Incendies Gironde et Landes : 12 M€ d'aide immédiate aux collectivités et doctrine de reconstruction sous trois mois",
+      "summary": "À l'issue d'un déplacement à Mérignac (Gironde) mi-août 2026, le Premier ministre Sébastien Lecornu a détaillé un dispositif d'accompagnement des territoires sinistrés par les mégafeux de fin juillet (42 000 ha en Gironde, 3 600 ha dans les Landes, près de 450 bâtiments endommagés). Une enveloppe de 12 M€ est déléguée à la préfète de région (10 M€ Gironde / 2 M€ Landes) pour lancer les travaux communaux ; le fonds d'aide au relogement d'urgence est abondé de 5 M€. Les permis de construire pour reconstructions « à l'équivalent » pourront être délivrés sous un mois ; la mission « Reconstruction et adaptation des territoires » (Mrat) doit produire d'ici trois mois une doctrine opérationnelle articulant habitat et forêt, et un référentiel « habitat résistant au feu de forêt » est visé pour février 2027. Des mesures fiscales et de commande publique souples sont annoncées pour entreprises et collectivités.",
+      "themes": ["incendies_risques", "climat_adaptation", "reglementation"],
+      "signal_type": "changement_de_pratique_professionnel",
+      "geography": ["France", "Nouvelle-Aquitaine", "Gironde", "Landes"],
+      "actors": [
+        "Premier ministre",
+        "Préfecture de Nouvelle-Aquitaine",
+        "Mrat",
+        "Banque des Territoires"
+      ],
+      "primary_source": {
+        "name": "Banque des Territoires / Localtis — reconstruction incendies",
+        "url": "https://www.banquedesterritoires.fr/incendies-les-annonces-du-gouvernement-pour-reconstruire-et-adapter-les-collectivites-sinistrees",
+        "type": "institutionnel"
+      },
+      "urls": [
+        "https://www.banquedesterritoires.fr/incendies-les-annonces-du-gouvernement-pour-reconstruire-et-adapter-les-collectivites-sinistrees"
+      ],
+      "published_at": "2026-08-31",
+      "detected_via": "Localtis Banque des Territoires (31/08/2026) ; annonces gouvernementales Mérignac mi-août",
+      "relevance": {
+        "score": 4,
+        "why": "Calendrier et enveloppes concrets pour maires, DDT et services urbanisme reconstruisant après la pire saison incendie depuis 1949, avec tension sur la doctrine « à l'équivalent » vs résilience."
+      },
+      "entities": [
+        "Mrat",
+        "reconstruction à l'équivalent",
+        "habitat résistant au feu",
+        "pare-feux"
+      ],
+      "tags": ["incendies", "reconstruction", "collectivites"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-01-007",
+      "title": "Été 2026 : France Assureurs estime à 500 M€ le coût des sinistres climatiques (clôture déclarations 31 août)",
+      "summary": "France Assureurs a communiqué fin août 2026 une estimation préliminaire de 500 millions d'euros de sinistres liés aux événements climatiques de l'été (canicules, sécheresse, incendies), sur la base des dossiers recensés à la mi-août. Les assurés avaient jusqu'au lundi 31 août 2026 pour déclarer leurs sinistres. Le montant ne couvre qu'une partie des impacts estivaux : la saison incendie a dépassé 100 000 ha brûlés, record depuis 1949, et s'ajoutent les tempêtes de février 2026 (1,2 Md€ selon la CCR) et les orages de fin d'été. La fédération rappelle que le total des sinistres climatiques avait atteint 10,3 Md€ en 2022, nettement au-dessus de la moyenne 2020-2025 (5,3 Md€).",
+      "themes": ["incendies_risques", "climat_adaptation", "donnees_outils"],
+      "signal_type": "nouveau_referentiel_ou_jeu_de_donnees",
+      "geography": ["France"],
+      "actors": [
+        "France Assureurs",
+        "Caisse centrale de réassurance",
+        "assureurs"
+      ],
+      "primary_source": {
+        "name": "Public Sénat — bilan sinistres climatiques été 2026",
+        "url": "https://www.publicsenat.fr/actualites/environnement/une-facture-qui-sannonce-colossale-apres-les-incendies-les-canicules-et-la-secheresse-de-lete-2026",
+        "type": "media_secondaire"
+      },
+      "urls": [
+        "https://www.publicsenat.fr/actualites/environnement/une-facture-qui-sannonce-colossale-apres-les-incendies-les-canicules-et-la-secheresse-de-lete-2026"
+      ],
+      "published_at": "2026-08-31",
+      "detected_via": "Public Sénat (31/08/2026) relayant estimation France Assureurs ; chiffres cohérents avec saison incendie et sécheresse signalées 22–31/08",
+      "relevance": {
+        "score": 3,
+        "why": "Ordre de grandeur utile pour DREAL, collectivités et bureaux d'études risques chiffrant l'impact assurantiel post-été avant les bilans définitifs et les reconnaissances Cat-Nat."
+      },
+      "entities": [
+        "France Assureurs",
+        "sinistres climatiques",
+        "déclaration sinistre"
+      ],
+      "tags": ["assurance", "financement", "bilan"],
+      "is_new": true
+    }
+  ]
+}
