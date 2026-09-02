@@ -1,0 +1,312 @@
+{
+  "date": "2026-09-02",
+  "generated_at": "2026-09-02T06:03:58+02:00",
+  "timezone": "Europe/Paris",
+  "meta": {
+    "item_count": 8,
+    "sources_consulted": [
+      "sdes",
+      "cerema",
+      "actu_environnement",
+      "cour_des_comptes",
+      "legifrance",
+      "inrae",
+      "cnulcd_cop17"
+    ],
+    "deduplicated_against_days": 11,
+    "notes": "Mardi de rentrée : nouveautés dominées par publications SDES et Cerema du 01/09, dépêches Actu-Environnement du 01/09 (zones humides, effacement, textiles, éolien, tiques) et bilan COP17 CNULCD (31/08). NRR remis 01/09, tourterelle, design actif Cerema, RGA, Gironde/Landes, PFAS/MaPrimeRénov'/algues vertes (échéances 01/09), décret haies, etc. exclus comme déjà couverts 22/08–01/09. Consultations-publiques MTE en maintenance ; OFB anti-bot ; photovoltaïque Soren (48457) non confirmé (timeout)."
+  },
+  "items": [
+    {
+      "id": "2026-09-02-001",
+      "title": "État de conservation DHFF 2019-2024 : 22 % favorable, 67 % défavorable, tendance au déclin à 39 %",
+      "summary": "Publiée le 1er septembre 2026, la note du SDES synthétise la quatrième évaluation au titre de la directive Habitats-Faune-Flore pour la période 2019-2024. Sur plus de 1 000 évaluations, 67 % sont défavorables et 39 % indiquent une tendance au déclin ; la part d'habitats et d'espèces en état favorable recule de 26 % (2013-2018) à 22 % (2019-2024). Seuls 16 % des habitats d'intérêt communautaire et 24 % des espèces sont favorables en métropole ; 43 % des évaluations d'habitats et 37 % des espèces se dégradent. Les milieux forestiers et rocheux sont les mieux préservés ; littoraux, humides et aquatiques figurent parmi les plus menacés (5 % des habitats humides favorables selon les fiches SDES associées). Publication PDF, jeux de données xlsx et méthodologie PatriNat/SDES disponibles.",
+      "themes": ["biodiversite", "especes_habitats", "eau_zones_humides", "donnees_outils"],
+      "signal_type": "nouveau_referentiel_ou_jeu_de_donnees",
+      "geography": ["France"],
+      "actors": ["SDES", "PatriNat", "Office français de la biodiversité", "MNHN"],
+      "primary_source": {
+        "name": "SDES — L'état de conservation des habitats et des espèces remarquables continue de se dégrader en France",
+        "url": "https://www.statistiques.developpement-durable.gouv.fr/letat-de-conservation-des-habitats-et-des-especes-remarquables-continue-de-se-degrader-en-france",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "SDES — La biodiversité en France, état des connaissances en 2025",
+          "url": "https://www.statistiques.developpement-durable.gouv.fr/la-biodiversite-en-france-etat-des-connaissances-en-2025"
+        }
+      ],
+      "urls": [
+        "https://www.statistiques.developpement-durable.gouv.fr/letat-de-conservation-des-habitats-et-des-especes-remarquables-continue-de-se-degrader-en-france",
+        "https://www.statistiques.developpement-durable.gouv.fr/la-biodiversite-en-france-etat-des-connaissances-en-2025"
+      ],
+      "published_at": "2026-09-01",
+      "detected_via": "source primaire SDES (actualité du 01/09/2026)",
+      "relevance": {
+        "score": 5,
+        "why": "Référentiel officiel pour DREAL, gestionnaires Natura 2000 et collectivités préparant DOCOB, schémas de restauration et indicateurs de suivi post-rapportage UE."
+      },
+      "entities": [
+        "directive Habitats-Faune-Flore",
+        "rapportage 2019-2024",
+        "état de conservation favorable"
+      ],
+      "tags": ["DHFF", "statistiques", "biodiversité"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-02-002",
+      "title": "Tempêtes Ciaran et Domingos en Corse : le Cerema publie le retour d'expérience hydraulique de la vallée de la Restonica",
+      "summary": "Publié le 1er septembre 2026, le Cerema restitue la mission confiée par le sous-préfet de Corte après les tempêtes Ciaran et Domingos de novembre 2023 sur la Restonica et Corte (Corse). Une modélisation hydrologique et hydraulique sur 65 km² reproduit une crue très rapide : débit de pointe estimé à 250-300 m³/s (proche du centennal), avec débits modélisés atteignant des occurrences exceptionnelles sur certains affluents. Les visites de terrain (DDT, BRGM, Cerema), drones et LiDAR documentent érosion de berges, destruction de ponts, ensevelissement de routes, charriage massif de sédiments et bois flottants, et décimation de forêts alluviales. Des cartographies de hauteurs d'eau et des propositions d'aménagement tenant compte de l'évolution morphologique sont capitalisées sur la plateforme MuREX.",
+      "themes": ["incendies_risques", "eau_zones_humides", "climat_adaptation", "rapports_guides"],
+      "signal_type": "rapport_institutionnel_majeur",
+      "geography": ["France", "Corse", "Haute-Corse"],
+      "actors": ["Cerema", "DDT Corse", "BRGM", "Préfecture de Haute-Corse"],
+      "primary_source": {
+        "name": "Cerema — Risques naturels en zone de montagne, tempêtes Ciaran et Domingos en Corse",
+        "url": "https://www.cerema.fr/fr/actualites/risques-naturels-zone-montagne-cerema-evalue-impacts-deux",
+        "type": "technique"
+      },
+      "urls": [
+        "https://www.cerema.fr/fr/actualites/risques-naturels-zone-montagne-cerema-evalue-impacts-deux"
+      ],
+      "published_at": "2026-09-01",
+      "detected_via": "source primaire Cerema (actualités du 01/09/2026)",
+      "relevance": {
+        "score": 4,
+        "why": "Retour d'expérience opérationnel pour services de l'État, syndicats des eaux et bureaux d'études instruisant PPRi et travaux post-crue en zone montagne méditerranéenne."
+      },
+      "entities": [
+        "Restonica",
+        "tempêtes Ciaran et Domingos",
+        "MuREX",
+        "transport solide"
+      ],
+      "tags": ["crue", "montagne", "Corse"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-02-003",
+      "title": "Loi d'urgence agricole 2026-796 : assouplissement des prescriptions sur les zones humides et compensation via stockages d'eau",
+      "summary": "La loi n° 2026-796 du 18 août 2026 (JORF 19/08) rétablit l'article L. 214-7-1 du code de l'environnement : les prescriptions applicables aux projets soumis à l'article L. 214-3 affectant une zone humide, notamment en matière de compensation, doivent être proportionnées aux fonctionnalités du milieu. Les zones humides créées par une installation de stockage d'eau peuvent être prises en compte au titre de la compensation si l'équivalence écologique et l'effectivité des gains sont démontrées (article L. 163-1). Le Conseil constitutionnel (décision n° 2026-914 DC) a validé le texte sous réserve qu'une installation de stockage ne constitue pas en elle-même une zone humide. L'article 28 prévoit par ailleurs une dérogation au principe de non-régression pour les plans d'eau de moins d'un hectare en zone humide. Une analyse Actu-Environnement du 1er septembre relaie l'inquiétude de dix associations de protection de la nature.",
+      "themes": ["eau_zones_humides", "reglementation", "biodiversite"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France"],
+      "actors": [
+        "Ministère de l'Agriculture",
+        "Ministère de la Transition écologique",
+        "Conseil constitutionnel"
+      ],
+      "primary_source": {
+        "name": "Journal officiel — loi n° 2026-796 du 18 août 2026",
+        "url": "https://www.actu-environnement.com/ae/reglementation/loi-du-18-08-2026-2026-796-40198.php",
+        "type": "juridique"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — zones humides et loi d'urgence agricole",
+          "url": "https://www.actu-environnement.com/ae/news/zones-humides-loi-urgence-agricole-compensation-48455.php4"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/ae/reglementation/loi-du-18-08-2026-2026-796-40198.php",
+        "https://www.actu-environnement.com/ae/news/zones-humides-loi-urgence-agricole-compensation-48455.php4"
+      ],
+      "published_at": "2026-09-01",
+      "detected_via": "Actu-Environnement (01/09/2026) ; texte JORF republié et décision CC signalée",
+      "relevance": {
+        "score": 5,
+        "why": "Recadrage opposable pour DREAL, services de l'eau et maîtres d'ouvrage de stockages agricoles instruisant autorisation environnementale et compensation en zone humide."
+      },
+      "entities": [
+        "loi n° 2026-796",
+        "article L. 214-7-1",
+        "compensation écologique",
+        "stockage d'eau"
+      ],
+      "tags": ["zones_humides", "agriculture", "contentieux"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-02-004",
+      "title": "Effacement électrique : la Cour des comptes juge le soutien public inapproprié (430 M€, 2018-2025)",
+      "summary": "Dans une publication du 27 août 2026, la Cour des comptes analyse les effacements de consommation d'électricité, outil pertinent pour l'équilibre offre-demande mais accompagné d'un soutien public jugé inapproprié. Le coût budgétaire atteint près de 430 M€ entre 2018 et 2025 ; la Cour estime que les rémunérations des lauréats d'appels d'offres ont pu être excessives et insuffisamment contrôlées, sans preuve d'un effet sur le développement de nouvelles capacités. Elle recommande de privilégier les mécanismes de marché, de ne lancer de nouveaux appels d'offres spécifiques qu'en cas d'insuffisance démontrée, et d'intégrer l'effacement aux objectifs de flexibilité décarbonée (stockage, production flexible, interconnexions). Sept recommandations sont formulées ; RTE et la DGEC ont répondu.",
+      "themes": ["climat_adaptation", "energie_biodiversite", "rapports_guides", "reglementation"],
+      "signal_type": "rapport_institutionnel_majeur",
+      "geography": ["France", "UE"],
+      "actors": ["Cour des comptes", "RTE", "DGEC", "Commission européenne"],
+      "primary_source": {
+        "name": "Cour des comptes — Les effacements de consommation d'électricité",
+        "url": "https://www.ccomptes.fr/fr/publications/les-effacements-de-consommation-delectricite-un-outil-pertinent-un-soutien-public",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — effacement électrique Cour des comptes",
+          "url": "https://www.actu-environnement.com/ae/news/effacement-electrique-cour-comptes-industriels-48456.php4"
+        }
+      ],
+      "urls": [
+        "https://www.ccomptes.fr/fr/publications/les-effacements-de-consommation-delectricite-un-outil-pertinent-un-soutien-public",
+        "https://www.actu-environnement.com/ae/news/effacement-electrique-cour-comptes-industriels-48456.php4"
+      ],
+      "published_at": "2026-08-27",
+      "detected_via": "Actu-Environnement (01/09/2026) ; source primaire Cour des comptes confirmée",
+      "relevance": {
+        "score": 4,
+        "why": "Orientation stratégique pour industriels, agrégateurs d'effacement et collectivités anticipant la fin des appels d'offres spécifiques et le basculement vers les mécanismes de marché."
+      },
+      "entities": [
+        "effacement de consommation",
+        "flexibilité décarbonée",
+        "appels d'offres capacité"
+      ],
+      "tags": ["electricite", "flexibilite", "financement"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-02-005",
+      "title": "Ultra-fast-fashion : entrée en vigueur du « super malus » REP textiles (loi n° 2026-602) au 1er septembre 2026",
+      "summary": "À compter du 1er septembre 2026, la loi n° 2026-602 du 8 juillet 2026 instaure une pénalité sur la « mode ultra-express » (article L. 541-9-1-1) modulant les éco-contributions REP textiles via Refashion. Le score repose sur la largeur de gamme (nombre de références neufs par segment) et l'incitation à la réparer ; en 2026, les pénalités indicatives vont de 0,50 € (sous-vêtements) à 12 € (vestes), plafonnées à 50 % du prix HT. Les plateformes à très large catalogue (Shein, Temu, etc.) sont visées ; Zara ou Kiabi restent hors seuil selon les estimations citées. Des obligations complémentaires (publicité, sensibilisation) entrent en janvier 2027. Des acteurs pointent encore des flous sur le contrôle et l'effectivité du dispositif.",
+      "themes": ["reglementation", "donnees_outils"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France"],
+      "actors": [
+        "Refashion",
+        "Ministère de la Transition écologique",
+        "distributeurs textile"
+      ],
+      "primary_source": {
+        "name": "Légifrance — loi n° 2026-602 du 8 juillet 2026",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054399113",
+        "type": "juridique"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — REP textiles super malus",
+          "url": "https://www.actu-environnement.com/ae/news/REP-textiles-super-malus-ultra-fast-fashion-48454.php4"
+        }
+      ],
+      "urls": [
+        "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054399113",
+        "https://www.actu-environnement.com/ae/news/REP-textiles-super-malus-ultra-fast-fashion-48454.php4"
+      ],
+      "published_at": "2026-09-01",
+      "detected_via": "Actu-Environnement (01/09/2026) ; texte Légifrance confirmé",
+      "relevance": {
+        "score": 4,
+        "why": "Bascule opposable pour éco-organismes, importateurs et marketplaces devant calibrer déclarations REP et stratégies produit dès la rentrée 2026."
+      },
+      "entities": [
+        "loi n° 2026-602",
+        "mode ultra-express",
+        "Refashion",
+        "éco-modulation"
+      ],
+      "tags": ["textile", "REP", "fast_fashion"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-02-006",
+      "title": "Éolien terrestre et biodiversité : tribune (2/5) sur destructions d'habitats et dérogations espèces",
+      "summary": "Publiée le 1er septembre 2026, la deuxième partie de la tribune de Gabriel Ullmann (Actu-Environnement) détaille les impacts systémiques de l'éolien terrestre : fragmentation, pertes d'habitats fonctionnels, effets d'aversion sur chiroptères et oiseaux, destruction de gîtes et mortalité par collision/barotraumatisme. L'auteur rappelle que les impacts sur espèces protégées sont quasi systématiques alors que les trois quarts des parcs fonctionneraient sans dérogation au sens des articles L. 411-1 et L. 411-2. Il cite jurisprudence récente (CAA Lyon, Bordeaux, Nantes) et travaux de l'expert Christian Kerbiriou sur l'impossibilité de compenser certaines pertes d'habitats, ainsi que la destruction massive d'invertébrés attirés par les machines.",
+      "themes": ["energie_biodiversite", "biodiversite", "jurisprudence", "especes_habitats"],
+      "signal_type": "changement_de_pratique_professionnel",
+      "geography": ["France"],
+      "actors": [
+        "Gabriel Ullmann",
+        "LPO",
+        "juridictions administratives"
+      ],
+      "primary_source": {
+        "name": "Actu-Environnement — Éoliennes et biodiversité : destructions et pertes d'habitat (2/5)",
+        "url": "https://www.actu-environnement.com/tribunes/gabriel-ullmann/121/eoliennes-biodiversite-destructions-pertes-habitat-2-5-808.html",
+        "type": "media_secondaire"
+      },
+      "urls": [
+        "https://www.actu-environnement.com/tribunes/gabriel-ullmann/121/eoliennes-biodiversite-destructions-pertes-habitat-2-5-808.html",
+        "https://www.actu-environnement.com/tribunes/gabriel-ullmann/121/eoliennes-atteintes-biodiversite-championnes-contentieux-1-4-792.html"
+      ],
+      "published_at": "2026-09-01",
+      "detected_via": "Actu-Environnement tribune (01/09/2026)",
+      "relevance": {
+        "score": 4,
+        "why": "Synthèse juridique et écologique pour DREAL, développeurs EnR et bureaux d'études ERC instruisant dérogations espèces et contentieux éolien terrestre."
+      },
+      "entities": [
+        "dérogation espèces protégées",
+        "barotraumatisme",
+        "effet d'aversion",
+        "articles L. 411-1"
+      ],
+      "tags": ["eolien", "contentieux", "chiroptères"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-02-007",
+      "title": "Tiques en milieu bocager : l'Inrae et le CNRS publient un simulateur open source d'abondance",
+      "summary": "Des chercheurs de l'Inrae et du CNRS ont développé un prototype open source de simulation de l'abondance relative de la tique Ixodes ricinus en paysages agricoles bocagers de France métropolitaine. Sur la base de plus de 5 000 nymphes échantillonnées sur trois ans dans les zones ateliers Armorique (Ille-et-Vilaine) et Pyrénées-Garonne (Haute-Garonne), le modèle croise variables paysagères (forêts, haies, prairies, routes) et météo (température, humidité). L'outil calcule et visualise les zones à risque de transmission de maladies à tiques (dont la maladie de Lyme) et permet d'anticiper l'impact de projets d'aménagement. Article Actu-Environnement du 1er septembre 2026.",
+      "themes": ["biodiversite", "climat_adaptation", "donnees_outils", "rapports_guides"],
+      "signal_type": "nouvel_outil_ou_plateforme",
+      "geography": ["France", "Bretagne", "Occitanie"],
+      "actors": ["Inrae", "CNRS"],
+      "primary_source": {
+        "name": "Actu-Environnement — simulateur abondance tiques Inrae/CNRS",
+        "url": "https://www.actu-environnement.com/ae/news/tiques-simulateur-abondance-bocage-inrae-48453.php4",
+        "type": "media_secondaire"
+      },
+      "urls": [
+        "https://www.actu-environnement.com/ae/news/tiques-simulateur-abondance-bocage-inrae-48453.php4"
+      ],
+      "published_at": "2026-09-01",
+      "detected_via": "Actu-Environnement (01/09/2026) ; publication scientifique primaire non consultée directement",
+      "relevance": {
+        "score": 3,
+        "why": "Outil de prévention sanitaire et aménagement du territoire pour collectivités rurales, DDT et bureaux d'études évaluant continuités écologiques et projets linéaires en bocage."
+      },
+      "entities": [
+        "Ixodes ricinus",
+        "maladie de Lyme",
+        "simulateur open source",
+        "paysage bocager"
+      ],
+      "tags": ["sante", "tiques", "SIG"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-02-008",
+      "title": "COP 17 CNULCD (Oulan-Bator, 17-28 août 2026) : avancées limitées et reports à 2028",
+      "summary": "La 17e Conférence des parties à la Convention des Nations unies sur la lutte contre la désertification (CNULCD), tenue du 17 au 28 août 2026 à Oulan-Bator (Mongolie), devait accélérer la mise en œuvre face à la sécheresse et à la désertification. Selon le bilan relayé le 31 août par Actu-Environnement, la session a été marquée par de nombreux blocages : la position des États-Unis dès l'ouverture a entraîné le report de sujets (genre, synergies climat-biodiversité-désertification, financements). La prise de conscience reste partagée, mais peu de décisions opérationnelles nouvelles ; plusieurs dossiers sont renvoyés à 2028. Pertinent pour le contexte sécheresse estival 2026 en France et les politiques d'adaptation des sols.",
+      "themes": ["climat_adaptation", "sols", "incendies_risques"],
+      "signal_type": "rapport_institutionnel_majeur",
+      "geography": ["UE", "France", "Mongolie"],
+      "actors": [
+        "CNULCD",
+        "ONU",
+        "États membres"
+      ],
+      "primary_source": {
+        "name": "Actu-Environnement — COP 17 CNULCD Oulan-Bator",
+        "url": "https://www.actu-environnement.com/ae/news/cop17-cnulcd-desertification-secheresse-oulan-bator-48451.php4",
+        "type": "media_secondaire"
+      },
+      "urls": [
+        "https://www.actu-environnement.com/ae/news/cop17-cnulcd-desertification-secheresse-oulan-bator-48451.php4"
+      ],
+      "published_at": "2026-08-31",
+      "detected_via": "Actu-Environnement (31/08/2026) ; communiqué ONU non consulté directement",
+      "relevance": {
+        "score": 3,
+        "why": "Contexte international utile pour services de l'État et collectivités suivant financements et cadres multilatéraux sur sécheresse, sols et désertification."
+      },
+      "entities": [
+        "CNULCD",
+        "COP 17",
+        "désertification",
+        "sécheresse"
+      ],
+      "tags": ["ONU", "secheresse", "international"],
+      "is_new": true
+    }
+  ]
+}
