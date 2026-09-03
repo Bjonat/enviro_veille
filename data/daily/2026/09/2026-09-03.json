@@ -1,0 +1,356 @@
+{
+  "date": "2026-09-03",
+  "generated_at": "2026-09-03T06:03:00+02:00",
+  "timezone": "Europe/Paris",
+  "meta": {
+    "item_count": 9,
+    "sources_consulted": [
+      "cerema",
+      "ofb_onde",
+      "actu_environnement",
+      "commission_ue_nrr",
+      "commission_ue_plastique",
+      "la_france_agricole",
+      "latribune",
+      "le_monde",
+      "ecologie_gouv"
+    ],
+    "deduplicated_against_days": 12,
+    "notes": "Mercredi post-rentrée : nouveautés dominées par publication Cerema SURFAC²E (03/09), bilan sécheresse OFB/ONDE et chiffrage Trésor (02/09), report plan CASI agricole (échéance 03/09), retard plan restauration nature France (02/09), dépêches Actu-Environnement du 02/09 (THT Camargue, plastique recyclé UE, TUE quotas GES). DHFF SDES, zones humides 2026-796, effacement CdC, super malus textile, éolien tribune, tiques Inrae, COP17, Cerema Restonica, Soren PV, design actif, etc. exclus comme déjà couverts 01–02/09. Consultations-publiques MTE en maintenance ; OFB site anti-bot ; BRGM 404."
+  },
+  "items": [
+    {
+      "id": "2026-09-03-001",
+      "title": "Gestion de patrimoine immobilier : le Cerema déploie la méthode SURFAC²E auprès de petites communes",
+      "summary": "Publié le 3 septembre 2026, le Cerema présente l'application de la méthode SURFAC²E (Santé du bâti, Usages, Réglementaire, Fonctionnalité, Adaptation au changement climatique, Environnement) auprès de communes de moins de 2 000 habitants en Bourgogne-Franche-Comté, en partenariat avec l'ANCT et dans le cadre du programme Villages d'avenir. La démarche combine visites de terrain partagées avec les élus, diagnostic transversal du patrimoine bâti (écoles, mairies, salles polyvalentes, logements de fonction) et feuille de route plurimandats avec premières estimations financières. Quatre retours d'expérience sont détaillés : Châtenois-les-Forges (13 bâtiments, cession pour cofinancer des rénovations), Issy-l'Évêque (priorisation logements sociaux locaux et offre médico-sociale), Villersexel (11 sites, mutualisation des locaux administratifs) et Saint-Gengoux-le-National (scénarios mairie, foyer rural, ancienne gare, immeuble en fin de bail).",
+      "themes": ["climat_adaptation", "rapports_guides", "zan_artificialisation"],
+      "signal_type": "nouveau_guide_methodologique",
+      "geography": ["France", "Bourgogne-Franche-Comté"],
+      "actors": ["Cerema", "ANCT", "collectivités locales"],
+      "primary_source": {
+        "name": "Cerema — SURFAC²E pour les petites communes",
+        "url": "https://www.cerema.fr/fr/actualites/gestion-patrimoine-immobilier-application-methode-surfac2e",
+        "type": "technique"
+      },
+      "urls": [
+        "https://www.cerema.fr/fr/actualites/gestion-patrimoine-immobilier-application-methode-surfac2e"
+      ],
+      "published_at": "2026-09-03",
+      "detected_via": "source primaire Cerema (actualités du 03/09/2026)",
+      "relevance": {
+        "score": 4,
+        "why": "Méthode opérationnelle pour petites communes et services de l'État priorisant rénovation thermique, adaptation climatique et arbitrages patrimoniaux à budget contraint."
+      },
+      "entities": [
+        "SURFAC²E",
+        "Villages d'avenir",
+        "gestion de patrimoine immobilier"
+      ],
+      "tags": ["collectivites", "batiment", "adaptation"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-03-002",
+      "title": "Sécheresse estivale 2026 : l'OFB recense 1 424 cours d'eau en assec ou sans écoulement (record ONDE)",
+      "summary": "Dans un communiqué diffusé le 2 septembre 2026, l'Office français de la biodiversité alerte sur un état de dégradation « exceptionnel » des petits cours d'eau, avec 1 424 têtes de bassin versants touchées par des ruptures d'écoulement ou des assecs selon l'Observatoire national des étiages (ONDE). Ce niveau dépasse de 30 unités le record de la sécheresse 2022 et de 290 la situation à la même période en 2025. Les situations les plus critiques restent concentrées de la Vendée au Grand Est, avec une intensification en Bretagne, Pays de la Loire et nord de la Nouvelle-Aquitaine ; les départements les plus touchés incluent la Creuse, la Vendée, la Loire-Atlantique, l'Aveyron, la Côte-d'Or et la Nièvre. Le manque de pluie persistant et les fortes chaleurs quasi ininterrompues depuis fin mai ont asséché sols puis nappes, principales sources d'alimentation des rivières.",
+      "themes": ["eau_zones_humides", "incendies_risques", "climat_adaptation", "biodiversite"],
+      "signal_type": "nouveau_referentiel_ou_jeu_de_donnees",
+      "geography": ["France"],
+      "actors": [
+        "Office français de la biodiversité",
+        "Observatoire national des étiages"
+      ],
+      "primary_source": {
+        "name": "Le Monde — sécheresse et petits cours d'eau (communiqué OFB)",
+        "url": "https://www.lemonde.fr/planete/article/2026/09/02/secheresse-les-petits-cours-d-eau-dans-un-etat-de-degradation-exceptionnel-selon-l-office-francais-de-la-biodiversite_6764532_3244.html",
+        "type": "media_secondaire"
+      },
+      "secondary_sources": [
+        {
+          "name": "L'Info Durable — OFB sécheresse cours d'eau",
+          "url": "https://www.linfodurable.fr/secheresse-les-petits-cours-deau-dans-un-etat-de-degradation-exceptionnel-previent-lofb-58792"
+        }
+      ],
+      "urls": [
+        "https://www.lemonde.fr/planete/article/2026/09/02/secheresse-les-petits-cours-d-eau-dans-un-etat-de-degradation-exceptionnel-selon-l-office-francais-de-la-biodiversite_6764532_3244.html",
+        "https://www.linfodurable.fr/secheresse-les-petits-cours-deau-dans-un-etat-de-degradation-exceptionnel-previent-lofb-58792"
+      ],
+      "published_at": "2026-09-02",
+      "detected_via": "dépêches médias (02/09/2026) relayant communiqué OFB ; site OFB non consulté directement (anti-bot)",
+      "relevance": {
+        "score": 5,
+        "why": "Indicateur ONDE actualisé pour DREAL, syndicats des eaux et gestionnaires de continuités écologiques instruisant restrictions et mesures de sauvegarde faune en contexte estival 2026."
+      },
+      "entities": [
+        "ONDE",
+        "assec",
+        "1 424 cours d'eau",
+        "sécheresse 2026"
+      ],
+      "tags": ["secheresse", "hydrologie", "faune"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-03-003",
+      "title": "Plan national de restauration de la nature : la France annonce une remise dans quinze jours, minorité d'États membres dans les temps",
+      "summary": "L'échéance du 1er septembre 2026 pour la transmission des projets de plans nationaux de restauration (NRP) à la Commission européenne au titre du règlement (UE) 2024/1991 est passée avec seulement une minorité d'États membres ayant déposé leur copie, selon Actu-Environnement du 2 septembre. La France indique vouloir remettre son plan « Agir pour restaurer la nature » dans les quinze jours, soit autour du 16 septembre 2026. La Commission et l'EEA mettent à disposition le portail NRR, l'outil de préparation au format uniforme (Reportnet) et un helpdesk. L'enjeu immédiat porte sur la qualité des plans — mesures, financements, articulation avec Natura 2000, continuités écologiques et politiques agricoles — plus que sur le seul respect du calendrier.",
+      "themes": ["biodiversite", "natura2000", "reglementation", "climat_adaptation"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France", "UE"],
+      "actors": [
+        "Commission européenne",
+        "EEA",
+        "Ministère de la Transition écologique"
+      ],
+      "primary_source": {
+        "name": "Commission européenne — Nature Restoration Regulation implementation",
+        "url": "https://green-forum.ec.europa.eu/nature-and-biodiversity/nature-restoration-regulation-implementation_en",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — plans nationaux restauration (02/09/2026)",
+          "url": "https://www.actu-environnement.com/ae/news/restauration-nature-plans-nationaux-etats-membres-48462.php4"
+        }
+      ],
+      "urls": [
+        "https://green-forum.ec.europa.eu/nature-and-biodiversity/nature-restoration-regulation-implementation_en",
+        "https://www.actu-environnement.com/ae/news/restauration-nature-plans-nationaux-etats-membres-48462.php4"
+      ],
+      "published_at": "2026-09-02",
+      "detected_via": "Actu-Environnement (02/09/2026) ; portail Commission UE NRR confirmé — angle post-échéance et retard français",
+      "relevance": {
+        "score": 5,
+        "why": "Calendrier opposable désormais dépassé pour DREAL, gestionnaires Natura 2000 et collectivités devant aligner programmes locaux sur le plan national à remettre à Bruxelles."
+      },
+      "entities": [
+        "Agir pour restaurer la nature",
+        "National Restoration Plans",
+        "règlement restauration de la nature",
+        "Reportnet"
+      ],
+      "tags": ["restauration", "UE", "retard"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-03-004",
+      "title": "Sécheresse agricole 2026 : le gouvernement reporte de « quelques jours » l'annonce du plan CASI (initialement prévu le 3 septembre)",
+      "summary": "Le ministère de l'Agriculture a indiqué le 2 septembre 2026 reporter de « quelques jours » la présentation du plan d'urgence CASI (canicules, sécheresse, incendies) initialement attendue le 3 septembre, invoquant des concertations interministérielles complémentaires au vu des « montants conséquents ». Le dispositif annoncé fin juillet doit comprendre des aides à la trésorerie des exploitations fragiles, des prises en charge de cotisations sociales, des simplifications réglementaires et des mesures de remise en production (semences, plants, engrais). L'Indemnisation de solidarité nationale (ISN) pourrait atteindre plusieurs centaines de millions d'euros, abondée en partie par le reliquat d'aide à la conversion biologique (93 M€). La FNSEA rappelle l'urgence calendaire (semis de blé fin septembre, achat de fourrage). L'été 2026 a touché près des deux tiers du territoire avec une sécheresse estimée à une périodicité d'une fois tous les 25 ans.",
+      "themes": ["climat_adaptation", "incendies_risques", "reglementation"],
+      "signal_type": "changement_de_pratique_professionnel",
+      "geography": ["France"],
+      "actors": [
+        "Ministère de l'Agriculture",
+        "FNSEA",
+        "préfectures de région"
+      ],
+      "primary_source": {
+        "name": "La France Agricole — report plan d'urgence sécheresse",
+        "url": "https://www.lafranceagricole.fr/ministere-de-l-agriculture/article/902924/secheresse-l-annonce-du-plan-d-urgence-est-reportee-de-quelques-jours",
+        "type": "media_secondaire"
+      },
+      "secondary_sources": [
+        {
+          "name": "La Tribune — chiffrage Trésor sécheresse (02/09/2026)",
+          "url": "https://www.latribune.fr/article/economie/finances-publiques/44709213633016/canicule-secheresse-bercy-chiffre-a-la-facture-climatique-qui-attend-le-budget-2027"
+        }
+      ],
+      "urls": [
+        "https://www.lafranceagricole.fr/ministere-de-l-agriculture/article/902924/secheresse-l-annonce-du-plan-d-urgence-est-reportee-de-quelques-jours",
+        "https://www.latribune.fr/article/economie/finances-publiques/44709213633016/canicule-secheresse-bercy-chiffre-a-la-facture-climatique-qui-attend-le-budget-2027"
+      ],
+      "published_at": "2026-09-02",
+      "detected_via": "La France Agricole (02/09/2026) ; annonce initiale Genevard pour le 03/09/2026 non tenue",
+      "relevance": {
+        "score": 4,
+        "why": "Report d'échérence attendue par DDT, chambres d'agriculture et filières agricoles organisant trésorerie et réapprovisionnements avant les semis automnaux."
+      },
+      "entities": [
+        "plan CASI",
+        "ISN",
+        "sécheresse historique 2026"
+      ],
+      "tags": ["agriculture", "aides", "report"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-03-005",
+      "title": "Canicule et sécheresse : le Trésor estime un impact de −0,1 point de PIB en 2026 (−8 % production agricole)",
+      "summary": "Lors d'une audition le 2 septembre 2026 devant la mission d'information de l'Assemblée nationale sur le coût de la canicule (présidée par Éric Coquerel), la direction générale du Trésor a estimé que les épisodes estivaux de chaleur et de sécheresse retrancheront 0,1 point de PIB à la croissance française en 2026. La production agricole reculerait de 8 %, avec une chute attendue de 35 % pour le maïs et un déficit de pousse des prairies d'un tiers au 10 août. Le choc combine baisse des volumes, hausse des coûts d'intrants (engrais azotés) et perturbations commerciales. Bercy note toutefois l'absence, à ce stade, de décrochage généralisé de l'activité hors agriculture. Ce chiffrage alimente les arbitrages préparatoires du budget 2027 dans un contexte de déficit public à 5,1 % du PIB en 2025.",
+      "themes": ["climat_adaptation", "incendies_risques", "donnees_outils"],
+      "signal_type": "rapport_institutionnel_majeur",
+      "geography": ["France"],
+      "actors": [
+        "Direction générale du Trésor",
+        "Assemblée nationale",
+        "Ministère de l'Agriculture"
+      ],
+      "primary_source": {
+        "name": "La Tribune — chiffrage Trésor canicule et sécheresse 2026",
+        "url": "https://www.latribune.fr/article/economie/finances-publiques/44709213633016/canicule-secheresse-bercy-chiffre-a-la-facture-climatique-qui-attend-le-budget-2027",
+        "type": "media_secondaire"
+      },
+      "urls": [
+        "https://www.latribune.fr/article/economie/finances-publiques/44709213633016/canicule-secheresse-bercy-chiffre-a-la-facture-climatique-qui-attend-le-budget-2027"
+      ],
+      "published_at": "2026-09-02",
+      "detected_via": "La Tribune (02/09/2026) ; audition Trésor devant mission AN non consultée directement",
+      "relevance": {
+        "score": 4,
+        "why": "Premier chiffrage macro officiel utile pour collectivités, agences de l'eau et services de l'État argumentant investissements d'adaptation et gestion de l'eau dans le PLF 2027."
+      },
+      "entities": [
+        "PIB 2026",
+        "production agricole −8 %",
+        "maïs −35 %",
+        "mission d'information canicule"
+      ],
+      "tags": ["finances_publiques", "secheresse", "agriculture"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-03-006",
+      "title": "Quotas d'émissions GES : le Tribunal de l'UE rejette le recours de Global Legal Action Network et CAN Europe (2 septembre 2026)",
+      "summary": "Par un arrêt du 2 septembre 2026, le Tribunal de l'Union européenne a rejeté le recours des ONG Global Legal Action Network (GLAN) et CAN Europe contre le refus de la Commission européenne de réexaminer la décision d'exécution du 28 juin 2023 fixant les quotas annuels d'émissions de gaz à effet de serre des États membres dans le cadre du système d'échange de quotas (ETS). Les requérantes contestaient le niveau des plafonds d'émissions alloués aux États pour la période 2024-2030. Le rejet confirme la validité procédurale du refus de réexamen de la Commission et maintient le cadre quantitatif en vigueur pour les installations fixes couvertes par le marché carbone européen.",
+      "themes": ["reglementation", "climat_adaptation", "jurisprudence"],
+      "signal_type": "jurisprudence_structurante",
+      "geography": ["UE", "France"],
+      "actors": [
+        "Tribunal de l'Union européenne",
+        "Commission européenne",
+        "CAN Europe",
+        "Global Legal Action Network"
+      ],
+      "primary_source": {
+        "name": "Actu-Environnement — arrêt TUE quotas GES (02/09/2026)",
+        "url": "https://www.actu-environnement.com/ae/news/quotas-emissions-ges-tribunal-ue-ong-48463.php4",
+        "type": "media_secondaire"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — décision C-2026-4727",
+          "url": "https://www.actu-environnement.com/ae/reglementation/decision-du-02-09-2026-c-2026-4727-40255.php"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/ae/news/quotas-emissions-ges-tribunal-ue-ong-48463.php4",
+        "https://www.actu-environnement.com/ae/reglementation/decision-du-02-09-2026-c-2026-4727-40255.php"
+      ],
+      "published_at": "2026-09-02",
+      "detected_via": "Actu-Environnement (02/09/2026) ; page réglementation décision TUE republiée",
+      "relevance": {
+        "score": 3,
+        "why": "Jurisprudence UE stabilisant les plafonds ETS 2024-2030 pour industriels, régulateurs énergie et services juridiques suivant le contentieux climatique européen."
+      },
+      "entities": [
+        "ETS",
+        "décision d'exécution 28/06/2023",
+        "CAN Europe"
+      ],
+      "tags": ["climat", "UE", "contentieux"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-03-007",
+      "title": "Plastique recyclé dans les emballages : la Commission européenne consulte sur le calcul et la durabilité du recyclage (échéance 16 septembre 2026)",
+      "summary": "Le 2 septembre 2026, Actu-Environnement signale l'ouverture par la Commission européenne de deux consultations en vue de l'adoption, d'ici fin 2026, de trois actes d'exécution encadrant le calcul de la teneur en plastique recyclé dans les emballages, les critères de durabilité des technologies de recyclage et les conditions d'importation de plastique recyclé depuis des pays tiers. Les contributions sont attendues jusqu'au 16 septembre 2026. Ces textes préparent la mise en œuvre opérationnelle du règlement emballages et déchets d'emballages (PPWR) et des objectifs de contenu recyclé, avec enjeux de traçabilité, de mass balance et de concurrence des importations.",
+      "themes": ["reglementation", "donnees_outils"],
+      "signal_type": "consultation_publique",
+      "geography": ["UE", "France"],
+      "actors": ["Commission européenne", "éco-organismes emballages", "industriels plastique"],
+      "primary_source": {
+        "name": "Actu-Environnement — consultations UE plastique recyclé (02/09/2026)",
+        "url": "https://www.actu-environnement.com/ae/news/plastique-recycle-consultation-ue-technologies-recyclage-mesure-contenu-48461.php4",
+        "type": "media_secondaire"
+      },
+      "urls": [
+        "https://www.actu-environnement.com/ae/news/plastique-recycle-consultation-ue-technologies-recyclage-mesure-contenu-48461.php4"
+      ],
+      "published_at": "2026-09-02",
+      "detected_via": "Actu-Environnement (02/09/2026) ; portail Have Your Say Commission non confirmé individuellement",
+      "relevance": {
+        "score": 4,
+        "why": "Échéance 16/09 pour filières emballages, recycleurs et collectivités anticipant les règles de comptabilisation du recyclé au titre du PPWR."
+      },
+      "entities": [
+        "PPWR",
+        "contenu recyclé",
+        "mass balance",
+        "actes d'exécution"
+      ],
+      "tags": ["plastique", "emballages", "UE"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-03-008",
+      "title": "Ligne THT Camargue (RTE) : l'autorité environnementale relève des insuffisances majeures de l'étude d'impact",
+      "summary": "Le projet RTE d'une ligne aérienne à 400 kV d'environ 65 km entre Jonquières-Saint-Vincent (Gard) et Fos-sur-Mer (Bouches-du-Rhône), traversant Camargue, Crau, Costières et vallée du Rhône pour sécuriser l'alimentation électrique de la région PACA et des besoins industriels de Fos, fait l'objet d'une avis défavorable partiel de l'autorité environnementale. Selon Actu-Environnement du 2 septembre 2026, l'AE relève des lacunes majeures de l'étude d'impact, notamment sur les enjeux biodiversité et paysages des grands espaces ouverts camarguais et crauens. Le projet, contesté par collectivités et associations, interroge l'articulation entre sécurisation électrique, artificialisation et continuités écologiques en zone littorale et agricole sensible.",
+      "themes": ["energie_biodiversite", "biodiversite", "reglementation"],
+      "signal_type": "changement_de_pratique_professionnel",
+      "geography": ["France", "Provence-Alpes-Côte d'Azur", "Occitanie"],
+      "actors": [
+        "RTE",
+        "Autorité environnementale",
+        "Ministère de la Transition écologique"
+      ],
+      "primary_source": {
+        "name": "Actu-Environnement — ligne THT Camargue et autorité environnementale",
+        "url": "https://www.actu-environnement.com/ae/news/ligne-tht-camargue-autorite-environnementale-48459.php4",
+        "type": "media_secondaire"
+      },
+      "urls": [
+        "https://www.actu-environnement.com/ae/news/ligne-tht-camargue-autorite-environnementale-48459.php4"
+      ],
+      "published_at": "2026-09-02",
+      "detected_via": "Actu-Environnement (02/09/2026) ; avis autorité environnementale non consulté directement",
+      "relevance": {
+        "score": 4,
+        "why": "Retour AE structurant pour DREAL, RTE et bureaux d'études ERC instruisant une LRT majeure en zone Natura 2000 et paysages protégés."
+      },
+      "entities": [
+        "ligne THT Camargue",
+        "RTE",
+        "étude d'impact",
+        "Fos-sur-Mer"
+      ],
+      "tags": ["reseau_electrique", "LRT", "contentieux"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-03-009",
+      "title": "Hydrogène par électrolyse : consultation sur de nouvelles rubriques ICPE (échéance 7 septembre 2026)",
+      "summary": "Le ministère de la Transition écologique consulte jusqu'au 7 septembre 2026 sur un projet de décret et deux arrêtés instaurant un cadre ICPE spécifique à la production d'hydrogène par électrolyse de l'eau. Le dispositif prévoit de retirer l'hydrogène produit par électrolyse de la rubrique 3420 (vaporeformage/gazéification) et de créer de nouvelles rubriques avec des seuils proportionnés (500 kg, 5 t et 50 t/jour), des régimes déclaration/enregistrement/autorisation et des prescriptions sur les risques d'explosion et la consommation d'eau (plafond évoqué de 20 L/kg H₂). Entrée en vigueur visée au 1er janvier 2027, après examen au CSPRT le 15 septembre 2026.",
+      "themes": ["reglementation", "energie_biodiversite", "eau_zones_humides"],
+      "signal_type": "consultation_publique",
+      "geography": ["France"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "DGPR",
+        "CSPRT",
+        "filière hydrogène"
+      ],
+      "primary_source": {
+        "name": "Actu-Environnement — hydrogène électrolyse ICPE",
+        "url": "https://www.actu-environnement.com/ae/news/hydrogene-electrolyse-icpe-reglementation-2027-48403.php4",
+        "type": "media_secondaire"
+      },
+      "urls": [
+        "https://www.actu-environnement.com/ae/news/hydrogene-electrolyse-icpe-reglementation-2027-48403.php4"
+      ],
+      "published_at": "2026-08-19",
+      "detected_via": "Actu-Environnement ; rappel échéance imminente 07/09/2026 — portail consultations-publiques MTE non confirmé (maintenance)",
+      "relevance": {
+        "score": 4,
+        "why": "Dernière fenêtre de contribution pour porteurs de projets H₂, DREAL et bureaux d'études ICPE calibrant le régime applicable dès 2027."
+      },
+      "entities": [
+        "rubrique 3420",
+        "rubrique 1416",
+        "électrolyse",
+        "CSPRT"
+      ],
+      "tags": ["hydrogene", "ICPE", "consultation"],
+      "is_new": true
+    }
+  ]
+}
