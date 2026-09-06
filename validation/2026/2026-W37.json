@@ -1,0 +1,391 @@
+{
+  "generated_at": "2026-09-06T12:45:00Z",
+  "based_on_opportunities": {
+    "file": "opportunites/2026/2026-W37.json"
+  },
+  "validations": [
+    {
+      "opportunity_id": "opp-2026-W37-01",
+      "opportunity_title": "Haies : dossiers sous le régime unique de déclaration / autorisation (décret 2026-829)",
+      "verdict": "signale_fort",
+      "market_signal_strength": 5,
+      "evidence": [
+        {
+          "type": "obligation",
+          "title": "Décret n° 2026-829 du 28 août 2026 — régime unique de la haie",
+          "summary": "Décret JO 29/08/2026 précisant dépôt/instruction de la déclaration unique, bascule en autorisation (espèces protégées / Natura 2000 notamment), travaux d'urgence et périodes d'interdiction territorialisées. Applicable aux dossiers déposés à compter du 01/10/2026 en métropole (01/09/2028 outre-mer art. 73).",
+          "url": "https://www.actu-environnement.com/ae/reglementation/decret-du-28-08-2026-2026-829-40240.php",
+          "date": "2026-08-29",
+          "actor": "État / JO"
+        },
+        {
+          "type": "demande_explicite",
+          "title": "Instruction du 17 juillet 2026 — déploiement préfectoral du régime unique",
+          "summary": "Instruction BO du 24/07 (remplace celle du 24/03) : actions attendues des services déconcentrés, guichet unique départemental, calendrier d'entrée en vigueur au 01/10/2026 ; annonce du portail haie.beta.gouv.fr (expérimenté Aisne/Calvados).",
+          "url": "https://www.actu-environnement.com/ae/reglementation/instruction-du-17-07-2026-tecl2618420j-40035.php",
+          "date": "2026-07-24",
+          "actor": "MTE / MASA / préfets"
+        },
+        {
+          "type": "autre",
+          "title": "Guichet unique de la haie (portail national)",
+          "summary": "Portail officiel haie.beta.gouv.fr pour simulation réglementaire et dépôt unique des demandes ; ouverture progressive départementale, avec webinaires d'accompagnement des demandeurs et instructeurs.",
+          "url": "https://haie.beta.gouv.fr/",
+          "date": "2026-09",
+          "actor": "État (beta.gouv)"
+        },
+        {
+          "type": "appel_offres",
+          "title": "AQTA — travaux bocagers Breizh Bocage 2026-2027 (lot plantation)",
+          "summary": "MAPA travaux de plantation/protection/paillage/entretien de linéaires bocagers (marché réservé), clôture 23/09/2026 — marché de travaux, pas de prestation « dossier déclaration unique », mais confirme une demande territoriale continue sur le bocage à l'approche du régime unifié.",
+          "url": "https://www.marchesonline.com/appels-offres/avis/travaux-bocagers-dans-le-cadre-du-programme-breizh-boca/ao-4314630-1",
+          "date": "2026-08-26",
+          "actor": "Communauté de communes Auray Quiberon Terre Atlantique"
+        },
+        {
+          "type": "appel_offres",
+          "title": "PNR Normandie-Maine — restauration TVB haies bocagères et mares",
+          "summary": "Marché alloti de restauration de haies bocagères et mares ; valeur estimée 250 000 € HT, durée 12 mois — signal travaux TVB/haies, antérieur/parallèle au décret 829.",
+          "url": "https://www.marchesonline.com/appels-offres/avis/travaux-de-restauration-de-la-trame-verte-et-bleue-ha/ao-9633392-1",
+          "date": "2026",
+          "actor": "PNR Normandie-Maine",
+          "amount_or_scale": "250 000 € HT estimés"
+        }
+      ],
+      "competitors_or_alternatives": [
+        "Cabinets d'avocats environnement (commentaires décret/instruction)",
+        "BE environnement / TVB déjà présents sur bocage",
+        "Chambres d'agriculture (accompagnement déclarants)",
+        "Entreprises de travaux bocagers (Breizh Bocage)"
+      ],
+      "economic_reading": "Obligation opératoire dès le 01/10/2026 avec doctrine d'instruction déjà diffusée et outil de dépôt national : demande captive de cartographie enjeux (espèces/Natura 2000) et de montage de dossiers. Les AO observés portent encore sur les travaux de plantation/restauration, pas encore sur l'ingénierie « déclaration unique » — le bascule prestations BE est attendu à l'automne, pas encore mesuré en transactions.",
+      "recommended_next_step": "Prototyper une offre « check-list dossier haie + SIG enjeux » pour agriculteurs/aménageurs dès octobre ; mesurer les premiers AO DDT/collectivités post-01/10."
+    },
+    {
+      "opportunity_id": "opp-2026-W37-02",
+      "opportunity_title": "Plan national de restauration (NRP) : diagnostics DHFF/UICN et plans territoriaux",
+      "verdict": "signale_modere",
+      "market_signal_strength": 3,
+      "evidence": [
+        {
+          "type": "demande_explicite",
+          "title": "Commission européenne — dépôt des projets de plans nationaux de restauration (1er septembre 2026)",
+          "summary": "Échéance UE du 01/09/2026 pour les projets de National Restoration Plans ; la Commission ouvre la phase d'examen avec l'AEE. La France n'est pas listée parmi les États dans les temps : Actu-Environnement (02/09) indique un envoi français annoncé « d'ici quinze jours ».",
+          "url": "https://environment.ec.europa.eu/news/eu-countries-submit-draft-plans-restoring-nature-2026-09-01_en",
+          "date": "2026-09-01",
+          "actor": "Commission européenne"
+        },
+        {
+          "type": "demande_explicite",
+          "title": "SDES / PatriNat — rapportage DHFF 2019-2024 (22 % favorable)",
+          "summary": "Publication début septembre 2026 : part des habitats/espèces en état favorable tombée à 22 % (vs 26 % en 2013-2018) ; 67 % d'évaluations défavorables. Socle diagnostique pour prioriser les mesures de restauration.",
+          "url": "https://www.statistiques.developpement-durable.gouv.fr/letat-de-conservation-des-habitats-et-des-especes-remarquables-continue-de-se-degrader-en-france",
+          "date": "2026-09-02",
+          "actor": "SDES / PatriNat"
+        },
+        {
+          "type": "demande_explicite",
+          "title": "UICN / PatriNat — Liste rouge amphibiens et reptiles 2026",
+          "summary": "Actualisation du 02/09/2026 : ~19 % des amphibiens et ~26 % des reptiles menacés ; deux tiers des espèces en déclin ; aucune amélioration de catégorie depuis 2015. Pression sur plans d'actions espèces aquatiques/terrestres.",
+          "url": "https://uicn.fr/liste-rouge-reptiles-amphibiens-2026/",
+          "date": "2026-09-02",
+          "actor": "UICN Comité français / PatriNat / SHF"
+        }
+      ],
+      "competitors_or_alternatives": [
+        "OFB / DREAL (pilotage NRP et Natura 2000)",
+        "BE biodiversité / restauration écologique",
+        "Opérateurs LIFE / financement UE"
+      ],
+      "economic_reading": "Maturation nette vs W36-08 (signale_faible) : calendrier UE + diagnostics nationaux créent une demande méthodologique claire. En revanche, le NRP français n'est pas encore publié au 06/09 et aucun AO OFB/DREAL/collectivité citant explicitement le règlement restauration ou le NRP n'a été trouvé — le marché de prestations territoriales reste prospectif (horizon post-publication / 2027).",
+      "recommended_next_step": "Approfondir dès publication du projet NRP français ; ignorer une offre commerciale générique tant qu'aucun AAP/AO de déclinaison territoriale n'est ouvert."
+    },
+    {
+      "opportunity_id": "opp-2026-W37-03",
+      "opportunity_title": "Eau : diagnostics zones humides post-loi 796, assecs ONDE et suivi azote Bretagne",
+      "verdict": "signale_fort",
+      "market_signal_strength": 5,
+      "evidence": [
+        {
+          "type": "obligation",
+          "title": "Loi n° 2026-796 du 18 août 2026 — assouplissement zones humides et stockages",
+          "summary": "Loi d'urgence agricole : compensation ZH proportionnée aux fonctionnalités pour zones déjà très altérées ; simplification technique des retenues collinaires <3 ha et plans d'eau <1 ha en ZH ; orientations stockage dans SDAGE/SAGE. Recalibre les dossiers IOTA / compensation.",
+          "url": "https://www.banquedesterritoires.fr/la-loi-durgence-agricole-promulguee-tout-ce-quil-faut-en-retenir",
+          "date": "2026-08-19",
+          "actor": "État / JO"
+        },
+        {
+          "type": "obligation",
+          "title": "Décret 2026-823 + arrêté d'application — expérimentation reliquats Bretagne au 01/09/2026",
+          "summary": "Expérimentation 5 ans : suppression du plan prévisionnel de fumure pour un échantillon d'exploitations et bascule sur analyses de reliquats de début de drainage ; réseau de parcelles de référence et rôle du GREN Bretagne.",
+          "url": "https://www.actu-environnement.com/ae/reglementation/decret-du-27-08-2026-2026-823-40235.php",
+          "date": "2026-08-28",
+          "actor": "État / préfecture Bretagne"
+        },
+        {
+          "type": "appel_offres",
+          "title": "DRAAF Bretagne — campagne mesures reliquats début drainage 2026 et APM 2027",
+          "summary": "AO ouvert (mise en ligne 23/05, limite 24/06/2026) : lots de mesures RDD 2026 (bassins algues vertes + ~500 exploitations aléatoires hors BV + parcelles de référence) et azote potentiellement minéralisable (APM) début 2027 (~500 APM). Preuve monétaire directe de la bascule « plan de fumure → reliquats ».",
+          "url": "https://www.marchesonline.com/appels-offres/avis/bretagne-2026-2027-reliquats-azote-apm/ao-9604565-1",
+          "date": "2026-05-23",
+          "actor": "DRAAF Bretagne"
+        },
+        {
+          "type": "appel_a_projets",
+          "title": "DRAAF Bretagne — AMI laboratoires analyses de reliquats (automne 2026)",
+          "summary": "AMI publié 03/07/2026 (candidatures jusqu'au 03/08) pour constituer une liste de labos capables de réaliser ~900 prélèvements sur ~600 exploitations (répartition par département) ; prix maximal de prestation indiqué ; liste référencée diffusée aux agriculteurs. Signal d'organisation du marché analytique privé.",
+          "url": "https://draaf.bretagne.agriculture.gouv.fr/appel-a-manifestation-d-interet-a3961.html",
+          "date": "2026-07-03",
+          "actor": "DRAAF Bretagne",
+          "amount_or_scale": "~900 prélèvements / ~600 exploitations"
+        },
+        {
+          "type": "autre",
+          "title": "OFB / ONDE — assecs record des petits cours d'eau (été 2026)",
+          "summary": "Bilan médiatisé début septembre : ordre de grandeur ~1 400 cours d'eau en assec ou sans écoulement observés ; documentation PatriNat des impacts faune. Crée une demande de bilans territoriaux et de suivi hydrologique, distincte de la seule sécurisation juridique des restrictions.",
+          "url": "https://www.lemonde.fr/planete/article/2026/09/02/secheresse-les-petits-cours-d-eau-dans-un-etat-de-degradation-exceptionnel-selon-l-office-francais-de-la-biodiversite_6764532_3244.html",
+          "date": "2026-09-02",
+          "actor": "OFB / ONDE"
+        }
+      ],
+      "competitors_or_alternatives": [
+        "Laboratoires agronomiques référencés DRAAF",
+        "Chambres d'agriculture / GREN Bretagne",
+        "BE eau-écologie / zones humides",
+        "Cabinets contentieux associations vs porteurs de stockages"
+      ],
+      "economic_reading": "Basculement fort vs W36-03 (signale_modere sans AO) : le marché analytique reliquats est déjà structuré (AO DRAAF + AMI labos chiffré en volume). La loi 796 déplace plutôt qu'elle n'annule la demande BE (diagnostics ZH recalibrés, dossiers stockages, contentieux). Les assecs ONDE renforcent le volet suivi hydrologique/biodiversité.",
+      "recommended_next_step": "Prototyper une offre « reliquats + conseil conformité expérimentale » pour exploitations/SAGE Bretagne ; en parallèle, note méthodologique ZH post-796 pour instructeurs et BE."
+    },
+    {
+      "opportunity_id": "opp-2026-W37-04",
+      "opportunity_title": "PFAS : taxe au 1er septembre + plans de filières boues/MFAS et dépollution",
+      "verdict": "signale_fort",
+      "market_signal_strength": 5,
+      "evidence": [
+        {
+          "type": "obligation",
+          "title": "Redevance PFAS — modalités applicables au 1er septembre 2026",
+          "summary": "Décret 2026-545 et arrêté du 25/06/2026 : redevance 100 € / 100 g pour ICPE autorisées (liste de rubriques) rejetant >100 g/an ; autosurveillance dès 01/09 si masse ≥2 kg ; déclaration GIDAF puis validation agences. FAQ officielle des agences de l'eau opérationnelle.",
+          "url": "https://www.lesagencesdeleau.fr/actualites/tout-comprendre-de-la-redevance-de-pollution-de-leau-par-les-pfas",
+          "date": "2026-09-01",
+          "actor": "Agences de l'eau / État",
+          "amount_or_scale": "100 € / 100 g PFAS"
+        },
+        {
+          "type": "financement",
+          "title": "Rapport IGEDD-IGAS-CGAAER — coûts dépollution EDCH 1,3 à 5,7 Md€/an",
+          "summary": "Mission inter-inspections : scénarios de surcoûts annuels pour pesticides/PFAS dans l'eau potable ; cadre de référence pour plans de financement territoriaux (déjà signalé W36, toujours structurant).",
+          "url": "https://www.actu-environnement.com/media/pdf/news-48448-rapport-igeed-igas-cgaaer-financement-decontamination-eaux.pdf",
+          "date": "2026-07-30",
+          "actor": "IGEDD / IGAS / CGAAER",
+          "amount_or_scale": "1,3–5,7 Md€/an (scénarios)"
+        },
+        {
+          "type": "appel_offres",
+          "title": "Région Grand Est — stations mobiles traitement PFAS (EDCH)",
+          "summary": "Accord-cadre max 2 430 000 € HT / 48 mois ; démarrage estimé 27/10/2026 ; limite de réponse indiquée 25/08/2026 sur agrégateurs. Confirme la monétisation du traitement, pas seulement des analyses.",
+          "url": "https://www.marchesonline.com/appels-offres/avis/acquisition-et-exploitation-de-stations-mobiles-de-trai/ao-9626410-1",
+          "date": "2026-07",
+          "actor": "Région Grand Est",
+          "amount_or_scale": "2,43 M€ HT max / 48 mois"
+        },
+        {
+          "type": "appel_offres",
+          "title": "CAPI — unité pilote traitement PFAS (captages Loup et Ronta)",
+          "summary": "Procédure adaptée pour installation et suivi d'une unité pilote ; limite de réponse 23/09/2026 — marché encore ouvert au 06/09.",
+          "url": "https://www.marchesonline.com/appels-offres/avis/installation-et-suivi-d-une-unite-pilote-pour-le-traite/ao-9640219-1",
+          "date": "2026-08-02",
+          "actor": "Communauté d'agglomération Porte de l'Isère"
+        },
+        {
+          "type": "demande_explicite",
+          "title": "Avis HCSP — classification temporaire boues/MFAS en trois catégories PFAS",
+          "summary": "Cadre de gestion proposé (cat. 1/2/3) ; pas d'arrêté opposable de transcription trouvé au 06/09/2026. Le levier fiscal redevance est désormais actif ; le levier filières boues reste en amont réglementaire.",
+          "url": "https://www.hcsp.fr/Explore.cgi/avisrapportsdomaine?clefr=1542",
+          "date": "2026-08-17",
+          "actor": "Haut Conseil de la santé publique"
+        }
+      ],
+      "competitors_or_alternatives": [
+        "Laboratoires environnementaux",
+        "Fournisseurs de traitement (stations mobiles / pilotes)",
+        "BE eaux industrielles / SSP",
+        "Agences de l'eau (redevance + aides)"
+      ],
+      "economic_reading": "Renforcement vs W36-02 : la taxe crée une demande captive d'autosurveillance, d'audits d'assiette et de scénarios de réduction chez les ICPE. Analyses + traitement restent monétisés (AO multi-M€). L'ingénierie « boues/MFAS HCSP » et les plans de financement dépollution restent le segment BE le plus ouvert, faute d'arrêté HCSP.",
+      "recommended_next_step": "Prototyper « audit assiette redevance PFAS + scénario abattement/traitement » pour ICPE ; maintenir l'offre filières boues en veille réglementaire."
+    },
+    {
+      "opportunity_id": "opp-2026-W37-05",
+      "opportunity_title": "Post-extrêmes : AMO DSEC / reconstruction forestière et adaptation territoriale",
+      "verdict": "signale_modere",
+      "market_signal_strength": 4,
+      "evidence": [
+        {
+          "type": "budget",
+          "title": "Aide d'urgence 12 M€ Gironde / Landes (annonces 17/08/2026)",
+          "summary": "Fonds délégué à la préfète de région : 10 M€ Gironde + 2 M€ Landes, « disponible immédiatement » pour lancer travaux et plans de relance locaux ; package global d'aides évoqué >100 M€ (exonérations, chômage partiel, etc.).",
+          "url": "https://france3-regions.franceinfo.fr/nouvelle-aquitaine/gironde/arcachon/100-millions-d-aide-permis-de-reconstruire-acceleres-exonerations-ce-qu-il-faut-retenir-des-annonces-de-sebastien-lecornu-apres-les-incendies-en-gironde-et-dans-les-landes-3402574.html",
+          "date": "2026-08-17",
+          "actor": "État / préfecture Nouvelle-Aquitaine",
+          "amount_or_scale": "12 M€ collectivités (+ package >100 M€)"
+        },
+        {
+          "type": "financement",
+          "title": "Décret 2026-788 — DSEC élargie, enveloppe 70 M€ en 2026",
+          "summary": "Élargissement des dépenses éligibles (fonctionnement d'urgence hors personnel, pistes cyclables, passerelles), taux max 60 % selon intensité, majoration prévention possible.",
+          "url": "https://www.ecologie.gouv.fr/actualites/catastrophes-naturelles-simplification-elargissement-dotation-aux-collectivites-locales",
+          "date": "2026-08-15",
+          "actor": "État",
+          "amount_or_scale": "Enveloppe DSEC 70 M€ (2026)"
+        },
+        {
+          "type": "appel_offres",
+          "title": "ONF — travaux DFCI pistes et aires de dépôt (Landes Nord-Aquitaine)",
+          "summary": "Marché alloti de remise à niveau de pistes DFCI et création d'aires de dépôt (forêts domaniales Le Porge, CAEPE, etc.) — travaux déjà observables, distincts de l'AMO montage DSEC.",
+          "url": "https://www.marchesonline.com/appels-offres/avis/travaux-de-mise-aux-normes-ou-de-remise-a-niveau-oper/ao-9596006-1",
+          "date": "2026-04-28",
+          "actor": "Office national des forêts"
+        },
+        {
+          "type": "financement",
+          "title": "Aides renouvellement forestier — Cartogip toujours fermé post-consultation 31/08",
+          "summary": "Consultation publique du décret de refonte close le 31/08/2026 ; page ministère indique toujours la suspension des nouveaux dossiers Cartogip. Aucun JO de republication du dispositif constaté au 06/09/2026.",
+          "url": "https://www.ecologie.gouv.fr/politiques-publiques/dispositif-daide-renouvellement-forestier",
+          "date": "2026-09-06",
+          "actor": "Ministère de la Transition écologique"
+        }
+      ],
+      "competitors_or_alternatives": [
+        "ONF / fédérations DFCI",
+        "CRPF / coopératives forestières",
+        "Services préfectoraux (instruction DSEC)",
+        "BE env/forestiers locaux Nouvelle-Aquitaine"
+      ],
+      "economic_reading": "Budgets publics concrets (12 M€ + DSEC 70 M€) et travaux DFCI visibles. En revanche : pas d'AO « AMO montage DSEC / reconstruction adaptée » trouvé ; référentiel habitat feu toujours absent ; aides forêt encore gelées pour nouveaux dossiers. Le marché BE d'ingénierie reste en amont des CCTP locaux.",
+      "recommended_next_step": "Cartographier les collectivités sinistrées susceptibles de sous-traiter AMO env ; attendre JO aides forêt et doctrine reconstitution (annonce « sous 3 mois ») avant prototyper à l'échelle."
+    },
+    {
+      "opportunity_id": "opp-2026-W37-06",
+      "opportunity_title": "EnR / réseaux : EI d'ouvrages (THT), agrivoltaïsme concerté et saturation",
+      "verdict": "signale_modere",
+      "market_signal_strength": 4,
+      "evidence": [
+        {
+          "type": "demande_explicite",
+          "title": "Avis AE — ligne THT Camargue / Fos (27 août 2026)",
+          "summary": "Avis de l'Autorité environnementale sur le projet RTE (~65 km, 400 kV) : lacunes sur justification des besoins, alternatives, bilan GES, impacts oiseaux/paysages et mises en compatibilité des documents d'urbanisme. Signal de rehaussement des attendus d'EI pour grands ouvrages.",
+          "url": "https://www.actu-environnement.com/media/pdf/news-48459-avis-ae-ligne-tht-camargue.pdf",
+          "date": "2026-08-27",
+          "actor": "Autorité environnementale / RTE"
+        },
+        {
+          "type": "demande_explicite",
+          "title": "Charte nationale agrivoltaïsme AMORCE / France Renouvelables (3 septembre 2026)",
+          "summary": "Charte de bonnes pratiques (concertation, gouvernance, projet agricole, intégration paysagère/biodiversité) destinée collectivités, développeurs et agriculteurs — cadre soft law orientant les dossiers et la concertation territoriale.",
+          "url": "https://amorce.asso.fr/publications/charte-nationale-amorce-france-renouvelables-en-faveur-de-projets-agrivoltaiques-territoriaux-et-concertes-enp97",
+          "date": "2026-09-03",
+          "actor": "AMORCE / France Renouvelables"
+        },
+        {
+          "type": "obligation",
+          "title": "Décret n° 2026-805 — plans de développement du réseau de distribution",
+          "summary": "Cadre des plans GRD (scénarios 5/10 ans, consultation CRE) déjà signalé en W36 ; reste le socle réglementaire du goulot raccordement.",
+          "url": "https://www.actu-environnement.com/ae/reglementation/decret-du-20-08-2026-2026-805-40212.php",
+          "date": "2026-08-20",
+          "actor": "État / CRE / GRD"
+        }
+      ],
+      "competitors_or_alternatives": [
+        "Rédacteurs d'EI / cabinets urbanisme-énergie",
+        "Développeurs EnR intégrés",
+        "Enedis / RTE (données saturation / flexibilité)",
+        "Chambres d'agriculture (agrivoltaïsme)"
+      ],
+      "economic_reading": "Les attendus qualité d'EI et de concertation se durcissent (avis AE + charte). La demande reste surtout privée (portefeuilles développeurs) : aucun AO public « reprise EI post-avis AE » ou « étude saturation » trouvé cette semaine. Le Portail Flexibilités CRE (06/09) concerne surtout agrégateurs — hors cœur BE.",
+      "recommended_next_step": "Approfondir via pipeline développeurs THT/agrivoltaïsme (notes de conformité charte + relecture EI) ; pas d'offre générique sans client identifiable."
+    },
+    {
+      "opportunity_id": "opp-2026-W37-07",
+      "opportunity_title": "ZAN opérationnel : Cartofriches 20 500 sites, mutabilité et urbanisme environnemental",
+      "verdict": "signale_modere",
+      "market_signal_strength": 3,
+      "evidence": [
+        {
+          "type": "autre",
+          "title": "Cerema — inventaire Cartofriches 20 250 sites / ~61 000 ha (données au 01/07/2026)",
+          "summary": "Synthèse médiatisée début septembre 2026 : densification de l'inventaire (+indices de mutabilité, intégration UrbanSIMUL) ; ~3 600 sites déjà en projet ; potentiel logement/industrie chiffré sur friches sans projet.",
+          "url": "https://www.cerema.fr/fr/actualites/cartofriches-pres-20-500-sites-friches-repertories",
+          "date": "2026-09-03",
+          "actor": "Cerema",
+          "amount_or_scale": "20 250 sites / ~61 000 ha"
+        },
+        {
+          "type": "financement",
+          "title": "Fonds vert — mesure recyclage foncier / friches (guichet 2026)",
+          "summary": "Dépôt national demarches-simplifiees encore ouvert (échéance indiquée au 31/12/2026 sur le formulaire) ; dossiers techniques SSP/études de pollution exigés — canal de financement pour études et travaux de reconversion.",
+          "url": "https://www.demarches-simplifiees.fr/commencer/fonds-vert-3-friches",
+          "date": "2026-09",
+          "actor": "État / préfectures"
+        },
+        {
+          "type": "autre",
+          "title": "Localtis / Banque des Territoires — reprise inventaire national friches 2026",
+          "summary": "Relais du 03/09/2026 soulignant 71 % des friches en zone urbanisable et 41–48 % en zones tendues habitat — argumentaire pour stratégies EPCI de recyclage.",
+          "url": "https://www.banquedesterritoires.fr/plus-de-20000-friches-recensees-en-2026-selon-linventaire-national-publie-par-le-cerema",
+          "date": "2026-09-03",
+          "actor": "Banque des Territoires / Localtis"
+        }
+      ],
+      "competitors_or_alternatives": [
+        "Cerema (outil + accompagnement)",
+        "BE urbanisme environnemental / SSP",
+        "EPF / aménageurs publics",
+        "UrbanVitaliz / Banque des Territoires"
+      ],
+      "economic_reading": "Outil national densifié + canal Fonds vert : socle pour prioriser et monter des dossiers. Aucun AO « inventaire friches / stratégie ZAN Cartofriches » clairement post-septembre trouvé — la vague de prestations reste à 6–18 mois, tirée par les trajectoires ZAN déjà connues plutôt que par une obligation nouvelle.",
+      "recommended_next_step": "Surveiller AO EPCI d'observatoires locaux et dossiers Fonds vert ; préparer une offre « croisement Cartofriches × SSP × biodiversité » sans commercialiser en masse."
+    },
+    {
+      "opportunity_id": "opp-2026-W37-08",
+      "opportunity_title": "Adaptation locale : diagnostic RGA, ruissellement et confort thermique des établissements",
+      "verdict": "signale_modere",
+      "market_signal_strength": 3,
+      "evidence": [
+        {
+          "type": "appel_a_projets",
+          "title": "AMI Hauts-de-Seine — adapter les écoles à la surchauffe (Cerema / préfecture)",
+          "summary": "AMI ouvert jusqu'au 14/09/2026 : diagnostic méthode ABCD, plan de continuité canicule, formation personnels, plan d'investissement ; lauréats fin octobre. Signal concret d'AMO adaptation scolaire, encore localisé.",
+          "url": "https://www.cerema.fr/fr/actualites/adapter-ecoles-hauts-seine-aux-episodes-chaleur-appel",
+          "date": "2026-09",
+          "actor": "Préfecture 92 / Cerema / rectorat"
+        },
+        {
+          "type": "obligation",
+          "title": "Arrêté du 9 août 2026 — qualification professionnelle expertise assurance RGA",
+          "summary": "Qualification obligatoire des personnes morales réalisant des expertises assurance sinistres RGA (pathologie bâtiment, géotechnique, mécanique des sols) ; JO 11/08, effet 12/08. Marché surtout assureurs/experts, voisin du cœur BE env.",
+          "url": "https://www.actu-environnement.com/ae/reglementation/arrete-du-09-08-2026-vlol2427997a-40117.php",
+          "date": "2026-08-11",
+          "actor": "État / assureurs"
+        },
+        {
+          "type": "demande_explicite",
+          "title": "Guides Cerema — écoles / surchauffe et ruissellement",
+          "summary": "Méthode ABCD et livret surchauffe scolaire ; synthèse ruissellement Cerema (fin août) — référentiels pour diagnostics préventifs GEMAPI / patrimoine.",
+          "url": "https://www.cerema.fr/fr/actualites/ecoles-surchauffe-probleme-qui-se-joue-echelle-salles-classe",
+          "date": "2026-09-04",
+          "actor": "Cerema"
+        }
+      ],
+      "competitors_or_alternatives": [
+        "Cerema (méthodes + AMI)",
+        "Sociétés d'expertise assurance RGA",
+        "BE géotech / hydraulique / ambiance",
+        "Services GEMAPI"
+      ],
+      "economic_reading": "AMI 92 = preuve de demande publique d'accompagnement adaptation scolaire, mais pilote départemental. Le package RGA structure surtout le marché assurance (qualification), avec retombée partielle pour BE géotech. Pas d'AO GEMAPI citant explicitement la synthèse ruissellement trouvé.",
+      "recommended_next_step": "Surveiller réplications AMI « écoles / surchauffe » hors 92 ; ignorer une offre RGA pure assurance ; articuler plutôt diagnostics préventifs patrimoine + GEMAPI si AO locaux apparaissent."
+    }
+  ]
+}
