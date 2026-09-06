@@ -1,0 +1,456 @@
+{
+  "date": "2026-09-06",
+  "generated_at": "2026-09-06T06:22:07+02:00",
+  "timezone": "Europe/Paris",
+  "meta": {
+    "item_count": 11,
+    "sources_consulted": [
+      "cerema",
+      "sdes",
+      "actu_environnement",
+      "commission_ue",
+      "cre",
+      "meteo_france",
+      "uicn_patrinat",
+      "the_conversation_fr",
+      "banque_territoires_localtis",
+      "ministere_economie"
+    ],
+    "deduplicated_against_days": 12,
+    "notes": "Week-end du 06/09 : couverture des nouveautés 03–05/09 (Cartofriches, verdissement commande publique, bilan été Météo-France, liste rouge UICN, charte agrivoltaïsme, PV SDES, PPWR, consigne plastique, THT Camargue, restauration nature post-échéance). DHFF, zones humides loi agricole, REP textiles, effacement Cour des comptes, NRR échéance J-1 (01–02/09), sécheresse ONDE, incendies Gironde, etc. exclus comme déjà couverts 22/08–02/09. Dépêches Actu-Environnement consigne plastique et arrêté restauration : contenu abonné partiellement accessible ; HAL anti-bot pour rapport UICN."
+  },
+  "items": [
+    {
+      "id": "2026-09-06-001",
+      "title": "Cartofriches 2026 : près de 20 500 friches recensées, indices de mutabilité et intégration UrbanSIMUL",
+      "summary": "Le Cerema actualise son inventaire national Cartofriches au 1er juillet 2026 : près de 20 500 sites en friche recensés (contre ~15 000 en avril 2025), représentant plus de 61 000 hectares identifiés sur le portail. La hausse s'explique surtout par l'extension des observatoires locaux (31 observatoires, 61 % du territoire couvert, trois quarts des sites). De nouveaux indices de mutabilité caractérisent le potentiel de reconversion (logement, industrie, usages mixtes, gain écologique POGEIS) pour 13 000 friches sans projet. Les données sont intégrées à UrbanSIMUL, à l'API Données foncières et sur data.gouv.fr ; croisements TVB, ZAER PV, risques et commerces enrichissent la base.",
+      "themes": ["zan_artificialisation", "donnees_outils", "biodiversite"],
+      "signal_type": "nouveau_referentiel_ou_jeu_de_donnees",
+      "geography": ["France"],
+      "actors": ["Cerema", "Ministère de la Transition écologique", "observatoires locaux de friches"],
+      "primary_source": {
+        "name": "Cerema — Cartofriches : près de 20 500 sites en friches répertoriés",
+        "url": "https://www.cerema.fr/fr/actualites/cartofriches-plus-7200-sites-friches-repertories",
+        "type": "technique"
+      },
+      "secondary_sources": [
+        {
+          "name": "Banque des Territoires / Localtis — inventaire 2026",
+          "url": "https://www.banquedesterritoires.fr/plus-de-20000-friches-recensees-en-2026-selon-linventaire-national-publie-par-le-cerema"
+        }
+      ],
+      "urls": [
+        "https://www.cerema.fr/fr/actualites/cartofriches-plus-7200-sites-friches-repertories",
+        "https://www.banquedesterritoires.fr/plus-de-20000-friches-recensees-en-2026-selon-linventaire-national-publie-par-le-cerema"
+      ],
+      "published_at": "2026-09-03",
+      "detected_via": "source primaire Cerema (actualité du 03/09/2026) ; chiffres 20 250 friches confirmés via Localtis",
+      "relevance": {
+        "score": 5,
+        "why": "Référentiel ZAN opérationnel pour collectivités, EPFL et bureaux d'études priorisant la remobilisation foncière plutôt que l'artificialisation de terres agricoles."
+      },
+      "entities": [
+        "Cartofriches",
+        "UrbanSIMUL",
+        "indices de mutabilité",
+        "observatoires locaux de friches"
+      ],
+      "tags": ["friches", "ZAN", "open_data"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-06-002",
+      "title": "Charte nationale agrivoltaïsme : AMORCE et France Renouvelables encadrent les projets territoriaux concertés",
+      "summary": "Signée le 4 septembre 2026, la première charte nationale « en faveur de projets agrivoltaïques territoriaux et concertés » est portée par AMORCE et France Renouvelables. Elle complète le cadre APER (loi du 10 mars 2023, décret et arrêté 2024) sans s'y substituer, en fixant des engagements minimaux par parties prenantes (développeur, exploitant agricole, collectivité) et une boîte à outils activable avec un tiers neutre. La charte vise une base qualitative protectrice pour les territoires, avec information préalable des maires et EPCI sur les SPV, suivi régulier par les signataires, et articulation avec la PPE 3 (48 GW PV en 2030).",
+      "themes": ["energie_biodiversite", "reglementation", "rapports_guides"],
+      "signal_type": "changement_de_pratique_professionnel",
+      "geography": ["France"],
+      "actors": ["AMORCE", "France Renouvelables", "collectivités territoriales"],
+      "primary_source": {
+        "name": "AMORCE / France Renouvelables — Charte nationale agrivoltaïsme (PDF)",
+        "url": "https://www.actu-environnement.com/media/pdf/depeches/1325.pdf",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — dépêche charte agrivoltaïsme",
+          "url": "https://www.actu-environnement.com/depeches/agrivoltaisme-amorce-france-renouvelables-n-1325.html"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/media/pdf/depeches/1325.pdf",
+        "https://www.actu-environnement.com/depeches/agrivoltaisme-amorce-france-renouvelables-n-1325.html"
+      ],
+      "published_at": "2026-09-04",
+      "detected_via": "PDF dépêche Actu-Environnement (04/09/2026) confirmé",
+      "relevance": {
+        "score": 4,
+        "why": "Cadre de bonnes pratiques pour élus, CDPENAF et développeurs négociant des projets agrivoltaïques au-delà du minimum réglementaire APER."
+      },
+      "entities": [
+        "loi APER",
+        "PPE 3",
+        "charte agrivoltaïsme",
+        "CDPENAF"
+      ],
+      "tags": ["agrivoltaïsme", "photovoltaïque", "territoires"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-06-003",
+      "title": "Commande publique : dernières obligations de verdissement (article 35 loi Climat) applicables depuis le 21 août 2026",
+      "summary": "À compter du 21 août 2026, les dernières dispositions du décret n° 2022-767 (article 35 de la loi Climat et résilience) s'appliquent aux marchés et contrats de concession engagés à partir de cette date. Le critère de prix seul est interdit ; un critère environnemental, une clause d'exécution environnementale et, au-dessus des seuils européens, une clause sociale/emploi sont obligatoires. Les concessionnaires doivent décrire dans leur rapport annuel les mesures de protection de l'environnement et d'insertion économique. Bercy publie un guide pratique (DAJ, juillet 2026) pour les contrats de concession.",
+      "themes": ["reglementation", "climat_adaptation"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France"],
+      "actors": [
+        "Ministère de l'Économie",
+        "Conseil national de la commande publique",
+        "autorités concédantes"
+      ],
+      "primary_source": {
+        "name": "Ministère de l'Économie — guide pratique article 35 loi Climat (PDF)",
+        "url": "https://www.actu-environnement.com/media/pdf/news-48466-commande-publique-article-35-loi-climat-guide-pratique-bercy.pdf",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — verdissement commande publique",
+          "url": "https://www.actu-environnement.com/ae/news/verdissement-commande-publique-obligations-concessions-48466.php4"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/media/pdf/news-48466-commande-publique-article-35-loi-climat-guide-pratique-bercy.pdf",
+        "https://www.actu-environnement.com/ae/news/verdissement-commande-publique-obligations-concessions-48466.php4"
+      ],
+      "published_at": "2026-09-03",
+      "detected_via": "Actu-Environnement (03/09/2026) ; guide Bercy PDF confirmé",
+      "relevance": {
+        "score": 5,
+        "why": "Bascule opposable pour services marchés, SEM et collectivités rédigeant dossiers de consultation et contrats de concession dès la rentrée 2026."
+      },
+      "entities": [
+        "article 35 loi Climat et résilience",
+        "décret n° 2022-767",
+        "code de la commande publique"
+      ],
+      "tags": ["commande_publique", "verdissement", "concessions"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-06-004",
+      "title": "SDES : le parc photovoltaïque atteint 34,0 GW au T2 2026 (+3,0 GW au S1, production +18 %)",
+      "summary": "Publié le 4 septembre 2026, le tableau de bord SDES du deuxième trimestre 2026 indique une puissance cumulée de 34,0 GW de solaire photovoltaïque raccordé au 30 juin 2026. Le premier semestre 2026 a vu 3,0 GW de nouvelles installations raccordées (contre 2,9 GW sur la même période en 2025). La production brute métropolitaine atteint 14,1 TWh au T2 2026 (+18 % sur un an) et représente 8,6 % de la consommation électrique hors autoconsommation sur la période. Jeux de données départementaux et régionaux révisés en séries longues depuis 2005 sont disponibles en xlsx.",
+      "themes": ["energie_biodiversite", "donnees_outils", "climat_adaptation"],
+      "signal_type": "nouveau_referentiel_ou_jeu_de_donnees",
+      "geography": ["France"],
+      "actors": ["SDES", "Enedis", "RTE"],
+      "primary_source": {
+        "name": "SDES — Tableau de bord solaire photovoltaïque T2 2026",
+        "url": "https://www.statistiques.developpement-durable.gouv.fr/tableau-de-bord-solaire-photovoltaique-deuxieme-trimestre-2026",
+        "type": "institutionnel"
+      },
+      "urls": [
+        "https://www.statistiques.developpement-durable.gouv.fr/tableau-de-bord-solaire-photovoltaique-deuxieme-trimestre-2026"
+      ],
+      "published_at": "2026-09-04",
+      "detected_via": "source primaire SDES (publication du 04/09/2026)",
+      "relevance": {
+        "score": 4,
+        "why": "Indicateurs officiels pour DREAL, développeurs EnR et collectivités suivant le déploiement PV et les enjeux d'implantation au sol."
+      },
+      "entities": [
+        "parc photovoltaïque",
+        "34,0 GW",
+        "tableau de bord SDES"
+      ],
+      "tags": ["photovoltaïque", "statistiques", "énergie"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-06-005",
+      "title": "Bilan été 2026 Météo-France : record de chaleur, sécheresse généralisée, équivalent d'un été ordinaire à +4 °C",
+      "summary": "Le bilan climatique estival publié le 4 septembre 2026 par Météo-France classe l'été 2026 comme le plus chaud jamais enregistré : température moyenne 24,0 °C sur 24 h, 53 jours de vague de chaleur, 178 franchissements du seuil de 40 °C (record). Canicule de juin : jusqu'à 72 départements en vigilance rouge. Déficit pluviométrique proche de 40 % (2e été le moins pluvieux), sécheresse généralisée, surface brûlée record par les incendies, températures de surface marine inédites. Anomalie +5 °C vs ère préindustrielle, dont 2,4 °C attribuables au changement climatique ; niveau de chaleur correspondant à un été ordinaire dans une France à +4 °C (TRACC).",
+      "themes": ["climat_adaptation", "incendies_risques", "eau_zones_humides"],
+      "signal_type": "nouveau_referentiel_ou_jeu_de_donnees",
+      "geography": ["France"],
+      "actors": ["Météo-France", "Ministère de la Transition écologique"],
+      "primary_source": {
+        "name": "Actu-Environnement — bilan été 2026 Météo-France",
+        "url": "https://www.actu-environnement.com/ae/news/ete-2026-record-chaleur-france-4degres-48471.php4",
+        "type": "media_secondaire"
+      },
+      "urls": [
+        "https://www.actu-environnement.com/ae/news/ete-2026-record-chaleur-france-4degres-48471.php4"
+      ],
+      "published_at": "2026-09-04",
+      "detected_via": "Actu-Environnement (04/09/2026) relayant bilan Météo-France ; communiqué MF non consulté directement",
+      "relevance": {
+        "score": 5,
+        "why": "Données de référence pour PCAET, schémas de gestion de l'eau, plans DFCI et stratégies d'adaptation du bâti après l'été 2026."
+      },
+      "entities": [
+        "bilan climatique été 2026",
+        "TRACC +4 °C",
+        "vigilance rouge canicule"
+      ],
+      "tags": ["canicule", "sécheresse", "incendies"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-06-006",
+      "title": "Liste rouge UICN 2026 : 19 % des amphibiens et 26 % des reptiles terrestres menacés en France métropolitaine",
+      "summary": "Publiée le 4 septembre 2026, la troisième révision du chapitre reptiles et amphibiens de la Liste rouge française (UICN, PatriNat, SHF) évalue 37 espèces d'amphibiens et 39 de reptiles. Respectivement 19 % et 26 % sont menacées ; 70 % des amphibiens et 62 % des reptiles terrestres sont en tendance à la baisse. Huit taxons ont vu leur statut se dégrader depuis 2015, aucune amélioration nette. Causes principales : perte et fragmentation d'habitats, gestion défavorable des écosystèmes, urbanisation (14 espèces de reptiles, 6 d'amphibiens). L'UICN appelle au déploiement de plans nationaux d'actions (PNA).",
+      "themes": ["biodiversite", "especes_habitats", "rapports_guides"],
+      "signal_type": "rapport_institutionnel_majeur",
+      "geography": ["France"],
+      "actors": [
+        "UICN Comité français",
+        "PatriNat",
+        "Société herpétologique de France",
+        "MNHN"
+      ],
+      "primary_source": {
+        "name": "UICN / PatriNat — Liste rouge reptiles et amphibiens 2026 (PDF)",
+        "url": "https://www.actu-environnement.com/media/pdf/news-48469-rapport-uicn-reptiles-amphibiens-2026.pdf",
+        "type": "scientifique"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — déclin reptiles et amphibiens",
+          "url": "https://www.actu-environnement.com/ae/news/reptiles-amphibiens-declin-france-uicn-48469.php4"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/media/pdf/news-48469-rapport-uicn-reptiles-amphibiens-2026.pdf",
+        "https://www.actu-environnement.com/ae/news/reptiles-amphibiens-declin-france-uicn-48469.php4"
+      ],
+      "published_at": "2026-09-04",
+      "detected_via": "PDF rapport UICN/PatriNat (04/09/2026) ; dépêche Actu-Environnement confirmée",
+      "relevance": {
+        "score": 4,
+        "why": "Référentiel pour DREAL, gestionnaires d'espaces et bureaux d'études instruisant ERC, continuités écologiques et PNA herpétologiques."
+      },
+      "entities": [
+        "Liste rouge UICN",
+        "amphibiens",
+        "reptiles terrestres",
+        "PNA"
+      ],
+      "tags": ["herpétologie", "espèces_menacées", "INPN"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-06-007",
+      "title": "Restauration de la nature : la France annonce la remise de son plan national « d'ici quinze jours » après l'échéance UE du 1er septembre",
+      "summary": "Au 1er septembre 2026, échéance du règlement (UE) 2024/1991 pour transmettre les projets de plans nationaux de restauration (NRP), seule une minorité d'États membres semble dans les temps selon Actu-Environnement (article du 2 septembre). La France annonce la remise de « Agir pour restaurer la nature » à la Commission d'ici une quinzaine de jours. Parallèlement, l'arrêté TECD2621926A du 27 août 2026 (JO 3 septembre) resoumet le plan à évaluation environnementale systématique par l'IGEDD, l'arrêté de décembre 2024 ayant cessé de produire effet faute de saisine dans le délai d'un an.",
+      "themes": ["biodiversite", "natura2000", "reglementation"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France", "UE"],
+      "actors": [
+        "Commission européenne",
+        "Ministère de la Transition écologique",
+        "IGEDD"
+      ],
+      "primary_source": {
+        "name": "Actu-Environnement — arrêté évaluation environnementale plan restauration (TECD2621926A)",
+        "url": "https://www.actu-environnement.com/ae/reglementation/arrete-du-27-08-2026-tecd2621926a-40257.php",
+        "type": "juridique"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — plans nationaux restauration UE",
+          "url": "https://www.actu-environnement.com/ae/news/restauration-nature-plans-nationaux-etats-membres-48462.php4"
+        },
+        {
+          "name": "Biodiversité.gouv.fr — Agir pour restaurer la nature",
+          "url": "https://biodiversite.gouv.fr/le-plan-national-agir-pour-restaurer-la-nature"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/ae/reglementation/arrete-du-27-08-2026-tecd2621926a-40257.php",
+        "https://www.actu-environnement.com/ae/news/restauration-nature-plans-nationaux-etats-membres-48462.php4",
+        "https://biodiversite.gouv.fr/le-plan-national-agir-pour-restaurer-la-nature"
+      ],
+      "published_at": "2026-09-03",
+      "detected_via": "Actu-Environnement (02–03/09/2026) ; nouveauté vs couverture échéance J-1 des 01–02/09 : retard annoncé + arrêté JO 03/09",
+      "relevance": {
+        "score": 5,
+        "why": "Calendrier actualisé et procédure d'évaluation environnementale pour DREAL et gestionnaires Natura 2000 alignant programmes de restauration sur le plan transmis à Bruxelles."
+      },
+      "entities": [
+        "Agir pour restaurer la nature",
+        "NRP",
+        "règlement restauration de la nature",
+        "TECD2621926A"
+      ],
+      "tags": ["restauration", "UE", "retard"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-06-008",
+      "title": "Ligne THT Camargue (RTE) : l'autorité environnementale pointe des insuffisances majeures de l'étude d'impact",
+      "summary": "Dans un avis du 27 août 2026 relayé le 2 septembre, l'autorité environnementale (IGEDD) relève des lacunes majeures du projet de ligne aérienne 400 kV (~65 km entre Jonquières-Saint-Vincent et Fos-sur-Mer) traversant Camargue, Crau, Costières et vallée du Rhône. Points soulevés : absence d'évaluation de vulnérabilité climatique, insuffisance sur espèces protégées (Ganga cata, enjeu critique), justification des besoins fragilisée par la baisse de consommation, incidences paysagères et sur oiseaux (programme MigraLion) à approfondir, effets cumulés et mises en compatibilité d'urbanisme prématurées. Le site inscrit « ensemble Camargue » est traversé sur 18 km.",
+      "themes": ["energie_biodiversite", "biodiversite", "reglementation"],
+      "signal_type": "changement_de_pratique_professionnel",
+      "geography": ["France", "Provence-Alpes-Côte d'Azur", "Occitanie"],
+      "actors": [
+        "RTE",
+        "Autorité environnementale IGEDD",
+        "Ministère de l'Économie"
+      ],
+      "primary_source": {
+        "name": "Autorité environnementale — avis ligne THT Camargue (PDF)",
+        "url": "https://www.actu-environnement.com/media/pdf/news-48459-avis-ae-ligne-tht-camargue.pdf",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — lacunes étude d'impact RTE",
+          "url": "https://www.actu-environnement.com/ae/news/ligne-tht-camargue-autorite-environnementale-48459.php4"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/media/pdf/news-48459-avis-ae-ligne-tht-camargue.pdf",
+        "https://www.actu-environnement.com/ae/news/ligne-tht-camargue-autorite-environnementale-48459.php4"
+      ],
+      "published_at": "2026-09-02",
+      "detected_via": "PDF avis autorité environnementale (27/08/2026) ; Actu-Environnement (02/09/2026)",
+      "relevance": {
+        "score": 4,
+        "why": "Pièce structurante pour DREAL, associations et maîtres d'ouvrage linéaires en zone Natura 2000 et paysages ouverts méditerranéens."
+      },
+      "entities": [
+        "ligne THT Camargue",
+        "Ganga cata",
+        "MigraLion",
+        "déclaration d'utilité publique"
+      ],
+      "tags": ["THT", "contentieux", "Camargue"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-06-009",
+      "title": "Plan plastique : le gouvernement renonce à une consigne nationale pour le recyclage des bouteilles",
+      "summary": "Selon une dépêche Actu-Environnement du 4 septembre 2026, l'exécutif renonce à instaurer une consigne nationale pour le recyclage des bouteilles en plastique, pivot du plan plastique annoncé au printemps 2026. Ce revirement intervient après le retrait des collectivités (FNCCR, Intercommunalités de France, Federrec, etc.) de la concertation fin juin et des tensions sur la TGAP déchets. Le contenu détaillé de l'alternative annoncée (« désormais… ») n'a pas pu être intégralement vérifié (dépêche abonnés). Contexte : objectif UE de recyclage des emballages plastiques à horizon 2030 et révision du cahier des charges REP emballages en consultation jusqu'au 11 septembre.",
+      "themes": ["reglementation", "donnees_outils"],
+      "signal_type": "changement_de_pratique_professionnel",
+      "geography": ["France", "UE"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "collectivités territoriales",
+        "Federrec",
+        "éco-organismes emballages"
+      ],
+      "primary_source": {
+        "name": "Actu-Environnement — dépêche renoncement consigne plastique",
+        "url": "https://www.actu-environnement.com/depeches/plastique-gouvernement-renonce-une-n-1327.html",
+        "type": "media_secondaire"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — collectivités quittent concertation consigne",
+          "url": "https://www.actu-environnement.com/ae/news/concertation-consigne-reemploi-opposition-collectivites-quittent-concerntationgreve-tgap-48239.php4"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/depeches/plastique-gouvernement-renonce-une-n-1327.html",
+        "https://www.actu-environnement.com/ae/news/concertation-consigne-reemploi-opposition-collectivites-quittent-concerntationgreve-tgap-48239.php4"
+      ],
+      "published_at": "2026-09-04",
+      "detected_via": "Actu-Environnement dépêche (04/09/2026) ; titre confirmé, corps abonnés non intégralement accessible",
+      "relevance": {
+        "score": 4,
+        "why": "Orientation politique majeure pour filières déchets, collectivités et industriels calibrant filière bouteilles PET et financements REP."
+      },
+      "entities": [
+        "consigne nationale",
+        "plan plastique",
+        "REP emballages",
+        "TGAP déchets"
+      ],
+      "tags": ["plastique", "recyclage", "déchets"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-06-010",
+      "title": "PPWR : consultations UE sur le calcul du contenu recyclé, les technologies et les importations (échéance 16 septembre 2026)",
+      "summary": "La Commission européenne a ouvert des appels à contributions (Have Your Say) jusqu'au 16 septembre 2026 en vue de trois actes d'application du règlement emballages (PPWR, article 7) : calcul et vérification de la teneur en plastique recyclé, critères de durabilité des technologies de recyclage (dont recyclage chimique et Mass Balance), conditions d'importation de plastique recyclé depuis des pays tiers. Adoption visée fin 2026. Actu-Environnement du 2 septembre et position FEAD (2 septembre) soulignent l'enjeu « Made in Europe » pour les quotas de contenu recyclé.",
+      "themes": ["reglementation", "donnees_outils"],
+      "signal_type": "consultation_publique",
+      "geography": ["UE", "France"],
+      "actors": [
+        "Commission européenne",
+        "FEAD",
+        "producteurs et recycleurs plastique"
+      ],
+      "primary_source": {
+        "name": "Actu-Environnement — consultations PPWR plastique recyclé",
+        "url": "https://www.actu-environnement.com/ae/news/plastique-recycle-consultation-ue-technologies-recyclage-mesure-contenu-48461.php4",
+        "type": "media_secondaire"
+      },
+      "secondary_sources": [
+        {
+          "name": "Packaging Europe — call for evidence PPWR",
+          "url": "https://packagingeurope.com/news/eu-commission-opens-call-for-evidence-about-ppwrs-recycled-content-targets/14613.article"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/ae/news/plastique-recycle-consultation-ue-technologies-recyclage-mesure-contenu-48461.php4",
+        "https://packagingeurope.com/news/eu-commission-opens-call-for-evidence-about-ppwrs-recycled-content-targets/14613.article"
+      ],
+      "published_at": "2026-09-02",
+      "detected_via": "Actu-Environnement (02/09/2026) ; portail Have Your Say non confirmé directement",
+      "relevance": {
+        "score": 4,
+        "why": "Fenêtre de contribution pour industriels, éco-organismes et juristes anticipant les règles opérationnelles des quotas PPWR 2030."
+      },
+      "entities": [
+        "PPWR",
+        "Mass Balance",
+        "contenu recyclé",
+        "Have Your Say"
+      ],
+      "tags": ["emballages", "UE", "consultation"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-06-011",
+      "title": "Portail Flexibilités RTE-Enedis : entrée en vigueur des règles expérimentales CRE le 1er septembre 2026",
+      "summary": "Les règles expérimentales du marché de flexibilités locales sur le « Portail Flexibilités » commun RTE-Enedis, approuvées par la CRE (délibération 2026-161 du 22 juillet 2026), sont entrées en vigueur le 1er septembre 2026. Le dispositif unifie appels d'offres locaux Enedis (RPD) et mécanismes inspirés des réserves rapides et du mécanisme d'ajustement pour le RPT. L'expérimentation couvre huit départements (Ariège, Aude, Gard, Hérault, Landes, Pyrénées-Atlantiques, Hautes-Pyrénées, Pyrénées-Orientales) pour au minimum deux ans, avec retour d'expérience annuel. Complète le rapport CRE « bac à sable » du 1er septembre sur l'évolution réglementaire issue des expérimentations.",
+      "themes": ["energie_biodiversite", "reglementation", "donnees_outils"],
+      "signal_type": "nouvel_outil_ou_plateforme",
+      "geography": ["France", "Occitanie", "Nouvelle-Aquitaine"],
+      "actors": ["CRE", "RTE", "Enedis", "DGEC"],
+      "primary_source": {
+        "name": "CRE — Portail Flexibilités : règles expérimentales",
+        "url": "https://www.cre.fr/actualites/toute-lactualite/la-cre-approuve-des-regles-experimentales-pour-les-marches-de-flexibilites-locales-de-rte-et-enedis-via-le-portail-flexibilites.html",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "CRE — rapport bac à sable 2025",
+          "url": "https://www.cre.fr/actualites/toute-lactualite/la-cre-publie-son-rapport-sur-lavancement-des-31-projets-ayant-recu-une-derogation-dans-le-cadre-du-dispositif-dexperimentation-reglementaire.html"
+        }
+      ],
+      "urls": [
+        "https://www.cre.fr/actualites/toute-lactualite/la-cre-approuve-des-regles-experimentales-pour-les-marches-de-flexibilites-locales-de-rte-et-enedis-via-le-portail-flexibilites.html",
+        "https://www.cre.fr/actualites/toute-lactualite/la-cre-publie-son-rapport-sur-lavancement-des-31-projets-ayant-recu-une-derogation-dans-le-cadre-du-dispositif-dexperimentation-reglementaire.html"
+      ],
+      "published_at": "2026-09-01",
+      "detected_via": "source primaire CRE (publication 30/07/2026, effet 01/09/2026) ; rapport bac à sable CRE 01/09/2026",
+      "relevance": {
+        "score": 4,
+        "why": "Nouveau canal opérationnel pour agrégateurs de flexibilité et industriels des départements pilotes, en complément du débat sur les effacements (Cour des comptes)."
+      },
+      "entities": [
+        "Portail Flexibilités",
+        "NEBCO",
+        "flexibilités locales",
+        "bac à sable CRE"
+      ],
+      "tags": ["flexibilité", "réseau_électrique", "expérimentation"],
+      "is_new": true
+    }
+  ]
+}
