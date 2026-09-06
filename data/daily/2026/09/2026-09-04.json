@@ -1,0 +1,308 @@
+{
+  "date": "2026-09-04",
+  "generated_at": "2026-09-04T06:06:31+02:00",
+  "timezone": "Europe/Paris",
+  "meta": {
+    "item_count": 8,
+    "sources_consulted": [
+      "cerema",
+      "sdes",
+      "actu_environnement",
+      "cre",
+      "service_public_entreprendre",
+      "unep_pnue"
+    ],
+    "deduplicated_against_days": 13,
+    "notes": "Vendredi post-rentrée : nouveautés dominées par mise à jour Cartofriches (20 500 friches, 03/09), recherche Cerema sur surchauffe scolaire (03/09), statistiques SDES motorisations août 2026 (03/09), dernière vague verdissement commande publique (21/08, guide Bercy 03/09), rapport PNUE Limiting the overshoot (03/09), condamnation Locacil Haut-Rhin (02/09), bilan CRE bac à sable et Portail Flexibilités (01/09). SURFAC²E, ONDE 1 424, NRR retard, CASI, Trésor PIB, TUE quotas, plastique UE, THT Camargue, hydrogène ICPE, etc. exclus comme déjà couverts 01–03/09. OFB site anti-bot ; Légifrance anti-bot ; consultations-publiques MTE en maintenance."
+  },
+  "items": [
+    {
+      "id": "2026-09-04-001",
+      "title": "Cartofriches : près de 20 500 friches répertoriées (61 000 ha) avec indices de mutabilité et intégration UrbanSIMUL",
+      "summary": "Le Cerema actualise l'inventaire national Cartofriches à la demande du ministère de la Transition écologique : près de 20 500 sites en friche sont désormais localisés et caractérisés (contre environ 15 000 en avril 2025), pour plus de 61 000 hectares cumulés. Les trois quarts proviennent de 31 observatoires locaux couvrant 61 % du territoire. De nouveaux champs croisent risques naturels, TVB, ZAER photovoltaïque au sol et proximité commerces/poste électrique ; des indices de mutabilité estiment le potentiel de reconversion (logement, industrie, renaturation). Les données sont intégrées à UrbanSIMUL, à l'API Données foncières du Cerema et en open data ; 48 % des friches sont en zone tendue pour l'habitat.",
+      "themes": ["zan_artificialisation", "sols", "donnees_outils", "biodiversite"],
+      "signal_type": "nouveau_referentiel_ou_jeu_de_donnees",
+      "geography": ["France"],
+      "actors": ["Cerema", "Ministère de la Transition écologique", "OFB", "LIFTI"],
+      "primary_source": {
+        "name": "Cerema — Cartofriches : près de 20 500 sites en friches répertoriés",
+        "url": "https://www.cerema.fr/fr/actualites/cartofriches-pres-20-500-sites-friches-repertories",
+        "type": "technique"
+      },
+      "urls": [
+        "https://www.cerema.fr/fr/actualites/cartofriches-pres-20-500-sites-friches-repertories",
+        "https://dataviz.cerema.fr/cartofriches/"
+      ],
+      "published_at": "2026-09-03",
+      "detected_via": "source primaire Cerema (actualités du 03/09/2026)",
+      "relevance": {
+        "score": 5,
+        "why": "Référentiel foncier actualisé pour collectivités, DDT et aménageurs calibrant stratégies ZAN, recyclage urbain et arbitrages artificialisation vs friches."
+      },
+      "entities": [
+        "Cartofriches",
+        "UrbanSIMUL",
+        "indice de mutabilité",
+        "observatoire local des friches"
+      ],
+      "tags": ["friches", "ZAN", "open_data"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-04-002",
+      "title": "Écoles en surchauffe : le Cerema montre que l'étage et l'orientation des salles priment sur l'âge du bâtiment",
+      "summary": "Publié le 3 septembre 2026, un article de recherche du Cerema (Université Savoie Mont Blanc, The Conversation) rappelle les fermetures d'écoles lors des canicules de mai-juin 2026 et critique une cartographie trop macro des bâtiments scolaires « exposés ». Des mesures pendant la canicule de juin 2026 dans quatre écoles d'une même agglomération en Savoie montrent que les salles du dernier étage restent systématiquement plus chaudes que le rez-de-chaussée, quelle que soit la construction (béton isolé, parpaing rénové, pierre). L'orientation des fenêtres (est, ouest, sud) peut à elle seule créer des écarts marqués entre classes voisines. L'auteur préconise un diagnostic à l'échelle de la salle et une affectation adaptée des pièces, en lien avec la circulaire MEN du 27 mai 2026 sur le plan de gestion des vagues de chaleur.",
+      "themes": ["climat_adaptation", "rapports_guides", "incendies_risques"],
+      "signal_type": "publication_scientifique_appliquee",
+      "geography": ["France", "Auvergne-Rhône-Alpes", "Savoie"],
+      "actors": ["Cerema", "Université Savoie Mont Blanc", "Ministère de l'Éducation nationale"],
+      "primary_source": {
+        "name": "Cerema — Écoles en surchauffe : un problème qui se joue à l'échelle des salles de classe",
+        "url": "https://www.cerema.fr/fr/actualites/ecoles-surchauffe-probleme-qui-se-joue-echelle-salles-classe",
+        "type": "scientifique"
+      },
+      "urls": [
+        "https://www.cerema.fr/fr/actualites/ecoles-surchauffe-probleme-qui-se-joue-echelle-salles-classe"
+      ],
+      "published_at": "2026-09-03",
+      "detected_via": "source primaire Cerema (actualités du 03/09/2026)",
+      "relevance": {
+        "score": 4,
+        "why": "Éclairage méthodologique pour collectivités, services scolaires et bureaux d'études priorisant diagnostics ABCD et plans de continuité d'activité en canicule."
+      },
+      "entities": [
+        "confort d'été",
+        "circulaire 27 mai 2026",
+        "méthode ABCD",
+        "îlot de chaleur urbain"
+      ],
+      "tags": ["ecoles", "canicule", "batiment"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-04-003",
+      "title": "Immatriculations août 2026 : part des voitures électriques à 38,2 % (record) et émissions moyennes à 67,2 g CO₂/km",
+      "summary": "Publiées le 3 septembre 2026, les statistiques mensuelles du SDES sur les motorisations des véhicules légers neufs indiquent qu'en août 2026 la part des ventes de voitures électriques progresse de 3,1 points pour atteindre 38,2 % du marché, un niveau record. La motorisation essence (y compris hybrides non rechargeables) recule à 49,1 % ; le diesel reste à 2,4 %. Les hybrides rechargeables représentent 6,3 % et le gaz/GPL 4,0 % (3 900 unités). Les émissions moyennes de CO₂ des voitures neuves baissent de 3,8 g pour s'établir à 67,2 g/km. Jeu de données xlsx et méthodologie disponibles.",
+      "themes": ["climat_adaptation", "donnees_outils", "reglementation"],
+      "signal_type": "nouveau_referentiel_ou_jeu_de_donnees",
+      "geography": ["France"],
+      "actors": ["SDES", "Ministère de la Transition écologique"],
+      "primary_source": {
+        "name": "SDES — Motorisations des véhicules légers neufs, émissions de CO₂ et bonus écologique — Août 2026",
+        "url": "https://www.statistiques.developpement-durable.gouv.fr/motorisations-des-vehicules-legers-neufs-emissions-de-co2-et-bonus-ecologique-aout-2026",
+        "type": "institutionnel"
+      },
+      "urls": [
+        "https://www.statistiques.developpement-durable.gouv.fr/motorisations-des-vehicules-legers-neufs-emissions-de-co2-et-bonus-ecologique-aout-2026"
+      ],
+      "published_at": "2026-09-03",
+      "detected_via": "source primaire SDES (publication du 03/09/2026)",
+      "relevance": {
+        "score": 4,
+        "why": "Indicateur officiel pour collectivités, filières mobilité et services de l'État suivant la trajectoire des émissions véhicules particuliers et l'effet des dispositifs d'aide."
+      },
+      "entities": [
+        "bonus écologique",
+        "véhicule électrique",
+        "émissions CO₂ WLTP"
+      ],
+      "tags": ["transports", "statistiques", "decarbonation"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-04-004",
+      "title": "Commande publique : dernière vague de verdissement (décret 2022-767) applicable depuis le 21 août 2026",
+      "summary": "Entrée en vigueur le 21 août 2026 des dernières dispositions du décret n° 2022-767 (article 35 de la loi Climat et résilience) : les critères d'attribution des marchés publics ne peuvent plus reposer uniquement sur le prix ; un critère environnemental est obligatoire, et les concessionnaires doivent décrire dans leur rapport annuel les mesures de protection de l'environnement. Pour les contrats de concession, les autorités concédantes doivent intégrer un critère d'attribution environnemental, une clause d'exécution environnementale et, pour les lots au-dessus des seuils européens, une clause sociale/emploi. La DAJ de Bercy publie un guide pratique (29 juillet 2026) et des fiches Oui/Non ; Actu-Environnement en rend compte le 3 septembre.",
+      "themes": ["reglementation", "climat_adaptation", "rapports_guides"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France"],
+      "actors": [
+        "Direction des affaires juridiques (Bercy)",
+        "Ministère de la Transition écologique",
+        "acheteurs publics"
+      ],
+      "primary_source": {
+        "name": "Journal officiel — décret n° 2022-767 du 2 mai 2022",
+        "url": "https://www.actu-environnement.com/ae/reglementation/decret-du-02-05-2022-2022-767-29423.php",
+        "type": "juridique"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — verdissement commande publique",
+          "url": "https://www.actu-environnement.com/ae/news/verdissement-commande-publique-obligations-concessions-48466.php4"
+        },
+        {
+          "name": "Service Public Entreprendre — critères environnementaux marchés publics",
+          "url": "https://entreprendre.service-public.gouv.fr/actualites/A19042"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/ae/reglementation/decret-du-02-05-2022-2022-767-29423.php",
+        "https://www.actu-environnement.com/ae/news/verdissement-commande-publique-obligations-concessions-48466.php4",
+        "https://entreprendre.service-public.gouv.fr/actualites/A19042"
+      ],
+      "published_at": "2026-09-03",
+      "detected_via": "Actu-Environnement (03/09/2026) ; décret JORF republié ; guide DAJ Bercy signalé",
+      "relevance": {
+        "score": 5,
+        "why": "Bascule opposable pour services marchés, collectivités et entreprises répondant aux AO devant intégrer critères et clauses environnementales dès les consultations lancées après le 21/08."
+      },
+      "entities": [
+        "décret n° 2022-767",
+        "article 35 loi Climat et résilience",
+        "critère d'attribution environnemental",
+        "clause d'exécution"
+      ],
+      "tags": ["marches_publics", "concessions", "verdissement"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-04-005",
+      "title": "Rapport PNUE « Limiting the overshoot » : trajectoire de retour sous 1,5 °C après dépassement",
+      "summary": "Le Programme des Nations unies pour l'environnement (PNUE) publie le rapport « Limiting the overshoot » (Limiter le dépassement), relayé le 3 septembre 2026 par Actu-Environnement. Face à un dépassement probable du seuil de +1,5 °C d'ici la fin de la décennie, le document envisage une trajectoire de pic puis de déclin avec stabilisation sous 1,5 °C, sans garantie de succès. Cela supposerait neutralité carbone mondiale dans les années 2050, réductions nettes de CO₂ négatives durables pendant des décennies et baisse importante des émissions de méthane, combinant pratiques basées sur la nature et technologies de capture directe. Le rapport alerte sur les risques de points de bascule (Antarctique occidental, AMOC, Amazonie) pendant la phase de dépassement.",
+      "themes": ["climat_adaptation", "rapports_guides", "biodiversite"],
+      "signal_type": "rapport_institutionnel_majeur",
+      "geography": ["UE", "France"],
+      "actors": ["PNUE", "ONU"],
+      "primary_source": {
+        "name": "Actu-Environnement — rapport PNUE Limiting the overshoot",
+        "url": "https://www.actu-environnement.com/ae/news/pnue-rapport-depassement-rechauffement-1-5-48468.php4",
+        "type": "media_secondaire"
+      },
+      "urls": [
+        "https://www.actu-environnement.com/ae/news/pnue-rapport-depassement-rechauffement-1-5-48468.php4"
+      ],
+      "published_at": "2026-09-03",
+      "detected_via": "Actu-Environnement (03/09/2026) ; rapport PNUE en anglais non consulté directement sur unep.org (404)",
+      "relevance": {
+        "score": 4,
+        "why": "Contexte stratégique pour services de l'État, collectivités et bureaux d'études climat anticipant les scénarios post-1,5 °C et l'articulation atténuation-adaptation."
+      },
+      "entities": [
+        "Limiting the overshoot",
+        "1,5 °C",
+        "émissions nettes négatives",
+        "capture directe du CO₂"
+      ],
+      "tags": ["PNUE", "climat", "international"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-04-006",
+      "title": "Pollution Haut-Rhin : Locacil et son gérant condamnés pour dépôts irréguliers de broyats de câbles et pollution d'un cours d'eau",
+      "summary": "Le tribunal correctionnel de Strasbourg a condamné le 2 septembre 2026 la société Locacil et son gérant pour des dépôts irréguliers de déchets sur son site ICPE de Feldkirch (Haut-Rhin), à l'origine de la pollution d'un cours d'eau, selon l'AFP relayée par Actu-Environnement le 3 septembre. L'installation, enregistrée mais relevant en réalité du régime autorisation, était censée valoriser des broyats de câbles électriques après séparation des matériaux. L'affaire illustre les contentieux autour de la gestion de déchets industriels et de la conformité des ICPE de recyclage.",
+      "themes": ["eau_zones_humides", "sols", "reglementation", "jurisprudence"],
+      "signal_type": "jurisprudence_structurante",
+      "geography": ["France", "Grand Est", "Haut-Rhin"],
+      "actors": [
+        "Tribunal correctionnel de Strasbourg",
+        "Locacil",
+        "DREAL"
+      ],
+      "primary_source": {
+        "name": "Actu-Environnement — condamnation Locacil Feldkirch",
+        "url": "https://www.actu-environnement.com/ae/news/pollution-locacil-recyclage-cables-haut-rhin-48465.php4",
+        "type": "media_secondaire"
+      },
+      "urls": [
+        "https://www.actu-environnement.com/ae/news/pollution-locacil-recyclage-cables-haut-rhin-48465.php4"
+      ],
+      "published_at": "2026-09-03",
+      "detected_via": "Actu-Environnement (03/09/2026) relayant AFP ; décision de justice non consultée directement",
+      "relevance": {
+        "score": 3,
+        "why": "Signal jurisprudentiel pour exploitants ICPE de recyclage, DREAL et bureaux d'études déchets sur la conformité réglementaire et la pollution de milieux aquatiques."
+      },
+      "entities": [
+        "Locacil",
+        "Feldkirch",
+        "ICPE",
+        "broyats de câbles"
+      ],
+      "tags": ["dechets", "pollution", "contentieux"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-04-007",
+      "title": "Bac à sable réglementaire électricité : la CRE dresse le bilan 2025 et le Portail Flexibilités entre en service le 1er septembre",
+      "summary": "Dans un focus du 3 septembre 2026, Actu-Environnement synthétise le rapport CRE 2025 sur les expérimentations du bac à sable réglementaire (loi Énergie-climat 2019) : valorisation des reports de consommation, offres de raccordement flexibles, dimensionnement réseau intégrant flexibilités (projet Reflex d'Enedis). Parallèlement, la CRE a approuvé le 22 juillet 2026 les règles expérimentales du « Portail Flexibilités » commun RTE-Enedis, entrées en vigueur le 1er septembre 2026 pour un marché de flexibilités locales d'une durée minimale de deux ans. L'objectif est d'acheter des services de flexibilité via un mécanisme de marché pour gérer les contraintes réseau.",
+      "themes": ["energie_biodiversite", "climat_adaptation", "reglementation", "donnees_outils"],
+      "signal_type": "changement_de_pratique_professionnel",
+      "geography": ["France", "UE"],
+      "actors": [
+        "Commission de régulation de l'énergie",
+        "RTE",
+        "Enedis",
+        "DGEC"
+      ],
+      "primary_source": {
+        "name": "CRE — Rapport sur l'avancement des projets du bac à sable réglementaire 2025",
+        "url": "https://www.cre.fr/fileadmin/Documents/Rapports_et_etudes/2026/Rapport_REX_Bac_a_sable_2025.pdf",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — bac à sable réseau électrique",
+          "url": "https://www.actu-environnement.com/ae/news/bac-sable-reglementaire-flexibilite-reseau-electrique-48467.php4"
+        },
+        {
+          "name": "CRE — délibération Portail Flexibilités (22/07/2026)",
+          "url": "https://www.cre.fr/fileadmin/Documents/Deliberations/2026/260722_2026-161_Avis_Regles_Portail_Flexibilites.pdf"
+        }
+      ],
+      "urls": [
+        "https://www.cre.fr/fileadmin/Documents/Rapports_et_etudes/2026/Rapport_REX_Bac_a_sable_2025.pdf",
+        "https://www.actu-environnement.com/ae/news/bac-sable-reglementaire-flexibilite-reseau-electrique-48467.php4",
+        "https://www.cre.fr/fileadmin/Documents/Deliberations/2026/260722_2026-161_Avis_Regles_Portail_Flexibilites.pdf"
+      ],
+      "published_at": "2026-09-03",
+      "detected_via": "Actu-Environnement (03/09/2026) ; sources primaires CRE confirmées",
+      "relevance": {
+        "score": 4,
+        "why": "Évolution réglementaire et expérimentation opérationnelle pour agrégateurs de flexibilité, développeurs EnR et industriels anticipant les mécanismes locaux post-effacement."
+      },
+      "entities": [
+        "Portail Flexibilités",
+        "bac à sable réglementaire",
+        "Reflex",
+        "flexibilité locale"
+      ],
+      "tags": ["electricite", "flexibilite", "CRE"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-04-008",
+      "title": "Hauts-de-Seine : AMI jusqu'au 14 septembre pour adapter les écoles à la surchauffe (Cerema, méthode ABCD)",
+      "summary": "La préfecture des Hauts-de-Seine, avec le Cerema et le rectorat, lance un appel à manifestation d'intérêt ouvert jusqu'au 14 septembre 2026 pour accompagner les communes dans l'adaptation des établissements scolaires à la surchauffe urbaine. Les lauréats bénéficieront d'un diagnostic selon la méthode ABCD (Adaptation des Bâtiments au Climat de Demain), de la co-construction d'un plan de continuité d'activité en canicule et de trois ateliers collectifs. Des mesures transitoires (identification des salles fraîches, horaires décalés, protections solaires) sont préconisées en attendant des travaux structurels et de végétalisation des cours.",
+      "themes": ["climat_adaptation", "rapports_guides"],
+      "signal_type": "appel_a_projets_ou_financement",
+      "geography": ["France", "Île-de-France", "Hauts-de-Seine"],
+      "actors": [
+        "Préfecture des Hauts-de-Seine",
+        "Cerema",
+        "rectorat de Versailles"
+      ],
+      "primary_source": {
+        "name": "Cerema — AMI adaptation écoles Hauts-de-Seine",
+        "url": "https://www.cerema.fr/fr/actualites/adapter-ecoles-hauts-seine-aux-episodes-chaleur-appel",
+        "type": "technique"
+      },
+      "urls": [
+        "https://www.cerema.fr/fr/actualites/adapter-ecoles-hauts-seine-aux-episodes-chaleur-appel"
+      ],
+      "published_at": "2026-09-03",
+      "detected_via": "source primaire Cerema (actualités du 03/09/2026)",
+      "relevance": {
+        "score": 3,
+        "why": "Fenêtre de candidature immédiate pour communes franciliennes et services techniques scolaires recherchant un accompagnement méthodologique sur confort d'été et PCA canicule."
+      },
+      "entities": [
+        "méthode ABCD",
+        "plan de continuité d'activité",
+        "surchauffe urbaine"
+      ],
+      "tags": ["ecoles", "AMI", "canicule"],
+      "is_new": true
+    }
+  ]
+}
