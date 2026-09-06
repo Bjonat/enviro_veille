@@ -1,0 +1,339 @@
+{
+  "generated_at": "2026-09-06T12:15:00Z",
+  "based_on_trends": {
+    "file": "tendances/2026/2026-W37.json",
+    "period": {
+      "start": "2026-08-10",
+      "end": "2026-09-06"
+    }
+  },
+  "opportunities": [
+    {
+      "id": "opp-2026-W37-01",
+      "title": "Haies : dossiers sous le régime unique de déclaration / autorisation (décret 2026-829)",
+      "hypothesis": "Si le décret 2026-829 s'applique comme annoncé (déclaration unique dématérialisée, bascule en autorisation dès dérogation espèces ou évaluation Natura 2000), agriculteurs, DDT et BE environnementaux devront produire des dossiers haies / TVB qu'ils ne standardisaient pas sous le patchwork précédent — demande observable dès l'automne 2026 via instructions préfectorales, AO et formations.",
+      "central_question_answer": "Instruire et monter des dossiers de destruction/gestion de haies sous une procédure unique (déclaration dématérialisée, puis autorisation si espèces protégées ou Natura 2000), cartographier les linéaires TVB et sécuriser les projets agricoles et d'aménagement face au nouveau régime.",
+      "need_type": [
+        "prestation",
+        "expertise",
+        "donnee",
+        "outil_methodologique",
+        "formation"
+      ],
+      "buyer_personas": [
+        "exploitant agricole",
+        "préfecture / DDT",
+        "DREAL",
+        "collectivité (TVB / PLU)",
+        "bureau d'études environnement (vendeur)",
+        "aménageur"
+      ],
+      "jobs_to_be_done": [
+        "Cartographier haies et enjeux espèces / Natura 2000 avant dépôt",
+        "Rédiger dossiers de déclaration unique et pièces d'autorisation le cas échéant",
+        "Articuler le régime haies avec dérogations espèces protégées et évaluations d'incidences",
+        "Former instructeurs et porteurs de projets à la bascule déclaration → autorisation",
+        "Produire des outils SIG / check-lists pour les DDT et les BE"
+      ],
+      "linked_trends": ["2026-W37-haies-regime-unique"],
+      "confidence": 5,
+      "risks_and_unknowns": [
+        "Un seul signal structurel (décret) : doctrine d'instruction préfectorale encore à paraître",
+        "Délais et seuils de bascule en autorisation peuvent être précisés par circulaire",
+        "Volume réel de dossiers dépend de la saison agricole et des contrôles"
+      ],
+      "validation_questions": [
+        "Des DDT ont-elles publié une note d'instruction ou un formulaire unique post-décret 2026-829 ?",
+        "Des AO ou marchés de BE portent-ils explicitement sur « haies / déclaration unique / TVB » ?",
+        "Des formations OFB/DREAL/chambres d'agriculture sur le nouveau régime sont-elles ouvertes ?",
+        "Des contentieux ou refus motivés par le nouveau régime apparaissent-ils dès l'automne 2026 ?"
+      ]
+    },
+    {
+      "id": "opp-2026-W37-02",
+      "title": "Plan national de restauration (NRP) : diagnostics DHFF/UICN et plans territoriaux",
+      "hypothesis": "Le retard puis le rattrapage annoncé du NRP français (envoi « d'ici quinze jours » après l'échéance UE du 1er septembre), combiné au diagnostic DHFF 2019-2024 (22 % favorable) et à la liste rouge amphibiens/reptiles, forceront État, DREAL, gestionnaires Natura 2000 et BE biodiversité à produire des plans et diagnostics de restauration qu'ils ne formalisaient pas encore — maturation de W36-08 (confiance 3 → 5).",
+      "central_question_answer": "Traduire le règlement restauration et le futur NRP en diagnostics habitats/espèces, objectifs quantifiés et mesures territoriales (Natura 2000, collectivités), puis suivre les indicateurs de reporting — au-delà des seules notes méthodologiques FRB.",
+      "need_type": [
+        "prestation",
+        "expertise",
+        "donnee",
+        "outil_methodologique",
+        "formation"
+      ],
+      "buyer_personas": [
+        "Ministère / OFB",
+        "DREAL",
+        "gestionnaire Natura 2000 / espace naturel",
+        "collectivité / EPCI",
+        "bureau d'études biodiversité (vendeur)",
+        "Commission européenne / EEA (cadre)"
+      ],
+      "jobs_to_be_done": [
+        "Cartographier habitats dégradés et opportunités de restauration à partir DHFF / UICN / notes FRB",
+        "Rédiger volets territoriaux et mesures alignées sur le NRP",
+        "Mettre à jour documents d'objectifs Natura 2000 et plans de gestion",
+        "Former instructeurs et gestionnaires aux outils opérationnels de restauration",
+        "Mettre en place suivi d'indicateurs et reporting européen"
+      ],
+      "linked_trends": [
+        "2026-W37-restauration-nrp-diagnostic"
+      ],
+      "confidence": 5,
+      "risks_and_unknowns": [
+        "Contenu exact et calendrier budgétaire du NRP français encore non publiés",
+        "Notes FRB non opposables sans transcription nationale",
+        "Risque que le rattrapage reste un envoi formel sans appels à projets immédiats"
+      ],
+      "validation_questions": [
+        "Le projet de NRP français a-t-il été transmis / publié dans les quinze jours annoncés ?",
+        "Des AO OFB/DREAL/collectivités citent-ils le règlement restauration, le NRP ou les notes FRB ?",
+        "Des AAP « restauration écologique » fléchés NRP sont-ils ouverts ?",
+        "Des recrutements « restauration / Nature Restoration Law » apparaissent-ils chez OFB, DREAL ou BE ?"
+      ]
+    },
+    {
+      "id": "opp-2026-W37-03",
+      "title": "Eau : diagnostics zones humides post-loi 796, assecs ONDE et suivi azote Bretagne",
+      "hypothesis": "La convergence assecs record ONDE, assouplissement zones humides (loi 2026-796, y compris stockages) et entrée en vigueur de l'expérimentation azote/algues (décret 2026-823) créera une demande de prestations BE eau-écologie (diagnostic ZH recalibré, suivi hydrologique, reliquats) distincte de la seule sécurisation juridique des restrictions — évolution de W36-03/07.",
+      "central_question_answer": "Recalibrer les diagnostics et dossiers loi sur l'eau / zones humides sous le régime 2026-796 (compensation, stockages), documenter et suivre les assecs (ONDE), et déployer le suivi par reliquats azotés en Bretagne — ce que les BE et services ne faisaient pas sous l'ancien package.",
+      "need_type": [
+        "prestation",
+        "donnee",
+        "expertise",
+        "outil_methodologique",
+        "formation",
+        "logiciel"
+      ],
+      "buyer_personas": [
+        "exploitant agricole (Bretagne / zones humides)",
+        "DREAL / DDT(M) / police de l'eau",
+        "OFB",
+        "syndicat d'eau / SAGE",
+        "chambre d'agriculture / GREN",
+        "bureau d'études eau-écologie (vendeur)"
+      ],
+      "jobs_to_be_done": [
+        "Mettre à jour méthodes de délimitation et de compensation zones humides post-loi 796",
+        "Instruire dossiers IOTA / stockages agricoles sous le nouveau cadre",
+        "Produire bilans territoriaux d'assecs et d'impacts faune (lien OFB/PatriNat)",
+        "Déployer protocoles reliquats et reporting expérimental Bretagne",
+        "Former instructeurs et BE aux pièges contentieux (assouplissement vs contentieux associations)"
+      ],
+      "linked_trends": ["2026-W37-eau-assecs-zones-humides"],
+      "confidence": 5,
+      "risks_and_unknowns": [
+        "L'assouplissement ZH peut réduire (ou déplacer) le volume de prestations de compensation",
+        "Contentieux associations sur la loi 796 peut geler des projets malgré le texte",
+        "Périmètre exact de l'expérimentation azote à confirmer dans l'arrêté d'application"
+      ],
+      "validation_questions": [
+        "Des notes DDT/DREAL commentent-elles l'instruction ZH post-loi 2026-796 ?",
+        "Des AO « diagnostic zones humides / stockages » ou « suivi reliquats Bretagne » sont-ils notifiés ?",
+        "Des marchés de suivi hydrologique / assecs (ONDE, réseaux locaux) progressent-ils ?",
+        "Des recours contre projets en ZH post-loi 796 sont-ils déjà déposés ?"
+      ]
+    },
+    {
+      "id": "opp-2026-W37-04",
+      "title": "PFAS : taxe au 1er septembre + plans de filières boues/MFAS et dépollution",
+      "hypothesis": "L'entrée en vigueur de la taxe PFAS au 1er septembre 2026, sur fond de cadres HCSP (boues/MFAS) et IGEDD-IGAS-CGAAER (coûts eau potable), basculera collectivités, STEU et agences de l'eau d'une veille réglementaire vers des plans de financement et de gestion de filières — maturation de W36-02 (confiance maintenue à 5, levier fiscal désormais opposable).",
+      "central_question_answer": "Mesurer et déclarer l'assiette de la taxe PFAS, classer/gérer boues et matières fertilisantes selon le cadre HCSP, et construire des scénarios d'investissement / priorisation de dépollution pour l'eau potable et les rejets.",
+      "need_type": [
+        "prestation",
+        "donnee",
+        "expertise",
+        "outil_methodologique",
+        "formation"
+      ],
+      "buyer_personas": [
+        "collectivité / STEU",
+        "agence de l'eau",
+        "industriel redevable",
+        "filière fertilisants / épandage",
+        "ARS",
+        "bureau d'études eaux / SSP (vendeur)"
+      ],
+      "jobs_to_be_done": [
+        "Auditer flux et rejets pour assiette fiscale et conformité",
+        "Classer stocks boues/MFAS face au cadre HCSP en trois catégories",
+        "Élaborer plans de financement et priorisation de traitement (réf. rapport IGEDD-IGAS-CGAAER)",
+        "Dimensionner campagnes d'analyses PFAS eau/rejets/boues",
+        "Former services eau/assainissement au package taxe + filières"
+      ],
+      "linked_trends": ["2026-W37-pfas-taxe-filieres"],
+      "confidence": 5,
+      "risks_and_unknowns": [
+        "Cadre HCSP toujours non transcrit en arrêté opposable",
+        "Modalités pratiques de la taxe (assiette, redevables) à vérifier sur le terrain",
+        "Part du marché captée par labos et grands groupes d'eau"
+      ],
+      "validation_questions": [
+        "Des notifications de taxe PFAS ou instructions agences de l'eau sont-elles visibles depuis le 1/09/2026 ?",
+        "Des AO STEU/agences portent-ils sur diagnostics PFAS boues ou plans de financement dépollution ?",
+        "Un projet d'arrêté reprend-il le cadre HCSP boues/MFAS ?",
+        "Des recrutements « ingénieur PFAS / micropolluants » progressent-ils chez les syndicats d'eau ?"
+      ]
+    },
+    {
+      "id": "opp-2026-W37-05",
+      "title": "Post-extrêmes : AMO DSEC / reconstruction forestière et adaptation territoriale",
+      "hypothesis": "Le package post-été 2026 (aides 12 M€ Gironde/Landes, DSEC élargie, consultation forestière 6 509 avis, reconstruction Mayotte, chiffrages Trésor/assureurs) créera une demande d'AMO environnementale et d'ingénierie de reconstruction adaptée pour collectivités sinistrées — maturation de W36-04 (confiance 4 : budgets annoncés, référentiel habitat feu toujours absent).",
+      "central_question_answer": "Monter des dossiers DSEC et d'aides locales, produire des cahiers des charges de reconstruction/reboisement/DFCI compatibles avec la doctrine annoncée, et intégrer l'adaptation (eau, biodiversité) dans les projets multi-territoires y compris outre-mer.",
+      "need_type": [
+        "prestation",
+        "expertise",
+        "outil_methodologique",
+        "formation"
+      ],
+      "buyer_personas": [
+        "collectivité sinistrée / EPCI",
+        "propriétaire forestier / CRPF",
+        "DREAL / services DFCI",
+        "Ministères agriculture / transition écologique",
+        "collectivité ultramarine (Mayotte)",
+        "bureau d'études environnement / forestier (vendeur)"
+      ],
+      "jobs_to_be_done": [
+        "Accompagner dépôts DSEC et dossiers d'aides post-sinistre",
+        "Traduire doctrine de reconstruction et consultation forestière en CCTP locaux",
+        "Cartographier enjeux biodiversité/eau dans les périmètres brûlés ou sinistrés",
+        "Articuler urgences forestières, DFCI et plans de reconstitution",
+        "Former services techniques aux guichets de financement sinistre"
+      ],
+      "linked_trends": ["2026-W37-extremes-macro-reconstruction"],
+      "confidence": 4,
+      "risks_and_unknowns": [
+        "Référentiel national habitat résistant au feu (cible 2027) toujours non publié",
+        "Concentration géographique des sinistres limite le marché à court terme",
+        "Part des 12 M€ absorbée en dépenses d'équipement sans AMO env"
+      ],
+      "validation_questions": [
+        "Des collectivités ont-elles déposé des dossiers DSEC sous le décret 2026-788 depuis fin août ?",
+        "Des AO d'AMO « reconstruction post-incendie / DFCI / reboisement » sont-ils publiés ?",
+        "Le texte d'aide au renouvellement forestier post-consultation (6 509 avis) est-il paru ?",
+        "Des marchés Mayotte eau/reconstruction flèchent-ils l'expertise environnementale ?"
+      ]
+    },
+    {
+      "id": "opp-2026-W37-06",
+      "title": "EnR / réseaux : EI d'ouvrages (THT), agrivoltaïsme concerté et saturation",
+      "hypothesis": "L'avis AE sur la THT Camargue, la charte agrivoltaïsme AMORCE/France Renouvelables et la poursuite du goulot réseaux (plans de développement, Portail Flexibilités) pousseront développeurs et BE à renforcer études d'impact, concertation territoriale et analyses de saturation — évolution de W36-05 (angle BE = EI/urbanisme, pas le trading de flexibilité).",
+      "central_question_answer": "Produire des études d'impact et dossiers d'autorisation plus robustes pour grands ouvrages et projets EnR/agrivoltaïques, croiser portefeuilles avec zones saturées / plans de réseau, et documenter la concertation territoriale attendue par la charte agrivoltaïsme.",
+      "need_type": [
+        "prestation",
+        "expertise",
+        "donnee",
+        "outil_methodologique"
+      ],
+      "buyer_personas": [
+        "porteur de projet EnR / agrivoltaïsme",
+        "RTE / Enedis (témoin / donneur d'ordre EI)",
+        "préfecture / DDT(M)",
+        "collectivité / chambre d'agriculture",
+        "rédacteur d'études d'impact (vendeur BE)",
+        "Autorité environnementale (cadre)"
+      ],
+      "jobs_to_be_done": [
+        "Reprendre les EI de grands ouvrages face aux attendus AE (exemple Camargue)",
+        "Monter dossiers agrivoltaïques alignés charte AMORCE / concertation",
+        "Analyser saturation de raccordement et contributions aux plans de développement",
+        "Maintenir la doctrine CE d'état actuel pour extensions de parcs",
+        "Produire outils SIG de priorisation de sites"
+      ],
+      "linked_trends": ["2026-W37-flexibilite-reseaux-enr"],
+      "confidence": 4,
+      "risks_and_unknowns": [
+        "Le Portail Flexibilités et le débat effacement concernent surtout agrégateurs/énergéticiens (hors cœur BE)",
+        "Doctrine préfectorale agrivoltaïsme encore hétérogène",
+        "Un avis AE isolé ne crée pas à lui seul un standard national"
+      ],
+      "validation_questions": [
+        "Des AO de développeurs citent-ils explicitement reprise d'EI post-avis AE ou charte agrivoltaïsme ?",
+        "Des DDT publient-elles des notes d'instruction agrivoltaïsme post-charte AMORCE ?",
+        "Des recrutements « raccordement EnR / permitting » restent-ils visibles ?",
+        "D'autres avis AE sur THT/EnR suivent-ils la sévérité Camargue ?"
+      ]
+    },
+    {
+      "id": "opp-2026-W37-07",
+      "title": "ZAN opérationnel : Cartofriches 20 500 sites, mutabilité et urbanisme environnemental",
+      "hypothesis": "L'actualisation Cerema de Cartofriches (~20 500 friches, indices de mutabilité, UrbanSIMUL) combinée au ralentissement des autorisations de logements (Sitadel3) poussera EPCI, DDT et BE urbanisme-environnement à produire des stratégies de recyclage de friches et des pièces PLU/SCoT ZAN qu'ils ne fondaient pas encore sur cet inventaire densifié.",
+      "central_question_answer": "Inventorier et prioriser les friches (mutabilité, risques SSP/biodiversité), intégrer Cartofriches/UrbanSIMUL dans les observatoires et documents d'urbanisme, et monter des dossiers de reconversion compatibles ZAN.",
+      "need_type": [
+        "prestation",
+        "donnee",
+        "expertise",
+        "outil_methodologique",
+        "logiciel"
+      ],
+      "buyer_personas": [
+        "collectivité / EPCI",
+        "Cerema / observatoire foncier",
+        "aménageur / promoteur",
+        "DDT",
+        "bureau d'études urbanisme environnemental (vendeur)",
+        "BE sites et sols pollués (co-vendeur)"
+      ],
+      "jobs_to_be_done": [
+        "Croiser Cartofriches avec enjeux SSP, zones humides et biodiversité",
+        "Prioriser sites selon indices de mutabilité et faisabilité environnementale",
+        "Rédiger pièces PLU/SCoT / inventaires ZAN branchés sur l'outil Cerema",
+        "Monter dossiers de reconversion (ERC, dépollution, compensation)",
+        "Former élus et services aux nouveaux indicateurs Cartofriches / UrbanSIMUL"
+      ],
+      "linked_trends": ["2026-W37-zan-cartofriches"],
+      "confidence": 4,
+      "risks_and_unknowns": [
+        "Horizon 6–18 mois : pas d'obligation immédiate nouvelle hors trajectoires ZAN déjà connues",
+        "Qualité hétérogène des fiches friches selon les territoires",
+        "Ralentissement du neuf peut réduire aussi les budgets d'études"
+      ],
+      "validation_questions": [
+        "Des AO « inventaire friches / stratégie ZAN / Cartofriches » sont-ils publiés depuis septembre 2026 ?",
+        "Le Cerema propose-t-il formations ou accompagnements UrbanSIMUL/Cartofriches pour EPCI ?",
+        "Des AAP nationaux/régionaux flèchent-ils explicitement le recyclage de friches ?",
+        "Des recrutements « chargé de mission ZAN / foncier » apparaissent-ils ?"
+      ]
+    },
+    {
+      "id": "opp-2026-W37-08",
+      "title": "Adaptation locale : diagnostic RGA, ruissellement et confort thermique des établissements",
+      "hypothesis": "La qualification obligatoire des expertises assurance RGA, les guides Cerema (RGA, ruissellement) et les AMI/méthodes de lutte contre la surchauffe scolaire créeront une demande progressive de diagnostics et AMO adaptation pour collectivités — opportunité BE partielle (GEMAPI/hydraulique/ambiance) à horizon 6–18 mois, distincte du marché assurance pur.",
+      "central_question_answer": "Produire des diagnostics préventifs RGA et de ruissellement, et accompagner les collectivités dans l'adaptation thermique du bâti scolaire (méthodes type ABCD) — au-delà des seuls arrêtés de crise.",
+      "need_type": [
+        "prestation",
+        "expertise",
+        "outil_methodologique",
+        "formation"
+      ],
+      "buyer_personas": [
+        "collectivité / gestionnaire scolaire",
+        "service GEMAPI",
+        "assureur / expert RGA (voisin de marché)",
+        "Cerema",
+        "bureau d'études géotech / hydraulique / environnement (vendeur partiel)"
+      ],
+      "jobs_to_be_done": [
+        "Réaliser diagnostics RGA préventifs sur patrimoine exposé",
+        "Modéliser et prioriser actions anti-ruissellement (guides Cerema)",
+        "Monter dossiers AMI / AMO adaptation thermique des écoles",
+        "Articuler diagnostics sols, eau pluviale et biodiversité urbaine",
+        "Former services techniques aux méthodes ABCD / guides Cerema"
+      ],
+      "linked_trends": ["2026-W37-adaptation-thermique-rga"],
+      "confidence": 3,
+      "risks_and_unknowns": [
+        "Qualification RGA cible surtout sociétés d'expertise assurance (hors cœur BE env)",
+        "AMI Hauts-de-Seine peut rester localisé",
+        "Budgets d'adaptation scolaire dépendent des collectivités"
+      ],
+      "validation_questions": [
+        "D'autres départements lancent-ils des AMI « écoles / surchauffe » après les Hauts-de-Seine ?",
+        "Des AO GEMAPI citent-ils la synthèse ruissellement Cerema ?",
+        "Des BE env/géotech obtiennent-ils la qualification expertise RGA ou partenariats assureurs ?",
+        "Des recrutements « adaptation / confort thermique patrimoine » apparaissent-ils ?"
+      ]
+    }
+  ]
+}
