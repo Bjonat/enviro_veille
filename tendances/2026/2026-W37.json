@@ -1,0 +1,656 @@
+{
+  "period": {
+    "start": "2026-08-10",
+    "end": "2026-09-06",
+    "label": "2026-W37"
+  },
+  "generated_at": "2026-09-06T11:10:00Z",
+  "meta": {
+    "daily_files_used": 16,
+    "items_analyzed": 146,
+    "method_notes": "Run hebdomadaire (28 jours glissants 2026-08-10 → 2026-09-06). Corpus : 16 journées de veille (22/08–06/09), 146 items. Comparaison à tendances/2026/2026-W36 : scores basés sur signaux indépendants nouveaux (30/08–06/09), pas rediscours. Validité : ≥2 signaux indépendants ou 1 signal structurel majeur."
+  },
+  "trends": [
+    {
+      "id": "2026-W37-extremes-macro-reconstruction",
+      "title": "Extrêmes climatiques 2026 : chiffrage macroéconomique et package de reconstruction multi-territoires",
+      "status": "en_acceleration",
+      "themes": [
+        "incendies_risques",
+        "climat_adaptation",
+        "biodiversite",
+        "reglementation",
+        "eau_zones_humides"
+      ],
+      "acceleration_score": 5,
+      "summary": "L'été 2026 le plus chaud (Météo-France, signal +4 °C) s'accompagne d'un chiffrage Trésor (−0,1 pt PIB), d'une facture assurantielle préliminaire (500 M€) et d'un package reconstruction : 12 M€ Gironde/Landes, consultation forestière record (6 509 avis), DSEC élargie et accélération Mayotte post-Chido, tandis que le plan CASI agricole est reporté.",
+      "drivers": [
+        "crise",
+        "financement",
+        "réglementation",
+        "pratique",
+        "données"
+      ],
+      "evidence": [
+        {
+          "daily_item_id": "2026-09-05-008",
+          "date": "2026-09-04",
+          "title": "Bilan Météo-France : l'été 2026, le plus chaud jamais enregistré, préfigure une France à +4 °C",
+          "url": "https://www.actu-environnement.com/ae/news/ete-2026-record-chaleur-france-4degres-48471.php4"
+        },
+        {
+          "daily_item_id": "2026-09-03-005",
+          "date": "2026-09-02",
+          "title": "Canicule et sécheresse : le Trésor estime un impact de −0,1 point de PIB en 2026 (−8 % production agricole)",
+          "url": "https://www.latribune.fr/article/economie/finances-publiques/44709213633016/canicule-secheresse-bercy-chiffre-a-la-facture-climatique-qui-attend-le-budget-2027"
+        },
+        {
+          "daily_item_id": "2026-09-01-007",
+          "date": "2026-08-31",
+          "title": "Été 2026 : France Assureurs estime à 500 M€ le coût des sinistres climatiques",
+          "url": "https://www.publicsenat.fr/actualites/environnement/une-facture-qui-sannonce-colossale-apres-les-incendies-les-canicules-et-la-secheresse-de-lete-2026"
+        },
+        {
+          "daily_item_id": "2026-09-01-006",
+          "date": "2026-08-31",
+          "title": "Incendies Gironde et Landes : 12 M€ d'aide immédiate aux collectivités et doctrine de reconstruction sous trois mois",
+          "url": "https://www.banquedesterritoires.fr/incendies-les-annonces-du-gouvernement-pour-reconstruire-et-adapter-les-collectivites-sinistrees"
+        },
+        {
+          "daily_item_id": "2026-08-31-003",
+          "date": "2026-08-31",
+          "title": "Aide au renouvellement forestier : clôture de la consultation avec 6 509 contributions",
+          "url": "https://www.consultations-publiques.developpement-durable.gouv.fr/consultation-publique-sur-un-projet-de-decret-portant-a3405.html"
+        },
+        {
+          "daily_item_id": "2026-08-28-005",
+          "date": "2026-08-27",
+          "title": "DSEC : le décret n° 2026-788 simplifie et élargit la dotation aux collectivités sinistrées",
+          "url": "https://www.actu-environnement.com/ae/reglementation/decret-du-12-08-2026-2026-788-40090.php"
+        },
+        {
+          "daily_item_id": "2026-08-31-006",
+          "date": "2026-08-28",
+          "title": "Mayotte post-Chido : le gouvernement accélère reconstruction et accès à l'eau",
+          "url": "https://www.actu-environnement.com/ae/news/reconstruction-mayotte-chido-eau-gouvernement-48447.php4"
+        }
+      ],
+      "what_is_changing": "La séquence post-extrêmes sort du seul registre forestier/DFCI : elle devient un package budgétaire et territorial (assurance, PIB, DSEC, aides locales, outre-mer) avec une pression politique sur le plan d'urgence agricole (CASI reporté).",
+      "who_is_affected": [
+        "collectivités sinistrées",
+        "assureurs et CCR",
+        "propriétaires forestiers / CRPF",
+        "Ministères budget et agriculture",
+        "services DFCI et DREAL",
+        "Mayotte / collectivités ultramarines"
+      ],
+      "time_horizon": "0-6_mois"
+    },
+    {
+      "id": "2026-W37-restauration-nrp-diagnostic",
+      "title": "Restauration de la nature : NRP français en retard et diagnostic DHFF/UICN qui se dégrade",
+      "status": "en_acceleration",
+      "themes": [
+        "biodiversite",
+        "especes_habitats",
+        "natura2000",
+        "reglementation",
+        "climat_adaptation",
+        "donnees_outils"
+      ],
+      "acceleration_score": 5,
+      "summary": "Après les notes FRB/Biodiversa+, l'échéance UE du 1er septembre sur les plans nationaux de restauration n'est tenue que par une minorité d'États ; la France annonce un envoi « d'ici quinze jours ». En parallèle, le rapportage DHFF 2019-2024 (22 % favorable) et la liste rouge UICN amphibiens/reptiles documentent l'urgence opérationnelle.",
+      "drivers": [
+        "réglementation",
+        "UE",
+        "science",
+        "données"
+      ],
+      "evidence": [
+        {
+          "daily_item_id": "2026-09-05-004",
+          "date": "2026-09-02",
+          "title": "Plan national de restauration : la France annonce un envoi à Bruxelles « d'ici quinze jours »",
+          "url": "https://environment.ec.europa.eu/news/eu-countries-submit-draft-plans-restoring-nature-2026-09-01_en"
+        },
+        {
+          "daily_item_id": "2026-09-06-007",
+          "date": "2026-09-03",
+          "title": "Restauration de la nature : remise du plan national « d'ici quinze jours » après l'échéance UE",
+          "url": "https://www.actu-environnement.com/ae/reglementation/arrete-du-27-08-2026-tecd2621926a-40257.php"
+        },
+        {
+          "daily_item_id": "2026-08-28-001",
+          "date": "2026-08-27",
+          "title": "FRB et Biodiversa+ publient huit notes pour la mise en œuvre du règlement restauration",
+          "url": "https://www.fondationbiodiversite.fr/actualites/apres-un-ete-marque-par-la-secheresse-les-incendies-et-les-canicules-restaurer-la-nature-est-plus-que-jamais-necessaire/"
+        },
+        {
+          "daily_item_id": "2026-09-02-001",
+          "date": "2026-09-01",
+          "title": "État de conservation DHFF 2019-2024 : 22 % favorable, 67 % défavorable",
+          "url": "https://www.statistiques.developpement-durable.gouv.fr/letat-de-conservation-des-habitats-et-des-especes-remarquables-continue-de-se-degrader-en-france"
+        },
+        {
+          "daily_item_id": "2026-09-05-007",
+          "date": "2026-09-04",
+          "title": "Liste rouge UICN : 19 % des amphibiens et 26 % des reptiles métropolitains menacés",
+          "url": "https://www.actu-environnement.com/media/pdf/news-48469-rapport-uicn-reptiles-amphibiens-2026.pdf"
+        }
+      ],
+      "what_is_changing": "Le règlement restauration bascule d'outils méthodologiques (notes FRB) à une contrainte de calendrier UE manquée puis rattrapée, pendant que les diagnostics officiels (DHFF, UICN) durcissent l'argumentaire pour DREAL, Natura 2000 et collectivités.",
+      "who_is_affected": [
+        "Ministère de la Transition écologique",
+        "DREAL / OFB",
+        "gestionnaires Natura 2000",
+        "collectivités",
+        "bureaux d'études biodiversité",
+        "Commission européenne / EEA"
+      ],
+      "time_horizon": "0-6_mois"
+    },
+    {
+      "id": "2026-W37-eau-assecs-zones-humides",
+      "title": "Eau : assecs record ONDE, bascule zones humides (loi 796) et expérimentation azote Bretagne",
+      "status": "en_acceleration",
+      "themes": [
+        "eau_zones_humides",
+        "reglementation",
+        "climat_adaptation",
+        "biodiversite",
+        "incendies_risques",
+        "sols"
+      ],
+      "acceleration_score": 5,
+      "summary": "L'OFB porte le bilan ONDE à 1 424 cours d'eau en assec/sans écoulement. La loi d'urgence agricole 2026-796 assouplit prescriptions et compensation en zones humides (y compris via stockages). L'expérimentation Bretagne (décret 2026-823) entre en vigueur au 1er septembre.",
+      "drivers": [
+        "crise climatique",
+        "réglementation",
+        "pratique agricole",
+        "données"
+      ],
+      "evidence": [
+        {
+          "daily_item_id": "2026-09-03-002",
+          "date": "2026-09-02",
+          "title": "Sécheresse 2026 : l'OFB recense 1 424 cours d'eau en assec ou sans écoulement (record ONDE)",
+          "url": "https://www.lemonde.fr/planete/article/2026/09/02/secheresse-les-petits-cours-d-eau-dans-un-etat-de-degradation-exceptionnel-selon-l-office-francais-de-la-biodiversite_6764532_3244.html"
+        },
+        {
+          "daily_item_id": "2026-09-01-005",
+          "date": "2026-08-30",
+          "title": "Sécheresse : l'OFB constate des assecs record (tournée ONDE dans l'Oise)",
+          "url": "https://marine-oceans.com/actualites/secheresse-dans-loise-le-triste-decompte-des-rivieres-disparues/"
+        },
+        {
+          "daily_item_id": "2026-09-02-003",
+          "date": "2026-09-01",
+          "title": "Loi d'urgence agricole 2026-796 : assouplissement des prescriptions sur les zones humides",
+          "url": "https://www.actu-environnement.com/ae/reglementation/loi-du-18-08-2026-2026-796-40198.php"
+        },
+        {
+          "daily_item_id": "2026-08-29-001",
+          "date": "2026-08-28",
+          "title": "Algues vertes Bretagne : décret 2026-823 — expérimentation azote dès le 1er septembre",
+          "url": "https://www.actu-environnement.com/ae/reglementation/decret-du-27-08-2026-2026-823-40235.php"
+        },
+        {
+          "daily_item_id": "2026-08-31-007",
+          "date": "2026-08-28",
+          "title": "Faune sauvage et événements extrêmes : OFB/PatriNat analyse le cumul sécheresse–incendie",
+          "url": "https://www.actu-environnement.com/ae/news/faune-sauvage-incendie-secheresse-impacts-48443.php4"
+        }
+      ],
+      "what_is_changing": "Trois fronts hydriques convergent : observation record des assecs, recadrage juridique des projets en zones humides favorable aux stockages agricoles, et expérimentation structurelle azote/algues vertes — tension accrue pour police de l'eau et BE.",
+      "who_is_affected": [
+        "OFB / police de l'eau",
+        "exploitants agricoles Bretagne et zones humides",
+        "DREAL / DDT(M)",
+        "syndicats d'eau",
+        "associations de protection de la nature",
+        "bureaux d'études eau-écologie"
+      ],
+      "time_horizon": "0-6_mois"
+    },
+    {
+      "id": "2026-W37-flexibilite-reseaux-enr",
+      "title": "Flexibilité électrique et infrastructures : Portail Flexibilités, critique de l'effacement et AE sur THT",
+      "status": "en_acceleration",
+      "themes": [
+        "energie_biodiversite",
+        "reglementation",
+        "donnees_outils",
+        "biodiversite",
+        "climat_adaptation"
+      ],
+      "acceleration_score": 4,
+      "summary": "La dynamique réseaux/stockage de W36 s'élargit à la flexibilité de marché (Portail Flexibilités RTE-Enedis au 1/09, bilan CRE bac à sable) pendant que la Cour des comptes juge inapproprié le soutien à l'effacement (430 M€) et que l'AE censure l'étude d'impact de la THT Camargue ; PV à 34 GW et charte agrivoltaïsme cadrent l'offre.",
+      "drivers": [
+        "tech",
+        "réglementation",
+        "pratique",
+        "jurisprudence administrative"
+      ],
+      "evidence": [
+        {
+          "daily_item_id": "2026-09-06-011",
+          "date": "2026-09-01",
+          "title": "Portail Flexibilités RTE-Enedis : règles expérimentales CRE au 1er septembre 2026",
+          "url": "https://www.cre.fr/actualites/toute-lactualite/la-cre-approuve-des-regles-experimentales-pour-les-marches-de-flexibilites-locales-de-rte-et-enedis-via-le-portail-flexibilites.html"
+        },
+        {
+          "daily_item_id": "2026-09-04-007",
+          "date": "2026-09-03",
+          "title": "Bac à sable réglementaire électricité : bilan CRE 2025 et Portail Flexibilités",
+          "url": "https://www.cre.fr/fileadmin/Documents/Rapports_et_etudes/2026/Rapport_REX_Bac_a_sable_2025.pdf"
+        },
+        {
+          "daily_item_id": "2026-09-02-004",
+          "date": "2026-08-27",
+          "title": "Effacement électrique : la Cour des comptes juge le soutien public inapproprié (430 M€)",
+          "url": "https://www.ccomptes.fr/fr/publications/les-effacements-de-consommation-delectricite-un-outil-pertinent-un-soutien-public"
+        },
+        {
+          "daily_item_id": "2026-09-03-008",
+          "date": "2026-09-02",
+          "title": "Ligne THT Camargue (RTE) : l'AE relève des insuffisances majeures de l'étude d'impact",
+          "url": "https://www.actu-environnement.com/ae/news/ligne-tht-camargue-autorite-environnementale-48459.php4"
+        },
+        {
+          "daily_item_id": "2026-09-05-011",
+          "date": "2026-09-03",
+          "title": "Agrivoltaïsme : charte nationale AMORCE / France Renouvelables",
+          "url": "https://amorce.asso.fr/publications/charte-nationale-amorce-france-renouvelables-en-faveur-de-projets-agrivoltaiques-territoriaux-et-concertes-enp97"
+        },
+        {
+          "daily_item_id": "2026-08-26-004",
+          "date": "2026-08-21",
+          "title": "Réseaux de distribution : décret 2026-805 sur les plans de développement",
+          "url": "https://www.actu-environnement.com/ae/reglementation/decret-du-20-08-2026-2026-805-40212.php"
+        }
+      ],
+      "what_is_changing": "Le goulot EnR n'est plus seulement raccordement/stockage foncier : marchés locaux de flexibilité s'ouvrent, le soutien public à l'effacement est remis en cause, et les grands ouvrages (THT) restent sous pression d'évaluation environnementale.",
+      "who_is_affected": [
+        "RTE / Enedis",
+        "CRE",
+        "agrégateurs de flexibilité",
+        "porteurs EnR et agrivoltaïsme",
+        "collectivités et chambres d'agriculture",
+        "rédacteurs d'études d'impact"
+      ],
+      "time_horizon": "0-6_mois"
+    },
+    {
+      "id": "2026-W37-circularite-plastiques-textiles",
+      "title": "Circularité : super-malus textiles, consultations PPWR et abandon de la consigne plastique",
+      "status": "en_acceleration",
+      "themes": [
+        "reglementation",
+        "donnees_outils"
+      ],
+      "acceleration_score": 4,
+      "summary": "Au 1er septembre entre en vigueur le super-malus REP textiles (loi 2026-602). L'UE consulte sur le calcul du contenu recyclé PPWR (échéance 16/09). Le gouvernement français renonce à une consigne nationale pour les bouteilles, recentrant le plan plastique.",
+      "drivers": [
+        "réglementation",
+        "UE",
+        "pratique industrielle"
+      ],
+      "evidence": [
+        {
+          "daily_item_id": "2026-09-02-005",
+          "date": "2026-09-01",
+          "title": "Ultra-fast-fashion : entrée en vigueur du super-malus REP textiles (loi 2026-602)",
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054399113"
+        },
+        {
+          "daily_item_id": "2026-09-06-010",
+          "date": "2026-09-02",
+          "title": "PPWR : consultations UE sur le calcul du contenu recyclé (échéance 16 septembre)",
+          "url": "https://www.actu-environnement.com/ae/news/plastique-recycle-consultation-ue-technologies-recyclage-mesure-contenu-48461.php4"
+        },
+        {
+          "daily_item_id": "2026-09-06-009",
+          "date": "2026-09-04",
+          "title": "Plan plastique : le gouvernement renonce à une consigne nationale pour le recyclage des bouteilles",
+          "url": "https://www.actu-environnement.com/depeches/plastique-gouvernement-renonce-une-n-1327.html"
+        },
+        {
+          "daily_item_id": "2026-08-24-011",
+          "date": "2026-08-12",
+          "title": "Règlement véhicules fin de vie (ELV) : entrée en vigueur",
+          "url": "https://environment.ec.europa.eu/news/new-rules-more-circular-european-automotive-sector-2026-08-12_en"
+        }
+      ],
+      "what_is_changing": "La circularité se durcit sur le textile (pénalités volume/réparabilité) et se précise techniquement côté emballages UE, tandis que la France abandonne un levier national (consigne) — arbitrage politique clair pour éco-organismes et metteurs sur le marché.",
+      "who_is_affected": [
+        "Refashion / éco-organismes",
+        "distributeurs textile et marketplaces",
+        "metteurs sur le marché emballages",
+        "collectivités (collecte)",
+        "Commission européenne"
+      ],
+      "time_horizon": "0-6_mois"
+    },
+    {
+      "id": "2026-W37-adaptation-thermique-rga",
+      "title": "Adaptation opérationnelle : surchauffe des écoles, qualification RGA et guides Cerema",
+      "status": "en_acceleration",
+      "themes": [
+        "sols",
+        "incendies_risques",
+        "climat_adaptation",
+        "rapports_guides",
+        "eau_zones_humides"
+      ],
+      "acceleration_score": 4,
+      "summary": "La tendance RGA/ruissellement de W36 s'élargit à l'adaptation thermique du bâti scolaire (Cerema, AMI Hauts-de-Seine) et à une obligation de qualification des sociétés d'expertise assurance RGA (décrets/arrêté d'août).",
+      "drivers": [
+        "pratique",
+        "réglementation",
+        "science",
+        "financement"
+      ],
+      "evidence": [
+        {
+          "daily_item_id": "2026-09-01-003",
+          "date": "2026-08-11",
+          "title": "RGA : qualification obligatoire des sociétés d'expertise assurance",
+          "url": "https://www.actu-environnement.com/ae/reglementation/arrete-du-09-08-2026-vlol2427997a-40117.php"
+        },
+        {
+          "daily_item_id": "2026-09-04-002",
+          "date": "2026-09-03",
+          "title": "Écoles en surchauffe : le Cerema montre le rôle de l'étage et de l'orientation",
+          "url": "https://www.cerema.fr/fr/actualites/ecoles-surchauffe-probleme-qui-se-joue-echelle-salles-classe"
+        },
+        {
+          "daily_item_id": "2026-09-04-008",
+          "date": "2026-09-03",
+          "title": "Hauts-de-Seine : AMI pour adapter les écoles à la surchauffe (méthode ABCD)",
+          "url": "https://www.cerema.fr/fr/actualites/adapter-ecoles-hauts-seine-aux-episodes-chaleur-appel"
+        },
+        {
+          "daily_item_id": "2026-08-25-012",
+          "date": "2026-08-24",
+          "title": "RGA : le Cerema insiste sur le diagnostic préventif après l'été 2026",
+          "url": "https://www.cerema.fr/index.php/fr/actualites/retrait-gonflement-sols-argileux-partir-diagnostic"
+        },
+        {
+          "daily_item_id": "2026-08-29-002",
+          "date": "2026-08-28",
+          "title": "Ruissellement pluvial : synthèse opérationnelle Cerema",
+          "url": "https://www.cerema.fr/fr/actualites/ruissellements-phenomene-complexe-fort-impact-territoires"
+        }
+      ],
+      "what_is_changing": "L'adaptation locale se professionnalise : expertises RGA qualifiées, méthodes scolaires de lutte contre la surchauffe, et boîtes à outils hydrauliques — au-delà des seuls arrêtés de crise.",
+      "who_is_affected": [
+        "collectivités et gestionnaires scolaires",
+        "assureurs et experts RGA",
+        "Cerema / bureaux d'études",
+        "services GEMAPI",
+        "aménageurs"
+      ],
+      "time_horizon": "6-18_mois"
+    },
+    {
+      "id": "2026-W37-pfas-taxe-filieres",
+      "title": "PFAS : entrée en vigueur de la taxe et architecture de coûts des filières",
+      "status": "en_acceleration",
+      "themes": [
+        "reglementation",
+        "sols",
+        "eau_zones_humides"
+      ],
+      "acceleration_score": 4,
+      "summary": "La taxe pollueur-payeur PFAS produit ses effets au 1er septembre 2026, sur fond de rapports HCSP (boues/MFAS) et IGEDD-IGAS-CGAAER (1,3–5,7 Md€/an pour l'eau potable) déjà consolidés en W36.",
+      "drivers": [
+        "réglementation",
+        "financement",
+        "science"
+      ],
+      "evidence": [
+        {
+          "daily_item_id": "2026-08-30-006",
+          "date": "2026-08-28",
+          "title": "Échéances du 1er septembre : algues vertes Bretagne, MaPrimeRénov' et taxe PFAS",
+          "url": "https://www.actu-environnement.com/ae/reglementation/decret-du-27-08-2026-2026-823-40235.php"
+        },
+        {
+          "daily_item_id": "2026-08-29-009",
+          "date": "2026-05-01",
+          "title": "PFAS/pesticides eau potable : rapport IGEDD-IGAS-CGAAER (1,3–5,7 Md€/an)",
+          "url": "https://www.actu-environnement.com/media/pdf/news-48448-rapport-igeed-igas-cgaaer-financement-decontamination-eaux.pdf"
+        },
+        {
+          "daily_item_id": "2026-08-25-001",
+          "date": "2026-06-18",
+          "title": "PFAS dans les boues et MFAS : cadre HCSP en trois catégories",
+          "url": "https://www.hcsp.fr/Explore.cgi/avisrapportsdomaine?clefr=1542"
+        }
+      ],
+      "what_is_changing": "Après le cadrage sanitaire et budgétaire, le levier fiscal PFAS devient opposable : collectivités et STEU doivent articuler taxe, investissements de traitement et doctrine d'épandage.",
+      "who_is_affected": [
+        "agences de l'eau",
+        "collectivités / STEU",
+        "industriels redevables",
+        "filières fertilisants",
+        "ARS"
+      ],
+      "time_horizon": "6-18_mois"
+    },
+    {
+      "id": "2026-W37-zan-cartofriches",
+      "title": "ZAN opérationnel : Cartofriches à 20 500 sites et pression statistique du neuf",
+      "status": "emergente",
+      "themes": [
+        "zan_artificialisation",
+        "sols",
+        "donnees_outils",
+        "biodiversite"
+      ],
+      "acceleration_score": 4,
+      "summary": "Le Cerema actualise Cartofriches (~20 500 friches, 61 000 ha, indices de mutabilité, UrbanSIMUL). Le SDES publie Sitadel3 (autorisations de logements en baisse sur 12 mois), fournissant un doublet observation foncière / construction neuve.",
+      "drivers": [
+        "données",
+        "pratique",
+        "tech"
+      ],
+      "evidence": [
+        {
+          "daily_item_id": "2026-09-04-001",
+          "date": "2026-09-03",
+          "title": "Cartofriches : près de 20 500 friches répertoriées (61 000 ha)",
+          "url": "https://www.cerema.fr/fr/actualites/cartofriches-pres-20-500-sites-friches-repertories"
+        },
+        {
+          "daily_item_id": "2026-09-06-001",
+          "date": "2026-09-03",
+          "title": "Cartofriches 2026 : indices de mutabilité et intégration UrbanSIMUL",
+          "url": "https://www.cerema.fr/fr/actualites/cartofriches-plus-7200-sites-friches-repertories"
+        },
+        {
+          "daily_item_id": "2026-08-30-002",
+          "date": "2026-08-28",
+          "title": "Construction de logements : résultats Sitadel3 à fin juillet 2026",
+          "url": "https://www.statistiques.developpement-durable.gouv.fr/construction-de-logements-resultats-fin-juillet-2026-france-entiere"
+        }
+      ],
+      "what_is_changing": "Le ZAN dispose d'un inventaire friches densifié et outillé (mutabilité, UrbanSIMUL) pendant que la statistique du neuf documente le ralentissement des autorisations — levier pour observatoires et PLU/SCoT.",
+      "who_is_affected": [
+        "collectivités et EPCI",
+        "Cerema / observatoires fonciers",
+        "aménageurs",
+        "services de l'État (DDT)",
+        "bureaux d'études urbanisme"
+      ],
+      "time_horizon": "6-18_mois"
+    },
+    {
+      "id": "2026-W37-haies-regime-unique",
+      "title": "Haies : régime unique de protection (décret 2026-829)",
+      "status": "emergente",
+      "themes": [
+        "biodiversite",
+        "reglementation",
+        "especes_habitats",
+        "natura2000"
+      ],
+      "acceleration_score": 4,
+      "summary": "Le décret n° 2026-829 institue une déclaration unique préalable dématérialisée pour toute destruction de haie, avec bascule en autorisation si dérogation espèces ou évaluation Natura 2000 — signal structurel majeur pour l'agriculture et la TVB.",
+      "drivers": [
+        "réglementation",
+        "pratique agricole"
+      ],
+      "evidence": [
+        {
+          "daily_item_id": "2026-08-31-001",
+          "date": "2026-08-28",
+          "title": "Décret n° 2026-829 : régime unique de protection des haies",
+          "url": "https://www.actu-environnement.com/ae/reglementation/decret-du-28-08-2026-2026-829-40240.php"
+        }
+      ],
+      "what_is_changing": "La destruction de haies quitte le patchwork de régimes pour une procédure préfectorale unique, articulée aux régimes espèces protégées et Natura 2000 — impact immédiat sur instruction et bureaux d'études.",
+      "who_is_affected": [
+        "exploitants agricoles",
+        "préfectures / DDT",
+        "DREAL",
+        "bureaux d'études environnement",
+        "collectivités (TVB)"
+      ],
+      "time_horizon": "0-6_mois"
+    },
+    {
+      "id": "2026-W37-commande-publique-verte",
+      "title": "Commande publique : fin du critère « prix seul » et verdissement des concessions",
+      "status": "emergente",
+      "themes": [
+        "reglementation",
+        "climat_adaptation",
+        "rapports_guides"
+      ],
+      "acceleration_score": 3,
+      "summary": "Depuis le 21 août 2026, la dernière vague du décret 2022-767 (article 35 loi Climat) s'applique : fin des critères prix seul, guide Bercy sur les concessions — signal répété sur trois journées de veille.",
+      "drivers": [
+        "réglementation",
+        "pratique"
+      ],
+      "evidence": [
+        {
+          "daily_item_id": "2026-09-04-004",
+          "date": "2026-09-03",
+          "title": "Commande publique : dernière vague de verdissement (décret 2022-767) applicable depuis le 21 août",
+          "url": "https://www.actu-environnement.com/ae/reglementation/decret-du-02-05-2022-2022-767-29423.php"
+        },
+        {
+          "daily_item_id": "2026-09-05-010",
+          "date": "2026-09-03",
+          "title": "Fin des critères « prix seul » et guide Bercy sur les concessions",
+          "url": "https://www.actu-environnement.com/ae/news/verdissement-commande-publique-obligations-concessions-48466.php4"
+        },
+        {
+          "daily_item_id": "2026-09-06-003",
+          "date": "2026-09-03",
+          "title": "Dernières obligations de verdissement (article 35 loi Climat)",
+          "url": "https://www.actu-environnement.com/media/pdf/news-48466-commande-publique-article-35-loi-climat-guide-pratique-bercy.pdf"
+        }
+      ],
+      "what_is_changing": "Les acheteurs publics doivent intégrer des critères environnementaux dans marchés et concessions ; le guide Bercy opérationnalise l'obligation pour les autorités concédantes.",
+      "who_is_affected": [
+        "acheteurs publics",
+        "autorités concédantes",
+        "entreprises candidates",
+        "juristes marchés publics"
+      ],
+      "time_horizon": "0-6_mois"
+    },
+    {
+      "id": "2026-W37-renovation-mpr-application",
+      "title": "Rénovation énergétique : phase d'application MaPrimeRénov'/DPE/CEE sans nouveau package textuel",
+      "status": "stable",
+      "themes": [
+        "climat_adaptation",
+        "reglementation",
+        "energie_biodiversite"
+      ],
+      "acceleration_score": 3,
+      "summary": "Le package W36 (DPE 1,7, CEE ampleur, MPR monogestes exclus, RGE facturante) entre en application au 1er septembre ; aucun texte indépendant nouveau n'apparaît sur 30/08–06/09 hors rappel d'échéance — score abaissé.",
+      "drivers": [
+        "réglementation",
+        "financement",
+        "pratique"
+      ],
+      "evidence": [
+        {
+          "daily_item_id": "2026-08-30-006",
+          "date": "2026-08-28",
+          "title": "Échéances du 1er septembre : MaPrimeRénov' parmi les bascules",
+          "url": "https://www.actu-environnement.com/ae/reglementation/decret-du-27-08-2026-2026-823-40235.php"
+        },
+        {
+          "daily_item_id": "2026-08-28-003",
+          "date": "2026-08-27",
+          "title": "MaPrimeRénov' : décret 2026-822 — exclusion de monogestes au 1er septembre",
+          "url": "https://www.actu-environnement.com/ae/reglementation/decret-du-25-08-2026-2026-822-40231.php"
+        },
+        {
+          "daily_item_id": "2026-08-27-001",
+          "date": "2026-08-26",
+          "title": "DPE : coefficient électrique à 1,7 dès le 1er janvier 2027",
+          "url": "https://www.actu-environnement.com/depeches/dpe-arrete-paru-au-n-1307.html"
+        }
+      ],
+      "what_is_changing": "La dynamique passe de la production normative à l'application filière (ANAH, RGE, diagnostiqueurs) ; à surveiller : retours terrain et consultation facteur DPE (12/11).",
+      "who_is_affected": [
+        "ANAH / mandataires",
+        "entreprises RGE",
+        "diagnostiqueurs DPE",
+        "propriétaires et bailleurs"
+      ],
+      "time_horizon": "0-6_mois"
+    },
+    {
+      "id": "2026-W37-icpe-consultations",
+      "title": "Consultations ICPE H₂ / galvanisation / batteries : veille de clôture",
+      "status": "stable",
+      "themes": [
+        "reglementation",
+        "energie_biodiversite",
+        "eau_zones_humides"
+      ],
+      "acceleration_score": 2,
+      "summary": "Rappel de la consultation hydrogène (rubriques 2611/3720) à échéance 7 septembre ; pas de nouveau texte publié — dynamique inchangée depuis W35/W36.",
+      "drivers": [
+        "réglementation",
+        "pratique industrielle"
+      ],
+      "evidence": [
+        {
+          "daily_item_id": "2026-09-03-009",
+          "date": "2026-08-19",
+          "title": "Hydrogène par électrolyse : consultation rubriques ICPE (échéance 7 septembre)",
+          "url": "https://www.actu-environnement.com/ae/news/hydrogene-electrolyse-icpe-reglementation-2027-48403.php4"
+        },
+        {
+          "daily_item_id": "2026-08-24-005",
+          "date": "2026-08-19",
+          "title": "ICPE galvanisation discontinue : projet d'arrêté en consultation",
+          "url": "https://www.actu-environnement.com/ae/news/icpe-galvanisation-discontinue-prescriptions-arrete-48404.php4"
+        },
+        {
+          "daily_item_id": "2026-08-24-006",
+          "date": "2026-08-18",
+          "title": "Rubrique ICPE 2925 (charge de batteries) : projet de déclassement",
+          "url": "https://www.actu-environnement.com/ae/news/icpe-declassement-charge-batteries-rubrique-2925-48399.php4"
+        }
+      ],
+      "what_is_changing": "Pas de progression normative ; à réévaluer dès clôture 7/09 et avis CSPRT (15/09 pour 2925).",
+      "who_is_affected": [
+        "DREAL / inspection",
+        "porteurs projets hydrogène",
+        "sites de galvanisation",
+        "exploitants charge de batteries"
+      ],
+      "time_horizon": "0-6_mois"
+    }
+  ]
+}
