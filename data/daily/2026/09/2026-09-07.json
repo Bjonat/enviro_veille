@@ -1,0 +1,297 @@
+{
+  "date": "2026-09-07",
+  "generated_at": "2026-09-07T06:07:18+02:00",
+  "timezone": "Europe/Paris",
+  "meta": {
+    "item_count": 7,
+    "sources_consulted": [
+      "agriculture_gouv",
+      "consultations_publiques_mte",
+      "actu_environnement",
+      "saintbrieuc_armor_agglo",
+      "cerema",
+      "sdes",
+      "commission_ue"
+    ],
+    "deduplicated_against_days": 14,
+    "notes": "Dimanche 07/09 : week-end calme après la rentrée ; nouveautés dominées par l'annonce plan CASI (04/09), reprises médiatiques eau industrielle Saint-Brieuc et low-tech SIBCA (04/09), et échéances consultations ICPE hydrogène (clôture 07/09), REP EMAP (11/09) et REP emballages pro (10/09). Cartofriches, bilan été Météo-France, liste rouge UICN, verdissement commande publique, NRR, PPWR, consigne plastique, Portail Flexibilités, etc. exclus comme déjà couverts 01–06/09. OFB site anti-bot ; Soren barème en maintenance ; BRGM actualités 404."
+  },
+  "items": [
+    {
+      "id": "2026-09-07-001",
+      "title": "Plan CASI : plus d'1 milliard d'euros débloqué pour l'agriculture après l'été sécheresse-incendies 2026",
+      "summary": "Annie Genevard a présenté le 4 septembre 2026 le plan Climat, Adaptation, Sécheresse, Incendies (CASI), d'un montant supérieur à 1 milliard d'euros, après le report de quelques jours annoncé le 2 septembre. Le dispositif vise à indemniser les pertes exceptionnelles (ISN estimée à 520 M€, acomptes portés de 70 % à 80 %, calamités agricoles pour 30 M€, dégrèvements TFPNB >300 M€) et à relancer la production via un fonds de réarmement agricole de 235 M€ piloté par les préfets, incluant un volet incendies. Sont reconduits le guichet engrais azotés (145 M€ jusqu'au 31/12/2026) et le soutien GNR agricole (106 M€ jusqu'à octobre 2026). La période de référence ISN passera de cinq à huit ans à compter de la campagne 2027. Le gouvernement estime 30 000 à 35 000 exploitations en grande difficulté ; 65 % du territoire a connu une sécheresse inédite et 95 départements ont été soumis à des restrictions d'eau.",
+      "themes": ["climat_adaptation", "incendies_risques", "eau_zones_humides", "reglementation"],
+      "signal_type": "appel_a_projets_ou_financement",
+      "geography": ["France"],
+      "actors": [
+        "Ministère de l'Agriculture",
+        "préfectures",
+        "MSA",
+        "FNSEA"
+      ],
+      "primary_source": {
+        "name": "Ministère de l'Agriculture — plan CASI plus d'1 Md€",
+        "url": "https://agriculture.gouv.fr/plus-d1-milliard-deuros-debloques-par-le-gouvernement-pour-soutenir-les-agriculteurs-et-la",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — report plan CASI (02/09/2026)",
+          "url": "https://www.lafranceagricole.fr/ministere-de-l-agriculture/article/902924/secheresse-l-annonce-du-plan-d-urgence-est-reportee-de-quelques-jours"
+        }
+      ],
+      "urls": [
+        "https://agriculture.gouv.fr/plus-d1-milliard-deuros-debloques-par-le-gouvernement-pour-soutenir-les-agriculteurs-et-la"
+      ],
+      "published_at": "2026-09-04",
+      "detected_via": "source primaire agriculture.gouv.fr (04/09/2026) — nouveauté vs couverture report 02–03/09",
+      "relevance": {
+        "score": 5,
+        "why": "Dispositif opérationnel pour DDT, chambres d'agriculture et exploitants calibrant trésorerie, fourrages et semis automne 2026 après l'été record."
+      },
+      "entities": [
+        "plan CASI",
+        "ISN",
+        "fonds de réarmement agricole",
+        "GNR agricole"
+      ],
+      "tags": ["agriculture", "sécheresse", "aides"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-07-002",
+      "title": "Saint-Brieuc Armor Agglomération : première borne connectée d'eau industrielle en France",
+      "summary": "Saint-Brieuc Armor Agglomération a déployé une borne autonome (panneau solaire) de distribution d'eau industrielle au centre technique de l'eau, alimentée par les eaux de lavage de l'usine de potabilisation de la Croix-Cholin (Ploufragan). Les utilisateurs déverrouillent la borne via smartphone ; les volumes sont comptabilisés automatiquement. Depuis octobre 2025, le dispositif a permis d'économiser 400 m³ d'eau potable pour l'hydrocurage des réseaux d'eaux usées et pluviales ; une dizaine d'agents et cinq entreprises l'utilisent, avec extension prévue au nettoyage de voiries, à l'arrosage et aux chantiers. Actu-Environnement en fait le relais national le 4 septembre 2026.",
+      "themes": ["eau_zones_humides", "climat_adaptation", "donnees_outils"],
+      "signal_type": "nouvel_outil_ou_plateforme",
+      "geography": ["France", "Bretagne", "Côtes-d'Armor"],
+      "actors": [
+        "Saint-Brieuc Armor Agglomération",
+        "BERMAD",
+        "Cubis System",
+        "Paragel"
+      ],
+      "primary_source": {
+        "name": "Saint-Brieuc Armor Agglomération — borne d'eau industrielle connectée",
+        "url": "https://www.saintbrieuc-armor-agglo.bzh/information/actualites/innovation-une-borne-deau-intelligente-et-autonome-5987",
+        "type": "territorial"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — borne eau industrielle Saint-Brieuc",
+          "url": "https://www.actu-environnement.com/ae/news/saint-brieuc-armor-agglomeration-facilite-acces-a-eau-industrielle-pour-acteurs-publics-et-prives-48458.php4"
+        }
+      ],
+      "urls": [
+        "https://www.saintbrieuc-armor-agglo.bzh/information/actualites/innovation-une-borne-deau-intelligente-et-autonome-5987",
+        "https://www.actu-environnement.com/ae/news/saint-brieuc-armor-agglomeration-facilite-acces-a-eau-industrielle-pour-acteurs-publics-et-prives-48458.php4"
+      ],
+      "published_at": "2026-09-04",
+      "detected_via": "source primaire agglo (07/2026, actualisée) ; reprise Actu-Environnement (04/09/2026)",
+      "relevance": {
+        "score": 4,
+        "why": "Retour d'expérience transférable pour syndicats des eaux et collectivités cherchant à déporter les usages non potables et à tracer les prélèvements en contexte de sécheresse 2026."
+      },
+      "entities": [
+        "eau industrielle",
+        "usine Croix-Cholin",
+        "hydrocurage",
+        "400 m³ économisés"
+      ],
+      "tags": ["eau", "innovation", "GEMAPI"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-07-003",
+      "title": "Confort d'été : le bioclimatique et le low-tech au centre du SIBCA 2026",
+      "summary": "Publié le 4 septembre 2026, un article Actu-Environnement synthétise les retours du Salon de l'immobilier bas carbone (SIBCA, Paris, 1er–3 septembre 2026) sur l'adaptation des bâtiments aux canicules. Élus, architectes et promoteurs mettent en avant ventilation naturelle, brasseurs d'air, brise-soleil, moucharabiehs et végétalisation plutôt que la climatisation seule. L'article complète la recherche Cerema sur la surchauffe scolaire à l'échelle de la salle (03/09) en élargissant aux logements et à l'urbanisme, dans la continuité du bilan estival Météo-France.",
+      "themes": ["climat_adaptation", "rapports_guides", "zan_artificialisation"],
+      "signal_type": "changement_de_pratique_professionnel",
+      "geography": ["France"],
+      "actors": [
+        "SIBCA",
+        "collectivités",
+        "promoteurs immobiliers"
+      ],
+      "primary_source": {
+        "name": "Actu-Environnement — low-tech et bioclimatique face aux canicules",
+        "url": "https://www.actu-environnement.com/ae/news/canicule-solutions-low-tech-bioclimatiques-ecoles-logements-refuge-climatique-racine-sibca-48472.php4",
+        "type": "media_secondaire"
+      },
+      "urls": [
+        "https://www.actu-environnement.com/ae/news/canicule-solutions-low-tech-bioclimatiques-ecoles-logements-refuge-climatique-racine-sibca-48472.php4",
+        "https://www.cerema.fr/fr/actualites/ecoles-surchauffe-probleme-qui-se-joue-echelle-salles-classe"
+      ],
+      "published_at": "2026-09-04",
+      "detected_via": "Actu-Environnement (04/09/2026) ; articulation avec Cerema écoles surchauffe (03/09)",
+      "relevance": {
+        "score": 4,
+        "why": "Panorama de solutions sobres pour services urbanisme, MOA scolaires et bureaux d'études thermiques après l'été 2026 record."
+      },
+      "entities": [
+        "SIBCA 2026",
+        "ventilation naturelle",
+        "brise-soleil",
+        "confort d'été"
+      ],
+      "tags": ["bâtiment", "canicule", "adaptation"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-07-004",
+      "title": "Hydrogène par électrolyse : clôture aujourd'hui de la consultation ICPE (rubriques dédiées, effet 2027)",
+      "summary": "La consultation publique sur le projet de décret et deux arrêtés encadrant la production industrielle d'hydrogène par électrolyse de l'eau se clôt le 7 septembre 2026. Le dispositif retire l'hydrogène électrolytique de la rubrique 3420 (vaporeformage) et crée de nouvelles rubriques avec trois régimes proportionnés (déclaration, enregistrement, autorisation) pour des capacités de 500 kg/j à 50 t/j, encadrant risques d'explosion et consommation d'eau. Les textes seront soumis au CSPRT le 15 septembre 2026 ; entrée en vigueur visée au 1er janvier 2027. Sept contributions publiques recensées au 7 septembre.",
+      "themes": ["reglementation", "energie_biodiversite", "eau_zones_humides", "incendies_risques"],
+      "signal_type": "consultation_publique",
+      "geography": ["France"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "DGPR",
+        "CSPRT",
+        "filière hydrogène"
+      ],
+      "primary_source": {
+        "name": "Consultations publiques MTE — hydrogène électrolyse ICPE",
+        "url": "https://www.consultations-publiques.developpement-durable.gouv.fr/projets-de-textes-un-decret-et-deux-arretes-a3413.html",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — production hydrogène ICPE",
+          "url": "https://www.actu-environnement.com/ae/news/hydrogene-electrolyse-icpe-reglementation-2027-48403.php4"
+        }
+      ],
+      "urls": [
+        "https://www.consultations-publiques.developpement-durable.gouv.fr/projets-de-textes-un-decret-et-deux-arretes-a3413.html",
+        "https://www.actu-environnement.com/ae/news/hydrogene-electrolyse-icpe-reglementation-2027-48403.php4"
+      ],
+      "published_at": "2026-09-07",
+      "detected_via": "source primaire consultations-publiques (échéance 07/09/2026) ; rappel Actu-Environnement (19/08/2026)",
+      "relevance": {
+        "score": 5,
+        "why": "Dernière journée de contribution pour porteurs de projets H₂, DREAL et bureaux d'études ICPE calibrant régime et prescriptions avant examen CSPRT."
+      },
+      "entities": [
+        "rubrique 3420",
+        "rubrique 2611",
+        "électrolyse",
+        "CSPRT"
+      ],
+      "tags": ["hydrogène", "ICPE", "échéance"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-07-005",
+      "title": "REP emballages ménagers (EMAP) : consultation sur le nouveau cahier des charges jusqu'au 11 septembre",
+      "summary": "Ouverte le 13 août 2026, la consultation sur le projet d'arrêté modifiant le cahier des charges REP emballages ménagers, imprimés papiers et papiers graphiques (EMAP) se poursuit jusqu'au 11 septembre 2026 inclus. Le texte décline le plan Plastique (CPE du 19 juin 2026) : éco-modulations renforcées (petits formats, emballages excessifs, performances de recyclage plastique), trajectoire réemploi (objectif 10 % en 2027, gammes standards, enveloppe 50 M€ en 2027), contractualisation collectivités/éco-organismes (150 M€/an 2027–2029) et entrée en vigueur au 1er janvier 2027. Douze contributions publiques au 7 septembre ; industriels (ELIPSO) alertent sur compatibilité PPWR.",
+      "themes": ["reglementation", "donnees_outils"],
+      "signal_type": "consultation_publique",
+      "geography": ["France", "UE"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "éco-organismes emballages",
+        "collectivités",
+        "ELIPSO"
+      ],
+      "primary_source": {
+        "name": "Consultations publiques MTE — cahier des charges REP EMAP",
+        "url": "https://www.consultations-publiques.developpement-durable.gouv.fr/projet-d-arrete-modifiant-l-arrete-du-7-decembre-a3410.html",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — renoncement consigne plastique (contexte plan Plastique)",
+          "url": "https://www.actu-environnement.com/depeches/plastique-gouvernement-renonce-une-n-1327.html"
+        }
+      ],
+      "urls": [
+        "https://www.consultations-publiques.developpement-durable.gouv.fr/projet-d-arrete-modifiant-l-arrete-du-7-decembre-a3410.html"
+      ],
+      "published_at": "2026-08-13",
+      "detected_via": "source primaire consultations-publiques (échéance 11/09/2026) ; lien avec dépêche consigne plastique 04/09",
+      "relevance": {
+        "score": 5,
+        "why": "Fenêtre J-4 pour collectivités, éco-organismes et juristes déchets anticipant soutiens financiers, réemploi et pénalités plastique au 1er janvier 2027."
+      },
+      "entities": [
+        "REP EMAP",
+        "plan Plastique",
+        "PPWR",
+        "réemploi"
+      ],
+      "tags": ["emballages", "déchets", "consultation"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-07-006",
+      "title": "REP emballages professionnels : consultation sur le report d'entrée en vigueur au 1er janvier 2027",
+      "summary": "Consultation ouverte jusqu'au 10 septembre 2026 sur un projet d'arrêté reportant au 1er janvier 2027 l'entrée en vigueur du cahier des charges REP emballages professionnels (initialement prévue le 1er juillet 2026, arrêté du 2 décembre 2025). La filière concerne environ 8 Mt/an de déchets d'emballages professionnels (61 % du total). Trois contributions publiques ; Calitom et d'autres collectivités s'opposent au nouveau report et demandent des soutiens immédiats pour les flux plastique et bois pris en charge en déchèterie.",
+      "themes": ["reglementation", "donnees_outils"],
+      "signal_type": "consultation_publique",
+      "geography": ["France", "UE"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "CITEO PRO",
+        "LÉKO PRO",
+        "TWIICE",
+        "collectivités"
+      ],
+      "primary_source": {
+        "name": "Consultations publiques MTE — report REP emballages professionnels",
+        "url": "https://www.consultations-publiques.developpement-durable.gouv.fr/projet-d-arrete-modifiant-l-arrete-2-du-decembre-a3407.html",
+        "type": "institutionnel"
+      },
+      "urls": [
+        "https://www.consultations-publiques.developpement-durable.gouv.fr/projet-d-arrete-modifiant-l-arrete-2-du-decembre-a3407.html"
+      ],
+      "published_at": "2026-08-10",
+      "detected_via": "source primaire consultations-publiques (échéance 10/09/2026)",
+      "relevance": {
+        "score": 4,
+        "why": "Calendrier et financements pour services déchets et producteurs B2B calibrant barèmes 2027 et prises en charge déchèteries."
+      },
+      "entities": [
+        "REP emballages professionnels",
+        "décret n° 2025-1081",
+        "1er janvier 2027"
+      ],
+      "tags": ["emballages", "REP", "report"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-07-007",
+      "title": "CEE mobilité : consultation sur la bonification TRA-EQ-128 (taxis électriques) jusqu'au 17 septembre",
+      "summary": "Une consultation publique est ouverte jusqu'au 17 septembre 2026 sur un projet d'arrêté modifiant les niveaux de bonification et critères d'éligibilité de la fiche d'opération standardisée TRA-EQ-128 relative à l'achat ou à la location de véhicules légers électriques pour le transport public de personnes (taxis). Le texte s'inscrit dans la série de réorientations CEE et mesures de verdissement des transports entrées en vigueur à la rentrée 2026.",
+      "themes": ["climat_adaptation", "reglementation", "donnees_outils"],
+      "signal_type": "consultation_publique",
+      "geography": ["France"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "DGEC",
+        "filière taxi"
+      ],
+      "primary_source": {
+        "name": "Consultations publiques MTE — bonification TRA-EQ-128",
+        "url": "https://www.consultations-publiques.developpement-durable.gouv.fr/arrete-modifiant-les-niveaux-de-bonification-et-a3418.html",
+        "type": "institutionnel"
+      },
+      "urls": [
+        "https://www.consultations-publiques.developpement-durable.gouv.fr/arrete-modifiant-les-niveaux-de-bonification-et-a3418.html"
+      ],
+      "published_at": "2026-08-27",
+      "detected_via": "source primaire consultations-publiques (échéance 17/09/2026)",
+      "relevance": {
+        "score": 3,
+        "why": "Échéance proche pour exploitants de taxi et obligés CEE anticipant les conditions de bonification véhicules électriques."
+      },
+      "entities": [
+        "TRA-EQ-128",
+        "certificats d'économies d'énergie",
+        "taxi électrique"
+      ],
+      "tags": ["CEE", "mobilité", "consultation"],
+      "is_new": true
+    }
+  ]
+}
