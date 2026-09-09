@@ -1,0 +1,332 @@
+{
+  "date": "2026-09-08",
+  "generated_at": "2026-09-08T06:05:00+02:00",
+  "timezone": "Europe/Paris",
+  "meta": {
+    "item_count": 8,
+    "sources_consulted": [
+      "consultations_publiques_mte",
+      "fonds_indemnisation_pesticides",
+      "anses",
+      "actu_environnement",
+      "sdes",
+      "cerema",
+      "ecologie_gouv"
+    ],
+    "deduplicated_against_days": 14,
+    "notes": "Lundi 08/09 : nouveautés dominées par publications 03–07/09 (rapport FIVP 2025, arrêté CEE chaudières fossiles ECOR2620285A, dépêche consigne volontaire locale, résultats PNR EST 2025 / AAP 2026 Anses) et ouvertures consultations 07/09 (AGRI-TH-108, Advenir, capture palombes Sud-Ouest, PPBE Le Bourget). Clôture ICPE hydrogène (07/09), plan CASI, Cartofriches, REP EMAP/PRO échéances, low-tech SIBCA, etc. exclus comme déjà couverts 01–07/09. Corps payants Actu-Environnement partiels ; rapport FIVP PDF non extrait intégralement (pdftotext indisponible)."
+  },
+  "items": [
+    {
+      "id": "2026-09-08-001",
+      "title": "FIVP 2025 : les prestations versées dépassent pour la première fois la taxe phytosanitaire",
+      "summary": "Publié le 3 septembre 2026, le rapport d'activité 2025 du Fonds d'indemnisation des victimes de pesticides (FIVP, CCMSA) indique que le montant des prestations versées excède désormais celui de la taxe perçue sur les ventes de produits phytopharmaceutiques, première fois depuis la création du fonds en 2020. Le nombre annuel de demandes dépasse le millier ; les retraités agricoles représentent près de 59 % des demandeurs, majoritairement pour un cancer de la prostate, alors qu'ils ne formaient qu'un tiers des bénéficiaires à l'origine. Les profils concernés travaillaient surtout en polyculture-élevage, cultures céréalières ou viticulture. Anne-Laure Torresin, directrice du FIVP, alerte sur la soutenabilité du financement et la question d'une augmentation de la taxe.",
+      "themes": ["reglementation", "sols", "rapports_guides"],
+      "signal_type": "rapport_institutionnel_majeur",
+      "geography": ["France"],
+      "actors": [
+        "FIVP",
+        "CCMSA",
+        "MSA Mayenne-Orne-Sarthe",
+        "Ministère de l'Agriculture"
+      ],
+      "primary_source": {
+        "name": "Fonds d'indemnisation des victimes de pesticides — rapport d'activité 2025",
+        "url": "https://fonds-indemnisation-pesticides.fr/actualites/rapport-dactivite-du-fonds-2025/",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — financement FIVP en question",
+          "url": "https://www.actu-environnement.com/ae/news/fivp-financement-pesticides-indemnisation-taxe-48476.php4"
+        }
+      ],
+      "urls": [
+        "https://fonds-indemnisation-pesticides.fr/actualites/rapport-dactivite-du-fonds-2025/",
+        "https://fonds-indemnisation-pesticides.fr/wp-content/uploads/2026/09/Rapport-2025.pdf"
+      ],
+      "published_at": "2026-09-03",
+      "detected_via": "source primaire fonds-indemnisation-pesticides.fr (03/09/2026) ; reprise Actu-Environnement (07/09/2026)",
+      "relevance": {
+        "score": 4,
+        "why": "Signal budgétaire pour DDT, MSA et juristes santé-travail anticipant évolution du financement du FIVP et charge indemnisation pesticides."
+      },
+      "entities": [
+        "FIVP",
+        "taxe phytosanitaire",
+        "cancer de la prostate",
+        "rapport d'activité 2025"
+      ],
+      "tags": ["pesticides", "indemnisation", "MSA"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-08-002",
+      "title": "CEE : arrêté du 4 septembre autorisant le remplacement anticipé de chaudières fossiles déjà primees",
+      "summary": "Paru au Journal officiel le 6 septembre 2026, l'arrêté ECOR2620285A du 4 septembre autorise le remplacement, avant l'échéance de leur durée de vie conventionnelle, de chaudières fossiles (notamment gaz) installées avant le 1er janvier 2021 dans le résidentiel et le tertiaire, même si ces équipements avaient déjà bénéficié d'une prime CEE. De nouvelles primes sont possibles pour l'installation d'une pompe à chaleur air/eau ou eau/eau individuelle ou collective, d'un système géothermique ou pour un raccordement à un réseau de chaleur. Le texte complète la série de réorientations CEE de la rentrée 2026 (fin des PAC gaz, renforcement solaire thermique).",
+      "themes": ["climat_adaptation", "reglementation", "donnees_outils"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "DGEC",
+        "obligés CEE"
+      ],
+      "primary_source": {
+        "name": "Journal officiel — arrêté ECOR2620285A du 4 septembre 2026",
+        "url": "https://www.actu-environnement.com/ae/reglementation/arrete-du-04-09-2026-ecor2620285a-40271.php",
+        "type": "juridique"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — nouvelles primes CEE chaudières fossiles",
+          "url": "https://www.actu-environnement.com/ae/news/remplacement-chaudiere-fossile-nouvelles-primes-cee-pompes-chaleur-reseaux-chaleur-48479.php4"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/ae/reglementation/arrete-du-04-09-2026-ecor2620285a-40271.php",
+        "https://www.actu-environnement.com/ae/news/remplacement-chaudiere-fossile-nouvelles-primes-cee-pompes-chaleur-reseaux-chaleur-48479.php4"
+      ],
+      "published_at": "2026-09-06",
+      "detected_via": "Actu-Environnement (07/09/2026) ; page réglementation arrêté confirmée",
+      "relevance": {
+        "score": 5,
+        "why": "Bascule opérationnelle pour installateurs, AMO rénovation et obligés CEE calibrant les dossiers de remplacement chaudière avant fin de vie conventionnelle."
+      },
+      "entities": [
+        "ECOR2620285A",
+        "certificats d'économies d'énergie",
+        "pompe à chaleur",
+        "réseau de chaleur"
+      ],
+      "tags": ["CEE", "bâtiment", "décarbonation"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-08-003",
+      "title": "Plan plastique : abandon confirmé de la consigne nationale, modèle volontaire réservé aux collectivités",
+      "summary": "Selon une analyse Actu-Environnement du 7 septembre 2026, le gouvernement confirme qu'« aucun dispositif de consigne obligatoire ne sera mis en place » pour le recyclage des bouteilles en plastique, pivot relancé par l'Élysée au printemps 2026. L'exécutif propose désormais une consigne « à l'échelle des seules collectivités volontaires », après le retrait des associations de collectivités de la concertation fin juin et les tensions sur la TGAP déchets. Les fédérations locales (FNCCR, Intercommunalités de France, Federrec) expriment leur soulagement. Ce revirement complète la dépêche du 4 septembre déjà signalée, en précisant l'alternative territoriale volontaire.",
+      "themes": ["reglementation", "donnees_outils"],
+      "signal_type": "changement_de_pratique_professionnel",
+      "geography": ["France", "UE"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "collectivités territoriales",
+        "Federrec",
+        "FNCCR"
+      ],
+      "primary_source": {
+        "name": "Actu-Environnement — consigne volontaire locale et abandon national",
+        "url": "https://www.actu-environnement.com/ae/news/consigne-recyclage-opposants-calendrier-politique-recul-executif-48478.php4",
+        "type": "media_secondaire"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — dépêche renoncement consigne (04/09/2026)",
+          "url": "https://www.actu-environnement.com/depeches/plastique-gouvernement-renonce-une-n-1327.html"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/ae/news/consigne-recyclage-opposants-calendrier-politique-recul-executif-48478.php4",
+        "https://www.actu-environnement.com/depeches/plastique-gouvernement-renonce-une-n-1327.html"
+      ],
+      "published_at": "2026-09-07",
+      "detected_via": "Actu-Environnement (07/09/2026) ; nouveauté vs couverture 04–06/09 : précision modèle volontaire local",
+      "relevance": {
+        "score": 4,
+        "why": "Orientation politique actualisée pour filières déchets et collectivités arbitrant filière bouteilles PET et financements REP au lieu d'une consigne nationale."
+      },
+      "entities": [
+        "consigne nationale",
+        "consigne volontaire",
+        "plan plastique",
+        "REP emballages"
+      ],
+      "tags": ["plastique", "déchets", "collectivités"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-08-004",
+      "title": "PNR EST : 36 projets retenus en 2025 (6,2 M€) et appels 2026 ouverts (échéance 22 septembre)",
+      "summary": "L'Anses a publié la liste des 36 projets retenus dans le cadre de l'appel à projets 2025 du Programme national de recherche Environnement-Santé-Travail (PNR EST), pour un budget total de 6,2 millions d'euros. Dix-sept projets portent sur les substances chimiques, dont quatre dédiés aux PFAS ; neuf concernent les agents biologiques, cinq les radiofréquences, trois la lumière artificielle. Parallèlement, la campagne 2026 est ouverte : lettres d'intention à déposer avant le 22 septembre 2026 (appel généraliste) et le 1er octobre 2026 (radiofréquences et santé), via appelsprojetsrecherche.fr. Les thématiques prioritaires incluent exposome, perturbateurs endocriniens, microplastiques, climat et perte de biodiversité.",
+      "themes": ["rapports_guides", "donnees_outils", "biodiversite"],
+      "signal_type": "appel_a_projets_ou_financement",
+      "geography": ["France"],
+      "actors": [
+        "Anses",
+        "PNR EST",
+        "Ministère de la Transition écologique",
+        "Ministère du Travail"
+      ],
+      "primary_source": {
+        "name": "Anses — appels à projets PNR EST 2026",
+        "url": "https://www.anses.fr/fr/content/deux-appels-projets-de-recherche-pour-mieux-connaitre-les-risques-sanitaires-lies-1",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — 36 projets AAP 2025 PNR EST",
+          "url": "https://www.actu-environnement.com/ae/news/anses-aap-2025-projets-sante-environnement-travail-48473.php4"
+        }
+      ],
+      "urls": [
+        "https://www.anses.fr/fr/content/deux-appels-projets-de-recherche-pour-mieux-connaitre-les-risques-sanitaires-lies-1",
+        "https://www.anses.fr/fr/content/appel-projets-de-recherche-du-pnr-est-sur-le-theme-environnement-sante-travail-2",
+        "https://www.anses.fr/system/files/Texte-APREST-2026.pdf"
+      ],
+      "published_at": "2026-09-07",
+      "detected_via": "Actu-Environnement (07/09/2026) ; source primaire Anses AAP 2026 confirmée (09/07/2026)",
+      "relevance": {
+        "score": 4,
+        "why": "Fenêtre J-14 pour laboratoires et services de l'État déposant des projets PFAS, exposome ou radiofréquences alimentant les expertises réglementaires."
+      },
+      "entities": [
+        "PNR EST",
+        "PFAS",
+        "exposome",
+        "appelsprojetsrecherche.fr"
+      ],
+      "tags": ["recherche", "santé_environnement", "AAP"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-08-005",
+      "title": "CEE serres maraîchères : consultation sur la révision de la fiche AGRI-TH-108 (PAC air/eau) jusqu'au 28 septembre",
+      "summary": "Ouverte le 7 septembre 2026, une consultation publique porte sur le projet d'arrêté révisant la fiche d'opération standardisée AGRI-TH-108 (PAC air/eau pour le chauffage des serres maraîchères ou horticoles), dans le cadre de l'électrification des usages agricoles (mesure 20 du dossier de presse gouvernemental). Le texte limite l'éligibilité aux projets d'électrification totale (hybrides PAC + chaudière fossile exclus), impose une étude de dimensionnement préalable et calcule le volume CEE en énergie finale intégrale avec plafonnement de surface selon la puissance installée. Contrôle à 100 % sur site. Estimation : ~130 000 € de CEE pour 8 000 m² (~32 % du coût). Clôture le 28 septembre 2026.",
+      "themes": ["climat_adaptation", "reglementation", "energie_biodiversite"],
+      "signal_type": "consultation_publique",
+      "geography": ["France"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "DGEC",
+        "filière horticole"
+      ],
+      "primary_source": {
+        "name": "Consultations publiques MTE — révision fiche AGRI-TH-108",
+        "url": "https://www.consultations-publiques.developpement-durable.gouv.fr/projet-d-arrete-portant-la-revision-de-la-fiche-d-a3422.html",
+        "type": "institutionnel"
+      },
+      "urls": [
+        "https://www.consultations-publiques.developpement-durable.gouv.fr/projet-d-arrete-portant-la-revision-de-la-fiche-d-a3422.html"
+      ],
+      "published_at": "2026-09-07",
+      "detected_via": "source primaire consultations-publiques (ouverture 07/09/2026)",
+      "relevance": {
+        "score": 4,
+        "why": "Calibrage des primes CEE pour exploitants horticoles, obligés et bureaux d'études dimensionnant le remplacement des chaufferies fossiles en serre."
+      },
+      "entities": [
+        "AGRI-TH-108",
+        "pompe à chaleur serre",
+        "électrification agricole"
+      ],
+      "tags": ["CEE", "serres", "horticulture"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-08-006",
+      "title": "Programme Advenir : consultation sur le réabondement CEE des bornes de recharge jusqu'en 2030",
+      "summary": "Consultation ouverte du 7 au 28 septembre 2026 sur un projet d'arrêté modifiant le programme Advenir dans le cadre des CEE, en lien avec le plan d'électrification. Le dispositif, qui finance l'installation de bornes de recharge pour véhicules électriques, serait réabondé courant 2026 avec visibilité jusqu'en 2030 : primes dégressives sur trois ans pour la voirie, renforcement résidentiel collectif (y compris bailleurs sociaux), renforcement poids lourds au dépôt et en itinérance, et sous-enveloppe <10 M€ pour la recharge des navires de pêche. Objectif : >65 500 nouveaux points de recharge (137 500 cumulés sur la durée). Seconde enveloppe plafonnée à 400 M€ de versements jusqu'au 31 décembre 2030 après consommation des 28,571 TWh cumac initiaux.",
+      "themes": ["climat_adaptation", "reglementation", "energie_biodiversite"],
+      "signal_type": "consultation_publique",
+      "geography": ["France"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "Avere-France",
+        "obligés CEE"
+      ],
+      "primary_source": {
+        "name": "Consultations publiques MTE — modification programme Advenir CEE",
+        "url": "https://www.consultations-publiques.developpement-durable.gouv.fr/projet-d-arrete-portant-modification-du-programme-a3420.html",
+        "type": "institutionnel"
+      },
+      "urls": [
+        "https://www.consultations-publiques.developpement-durable.gouv.fr/projet-d-arrete-portant-modification-du-programme-a3420.html"
+      ],
+      "published_at": "2026-09-07",
+      "detected_via": "source primaire consultations-publiques (ouverture 07/09/2026)",
+      "relevance": {
+        "score": 4,
+        "why": "Visibilité financière 2026–2030 pour collectivités, exploitants IRVE et filière pêche anticipant le calendrier de primes Advenir."
+      },
+      "entities": [
+        "programme Advenir",
+        "bornes de recharge",
+        "plan d'électrification",
+        "400 M€"
+      ],
+      "tags": ["mobilité", "CEE", "IRVE"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-08-007",
+      "title": "Capture de palombes et pigeons (Sud-Ouest) : consultation sur la mise en conformité avec la directive Oiseaux",
+      "summary": "Du 7 au 28 septembre 2026, une consultation publique porte sur deux projets d'arrêté encadrant la capture de pigeons ramiers et colombins à l'aide de pantes et pantières dans le Gers, la Gironde, les Landes, Lot-et-Garonne et Pyrénées-Atlantiques. Le dispositif vise à moderniser des textes de 2006–2009 et à répondre aux exigences de l'article 9 de la directive Oiseaux, après menace de recours de la Commission européenne (12 février 2025) pour capture massive non sélective. Quotas proposés : 80 000 ramiers et 5 000 colombins par saison (seuils <1 % de la mortalité annuelle moyenne selon OFB/MNHN). Régime d'autorisation préalable, prescriptions techniques, suivi des captures et contrôles OFB. Plus de 420 contributions recensées au 8 septembre.",
+      "themes": ["biodiversite", "especes_habitats", "reglementation"],
+      "signal_type": "consultation_publique",
+      "geography": ["France", "Nouvelle-Aquitaine", "Occitanie"],
+      "actors": [
+        "Office français de la biodiversité",
+        "MNHN",
+        "Commission européenne",
+        "Conseil national de la chasse et de la faune sauvage"
+      ],
+      "primary_source": {
+        "name": "Consultations publiques MTE — capture palombes et pigeons Sud-Ouest",
+        "url": "https://www.consultations-publiques.developpement-durable.gouv.fr/projet-d-arrete-relatif-a-la-capture-de-pigeons-a3423.html",
+        "type": "institutionnel"
+      },
+      "urls": [
+        "https://www.consultations-publiques.developpement-durable.gouv.fr/projet-d-arrete-relatif-a-la-capture-de-pigeons-a3423.html"
+      ],
+      "published_at": "2026-09-07",
+      "detected_via": "source primaire consultations-publiques (ouverture 07/09/2026)",
+      "relevance": {
+        "score": 4,
+        "why": "Contentieux UE et dérogations espèces pour DREAL, fédérations cynégétiques et associations de protection des oiseaux en Aquitaine et Occitanie."
+      },
+      "entities": [
+        "Columba palumbus",
+        "pantes et pantières",
+        "directive Oiseaux",
+        "quota 80 000"
+      ],
+      "tags": ["chasse", "oiseaux", "UE"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-08-008",
+      "title": "PPBE Paris-Le Bourget 2024-2028 : consultation publique jusqu'au 7 novembre",
+      "summary": "Ouverte le 7 septembre 2026 pour deux mois, la consultation porte sur le projet de plan de prévention du bruit dans l'environnement (PPBE) de l'aérodrome de Paris-Le Bourget (57385 mouvements en 2024). Le document dresse le bilan des actions 2018-2024 et liste les mesures 2024-2028 pour maîtriser les nuisances sonores, sur la base de cartes stratégiques de bruit (trafic 2022 en référence, prévisions 2028). Présenté à la commission consultative de l'environnement le 9 juillet 2026, le PPBE sera approuvé par arrêté interpréfectoral après bilan de la consultation.",
+      "themes": ["reglementation", "climat_adaptation", "donnees_outils"],
+      "signal_type": "consultation_publique",
+      "geography": ["France", "Île-de-France", "Seine-Saint-Denis"],
+      "actors": [
+        "DGAC",
+        "Aéroports de Paris",
+        "préfecture de Seine-Saint-Denis"
+      ],
+      "primary_source": {
+        "name": "Consultations publiques MTE — PPBE aérodrome Paris-Le Bourget 2024-2028",
+        "url": "https://www.consultations-publiques.developpement-durable.gouv.fr/consultation-du-public-concernant-le-projet-de-a3421.html",
+        "type": "institutionnel"
+      },
+      "urls": [
+        "https://www.consultations-publiques.developpement-durable.gouv.fr/consultation-du-public-concernant-le-projet-de-a3421.html"
+      ],
+      "published_at": "2026-09-07",
+      "detected_via": "source primaire consultations-publiques (ouverture 07/09/2026)",
+      "relevance": {
+        "score": 3,
+        "why": "Fenêtre de contribution pour collectivités riveraines, urbanistes et BE acoustique instruisant compatibilité urbanistique et mesures anti-bruit autour du Bourget."
+      },
+      "entities": [
+        "PPBE",
+        "Paris-Le Bourget",
+        "cartes stratégiques de bruit"
+      ],
+      "tags": ["bruit", "aéroport", "urbanisme"],
+      "is_new": true
+    }
+  ]
+}
