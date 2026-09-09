@@ -1,0 +1,319 @@
+{
+  "date": "2026-09-09",
+  "generated_at": "2026-09-09T06:01:00+02:00",
+  "timezone": "Europe/Paris",
+  "meta": {
+    "item_count": 7,
+    "sources_consulted": [
+      "consultations_publiques_mte",
+      "actu_environnement",
+      "lpo",
+      "la_france_agricole",
+      "cerema",
+      "sdes",
+      "ecologie_gouv"
+    ],
+    "deduplicated_against_days": 14,
+    "notes": "Mardi 09/09 : nouveautés dominées par arrêtés JO 06–08/09 (grand tétras, lagopède alpin, PFAS/TGAP boues), rapport Cour des comptes PAC PSN (02/09, reprise 08/09), réduction budget diagnostics écoles canicule (56→16 M€, confirmé 08/09) et prolongation consultation REP emballages pro au 17/09. FIVP, CEE chaudières, consigne plastique, PNR EST, AGRI-TH-108, hydrogène ICPE (clôturé 07/09), plan CASI, etc. exclus comme déjà couverts 01–08/09. courdescomptes.fr injoignable ; corps payants Actu-Environnement partiels sur PAC et budget écoles."
+  },
+  "items": [
+    {
+      "id": "2026-09-09-001",
+      "title": "Grand tétras et lagopède alpin : inscription définitive sur la liste des oiseaux protégés (JO 8 septembre 2026)",
+      "summary": "Parus au Journal officiel le 8 septembre 2026, deux arrêtés des ministères de la transition écologique et de l'agriculture inscrivent le grand tétras (Tetrao urogallus) et le lagopède alpin (Lagopus muta) à l'article 3 de l'arrêté du 29 octobre 2009 fixant la liste des oiseaux protégés sur l'ensemble du territoire national. Pour le grand tétras, l'arrêté TECL2619332A du 3 septembre 2026 abroge l'article 2 de l'arrêté de 2009 qui encadrait l'interdiction de destruction et de commercialisation, et retire l'espèce de la liste des gibiers chassables ; le moratoire de chasse de 2022 cesse ainsi de produire effet. Pour le lagopède alpin, l'arrêté TECL2619333A du 12 août 2026 complète la protection en retirant l'espèce de la liste des gibiers. Les destructions, captures, perturbations et dégradations de nids et habitats deviennent interdites sur l'ensemble du territoire. Des consultations publiques menées en juillet 2026 avaient recueilli plus de 80 % d'avis favorables.",
+      "themes": ["biodiversite", "especes_habitats", "reglementation"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France", "Pyrénées", "Alpes", "Vosges"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "Ministère de l'Agriculture",
+        "LPO",
+        "OFB"
+      ],
+      "primary_source": {
+        "name": "Journal officiel — arrêté TECL2619332A du 3 septembre 2026 (grand tétras)",
+        "url": "https://www.actu-environnement.com/ae/reglementation/arrete-du-03-09-2026-tecl2619332a-40282.php",
+        "type": "juridique"
+      },
+      "secondary_sources": [
+        {
+          "name": "Journal officiel — arrêté TECL2619333A du 12 août 2026 (lagopède alpin)",
+          "url": "https://www.actu-environnement.com/ae/reglementation/arrete-du-12-08-2026-tecl2619333a-40281.php"
+        },
+        {
+          "name": "LPO — communiqué de presse (08/09/2026)",
+          "url": "https://www.lpo.fr/qui-sommes-nous/espace-presse/communiques/cp-2026/le-lagopede-alpin-et-le-grand-tetras-enfin-proteges-durablement"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/ae/reglementation/arrete-du-03-09-2026-tecl2619332a-40282.php",
+        "https://www.actu-environnement.com/ae/reglementation/arrete-du-12-08-2026-tecl2619333a-40281.php",
+        "https://www.actu-environnement.com/ae/news/grand-tetras-lagopede-alpin-especes-protegees-48481.php4"
+      ],
+      "published_at": "2026-09-08",
+      "detected_via": "pages réglementation Actu-Environnement (arrêtés TECL2619332A/TECL2619333A) ; communiqué LPO (08/09/2026)",
+      "relevance": {
+        "score": 5,
+        "why": "Bascule juridique opposable pour DREAL, fédérations de chasse, gestionnaires d'espaces et BE instruisant ERC, continuités écologiques et PNA en montagne."
+      },
+      "entities": [
+        "grand tétras",
+        "lagopède alpin",
+        "TECL2619332A",
+        "TECL2619333A",
+        "article 3 arrêté 29/10/2009"
+      ],
+      "tags": ["oiseaux", "protection", "montagne"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-09-002",
+      "title": "PFAS : exemption TGAP déchets pour l'élimination des boues d'épuration contaminées",
+      "summary": "Paru au Journal officiel le 6 septembre 2026, l'arrêté TECP2621924A du 1er septembre 2026 modifie la liste des déchets exemptés de taxe générale sur les activités polluantes (TGAP) au titre des déchets. Les boues d'épuration contaminées par des substances per- et polyfluoroalkylées (PFAS) y sont ajoutées, exonérant leur élimination de la TGAP déchets. Le texte intervient dans la continuité de la taxe « pollueur-payeur » PFAS entrée en vigueur le 1er septembre 2026 et des enjeux de traitement des boues des stations d'épuration confrontées à la contamination émergente. Il vise à faciliter l'évacuation des boues fortement contaminées vers des filières d'élimination adaptées sans surtaxe additionnelle au titre de la TGAP déchets.",
+      "themes": ["reglementation", "eau_zones_humides", "sols"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "DGPR",
+        "exploitants STEP",
+        "collectivités"
+      ],
+      "primary_source": {
+        "name": "Journal officiel — arrêté TECP2621924A du 1er septembre 2026",
+        "url": "https://www.actu-environnement.com/ae/reglementation/arrete-du-01-09-2026-tecp2621924a-40270.php",
+        "type": "juridique"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — PFAS et TGAP boues d'épuration",
+          "url": "https://www.actu-environnement.com/ae/news/PFAS-enxeption-tgap-dechets-elimination-boues-epuration-contaminees-48480.php4"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/ae/reglementation/arrete-du-01-09-2026-tecp2621924a-40270.php",
+        "https://www.actu-environnement.com/ae/news/PFAS-enxeption-tgap-dechets-elimination-boues-epuration-contaminees-48480.php4"
+      ],
+      "published_at": "2026-09-06",
+      "detected_via": "page réglementation Actu-Environnement (TECP2621924A) ; dépêche Actu-Environnement (08/09/2026)",
+      "relevance": {
+        "score": 4,
+        "why": "Impact tarifaire pour syndicats des eaux, exploitants STEP et services déchets calibrant filières d'élimination des boues PFAS dès la rentrée 2026."
+      },
+      "entities": [
+        "TECP2621924A",
+        "TGAP déchets",
+        "boues d'épuration",
+        "PFAS"
+      ],
+      "tags": ["PFAS", "STEP", "fiscalité"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-09-003",
+      "title": "PAC : la Cour des comptes juge inadaptée la déclinaison française du plan stratégique national (2023–2027)",
+      "summary": "Dans un rapport publié le 2 septembre 2026, la Cour des comptes évalue la mise en œuvre du plan stratégique national (PSN) de la Politique agricole commune (PAC) déployé depuis 2023. Le PSN mobilise près de 56 % des subventions publiques à l'agriculture française, soit plus de 9 milliards d'euros par an, mais la Cour estime que la France n'a pas su transformer la subsidiarité en stratégie : cadre complexe, prédominance du soutien aux revenus, montants limités aux mesures agro-environnementales et climatiques, écorégimes peu exigeants et conditionnalité assouplie après les mobilisations de 2024–2025. Les résultats économiques et environnementaux sont jugés décevants face aux défis climatiques illustrés par l'été 2026. La Cour préconise pour la PAC post-2027 le concept de « résilience productive » conciliant performance économique et environnementale, avec aides dégressives centrées sur l'investissement, la gestion des risques, la transmission et l'installation.",
+      "themes": ["climat_adaptation", "reglementation", "rapports_guides"],
+      "signal_type": "rapport_institutionnel_majeur",
+      "geography": ["France", "UE"],
+      "actors": [
+        "Cour des comptes",
+        "Ministère de l'Agriculture",
+        "Commission européenne"
+      ],
+      "primary_source": {
+        "name": "Actu-Environnement — rapport Cour des comptes PAC PSN",
+        "url": "https://www.actu-environnement.com/ae/news/pac-psn-resilience-exploitations-cour-comptes-48482.php4",
+        "type": "media_secondaire"
+      },
+      "secondary_sources": [
+        {
+          "name": "La France Agricole — Cour des comptes et PSN",
+          "url": "https://www.lafranceagricole.fr/pac/article/902955/la-cour-des-comptes-etrille-la-declinaison-francaise-de-la-pac"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/ae/news/pac-psn-resilience-exploitations-cour-comptes-48482.php4",
+        "https://www.lafranceagricole.fr/pac/article/902955/la-cour-des-comptes-etrille-la-declinaison-francaise-de-la-pac"
+      ],
+      "published_at": "2026-09-02",
+      "detected_via": "Actu-Environnement (08/09/2026) relayant rapport Cour des comptes (02/09/2026) ; site courdescomptes.fr non consulté (injoignable)",
+      "relevance": {
+        "score": 4,
+        "why": "Argumentaire institutionnel pour DDT, chambres d'agriculture et collectivités anticipant la renégociation PAC 2028–2034 et la réorientation des aides post-sécheresse 2026."
+      },
+      "entities": [
+        "plan stratégique national",
+        "résilience productive",
+        "écorégimes",
+        "conditionnalité PAC"
+      ],
+      "tags": ["PAC", "agriculture", "finances_publiques"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-09-004",
+      "title": "Adaptation scolaire à la canicule : le budget diagnostics Actee réduit de 56 à 16 millions d'euros",
+      "summary": "Le dispositif annoncé fin juin 2026 pour adapter les établissements scolaires aux vagues de chaleur — mobilisant initialement 56 millions d'euros de la Banque des territoires, La Banque postale et le programme Actee (Action des collectivités territoriales pour l'efficacité énergétique) — a été réduit à 16 millions d'euros fin juillet 2026 sur décision de Matignon, selon des informations confirmées le 4–8 septembre 2026 par le directeur d'Actee Guillaume Perrin et relayées par la presse spécialisée. Quarante millions d'euros issus des certificats d'économies d'énergie seraient réorientés vers le plan d'électrification national. Le plan initialement destiné à environ 12 500 écoles ne couvrirait plus que 2 500 établissements prioritaires, avec un financement limité aux audits énergétiques (confort d'été) et non aux travaux ou équipements de rafraîchissement. EDF maintient par ailleurs une enveloppe séparée de 80 millions d'euros pour équipements mobiles et primes forfaitaires.",
+      "themes": ["climat_adaptation", "rapports_guides", "incendies_risques"],
+      "signal_type": "changement_de_pratique_professionnel",
+      "geography": ["France"],
+      "actors": [
+        "Programme Actee",
+        "Banque des territoires",
+        "Matignon",
+        "EDF",
+        "collectivités"
+      ],
+      "primary_source": {
+        "name": "Actu-Environnement — budget diagnostics écoles canicule",
+        "url": "https://www.actu-environnement.com/dit-aujourdhui/1829.html",
+        "type": "media_secondaire"
+      },
+      "secondary_sources": [
+        {
+          "name": "Midi Libre — amputation 40 M€ plan rénovation thermique écoles",
+          "url": "https://www.midilibre.fr/2026/09/04/canicule-le-plan-de-renovation-thermique-des-ecoles-finalement-ampute-de-40-millions-deuros-13535803.php"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/dit-aujourdhui/1829.html",
+        "https://www.midilibre.fr/2026/09/04/canicule-le-plan-de-renovation-thermique-des-ecoles-finalement-ampute-de-40-millions-deuros-13535803.php"
+      ],
+      "published_at": "2026-09-08",
+      "detected_via": "Actu-Environnement « chiffre du jour » (08/09/2026) ; confirmation presse 04/09/2026 ; communiqué Actee/BDT juillet non reconsulté",
+      "relevance": {
+        "score": 4,
+        "why": "Arbitrage budgétaire structurant pour maires, services scolaires et BE bâtiment calibrant diagnostics ABCD et plans de continuité après l'été 2026 record."
+      },
+      "entities": [
+        "programme Actee",
+        "diagnostics confort d'été",
+        "2 500 écoles prioritaires",
+        "plan d'électrification"
+      ],
+      "tags": ["écoles", "canicule", "budget"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-09-005",
+      "title": "REP emballages professionnels : consultation prolongée jusqu'au 17 septembre 2026",
+      "summary": "La consultation sur le projet d'arrêté modifiant le cahier des charges REP emballages professionnels (report d'entrée en vigueur au 1er janvier 2027) a été prolongée : elle court désormais du 10 août au 17 septembre 2026 inclus, contre une échéance initiale au 10 septembre signalée la semaine dernière. Le texte reporte l'application du cahier des charges des éco-organismes et systèmes individuels de la filière B2B (~8 Mt/an de déchets d'emballages, 61 % du total). Des contributions récentes (Cercle National du Recyclage, ANIA, Calitom) expriment des oppositions au report et des demandes de financements immédiats pour les flux plastique et carton en déchèterie.",
+      "themes": ["reglementation", "donnees_outils"],
+      "signal_type": "consultation_publique",
+      "geography": ["France", "UE"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "CITEO PRO",
+        "LÉKO PRO",
+        "collectivités",
+        "ANIA"
+      ],
+      "primary_source": {
+        "name": "Consultations publiques MTE — REP emballages professionnels",
+        "url": "https://www.consultations-publiques.developpement-durable.gouv.fr/projet-d-arrete-modifiant-l-arrete-2-du-decembre-a3407.html",
+        "type": "institutionnel"
+      },
+      "urls": [
+        "https://www.consultations-publiques.developpement-durable.gouv.fr/projet-d-arrete-modifiant-l-arrete-2-du-decembre-a3407.html"
+      ],
+      "published_at": "2026-09-09",
+      "detected_via": "source primaire consultations-publiques (échéance actualisée 17/09/2026 vs 10/09/2026 couvert 07/09)",
+      "relevance": {
+        "score": 4,
+        "why": "Prolongation utile pour services déchets, éco-organismes et industriels B2B disposant de huit jours supplémentaires pour contribuer avant bascule 2027."
+      },
+      "entities": [
+        "REP emballages professionnels",
+        "1er janvier 2027",
+        "cahier des charges"
+      ],
+      "tags": ["emballages", "REP", "prolongation"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-09-006",
+      "title": "Déchets médicaux : Pfizer autorisé à recycler les stylos injectables dans l'expérimentation MNU",
+      "summary": "Paru au Journal officiel le 4 septembre 2026, l'arrêté SFHP2623421A du 2 septembre 2026 autorise la société Pfizer à participer à l'expérimentation de recyclage des stylos injectables jetables non utilisés, dans le cadre du dispositif Médicament non utilisé (MNU) instauré par le décret de septembre 2022 et l'arrêté de novembre 2022. Le texte ouvre une filière de valorisation matière pour ces dispositifs médicaux à usage unique, jusqu'alors majoritairement incinérés ou éliminés en filière DASRI, dans la continuité des expérimentations de reprise en officine et de tri des médicaments non utilisés.",
+      "themes": ["reglementation", "donnees_outils"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France"],
+      "actors": [
+        "Ministère de la Santé",
+        "Pfizer",
+        "officines",
+        "filieres DASRI"
+      ],
+      "primary_source": {
+        "name": "Journal officiel — arrêté SFHP2623421A du 2 septembre 2026",
+        "url": "https://www.actu-environnement.com/ae/reglementation/arrete-du-02-09-2026-sfhp2623421a-40261.php",
+        "type": "juridique"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — Pfizer stylos injectables MNU",
+          "url": "https://www.actu-environnement.com/ae/news/pfizer-recyclage-stylos-injectables-mnu-48483.php4"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/ae/reglementation/arrete-du-02-09-2026-sfhp2623421a-40261.php",
+        "https://www.actu-environnement.com/ae/news/pfizer-recyclage-stylos-injectables-mnu-48483.php4"
+      ],
+      "published_at": "2026-09-04",
+      "detected_via": "page réglementation Actu-Environnement (SFHP2623421A) ; Actu-Environnement (08/09/2026)",
+      "relevance": {
+        "score": 3,
+        "why": "Précédent réglementaire pour filières déchets d'activités de soins et industriels pharmaceutiques structurant filières de reprise des DMNU à usage injectable."
+      },
+      "entities": [
+        "SFHP2623421A",
+        "MNU",
+        "stylos injectables",
+        "DASRI"
+      ],
+      "tags": ["déchets_médicaux", "recyclage", "expérimentation"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-09-007",
+      "title": "Anguille européenne : consultation sur le repeuplement — échéance 16 septembre (J-7)",
+      "summary": "Rappel d'échéance : la consultation publique sur le projet d'arrêté relatif aux mesures de repeuplement de l'anguille européenne (Anguilla anguilla) en France se clôt le 16 septembre 2026. Le texte s'inscrit dans le cadre du règlement (CE) n° 1100/2007 imposant des opérations de repeuplement en civelles pour lutter contre le déclin des populations migratrices. Aucune modification majeure du calendrier n'a été constatée depuis l'ouverture ; la fenêtre de contribution reste prioritaire pour les fédérations de pêche, gestionnaires de continuités écologiques et services de l'État instruisant le plan de gestion anguille.",
+      "themes": ["biodiversite", "eau_zones_humides", "reglementation"],
+      "signal_type": "consultation_publique",
+      "geography": ["France", "UE"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "fédérations de pêche",
+        "OFB"
+      ],
+      "primary_source": {
+        "name": "Consultations publiques MTE — repeuplement anguille européenne",
+        "url": "https://www.consultations-publiques.developpement-durable.gouv.fr/consultation-du-public-sur-la-demande-de-a3417.html",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — consultation repeuplement anguille",
+          "url": "https://www.actu-environnement.com/ae/news/arrete-repeuplement-anguille-europeenne-consultation-48440.php4"
+        }
+      ],
+      "urls": [
+        "https://www.consultations-publiques.developpement-durable.gouv.fr/consultation-du-public-sur-la-demande-de-a3417.html"
+      ],
+      "published_at": "2026-09-09",
+      "detected_via": "source primaire consultations-publiques (échéance 16/09/2026) ; rappel J-7 vs couverture initiale 28/08/2026",
+      "relevance": {
+        "score": 3,
+        "why": "Dernière semaine de contribution pour acteurs de la continuité migratoire et de la gestion halieutique calibrant le repeuplement civelles automne 2026."
+      },
+      "entities": [
+        "Anguilla anguilla",
+        "règlement 1100/2007",
+        "civelles",
+        "repeuplement"
+      ],
+      "tags": ["anguille", "pêche", "échéance"],
+      "is_new": true
+    }
+  ]
+}
