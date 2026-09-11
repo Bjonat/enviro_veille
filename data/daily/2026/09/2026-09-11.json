@@ -1,0 +1,337 @@
+{
+  "date": "2026-09-11",
+  "generated_at": "2026-09-11T06:10:00+02:00",
+  "timezone": "Europe/Paris",
+  "meta": {
+    "item_count": 7,
+    "sources_consulted": [
+      "cre",
+      "brgm",
+      "france_urbaine",
+      "ifremer",
+      "igedd",
+      "actu_environnement",
+      "consultations_publiques_mte",
+      "commission_ue"
+    ],
+    "deduplicated_against_days": 14,
+    "notes": "Jeudi 11/09 : nouveautés dominées par publications 09–10/09 (rapport CRE économie système électrique, CASH Orléans, France urbaine PLF 2027, Ifremer coraux Redecor, reprise rapport IGEDD/IGF SPGD août, consultation TVA circulaire UE) et clôture consultation REP EMAP (11/09, 20 contributions). Grand tétras, PFAS, plan CASI, Cartofriches, PPWR, anguille J-5, etc. exclus comme déjà couverts 01–10/09. Corps payants Actu-Environnement ; notice IGEDD accessible mais page institutionnelle protégée ; portail Have Your Say TVA non reconfirmé directement."
+  },
+  "items": [
+    {
+      "id": "2026-09-11-001",
+      "title": "CRE : rapport sur l'économie du système électrique hexagonal et valeur assurantielle des ENR",
+      "summary": "Publié le 9 septembre 2026, le rapport de la Commission de régulation de l'énergie (CRE) analyse les coûts complets du système électrique français hexagonal et répond à plusieurs idées reçues sur les énergies renouvelables, l'intégration au marché européen et le poids dans les factures. Les coûts complets 2025 s'établissent à 55,9 milliards d'euros (40 Md€ de production, 15,9 Md€ d'acheminement). Les consommateurs financent 78,5 % des coûts de production via la part énergie de leur facture, et 92 % en intégrant l'accise non affectée. Le parc paraît correctement dimensionné (~160 GW de capacité potentielle, ~90 GW disponibles à la pointe), mais les équilibres annuels masquent 513 heures de prix négatifs en 2025 (179 en moyenne 2010–2020) et 1 807 heures au-dessus de 100 €/MWh. La France a retrouvé en 2025 sa position de premier exportateur net d'électricité en Europe (92,3 TWh). Le rapport conclut que les ENR réduisent les prix de marché au bénéfice des consommateurs et jouent un rôle d'amortisseur en période de crise, malgré un surcoût système limité.",
+      "themes": ["energie_biodiversite", "climat_adaptation", "rapports_guides", "donnees_outils"],
+      "signal_type": "rapport_institutionnel_majeur",
+      "geography": ["France", "UE"],
+      "actors": [
+        "Commission de régulation de l'énergie",
+        "RTE",
+        "Enedis",
+        "DGEC"
+      ],
+      "primary_source": {
+        "name": "CRE — Rapport sur l'économie du système électrique français hexagonal",
+        "url": "https://www.cre.fr/actualites/toute-lactualite/la-cre-presente-son-rapport-sur-leconomie-du-systeme-electrique-francais-hexagonal.html",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — ENR et valeur assurantielle (10/09/2026)",
+          "url": "https://www.actu-environnement.com/ae/news/enr-valeur-assurantielle-systeme-electrique-cre-48494.php4"
+        },
+        {
+          "name": "CRE — communiqué PDF (09/09/2026)",
+          "url": "https://www.cre.fr/fileadmin/Documents/Communiques_de_presse/2026/260909_CP_Rapport_economie_du_systeme_electrique.pdf"
+        }
+      ],
+      "urls": [
+        "https://www.cre.fr/actualites/toute-lactualite/la-cre-presente-son-rapport-sur-leconomie-du-systeme-electrique-francais-hexagonal.html",
+        "https://www.cre.fr/fileadmin/Documents/Communiques_de_presse/2026/260909_CP_Rapport_economie_du_systeme_electrique.pdf",
+        "https://www.actu-environnement.com/ae/news/enr-valeur-assurantielle-systeme-electrique-cre-48494.php4"
+      ],
+      "published_at": "2026-09-09",
+      "detected_via": "source primaire CRE (09/09/2026) ; reprise Actu-Environnement (10/09/2026)",
+      "relevance": {
+        "score": 5,
+        "why": "Référentiel chiffré pour DREAL, développeurs EnR, agrégateurs et services de l'État argumentant débats sur facture, interconnexions et trajectoire d'électrification post-été 2026."
+      },
+      "entities": [
+        "coûts complets système électrique",
+        "55,9 Md€",
+        "513 heures prix négatifs",
+        "92,3 TWh exportés"
+      ],
+      "tags": ["CRE", "EnR", "marché_électrique"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-11-002",
+      "title": "Hydrologie : CASH à Orléans (9 sept.) et nappes toujours sous tension fin août",
+      "summary": "Le comité d'anticipation et de suivi hydrologique (CASH), présidé par Monique Barbut, s'est réuni à Orléans le 9 septembre 2026 dans un contexte post-été 2026 encore tendu. Selon le bulletin BRGM au 1er septembre 2026 (publié le 8 septembre), 90 % des niveaux de nappes étaient en baisse en août et 61 % des points de mesure se situaient sous les normales mensuelles ; les secteurs Massif central, Jura et plaine alsacienne restent particulièrement préoccupants. Météo-France prévoit pour septembre–novembre 2026 des températures au-dessus des normales sur l'ensemble du territoire, avec incertitude sur les pluies hors façade atlantique ; les niveaux piézométriques devraient rester inférieurs à ceux de 2025 compte tenu du déficit pluviométrique depuis mai. En parallèle, la mission d'accélération de l'adaptation au changement climatique doit rendre ses conclusions fin septembre 2026 ; le gouvernement évoque un premier programme d'investissements en octobre et un renforcement de la réutilisation des eaux usées.",
+      "themes": ["eau_zones_humides", "climat_adaptation", "incendies_risques"],
+      "signal_type": "rapport_institutionnel_majeur",
+      "geography": ["France", "Centre-Val de Loire", "Massif central", "Alsace"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "BRGM",
+        "Météo-France",
+        "Monique Barbut"
+      ],
+      "primary_source": {
+        "name": "BRGM — Bulletin nappes d'eau souterraine au 1er septembre 2026",
+        "url": "https://www.brgm.fr/fr/actualite/communique-presse/nappes-eau-souterraine-au-1er-septembre-2026",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — CASH et mission adaptation (10/09/2026)",
+          "url": "https://www.actu-environnement.com/ae/news/comite-anticipation-suivi-hydrologique-monique-barbut-mission-acceleration-adaptation-48496.php4"
+        },
+        {
+          "name": "BRGM — note PDF bulletin nappes (08/09/2026)",
+          "url": "https://www.brgm.fr/sites/default/files/documents/2026-09/communique-nappes-eau-souterraine-2026-09-01-note.pdf"
+        }
+      ],
+      "urls": [
+        "https://www.brgm.fr/fr/actualite/communique-presse/nappes-eau-souterraine-au-1er-septembre-2026",
+        "https://www.brgm.fr/sites/default/files/documents/2026-09/communique-nappes-eau-souterraine-2026-09-01-note.pdf",
+        "https://www.actu-environnement.com/ae/news/comite-anticipation-suivi-hydrologique-monique-barbut-mission-acceleration-adaptation-48496.php4"
+      ],
+      "published_at": "2026-09-09",
+      "detected_via": "BRGM bulletin (08/09/2026) ; reprise CASH Orléans Actu-Environnement (10/09/2026)",
+      "relevance": {
+        "score": 5,
+        "why": "Données opérationnelles pour syndicats des eaux, DREAL, SDAGE/SAGE et exploitants agricoles calibrant restrictions, réutilisation et investissements avant les conclusions de la mission adaptation."
+      },
+      "entities": [
+        "CASH",
+        "61 % nappes sous normales",
+        "mission d'accélération de l'adaptation",
+        "réutilisation des eaux usées"
+      ],
+      "tags": ["sécheresse", "nappes", "eau"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-11-003",
+      "title": "Budget 2027 : France urbaine alerte sur la capacité d'investissement climatique des métropoles",
+      "summary": "Lors d'une conférence de presse le 8 septembre 2026, France urbaine (Jean-Luc Moudenc, Nathalie Appéré) a présenté ses priorités pour le projet de loi de finances 2027, publiées le 10 septembre sur le site de l'association. Après un été climatique éprouvant (France déjà à +2,2 °C vs ère préindustrielle, trajectoire +4 °C en 2100 selon l'association), les grandes villes rappellent leur rôle sur mobilités, bâti, énergie et eau. France urbaine chiffre à 7,8 milliards d'euros la facture nette cumulée des lois de finances sur les deux dernières années pour l'ensemble des collectivités, dont la moitié supportée par les intercommunalités ; 66 % des collectivités interrogées prévoient de repousser ou lisser leurs investissements et 20 % d'abandonner certains projets. L'association demande une contribution au redressement des finances publiques proportionnée au poids réel des collectivités (6 % du déficit), un bouclier plafonnant les prélèvements à 2 % des recettes de fonctionnement, un moratoire sur les charges nouvelles, et la possibilité pour les AOM de relever localement le plafond du versement mobilité (besoins estimés à 34 Md€ d'ici 2035).",
+      "themes": ["climat_adaptation", "zan_artificialisation", "reglementation"],
+      "signal_type": "changement_de_pratique_professionnel",
+      "geography": ["France"],
+      "actors": [
+        "France urbaine",
+        "intercommunalités",
+        "autorités organisatrices de la mobilité",
+        "Haut Conseil pour le climat"
+      ],
+      "primary_source": {
+        "name": "France urbaine — Budget 2027 et objectifs climatiques",
+        "url": "https://franceurbaine.org/actualites/budget-2027-france-urbaine-demande-une-mobilisation-de-moyens-en-coherence-avec-les-objectifs-climatiques-nationaux/",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — investissements climatiques collectivités (11/09/2026)",
+          "url": "https://www.actu-environnement.com/ae/news/adaptation-climatique-collectivites-investissement-france-urbaine-budget-2027-48497.php4"
+        }
+      ],
+      "urls": [
+        "https://franceurbaine.org/actualites/budget-2027-france-urbaine-demande-une-mobilisation-de-moyens-en-coherence-avec-les-objectifs-climatiques-nationaux/",
+        "https://www.actu-environnement.com/ae/news/adaptation-climatique-collectivites-investissement-france-urbaine-budget-2027-48497.php4"
+      ],
+      "published_at": "2026-09-10",
+      "detected_via": "source primaire France urbaine (10/09/2026) ; reprise Actu-Environnement",
+      "relevance": {
+        "score": 4,
+        "why": "Signal budgétaire pour métropoles, services techniques et BE anticipant arbitrages PLF 2027 sur adaptation, mobilité décarbonée et continuité des investissements post-été 2026."
+      },
+      "entities": [
+        "PLF 2027",
+        "7,8 Md€",
+        "versement mobilité",
+        "bouclier 2 % recettes"
+      ],
+      "tags": ["collectivités", "budget", "adaptation"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-11-004",
+      "title": "Coraux d'eau froide : premiers résultats encourageants du programme Redecor (golfe de Gascogne)",
+      "summary": "Dans un communiqué publié le 9 septembre 2026, l'Ifremer et ses partenaires du projet européen REDRESS (27 partenaires, 15 pays) rendent compte des premiers résultats du programme Redecor de restauration de coraux d'eau froide dans le golfe de Gascogne et en mer d'Irlande. Les coraux immergés en 2025 sur neuf récifs artificiels sont toujours vivants et colonisés par de nombreuses espèces (oursins, poissons, crabes, crinoïdes) ; il est encore trop tôt pour mesurer la croissance. Les équipes ont travaillé sur Lophelia pertusa et Madrepora oculata, prélevés à 950 m de profondeur, multipliés en boutures sur coquilles d'huîtres puis fixés sur récifs artificiels. Le dispositif s'inscrit dans le cadre du règlement européen sur la restauration de la nature (objectif 20 % des zones terrestres et maritimes d'ici 2030). Un suivi faunistique et une photogrammétrie 3D des sites sont prévus.",
+      "themes": ["biodiversite", "especes_habitats", "eau_zones_humides", "natura2000"],
+      "signal_type": "publication_scientifique_appliquee",
+      "geography": ["France", "Nouvelle-Aquitaine", "Golfe de Gascogne", "UE"],
+      "actors": [
+        "Ifremer",
+        "Sorbonne Université",
+        "projet REDRESS",
+        "Commission européenne"
+      ],
+      "primary_source": {
+        "name": "Ifremer — Coraux profonds : premiers résultats de restauration dans le golfe de Gascogne",
+        "url": "https://www.ifremer.fr/fr/presse/coraux-profonds-de-premiers-resultats-encourageants-pour-leur-restauration-dans-le-golfe-de",
+        "type": "scientifique"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — restauration coraux eaux froides (10/09/2026)",
+          "url": "https://www.actu-environnement.com/ae/news/coraux-eaux-froides-restauration-golfe-gascogne-48492.php4"
+        }
+      ],
+      "urls": [
+        "https://www.ifremer.fr/fr/presse/coraux-profonds-de-premiers-resultats-encourageants-pour-leur-restauration-dans-le-golfe-de",
+        "https://www.actu-environnement.com/ae/news/coraux-eaux-froides-restauration-golfe-gascogne-48492.php4"
+      ],
+      "published_at": "2026-09-09",
+      "detected_via": "source primaire Ifremer (09/09/2026) ; reprise Actu-Environnement",
+      "relevance": {
+        "score": 4,
+        "why": "Retour d'expérience pour gestionnaires d'espaces marins, DREAL et BE ERC instruisant restauration d'habitats profonds et continuité avec le plan national « Agir pour restaurer la nature »."
+      },
+      "entities": [
+        "Redecor",
+        "Lophelia pertusa",
+        "Madrepora oculata",
+        "règlement restauration de la nature"
+      ],
+      "tags": ["coraux", "restauration", "biodiversité_marine"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-11-005",
+      "title": "Déchets ménagers : rapport IGEDD/IGF sur le SPGD et renforcement du pollueur-payeur",
+      "summary": "Rendu public en août 2026 (rapport daté de mars 2026, IGEDD n° 016477-01 / IGF n° 2025-E-079-03), le rapport conjoint IGEDD–IGF sur la gestion des déchets ménagers et assimilés (DMA) par le service public est repris par la presse spécialisée le 9 septembre 2026. Les inspecteurs estiment les coûts de fonctionnement du SPGD entre 11 et 14 milliards d'euros en 2024 (+45 % depuis 2012, soit deux fois l'inflation), mal connus et largement supportés par le contribuable local (83 %, dont 9 Md€ de TEOM en 2024). Le principe pollueur-payeur est jugé imparfaitement appliqué : les soutiens REP ne couvrent que les deux tiers des coûts de collecte sélective ; la tarification incitative (TI) réduirait les OMR de 31 % et les coûts d'environ 15 %, mais l'objectif de 25 millions d'habitants couverts en 2025 ne serait atteint qu'en 2050 au rythme actuel. Le rapport préconise de réviser les barèmes Ademe, accélérer la TI, créer une taxe sur les tonnages mis sur le marché pour la contribution plastique UE (~300 M€ en 2024) et renforcer le pilotage national.",
+      "themes": ["reglementation", "donnees_outils", "rapports_guides"],
+      "signal_type": "rapport_institutionnel_majeur",
+      "geography": ["France", "UE"],
+      "actors": [
+        "IGEDD",
+        "IGF",
+        "Ademe",
+        "collectivités",
+        "éco-organismes emballages"
+      ],
+      "primary_source": {
+        "name": "IGEDD/IGF — La gestion des déchets ménagers et assimilés par le service public (PDF)",
+        "url": "https://www.actu-environnement.com/media/pdf/news-48478-rapport-igedd-igf-gestion-dechets-menagers.pdf",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "IGEDD — notice Affaires-0008433",
+          "url": "https://igedd.documentation.developpement-durable.gouv.fr/notice?id=Affaires-0008433"
+        },
+        {
+          "name": "Actu-Environnement — rapport ministériel pollueur-payeur (09/09/2026)",
+          "url": "https://www.actu-environnement.com/ae/news/gestion-dechets-rapport-ministeriel-ppelle-meilleure-application-principe-pollueur-payeur-48490.php4"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/media/pdf/news-48478-rapport-igedd-igf-gestion-dechets-menagers.pdf",
+        "https://igedd.documentation.developpement-durable.gouv.fr/notice?id=Affaires-0008433",
+        "https://www.actu-environnement.com/ae/news/gestion-dechets-rapport-ministeriel-ppelle-meilleure-application-principe-pollueur-payeur-48490.php4"
+      ],
+      "published_at": "2026-08-17",
+      "detected_via": "PDF rapport IGEDD/IGF (publié août 2026) ; reprise Actu-Environnement (09/09/2026) — non couvert dans les fichiers 01–10/09",
+      "relevance": {
+        "score": 5,
+        "why": "Argumentaire chiffré pour services déchets, juristes REP et collectivités arbitrant TI, financements éco-organismes et évolutions post-renoncement à la consigne nationale."
+      },
+      "entities": [
+        "016477-01",
+        "SPGD",
+        "tarification incitative",
+        "pollueur-payeur"
+      ],
+      "tags": ["déchets", "IGEDD", "TEOM"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-11-006",
+      "title": "TVA circulaire : la Commission européenne ouvre une consultation (échéance 4 novembre 2026)",
+      "summary": "Le 9 septembre 2026, la Commission européenne a ouvert une consultation publique sur son initiative « TVA circulaire » (également appelée « TVA verte »), dans le cadre du futur Circular Economy Act. L'exécutif envisage une directive adaptant la TVA à l'économie circulaire sur trois axes : traitement des biens d'occasion, don de biens encore utilisables plutôt que destruction, et règles de déduction de TVA pour les voitures particulières à usage professionnel. La consultation est ouverte huit semaines, jusqu'au 4 novembre 2026, via le portail « Have Your Say » ; une proposition législative pourrait suivre au printemps 2027 après évaluation d'impact parallèle.",
+      "themes": ["reglementation", "donnees_outils", "climat_adaptation"],
+      "signal_type": "consultation_publique",
+      "geography": ["UE", "France"],
+      "actors": [
+        "Commission européenne",
+        "filières déchets et réemploi",
+        "administrations fiscales"
+      ],
+      "primary_source": {
+        "name": "Actu-Environnement — consultation TVA circulaire UE",
+        "url": "https://www.actu-environnement.com/ae/news/commission-europeenne-consultation-tva-circulaire-48495.php4",
+        "type": "media_secondaire"
+      },
+      "secondary_sources": [
+        {
+          "name": "News Europa — VAT and Circular Economy consultation",
+          "url": "https://newseuropa.eu/the-european-commission-launches-public-consultation-on-vat-and-the-circular-economy/"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/ae/news/commission-europeenne-consultation-tva-circulaire-48495.php4",
+        "https://newseuropa.eu/the-european-commission-launches-public-consultation-on-vat-and-the-circular-economy/"
+      ],
+      "published_at": "2026-09-09",
+      "detected_via": "Actu-Environnement (10/09/2026) ; échéance 04/11/2026 confirmée par relais News Europa ; portail Have Your Say non consulté directement",
+      "relevance": {
+        "score": 4,
+        "why": "Fenêtre de contribution pour filières réemploi, ESS, collectivités et juristes fiscaux anticipant les règles TVA du Circular Economy Act 2027."
+      },
+      "entities": [
+        "TVA circulaire",
+        "Circular Economy Act",
+        "biens d'occasion",
+        "4 novembre 2026"
+      ],
+      "tags": ["économie_circulaire", "UE", "consultation"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-11-007",
+      "title": "REP emballages ménagers (EMAP) : clôture aujourd'hui de la consultation sur le cahier des charges",
+      "summary": "La consultation publique sur le projet d'arrêté modifiant le cahier des charges REP emballages ménagers, imprimés papiers et papiers graphiques (EMAP) se clôt le 11 septembre 2026 inclus. Ouverte le 13 août 2026, elle décline le plan Plastique (CPE du 19 juin 2026) : éco-modulations renforcées, trajectoire réemploi (objectif 10 % en 2027, enveloppe 50 M€), contractualisation collectivités/éco-organismes (150 M€/an 2027–2029) et entrée en vigueur au 1er janvier 2027. Vingt contributions publiques étaient recensées au 11 septembre. Le texte intervient après le renoncement du gouvernement à une consigne nationale sur les bouteilles PET, confirmé début septembre.",
+      "themes": ["reglementation", "donnees_outils"],
+      "signal_type": "consultation_publique",
+      "geography": ["France", "UE"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "éco-organismes emballages",
+        "collectivités",
+        "ELIPSO"
+      ],
+      "primary_source": {
+        "name": "Consultations publiques MTE — cahier des charges REP EMAP",
+        "url": "https://www.consultations-publiques.developpement-durable.gouv.fr/projet-d-arrete-modifiant-l-arrete-du-7-decembre-a3410.html",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — renoncement consigne plastique (04/09/2026)",
+          "url": "https://www.actu-environnement.com/depeches/plastique-gouvernement-renonce-une-n-1327.html"
+        }
+      ],
+      "urls": [
+        "https://www.consultations-publiques.developpement-durable.gouv.fr/projet-d-arrete-modifiant-l-arrete-du-7-decembre-a3410.html"
+      ],
+      "published_at": "2026-09-11",
+      "detected_via": "source primaire consultations-publiques (échéance 11/09/2026) ; rappel clôture vs couverture J-4 des 07/09 (12 contributions → 20 au 11/09)",
+      "relevance": {
+        "score": 4,
+        "why": "Dernière journée de contribution pour collectivités, éco-organismes et juristes déchets avant publication du cahier des charges EMAP au 1er janvier 2027."
+      },
+      "entities": [
+        "REP EMAP",
+        "plan Plastique",
+        "réemploi 10 %",
+        "1er janvier 2027"
+      ],
+      "tags": ["emballages", "REP", "échéance"],
+      "is_new": true
+    }
+  ]
+}
