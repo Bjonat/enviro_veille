@@ -1,0 +1,388 @@
+{
+  "date": "2026-09-12",
+  "generated_at": "2026-09-12T06:15:00+02:00",
+  "timezone": "Europe/Paris",
+  "meta": {
+    "item_count": 9,
+    "sources_consulted": [
+      "actu_environnement",
+      "cre",
+      "france_urbaine",
+      "ifremer",
+      "commission_ue",
+      "consultations_publiques_mte",
+      "ecologie_gouv",
+      "igedd"
+    ],
+    "deduplicated_against_days": 14,
+    "notes": "Samedi 12/09 : run couvrant les nouveautés 10–11/09 non présentes dans les fichiers 01–09/09 (CRE, France urbaine, cétacés, électrification, coraux Redecor, TVA circulaire UE, IGEDD/IGF SPGD, CASH). Échéances anguille (16/09) et consultations CEE/REP pro rappelées en J-4/J-5 sans redondance détaillée. Plan électrification : pas de CP ecologie.gouv.fr identifié au run ; corps payants Actu-Environnement partiels. BRGM actualités 404 ; notice IGEDD protégée."
+  },
+  "items": [
+    {
+      "id": "2026-09-12-001",
+      "title": "Plan d'électrification : 109 territoires retenus (~6 700 communes)",
+      "summary": "Le 11 septembre 2026, le gouvernement annonce la sélection de 109 « territoires d'électrification », regroupant près de 6 700 communes, présentés comme des laboratoires de sortie des énergies fossiles (bâtiments publics, transports en commun, réseaux de chaleur, etc.). Le dispositif s'inscrit dans le plan national lancé au printemps 2026, après instruction par les préfets et le secrétariat général à la planification écologique. L'enveloppe annoncée pourrait atteindre 10 milliards d'euros par an d'ici 2030.",
+      "themes": ["climat_adaptation", "energie_biodiversite", "reglementation"],
+      "signal_type": "changement_de_pratique_professionnel",
+      "geography": ["France"],
+      "actors": [
+        "Gouvernement",
+        "préfectures",
+        "collectivités territoriales",
+        "Secrétariat général à la planification écologique"
+      ],
+      "primary_source": {
+        "name": "Actu-Environnement — plan d'électrification, territoires retenus",
+        "url": "https://www.actu-environnement.com/ae/news/plan-electrification-territoires-retenus-communes-sortie-fossiles-gaz-48505.php4",
+        "type": "media_secondaire"
+      },
+      "urls": [
+        "https://www.actu-environnement.com/ae/news/plan-electrification-territoires-retenus-communes-sortie-fossiles-gaz-48505.php4"
+      ],
+      "published_at": "2026-09-11",
+      "detected_via": "RSS Actu-Environnement (11/09/2026) ; communiqué ecologie.gouv.fr non retrouvé au run",
+      "relevance": {
+        "score": 5,
+        "why": "Cartographie opérationnelle pour métropoles, syndicats d'énergie et AMO calibrant feuilles de route de décarbonation locale 2026–2030."
+      },
+      "entities": [
+        "109 territoires d'électrification",
+        "6 700 communes",
+        "10 Md€/an"
+      ],
+      "tags": ["électrification", "collectivités", "fossiles"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-12-002",
+      "title": "Petits cétacés (golfe de Gascogne) : arrêté du 9 septembre reconduisant les fermetures de pêche pour 2027",
+      "summary": "Paru au Journal officiel le 11 septembre 2026, l'arrêté TECM2623771A du 9 septembre 2026 établit des mesures spatio-temporelles visant à réduire les captures accidentelles de petits cétacés dans le golfe de Gascogne. Le texte reconduit pour 2027 des fermetures de la pêche comparables au dispositif déjà appliqué en 2024–2026 pour protéger dauphins et marsouins. Il intervient dans un contexte de contentieux européen et de mobilisations des filières halieutiques et des associations de protection de la mer.",
+      "themes": ["biodiversite", "especes_habitats", "reglementation"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France", "Atlantique", "Nouvelle-Aquitaine"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "filieres pêche",
+        "OFB",
+        "Commission européenne"
+      ],
+      "primary_source": {
+        "name": "Journal officiel — arrêté TECM2623771A du 9 septembre 2026",
+        "url": "https://www.actu-environnement.com/ae/reglementation/arrete-du-09-09-2026-tecm2623771a-40316.php",
+        "type": "juridique"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — fermeture pêche golfe de Gascogne 2027",
+          "url": "https://www.actu-environnement.com/ae/news/cetaces-fermeture-peche-gascogne-2027-48501.php4"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/ae/reglementation/arrete-du-09-09-2026-tecm2623771a-40316.php",
+        "https://www.actu-environnement.com/ae/news/cetaces-fermeture-peche-gascogne-2027-48501.php4"
+      ],
+      "published_at": "2026-09-11",
+      "detected_via": "page réglementation Actu-Environnement (TECM2623771A) ; dépêche Actu-Environnement (11/09/2026)",
+      "relevance": {
+        "score": 5,
+        "why": "Calendrier opposable pour armateurs, DREAL et gestionnaires d'espaces marins anticipant les périodes de fermeture et les autorisations de pêche 2027."
+      },
+      "entities": [
+        "TECM2623771A",
+        "golfe de Gascogne",
+        "petits cétacés",
+        "2027"
+      ],
+      "tags": ["pêche", "cétacés", "JO"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-12-003",
+      "title": "CRE : rapport sur l'économie du système électrique hexagonal (coûts complets et valeur des ENR)",
+      "summary": "La Commission de régulation de l'énergie a présenté le 9–10 septembre 2026 un rapport sur l'économie du système électrique français hexagonal. Il chiffre les coûts complets 2025 à 55,9 milliards d'euros (40 Md€ de production et 15,9 Md€ d'acheminement) et modélise les flux financiers entre marchés de gros, mécanisme de capacité, soutiens publics et contributions de raccordement. La CRE souligne notamment une « valeur assurantielle » des énergies renouvelables pour le système, tout en rappelant les défis d'équilibrage liés à l'accroissement des capacités EnR.",
+      "themes": ["energie_biodiversite", "climat_adaptation", "rapports_guides"],
+      "signal_type": "rapport_institutionnel_majeur",
+      "geography": ["France", "UE"],
+      "actors": ["Commission de régulation de l'énergie", "RTE", "producteurs d'électricité"],
+      "primary_source": {
+        "name": "CRE — rapport sur l'économie du système électrique hexagonal",
+        "url": "https://www.cre.fr/actualites/toute-lactualite/la-cre-presente-son-rapport-sur-leconomie-du-systeme-electrique-francais-hexagonal.html",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — ENR et valeur assurantielle",
+          "url": "https://www.actu-environnement.com/ae/news/enr-valeur-assurantielle-systeme-electrique-cre-48494.php4"
+        }
+      ],
+      "urls": [
+        "https://www.cre.fr/actualites/toute-lactualite/la-cre-presente-son-rapport-sur-leconomie-du-systeme-electrique-francais-hexagonal.html",
+        "https://www.cre.fr/fileadmin/Documents/Communiques_de_presse/2026/260909_CP_Rapport_economie_du_systeme_electrique.pdf"
+      ],
+      "published_at": "2026-09-09",
+      "detected_via": "source primaire cre.fr (09/09/2026) ; reprise Actu-Environnement (10/09/2026)",
+      "relevance": {
+        "score": 5,
+        "why": "Référence chiffrée pour juristes énergie, développeurs EnR et collectivités arbitrant PPA, capacité et coûts complets dans les débats post-été 2026."
+      },
+      "entities": [
+        "55,9 Md€",
+        "valeur assurantielle",
+        "mécanisme de capacité",
+        "ARENH"
+      ],
+      "tags": ["CRE", "EnR", "électricité"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-12-004",
+      "title": "Budget 2027 : France urbaine alerte sur le recul des investissements climatiques des grandes collectivités",
+      "summary": "Lors d'une conférence de presse le 8 septembre 2026, France urbaine (Jean-Luc Moudenc, Nathalie Appéré) a présenté ses priorités pour le projet de loi de finances 2027. L'association rappelle le réchauffement déjà observé (+2,2 °C en France hexagonale) et estime que l'effort d'investissement climatique des collectivités doit plus que doubler pour atteindre 19 Md€/an d'ici 2030 (I4CE). Enquête interne : 66 % des collectivités membres prévoient de repousser ou lisser leurs investissements et 20 % d'abandonner certains projets, malgré une hausse de 18 % des dépenses climatiques locales entre 2017 et 2023 (Haut Conseil pour le climat).",
+      "themes": ["climat_adaptation", "zan_artificialisation", "rapports_guides"],
+      "signal_type": "rapport_institutionnel_majeur",
+      "geography": ["France"],
+      "actors": [
+        "France urbaine",
+        "grandes villes et métropoles",
+        "Haut Conseil pour le climat",
+        "I4CE"
+      ],
+      "primary_source": {
+        "name": "France urbaine — Budget 2027 et investissements climatiques",
+        "url": "https://franceurbaine.org/actualites/budget-2027-france-urbaine-demande-une-mobilisation-de-moyens-en-coherence-avec-les-objectifs-climatiques-nationaux/",
+        "type": "territorial"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — collectivités et budget 2027",
+          "url": "https://www.actu-environnement.com/ae/news/adaptation-climatique-collectivites-investissement-france-urbaine-budget-2027-48497.php4"
+        }
+      ],
+      "urls": [
+        "https://franceurbaine.org/actualites/budget-2027-france-urbaine-demande-une-mobilisation-de-moyens-en-coherence-avec-les-objectifs-climatiques-nationaux/",
+        "https://www.actu-environnement.com/ae/news/adaptation-climatique-collectivites-investissement-france-urbaine-budget-2027-48497.php4"
+      ],
+      "published_at": "2026-09-10",
+      "detected_via": "source primaire franceurbaine.org (CP 08–10/09/2026) ; reprise Actu-Environnement (10/09/2026)",
+      "relevance": {
+        "score": 4,
+        "why": "Signal budgétaire pour DGS, directions climat et MOA calibrant PCAET, adaptation et rénovation après l'été 2026 et avant le PLF 2027."
+      },
+      "entities": [
+        "PLF 2027",
+        "66 % collectivités",
+        "19 Md€/an I4CE"
+      ],
+      "tags": ["budget", "villes", "investissement"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-12-005",
+      "title": "CASH du 9 septembre : situation hydrologique sous tension ; mission d'accélération de l'adaptation attendue fin septembre",
+      "summary": "Le comité d'anticipation et de suivi hydrologique (CASH) s'est réuni le 9 septembre 2026 sur une situation « sous tension » à la fin de l'été (nappes, cours d'eau, sécheresse des sols). Monique Barbut a rappelé en ouverture que l'épisode 2026 relève du dérèglement climatique et non du seul aléa, appelant à tirer les leçons pour les sécheresses à venir tout en pilotant les mesures d'urgence jusqu'à l'automne. En parallèle, la mission d'accélération de l'adaptation (Monique Barbut) doit rendre ses conclusions fin septembre 2026.",
+      "themes": ["eau_zones_humides", "climat_adaptation", "incendies_risques"],
+      "signal_type": "rapport_institutionnel_majeur",
+      "geography": ["France"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "CASH",
+        "BRGM",
+        "Météo-France",
+        "préfets"
+      ],
+      "primary_source": {
+        "name": "Actu-Environnement — CASH et mission d'accélération de l'adaptation",
+        "url": "https://www.actu-environnement.com/ae/news/comite-anticipation-suivi-hydrologique-monique-barbut-mission-acceleration-adaptation-48496.php4",
+        "type": "media_secondaire"
+      },
+      "urls": [
+        "https://www.actu-environnement.com/ae/news/comite-anticipation-suivi-hydrologique-monique-barbut-mission-acceleration-adaptation-48496.php4"
+      ],
+      "published_at": "2026-09-10",
+      "detected_via": "Actu-Environnement (10/09/2026) ; communiqué CASH écrit non publié sur ecologie.gouv.fr au run",
+      "relevance": {
+        "score": 4,
+        "why": "Repère temporel pour gestionnaires de l'eau et DREAL anticipant arbitrages restriction/automne 2026 et recommandations de la mission Barbut."
+      },
+      "entities": [
+        "CASH",
+        "mission d'accélération de l'adaptation",
+        "fin septembre 2026"
+      ],
+      "tags": ["sécheresse", "nappes", "adaptation"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-12-006",
+      "title": "Déchets ménagers (SPGD) : rapport IGF–IGEDD sur coûts, pollueur-payeur et efficience locale",
+      "summary": "Un rapport conjoint IGF (2025-E-079-03) et IGEDD (016477-01), publié en août 2026 et relayé le 9 septembre, analyse le service public de gestion des déchets ménagers et assimilés (SPGD). Il relève une hausse des coûts d'environ 45 % depuis 2012, des volumes croissants et un déploiement lent de la tarification incitative. La mission préconise de renforcer l'efficience locale, généraliser la TEOM incitative et accroître la contribution des metteurs sur le marché — notamment via les REP emballages — pour mieux appliquer le principe pollueur-payeur.",
+      "themes": ["reglementation", "donnees_outils", "rapports_guides"],
+      "signal_type": "rapport_institutionnel_majeur",
+      "geography": ["France"],
+      "actors": [
+        "IGEDD",
+        "IGF",
+        "collectivités",
+        "éco-organismes emballages",
+        "ADEME"
+      ],
+      "primary_source": {
+        "name": "IGEDD–IGF — Gestion des déchets ménagers et assimilés (rapport 016477-01)",
+        "url": "https://www.actu-environnement.com/media/pdf/news-48478-rapport-igedd-igf-gestion-dechets-menagers.pdf",
+        "type": "technique"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — rapport SPGD et pollueur-payeur",
+          "url": "https://www.actu-environnement.com/ae/news/gestion-dechets-rapport-ministeriel-ppelle-meilleure-application-principe-pollueur-payeur-48490.php4"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/media/pdf/news-48478-rapport-igedd-igf-gestion-dechets-menagers.pdf",
+        "https://www.actu-environnement.com/ae/news/gestion-dechets-rapport-ministeriel-ppelle-meilleure-application-principe-pollueur-payeur-48490.php4"
+      ],
+      "published_at": "2026-09-09",
+      "detected_via": "PDF Actu-Environnement (rapport août 2026) ; article Actu-Environnement (09/09/2026) ; notice IGEDD non consultée",
+      "relevance": {
+        "score": 5,
+        "why": "Argumentaire chiffré pour services déchets, juristes REP et DGS calibrant TI, contrats de performance et négociations éco-organismes post-consigne."
+      },
+      "entities": [
+        "016477-01",
+        "SPGD",
+        "+45 % coûts depuis 2012",
+        "tarification incitative"
+      ],
+      "tags": ["déchets", "IGEDD", "pollueur-payeur"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-12-007",
+      "title": "TVA circulaire (UE) : consultation ouverte jusqu'au 4 novembre 2026",
+      "summary": "La Commission européenne a lancé le 9–10 septembre 2026 une consultation publique sur l'alignement des règles de TVA avec l'économie circulaire (« Circular VAT »), dans le cadre du futur Circular Economy Act. Les contributions portent sur trois axes : traitement fiscal des biens d'occasion, destruction de biens encore utilisables versus don, et règles de déduction de TVA pour les voitures particulières à usage professionnel. La consultation est ouverte huit semaines sur le portail Have Your Say, jusqu'au 4 novembre 2026.",
+      "themes": ["reglementation", "donnees_outils"],
+      "signal_type": "consultation_publique",
+      "geography": ["France", "UE"],
+      "actors": [
+        "Commission européenne",
+        "DG Fiscalité et union douanière",
+        "fédérations professionnelles"
+      ],
+      "primary_source": {
+        "name": "Commission européenne — VAT and circular economy (Have Your Say)",
+        "url": "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/18833-VAT-and-circular-economy_en",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "DG TAXUD — annonce consultation TVA circulaire",
+          "url": "https://taxation-customs.ec.europa.eu/news/european-commission-launches-public-consultation-vat-and-circular-economy-2026-09-10_en"
+        },
+        {
+          "name": "Actu-Environnement — TVA circulaire",
+          "url": "https://www.actu-environnement.com/ae/news/commission-europeenne-consultation-tva-circulaire-48495.php4"
+        }
+      ],
+      "urls": [
+        "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/18833-VAT-and-circular-economy_en",
+        "https://taxation-customs.ec.europa.eu/news/european-commission-launches-public-consultation-vat-and-circular-economy-2026-09-10_en"
+      ],
+      "published_at": "2026-09-10",
+      "detected_via": "source primaire Commission (10/09/2026) ; Actu-Environnement (10/09/2026)",
+      "relevance": {
+        "score": 4,
+        "why": "Fenêtre de contribution pour filières seconde main, réemploi et services fiscaux des collectivités et entreprises préparant la révision de la directive TVA."
+      },
+      "entities": [
+        "Circular Economy Act",
+        "4 novembre 2026",
+        "biens d'occasion"
+      ],
+      "tags": ["TVA", "économie_circulaire", "UE"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-12-008",
+      "title": "Coraux d'eaux froides (Redecor) : premiers résultats encourageants dans le golfe de Gascogne",
+      "summary": "L'Ifremer communique le 9–10 septembre 2026 sur la campagne Redecor (juillet–août 2026) de restauration des coraux d'eau froide dans le golfe de Gascogne. Les neuf récifs artificiels immergés en 2025 restent colonisés (oursins, poissons, crabes, crinoïdes) ; 23 nouveaux récifs ont été déployés en 2026 (canyon du Guilvinec et banc de Porcupine). Le projet s'inscrit dans le programme européen Redress (2024) et prévoit une revisite en 2027 ; les équipes alertent sur les effets futurs de l'acidification océanique.",
+      "themes": ["biodiversite", "natura2000", "climat_adaptation"],
+      "signal_type": "publication_scientifique_appliquee",
+      "geography": ["France", "Atlantique", "Natura 2000"],
+      "actors": [
+        "Ifremer",
+        "Sorbonne Université",
+        "Université de Galway",
+        "programme Redress"
+      ],
+      "primary_source": {
+        "name": "Ifremer — coraux profonds, restauration golfe de Gascogne",
+        "url": "https://www.ifremer.fr/fr/presse/coraux-profonds-de-premiers-resultats-encourageants-pour-leur-restauration-dans-le-golfe-de",
+        "type": "scientifique"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — restauration coraux Gascogne",
+          "url": "https://www.actu-environnement.com/ae/news/coraux-eaux-froides-restauration-golfe-gascogne-48492.php4"
+        }
+      ],
+      "urls": [
+        "https://www.ifremer.fr/fr/presse/coraux-profonds-de-premiers-resultats-encourageants-pour-leur-restauration-dans-le-golfe-de",
+        "https://www.actu-environnement.com/ae/news/coraux-eaux-froides-restauration-golfe-gascogne-48492.php4"
+      ],
+      "published_at": "2026-09-10",
+      "detected_via": "source primaire Ifremer (09/09/2026) ; reprise Actu-Environnement (10/09/2026)",
+      "relevance": {
+        "score": 4,
+        "why": "Retour d'expérience pour gestionnaires Natura 2000, DREAL mer et BE marine calibrant restauration active et continuités écologiques en eaux profondes."
+      },
+      "entities": [
+        "Redecor",
+        "canyon du Guilvinec",
+        "récifs artificiels",
+        "Redress"
+      ],
+      "tags": ["coraux", "restauration", "mer"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-12-009",
+      "title": "Anguille européenne : consultation sur le repeuplement — échéance 16 septembre (J-4)",
+      "summary": "Rappel d'échéance : la consultation publique sur le projet d'arrêté relatif aux mesures de repeuplement de l'anguille européenne (Anguilla anguilla) se clôt le 16 septembre 2026. Le texte transpose le règlement (CE) n° 1100/2007 imposant des opérations de repeuplement en civelles. Cinquante-sept contributions publiques étaient recensées au 12 septembre sur le portail consultations-publiques.",
+      "themes": ["biodiversite", "eau_zones_humides", "reglementation"],
+      "signal_type": "consultation_publique",
+      "geography": ["France", "UE"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "OFB",
+        "fédérations de pêche"
+      ],
+      "primary_source": {
+        "name": "Consultations publiques MTE — repeuplement anguille européenne",
+        "url": "https://www.consultations-publiques.developpement-durable.gouv.fr/consultation-du-public-sur-la-demande-de-a3417.html",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — consultation repeuplement anguille",
+          "url": "https://www.actu-environnement.com/ae/news/arrete-repeuplement-anguille-europeenne-consultation-48440.php4"
+        }
+      ],
+      "urls": [
+        "https://www.consultations-publiques.developpement-durable.gouv.fr/consultation-du-public-sur-la-demande-de-a3417.html"
+      ],
+      "published_at": "2026-09-12",
+      "detected_via": "source primaire consultations-publiques (échéance 16/09/2026) ; rappel J-4 vs couverture 09/09/2026",
+      "relevance": {
+        "score": 3,
+        "why": "Dernières contributions pour acteurs halieutiques et continuités écologiques avant fixation des volumes de repeuplement automne 2026."
+      },
+      "entities": [
+        "Anguilla anguilla",
+        "règlement 1100/2007",
+        "16 septembre 2026"
+      ],
+      "tags": ["anguille", "consultation", "échéance"],
+      "is_new": true
+    }
+  ]
+}
