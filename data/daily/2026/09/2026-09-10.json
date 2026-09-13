@@ -1,0 +1,304 @@
+{
+  "date": "2026-09-10",
+  "generated_at": "2026-09-10T06:11:57+02:00",
+  "timezone": "Europe/Paris",
+  "meta": {
+    "item_count": 7,
+    "sources_consulted": [
+      "consultations_publiques_mte",
+      "actu_environnement",
+      "cerema",
+      "igedd",
+      "the_lancet",
+      "sdes",
+      "ecologie_gouv",
+      "ofb"
+    ],
+    "deduplicated_against_days": 14,
+    "notes": "Jeudi 10/09 : nouveautés dominées par décret n° 2026-842 solarisation parkings (JO 08/09), reprise médiatique rapport IGEDD/IGF SPGD (09/09), publications Cerema 08/09 (friche littoral, pollution lumineuse) et Lancet Countdown Europe villes (10/09). Rappel J-1 REP EMAP (11/09). Grand tétras, PFAS/TGAP, décret 2026-842 solarisation (article 09/09), PAC CdC, budget écoles canicule, anguille J-7, etc. exclus comme déjà couverts 01–09/09. Légifrance et notice IGEDD protégées ; corps payants Actu-Environnement partiels sur décret 2026-842 et rapport déchets."
+  },
+  "items": [
+    {
+      "id": "2026-09-10-001",
+      "title": "Solarisation des parkings : le décret n° 2026-842 précise les critères de report d'échéance (JO 8 septembre 2026)",
+      "summary": "Paru au Journal officiel le 8 septembre 2026, le décret n° 2026-842 du 7 septembre 2026 définit les caractéristiques des panneaux photovoltaïques ouvrant droit au report de l'obligation de solarisation des parkings extérieurs de plus de 1 500 m², instaurée par la loi APER (10 mars 2023) et modifiée par l'article 8 de la loi de simplification du droit de l'urbanisme et du logement du 26 novembre 2025 (loi Huwart). Pour les parkings de 1 500 à 10 000 m², l'échéance peut être repoussée au 1er janvier 2030 (au lieu de juillet 2028) si les modules respectent des seuils d'efficacité (> 22 %), d'empreinte carbone (< 740 kgCO₂eq/kWc), de résilience d'approvisionnement et des garanties produit (12 ans) et de performance (30 ans), avec contrat d'engagement et bon de commande aux dates fixées par la loi. Pour les parkings ≥ 10 000 m², le report possible atteint le 1er janvier 2028. Le texte est entré en vigueur le 9 septembre 2026.",
+      "themes": ["energie_biodiversite", "reglementation", "climat_adaptation"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "Ministère de l'Économie",
+        "exploitants de parkings",
+        "développeurs photovoltaïques"
+      ],
+      "primary_source": {
+        "name": "Journal officiel — décret n° 2026-842 du 7 septembre 2026",
+        "url": "https://www.actu-environnement.com/ae/reglementation/decret-du-07-09-2026-2026-842-40284.php",
+        "type": "juridique"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — conditions du report solarisation parkings",
+          "url": "https://www.actu-environnement.com/ae/news/decret-conditions-report-solarisation-parkings-photovoltaique-loi-huwart-48486.php4"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/ae/reglementation/decret-du-07-09-2026-2026-842-40284.php",
+        "https://www.actu-environnement.com/ae/news/decret-conditions-report-solarisation-parkings-photovoltaique-loi-huwart-48486.php4"
+      ],
+      "published_at": "2026-09-08",
+      "detected_via": "Actu-Environnement (09/09/2026) ; page réglementation décret 2026-842 confirmée ; Légifrance non consulté (anti-bot)",
+      "relevance": {
+        "score": 5,
+        "why": "Calendrier et critères techniques opposables pour centres commerciaux, collectivités et développeurs PV calibrant ombrières et contrats d'engagement après l'échéance juillet 2026 des grands parcs."
+      },
+      "entities": [
+        "décret n° 2026-842",
+        "loi APER",
+        "loi Huwart",
+        "1 500 m²",
+        "740 kgCO₂eq/kWc"
+      ],
+      "tags": ["photovoltaïque", "parkings", "ombrières"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-10-002",
+      "title": "SPGD : le rapport IGEDD/IGF appelle à renforcer le pollueur-payeur et la tarification incitative",
+      "summary": "Rendu public en août 2026 (rapport daté de mars 2026, affaire IGEDD n° 016477-01 / IGF n° 2025-E-079-03), le rapport conjoint IGEDD et IGF sur le coût et l'efficience du service public de gestion des déchets ménagers et assimilés (SPGD) estime les dépenses à 11–14 Md€ en 2024, soit une hausse de 45 % depuis 2012. Le contribuable local finance 83 % des charges (TEOM ~9 Md€). La mission formule 13 propositions : accélérer la tarification incitative (objectif législatif de 25 M hab. en 2025 inaccessible avant ~2050 au rythme actuel), réviser les barèmes de soutien REP emballages pour mieux refléter les coûts collectivités, taxer progressivement les tonnages mis sur le marché pour financer la contribution UE plastique non recyclé (~300 M€ en 2024), et renforcer la gouvernance inter-échelons. Actu-Environnement en fait le relais le 9 septembre 2026.",
+      "themes": ["reglementation", "donnees_outils", "climat_adaptation"],
+      "signal_type": "rapport_institutionnel_majeur",
+      "geography": ["France"],
+      "actors": [
+        "IGEDD",
+        "IGF",
+        "Ademe",
+        "collectivités",
+        "éco-organismes"
+      ],
+      "primary_source": {
+        "name": "IGEDD / IGF — La gestion des déchets ménagers et assimilés par le service public (PDF)",
+        "url": "https://www.actu-environnement.com/media/pdf/news-48478-rapport-igedd-igf-gestion-dechets-menagers.pdf",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — rapport ministériel pollueur-payeur déchets",
+          "url": "https://www.actu-environnement.com/ae/news/gestion-dechets-rapport-ministeriel-ppelle-meilleure-application-principe-pollueur-payeur-48490.php4"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/media/pdf/news-48478-rapport-igedd-igf-gestion-dechets-menagers.pdf",
+        "https://www.actu-environnement.com/ae/news/gestion-dechets-rapport-ministeriel-ppelle-meilleure-application-principe-pollueur-payeur-48490.php4"
+      ],
+      "published_at": "2026-09-09",
+      "detected_via": "PDF rapport IGEDD/IGF (mars 2026, en ligne août 2026) ; reprise Actu-Environnement (09/09/2026) ; notice IGEDD 016477 protégée",
+      "relevance": {
+        "score": 4,
+        "why": "Argumentaire chiffré pour services déchets, DDT et juristes REP anticipant révision barèmes, TI et débat consigne/TGAP dans le contexte plan Plastique."
+      },
+      "entities": [
+        "SPGD",
+        "tarification incitative",
+        "TEOM",
+        "13 propositions",
+        "contribution UE plastique"
+      ],
+      "tags": ["déchets", "REP", "finances_publiques"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-10-003",
+      "title": "REP emballages ménagers (EMAP) : clôture demain de la consultation sur le cahier des charges",
+      "summary": "Rappel d'échéance : la consultation publique sur le projet d'arrêté modifiant le cahier des charges REP emballages ménagers, imprimés papiers et papiers graphiques (EMAP) se clôt le 11 septembre 2026 inclus. Le texte décline le plan Plastique (CPE 19 juin 2026) : éco-modulations renforcées, trajectoire réemploi (objectif 10 % en 2027), contractualisation collectivités/éco-organismes (150 M€/an 2027–2029) et entrée en vigueur au 1er janvier 2027. Contexte actualisé : renoncement à la consigne nationale (04–07/09) et rapport IGEDD/IGF sur le financement des déchets (09/09). Dernière journée utile pour les contributions avant arbitrage réglementaire.",
+      "themes": ["reglementation", "donnees_outils"],
+      "signal_type": "consultation_publique",
+      "geography": ["France", "UE"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "éco-organismes emballages",
+        "collectivités",
+        "ELIPSO"
+      ],
+      "primary_source": {
+        "name": "Consultations publiques MTE — cahier des charges REP EMAP",
+        "url": "https://www.consultations-publiques.developpement-durable.gouv.fr/projet-d-arrete-modifiant-l-arrete-du-7-decembre-a3410.html",
+        "type": "institutionnel"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — renoncement consigne plastique (contexte)",
+          "url": "https://www.actu-environnement.com/depeches/plastique-gouvernement-renonce-une-n-1327.html"
+        }
+      ],
+      "urls": [
+        "https://www.consultations-publiques.developpement-durable.gouv.fr/projet-d-arrete-modifiant-l-arrete-du-7-decembre-a3410.html"
+      ],
+      "published_at": "2026-09-10",
+      "detected_via": "source primaire consultations-publiques (échéance 11/09/2026) ; rappel J-1 vs couverture initiale 07/09",
+      "relevance": {
+        "score": 5,
+        "why": "Dernière fenêtre de contribution pour collectivités, éco-organismes et juristes déchets avant bascule 2027 des soutiens, pénalités plastique et réemploi."
+      },
+      "entities": [
+        "REP EMAP",
+        "plan Plastique",
+        "1er janvier 2027",
+        "réemploi 10 %"
+      ],
+      "tags": ["emballages", "consultation", "échéance"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-10-004",
+      "title": "Cerema : retour d'expérience sur la requalification participative d'une friche littorale (Port-Bail-sur-Mer)",
+      "summary": "Publié le 8 septembre 2026, un retour d'expérience Cerema (convention ANCT / commune de Port-Bail-sur-Mer, Manche) documente la stratégie de requalification du Domaine des Pins, friche de 5 ha en front de mer. L'accompagnement 2025 a croisé diagnostic multithématique (biodiversité, risques littoraux, patrimoine bâti, contraintes Loi littoral et code de l'environnement), concertation (environ 50 participants) et scénario d'aménagement sobre : ruines paysagères, réhabilitation partielle, cheminements doux et usages compatibles avec les espèces et habitats sensibles. La démarche illustre une approche friche ZAN/biodiversité en contexte littoral post-tempêtes.",
+      "themes": ["zan_artificialisation", "biodiversite", "climat_adaptation", "rapports_guides"],
+      "signal_type": "changement_de_pratique_professionnel",
+      "geography": ["France", "Normandie", "Manche"],
+      "actors": [
+        "Cerema",
+        "ANCT",
+        "Port-Bail-sur-Mer",
+        "CAUE de la Manche"
+      ],
+      "primary_source": {
+        "name": "Cerema — requalification participative friche littorale Port-Bail-sur-Mer",
+        "url": "https://www.cerema.fr/fr/actualites/approche-multi-enjeux-participative-imaginer-avenir-friche",
+        "type": "technique"
+      },
+      "urls": [
+        "https://www.cerema.fr/fr/actualites/approche-multi-enjeux-participative-imaginer-avenir-friche"
+      ],
+      "published_at": "2026-09-08",
+      "detected_via": "source primaire Cerema (actualité 08/09/2026)",
+      "relevance": {
+        "score": 4,
+        "why": "Méthode transférable pour collectivités littorales, gestionnaires d'espaces et BE urbanisme instruisant friches, ERC et adaptation aux risques en zone Loi littoral."
+      },
+      "entities": [
+        "Domaine des Pins",
+        "Petites Villes de Demain",
+        "friche littorale",
+        "concertation participative"
+      ],
+      "tags": ["friches", "littoral", "participation"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-10-005",
+      "title": "Pollution lumineuse : le Cerema publie une étude diagnostic et propositions sur le Pays Castelroussin Val de l'Indre",
+      "summary": "Publiée le 8 septembre 2026, une étude Cerema pour le Pays Castelroussin Val de l'Indre (Centre-Val de Loire) croise imagerie nocturne SDGSAT-1 (résolution 10 m) et trame verte et bleue pour repérer les secteurs où la radiance nocturne impacte les continuités écologiques, puis réalise des visites terrain (14 secteurs, 7 fiches) selon l'arrêté du 27 décembre 2018 et la norme NF EN 13201. Les propositions portent sur les plages d'allumage/extinction, la température de couleur, la lumière intrusive et l'éclairage des surfaces en eau, en cohérence avec l'objectif SNB 2030 de réduction de 50 % de la pollution lumineuse. L'OFB rappelle que 85 % du territoire hexagonal était soumis à un niveau élevé à très élevé en 2021.",
+      "themes": ["biodiversite", "especes_habitats", "donnees_outils", "climat_adaptation"],
+      "signal_type": "rapport_institutionnel_majeur",
+      "geography": ["France", "Centre-Val de Loire", "Indre"],
+      "actors": [
+        "Cerema",
+        "Pays Castelroussin Val de l'Indre",
+        "OFB",
+        "CPIE Centre-Val de Loire"
+      ],
+      "primary_source": {
+        "name": "Cerema — pollution lumineuse Pays Castelroussin Val de l'Indre",
+        "url": "https://www.cerema.fr/fr/actualites/analyse-pollution-lumineuse-propositions-ameliorations",
+        "type": "technique"
+      },
+      "urls": [
+        "https://www.cerema.fr/fr/actualites/analyse-pollution-lumineuse-propositions-ameliorations"
+      ],
+      "published_at": "2026-09-08",
+      "detected_via": "source primaire Cerema (actualité 08/09/2026)",
+      "relevance": {
+        "score": 4,
+        "why": "Protocole reproductible pour EPCI, syndicats d'énergie et gestionnaires TVB calibrant trame noire, continuités écologiques et sobriété de l'éclairage public."
+      },
+      "entities": [
+        "pollution lumineuse",
+        "trame noire",
+        "SDGSAT-1",
+        "arrêté 27/12/2018",
+        "SNB 2030"
+      ],
+      "tags": ["éclairage", "continuités_écologiques", "méthode"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-10-006",
+      "title": "Lancet Countdown Europe : les villes françaises doivent renforcer l'adaptation climatique et la santé urbaine",
+      "summary": "Publiée le 10 septembre 2026 dans Lancet Public Health, la première édition de l'évaluation Lancet Countdown Europe sur le changement climatique et la santé dans les villes européennes confirme la vulnérabilité accrue des agglomérations (îlots de chaleur, densité, infrastructures). Pour la France, le rapport documente une hausse de la mortalité liée à la chaleur dans les villes entre 2015–2024 par rapport à 1991–2001, une couverture arborée urbaine moyenne de 9,2 % (seuil ONU/ECE recommandé : 30 % ; seules Fréjus et Besançon l'atteignaient en 2020) et une baisse de 42,6 % des émissions de GES par habitant urbain, concentrée sur l'énergie (– 68 %). Il recommande espaces verts, matériaux frais, désimperméabilisation et mobilités actives.",
+      "themes": ["climat_adaptation", "incendies_risques", "zan_artificialisation", "rapports_guides"],
+      "signal_type": "rapport_institutionnel_majeur",
+      "geography": ["France", "UE"],
+      "actors": [
+        "Lancet Countdown Europe",
+        "Commission économique des Nations unies pour l'Europe",
+        "collectivités urbaines"
+      ],
+      "primary_source": {
+        "name": "The Lancet Public Health — Climate change and health in European cities (2026)",
+        "url": "https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667(26)00100-3/fulltext",
+        "type": "scientifique"
+      },
+      "secondary_sources": [
+        {
+          "name": "Actu-Environnement — villes européennes adaptation climatique santé",
+          "url": "https://www.actu-environnement.com/ae/news/villes-europeennes-adaptation-climatique-sante-48485.php4"
+        }
+      ],
+      "urls": [
+        "https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667(26)00100-3/fulltext",
+        "https://www.actu-environnement.com/ae/news/villes-europeennes-adaptation-climatique-sante-48485.php4"
+      ],
+      "published_at": "2026-09-10",
+      "detected_via": "Actu-Environnement (10/09/2026) relayant publication Lancet ; lien primaire confirmé",
+      "relevance": {
+        "score": 4,
+        "why": "Indicateurs comparables pour services urbanisme, ARS et collectivités argumentant PCAET, trame verte et rafraîchissement urbain après l'été 2026 record."
+      },
+      "entities": [
+        "Lancet Countdown Europe",
+        "couverture arborée 30 %",
+        "îlot de chaleur",
+        "ESOTC"
+      ],
+      "tags": ["villes", "santé", "adaptation"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-10-007",
+      "title": "PPWR : consultations UE sur le contenu recyclé — échéance 16 septembre (J-6)",
+      "summary": "Rappel d'échéance : les appels à contributions de la Commission européenne sur les actes d'application du règlement emballages (PPWR, article 7) — calcul et vérification du contenu recyclé, critères de durabilité des technologies de recyclage (dont Mass Balance) et conditions d'importation de plastique recyclé — se clôturent le 16 septembre 2026. L'adoption des actes est visée fin 2026 ; ils conditionnent les quotas obligatoires de contenu recyclé à partir de 2030 pour les emballages plastiques sur le marché de l'Union, en lien avec la révision du cahier des charges REP EMAP en consultation jusqu'au 11/09.",
+      "themes": ["reglementation", "donnees_outils"],
+      "signal_type": "consultation_publique",
+      "geography": ["UE", "France"],
+      "actors": [
+        "Commission européenne",
+        "FEAD",
+        "éco-organismes",
+        "industriels plastique"
+      ],
+      "primary_source": {
+        "name": "Actu-Environnement — consultations PPWR contenu recyclé",
+        "url": "https://www.actu-environnement.com/ae/news/plastique-recycle-consultation-ue-technologies-recyclage-mesure-contenu-48461.php4",
+        "type": "media_secondaire"
+      },
+      "urls": [
+        "https://www.actu-environnement.com/ae/news/plastique-recycle-consultation-ue-technologies-recyclage-mesure-contenu-48461.php4"
+      ],
+      "published_at": "2026-09-10",
+      "detected_via": "rappel J-6 vs couverture initiale 02–06/09 ; portail Have Your Say non reconfirmé",
+      "relevance": {
+        "score": 3,
+        "why": "Semaine de contribution restante pour éco-organismes et juristes anticipant règles opérationnelles PPWR 2030 en parallèle de la consultation REP EMAP nationale."
+      },
+      "entities": [
+        "PPWR",
+        "contenu recyclé",
+        "Mass Balance",
+        "16 septembre 2026"
+      ],
+      "tags": ["emballages", "UE", "échéance"],
+      "is_new": true
+    }
+  ]
+}
