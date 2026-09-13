@@ -1,0 +1,277 @@
+{
+  "date": "2026-09-13",
+  "generated_at": "2026-09-13T06:12:00+02:00",
+  "timezone": "Europe/Paris",
+  "meta": {
+    "item_count": 7,
+    "sources_consulted": [
+      "actu_environnement",
+      "consultations_publiques_mte",
+      "commission_ue",
+      "ecologie_gouv",
+      "reporterre",
+      "ifremer",
+      "cerema"
+    ],
+    "deduplicated_against_days": 14,
+    "notes": "Dimanche 13/09 : week-end calme après les publications 10–11/09 déjà couvertes sur les branches veille 11–12/09 (électrification, cétacés, CRE, France urbaine, clôture REP EMAP). Nouveautés retenues : reprises 10–11/09 non présentes dans data/daily main (prime incorporation plastique, PPWR opérateurs, ADN environnemental, mécoprop-P UE) et rappels d'échéances J-3/J-4 (PPWR actes d'exécution 16/09, anguille 16/09, REP pro 17/09). Consultations-publiques : accès direct partiel ; RSS Actu-Environnement figé au 11/09. OFB anti-bot."
+  },
+  "items": [
+    {
+      "id": "2026-09-13-001",
+      "title": "Prime à l'incorporation de plastique recyclé : clarifications réglementaires et adaptations de traçabilité",
+      "summary": "Selon une analyse publiée le 11 septembre 2026 par Actu-Environnement, la prime à l'incorporation de plastique recyclé — instaurée par un arrêté de septembre 2025 dans le cadre des filières REP — peine à rester « simple » en pratique. Les pouvoirs publics ont dû publier plusieurs précisions interprétatives depuis l'entrée en vigueur du dispositif, et les acteurs de la traçabilité (producteurs, recycleurs, éco-organismes) ont adapté leurs outils de déclaration et de contrôle. L'article relève des tensions sur les règles de comptabilisation du contenu recyclé et la compatibilité avec les évolutions européennes (PPWR) en cours.",
+      "themes": ["reglementation", "donnees_outils"],
+      "signal_type": "changement_de_pratique_professionnel",
+      "geography": ["France", "UE"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "éco-organismes emballages",
+        "industriels plastique",
+        "filières REP"
+      ],
+      "primary_source": {
+        "name": "Actu-Environnement — prime à l'incorporation plastique recyclé",
+        "url": "https://www.actu-environnement.com/ae/news/prime-incorporation-plastique-pecision-adaptation-reglementation-francaise-48499.php4",
+        "type": "media_secondaire"
+      },
+      "urls": [
+        "https://www.actu-environnement.com/ae/news/prime-incorporation-plastique-pecision-adaptation-reglementation-francaise-48499.php4"
+      ],
+      "published_at": "2026-09-11",
+      "detected_via": "RSS Actu-Environnement (11/09/2026) ; arrêté de septembre 2025 non reconsulté sur Légifrance (injoignable)",
+      "relevance": {
+        "score": 4,
+        "why": "Retour d'expérience utile pour services déchets, juristes REP et industriels calibrant traçabilité du recyclé avant bascule PPWR et cahiers des charges 2027."
+      },
+      "entities": [
+        "prime à l'incorporation",
+        "plastique recyclé",
+        "arrêté septembre 2025",
+        "traçabilité REP"
+      ],
+      "tags": ["plastique", "REP", "recyclé"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-13-002",
+      "title": "PPWR : premières obligations applicables depuis mi-août 2026 pour les opérateurs d'emballages",
+      "summary": "Un article Actu-Environnement du 10 septembre 2026 rappelle que certaines dispositions du règlement européen emballages et déchets d'emballages (PPWR) sont déjà opposables depuis mi-août 2026 aux producteurs, importateurs et distributeurs. Les opérateurs doivent anticiper la conformité (information consommateur, trajectoires de réemploi et de recyclabilité, restrictions PFAS sur emballages alimentaires selon les calendriers du texte) sous peine de sanctions nationales pouvant s'appliquer à compter de février 2027. L'article complète les consultations ouvertes sur les actes d'exécution (contenu recyclé, technologies de recyclage) en précisant le calendrier opérationnel pour les filières françaises.",
+      "themes": ["reglementation", "donnees_outils"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France", "UE"],
+      "actors": [
+        "Commission européenne",
+        "producteurs d'emballages",
+        "éco-organismes",
+        "collectivités"
+      ],
+      "primary_source": {
+        "name": "Actu-Environnement — PPWR et conformité opérateurs",
+        "url": "https://www.actu-environnement.com/ae/news/ppwr-reglementation-emballages-operateurs-conformite-48460.php4",
+        "type": "media_secondaire"
+      },
+      "urls": [
+        "https://www.actu-environnement.com/ae/news/ppwr-reglementation-emballages-operateurs-conformite-48460.php4"
+      ],
+      "published_at": "2026-09-10",
+      "detected_via": "Actu-Environnement (10/09/2026) ; règlement PPWR (UE) 2025/40 non reconsulté sur EUR-Lex au run",
+      "relevance": {
+        "score": 4,
+        "why": "Calendrier de mise en conformité pour juristes déchets, services achats publics et filières emballages structurant audits avant février 2027."
+      },
+      "entities": [
+        "PPWR",
+        "emballages",
+        "février 2027",
+        "PFAS"
+      ],
+      "tags": ["emballages", "UE", "conformité"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-13-003",
+      "title": "PPWR (actes d'exécution) : consultations UE sur le contenu recyclé — échéance 16 septembre (J-3)",
+      "summary": "Rappel d'échéance : les appels à contributions de la Commission européenne sur les actes d'exécution du PPWR (article 7 — calcul et vérification de la teneur en plastique recyclé, critères de durabilité des technologies de recyclage dont mass balance et recyclage chimique, conditions d'importation de plastique recyclé) se clôturent le 16 septembre 2026. Les textes d'application pourraient être adoptés fin 2026. Aucun report de calendrier n'a été constaté depuis les ouvertures signalées début septembre ; la fenêtre reste prioritaire pour les filières plastique et emballages françaises.",
+      "themes": ["reglementation", "donnees_outils"],
+      "signal_type": "consultation_publique",
+      "geography": ["France", "UE"],
+      "actors": [
+        "Commission européenne",
+        "FEAD",
+        "éco-organismes",
+        "recycleurs plastique"
+      ],
+      "primary_source": {
+        "name": "Actu-Environnement — consultations PPWR plastique recyclé",
+        "url": "https://www.actu-environnement.com/ae/news/plastique-recycle-consultation-ue-technologies-recyclage-mesure-contenu-48461.php4",
+        "type": "media_secondaire"
+      },
+      "secondary_sources": [
+        {
+          "name": "Packaging Europe — call for evidence PPWR",
+          "url": "https://packagingeurope.com/news/eu-commission-opens-call-for-evidence-about-ppwrs-recycled-content-targets/14613.article"
+        }
+      ],
+      "urls": [
+        "https://www.actu-environnement.com/ae/news/plastique-recycle-consultation-ue-technologies-recyclage-mesure-contenu-48461.php4",
+        "https://packagingeurope.com/news/eu-commission-opens-call-for-evidence-about-ppwrs-recycled-content-targets/14613.article"
+      ],
+      "published_at": "2026-09-13",
+      "detected_via": "historique veille 03–06/09/2026 ; rappel J-3 vs échéance 16/09/2026 ; portail Have Your Say non reconfirmé directement",
+      "relevance": {
+        "score": 4,
+        "why": "Dernières 72 h pour services juridiques et filières plastique influençant les règles de comptabilisation du recyclé au titre du PPWR."
+      },
+      "entities": [
+        "PPWR",
+        "contenu recyclé",
+        "mass balance",
+        "16 septembre 2026"
+      ],
+      "tags": ["PPWR", "consultation", "échéance"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-13-004",
+      "title": "REP emballages professionnels : consultation prolongée — échéance 17 septembre (J-4)",
+      "summary": "La consultation sur le projet d'arrêté reportant au 1er janvier 2027 l'entrée en vigueur du cahier des charges REP emballages professionnels se clôt le 17 septembre 2026 inclus. Au 13 septembre, onze contributions publiques sont recensées sur la plateforme consultations-publiques, dont des prises de position récentes (8–11 septembre 2026) du Cercle National du Recyclage, de collectivités et de la députée Sylvie Ferrer. Les opposants au report réclament des financements immédiats pour les flux plastique et carton pris en charge en déchèterie, arguant que les collectivités continueront à supporter les coûts six mois supplémentaires.",
+      "themes": ["reglementation", "donnees_outils"],
+      "signal_type": "consultation_publique",
+      "geography": ["France", "UE"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "CITEO PRO",
+        "LÉKO PRO",
+        "collectivités",
+        "Cercle National du Recyclage"
+      ],
+      "primary_source": {
+        "name": "Consultations publiques MTE — REP emballages professionnels",
+        "url": "https://www.consultations-publiques.developpement-durable.gouv.fr/projet-d-arrete-modifiant-l-arrete-2-du-decembre-a3407.html",
+        "type": "institutionnel"
+      },
+      "urls": [
+        "https://www.consultations-publiques.developpement-durable.gouv.fr/projet-d-arrete-modifiant-l-arrete-2-du-decembre-a3407.html"
+      ],
+      "published_at": "2026-09-13",
+      "detected_via": "source primaire consultations-publiques (11 contributions, contributions 08–11/09) ; prolongation couverte 09/09 avec échéance 17/09",
+      "relevance": {
+        "score": 4,
+        "why": "Dernière semaine pour services déchets et producteurs B2B influençant calendrier 2027 et financements déchèteries."
+      },
+      "entities": [
+        "REP emballages professionnels",
+        "1er janvier 2027",
+        "17 septembre 2026"
+      ],
+      "tags": ["emballages", "REP", "consultation"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-13-005",
+      "title": "Anguille européenne : consultation sur le repeuplement — échéance 16 septembre (J-3)",
+      "summary": "Rappel d'échéance : la consultation publique sur le projet d'arrêté relatif aux mesures de repeuplement de l'anguille européenne (Anguilla anguilla) en France se clôt le 16 septembre 2026. Le texte s'inscrit dans le cadre du règlement (CE) n° 1100/2007 imposant des opérations de repeuplement en civelles. Aucune modification du calendrier n'a été publiée depuis l'ouverture ; la contribution reste prioritaire pour les fédérations de pêche, gestionnaires de continuités écologiques et services de l'État.",
+      "themes": ["biodiversite", "eau_zones_humides", "reglementation"],
+      "signal_type": "consultation_publique",
+      "geography": ["France", "UE"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "OFB",
+        "fédérations de pêche"
+      ],
+      "primary_source": {
+        "name": "Consultations publiques MTE — repeuplement anguille européenne",
+        "url": "https://www.consultations-publiques.developpement-durable.gouv.fr/consultation-du-public-sur-la-demande-de-a3417.html",
+        "type": "institutionnel"
+      },
+      "urls": [
+        "https://www.consultations-publiques.developpement-durable.gouv.fr/consultation-du-public-sur-la-demande-de-a3417.html"
+      ],
+      "published_at": "2026-09-13",
+      "detected_via": "source primaire consultations-publiques ; rappel J-3 vs couverture 09–12/09",
+      "relevance": {
+        "score": 3,
+        "why": "Trois jours restants pour acteurs halieutiques et continuités écologiques calibrant le repeuplement civelles automne 2026."
+      },
+      "entities": [
+        "Anguilla anguilla",
+        "règlement 1100/2007",
+        "civelles",
+        "16 septembre 2026"
+      ],
+      "tags": ["anguille", "pêche", "échéance"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-13-006",
+      "title": "Surveillance des eaux européennes : l'ADN environnemental en discussion (consortium Aquaref / INRAE)",
+      "summary": "Dans un entretien publié le 10 septembre 2026 par Actu-Environnement, Christian Chauvin (INRAE, coordinateur du consortium Aquaref) explique que la révision du cadre européen de surveillance des eaux pourrait ouvrir la voie à l'ADN environnemental (eDNA) comme complément ou alternative à certains protocoles de bioindication. Les travaux du consortium, alimentés par les référentiels français de qualité des eaux, visent à harmoniser prélèvements, analyses et interprétation pour les autorités de l'eau et les laboratoires. L'article ne constitue pas une décision réglementaire mais signale une évolution méthodologique attendue dans les prochains cycles d'évaluation de la directive-cadre sur l'eau.",
+      "themes": ["eau_zones_humides", "donnees_outils", "rapports_guides"],
+      "signal_type": "publication_scientifique_appliquee",
+      "geography": ["France", "UE"],
+      "actors": [
+        "INRAE",
+        "consortium Aquaref",
+        "Commission européenne",
+        "agences de l'eau"
+      ],
+      "primary_source": {
+        "name": "Actu-Environnement — ADN environnemental et surveillance des eaux",
+        "url": "https://www.actu-environnement.com/ae/news/adn-environnemental-directive-surveillance-eaux-europeennes-travaux-scientifiques-48491.php4",
+        "type": "media_secondaire"
+      },
+      "urls": [
+        "https://www.actu-environnement.com/ae/news/adn-environnemental-directive-surveillance-eaux-europeennes-travaux-scientifiques-48491.php4"
+      ],
+      "published_at": "2026-09-10",
+      "detected_via": "Actu-Environnement (10/09/2026) ; travaux Aquaref/INRAE cités dans l'entretien",
+      "relevance": {
+        "score": 4,
+        "why": "Anticipation méthodologique pour laboratoires, DREAL et agences de l'eau préparant les prochains programmes de surveillance DCE et SDAGE."
+      },
+      "entities": [
+        "ADN environnemental",
+        "Aquaref",
+        "directive-cadre sur l'eau",
+        "bioindication"
+      ],
+      "tags": ["eau", "eDNA", "surveillance"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-13-007",
+      "title": "Phytosanitaires (UE) : renouvellement de l'approbation du mécoprop-P (règlement d'exécution 2026/2025 du 10 septembre)",
+      "summary": "Paru au Journal officiel de l'Union européenne le 11 septembre 2026 selon le recensement Actu-Environnement, le règlement d'exécution (UE) 2026/2025 de la Commission du 10 septembre 2026 renouvelle l'approbation de la substance active mécoprop-P en tant que substance active à des fins phytopharmaceutiques, sous réserve des conditions fixées dans l'annexe. Le texte s'inscrit dans le renouvellement périodique des substances au titre du règlement (CE) n° 1107/2009 et intéresse les usages herbicides encore autorisés en France dans le cadre des autorisations de mise sur le marché nationales.",
+      "themes": ["reglementation", "sols"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France", "UE"],
+      "actors": [
+        "Commission européenne",
+        "Anses",
+        "Ministère de l'Agriculture"
+      ],
+      "primary_source": {
+        "name": "Journal officiel UE — règlement d'exécution (UE) 2026/2025 du 10 septembre 2026",
+        "url": "https://www.actu-environnement.com/ae/reglementation/reglement-d-execution-du-10-09-2026-2026-2025-40323.php",
+        "type": "juridique"
+      },
+      "urls": [
+        "https://www.actu-environnement.com/ae/reglementation/reglement-d-execution-du-10-09-2026-2026-2025-40323.php"
+      ],
+      "published_at": "2026-09-10",
+      "detected_via": "page réglementation Actu-Environnement (40323) ; EUR-Lex non consulté directement",
+      "relevance": {
+        "score": 3,
+        "why": "Actualisation du cadre UE pour distributeurs, conseillers agricoles et services de l'État suivant les AMM et restrictions d'usage du mécoprop-P."
+      },
+      "entities": [
+        "mécoprop-P",
+        "règlement (UE) 2026/2025",
+        "1107/2009"
+      ],
+      "tags": ["phytosanitaires", "UE", "herbicide"],
+      "is_new": true
+    }
+  ]
+}
