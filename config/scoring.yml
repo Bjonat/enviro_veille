@@ -1,0 +1,118 @@
+version: "2.0"
+
+purpose: >
+  Barèmes communs pour stabiliser les scores d'un cycle à l'autre.
+  Les scores décrivent un niveau de preuve observable, pas une intuition générale.
+
+acceleration_score:
+  1:
+    label: faible
+    rule: >
+      Signal isolé, ancien ou peu relié à une dynamique observable. Aucun changement
+      opérationnel crédible à court terme.
+  2:
+    label: naissante
+    rule: >
+      Plusieurs indices cohérents mais encore limités, ou un signal structurel dont
+      les effets opérationnels restent incertains.
+  3:
+    label: établie
+    rule: >
+      Au moins deux signaux indépendants récents montrent une dynamique crédible,
+      avec des acteurs affectés et un changement professionnel identifiable.
+  4:
+    label: forte
+    rule: >
+      Convergence de plusieurs signaux indépendants récents, accélération nette par
+      rapport à la période précédente et conséquences opérationnelles probables.
+  5:
+    label: rupture
+    rule: >
+      Bascule structurelle ou réglementaire majeure confirmée par plusieurs signaux
+      récents, avec effets opérationnels immédiats ou quasi certains sur plusieurs acteurs.
+
+opportunity_confidence:
+  1:
+    label: speculative
+    rule: >
+      Besoin hypothétique ; acheteur, déclencheur ou job-to-be-done encore flou.
+  2:
+    label: plausible
+    rule: >
+      Besoin cohérent avec une tendance mais encore faiblement documenté ou très dépendant
+      d'une hypothèse non vérifiée.
+  3:
+    label: credible
+    rule: >
+      Besoin professionnel précis, acheteur identifiable, job-to-be-done clair et au moins
+      une dynamique solide qui le rend plausible à court ou moyen terme.
+  4:
+    label: probable
+    rule: >
+      Plusieurs tendances ou signaux convergent vers le même besoin, les incertitudes
+      principales sont limitées et le déclencheur d'achat ou d'organisation est identifiable.
+  5:
+    label: tres_probable
+    rule: >
+      Besoin directement induit par une obligation, une pratique qui se généralise ou une
+      demande déjà observable, avec acheteur, déclencheur et livrable clairement définis.
+
+market_signal_strength:
+  1:
+    label: absent_ou_contre_signal
+    rule: >
+      Aucune preuve économique pertinente trouvée, ou éléments montrant que la demande
+      est improbable, internalisée ou repoussée.
+  2:
+    label: faible
+    rule: >
+      Indices économiques indirects seulement : communication, intention, expérimentation,
+      concurrence émergente ou recrutement isolé sans achat identifiable.
+  3:
+    label: modere
+    rule: >
+      Au moins une preuve directe de besoin ou plusieurs indices indépendants cohérents,
+      mais marché encore peu répété, peu quantifié ou territorialement limité.
+  4:
+    label: fort
+    rule: >
+      Plusieurs preuves directes et indépendantes de demande, d'achat, de financement ou
+      d'obligation opératoire externalisable.
+  5:
+    label: tres_fort
+    rule: >
+      Demande répétée ou structurelle chez plusieurs acheteurs, avec mécanisme de financement,
+      obligation captive ou achats récurrents clairement vérifiables.
+
+market_evidence_demand_signal:
+  none: >
+    Information contextuelle ne démontrant pas une demande économique.
+  indirect: >
+    Indice de besoin ou de mobilisation, mais sans achat, budget, demande explicite ni
+    livrable externalisable démontré.
+  direct: >
+    Preuve qu'un acteur cherche, finance, budgète ou demande effectivement une capacité,
+    un service ou un livrable.
+  externalisable: >
+    Preuve directe qu'un livrable compatible avec un bureau d'études peut être acheté ou
+    confié à un prestataire externe.
+
+ready_to_prototype_gate:
+  required_verdicts:
+    - signale_fort
+    - signale_modere
+  minimum_be_fit: 4
+  qualifying_evidence_types:
+    - appel_offres
+    - financement
+    - budget
+    - demande_explicite
+  obligation_rule: >
+    Une obligation ne suffit pas à elle seule. Elle ne peut qualifier une offre que si la
+    preuve est classée demand_signal=externalisable et impose ou déclenche un livrable concret
+    qu'un bureau d'études peut effectivement produire.
+  excluded_as_sufficient_alone:
+    - recrutement
+    - concurrent
+    - appel_a_projets
+    - autre
