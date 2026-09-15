@@ -5,6 +5,11 @@
   "type": "object",
   "required": ["generated_at", "based_on_trends", "opportunities"],
   "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "2.0",
+      "description": "Présent sur les artefacts produits par l'orchestrateur v2."
+    },
     "generated_at": { "type": "string", "format": "date-time" },
     "based_on_trends": {
       "type": "object",
@@ -34,6 +39,33 @@
         ],
         "properties": {
           "id": { "type": "string" },
+          "canonical_id": {
+            "type": "string",
+            "description": "Identifiant stable du besoin professionnel à conserver d'une période à l'autre."
+          },
+          "first_seen": {
+            "type": "string",
+            "description": "Première période où cette opportunité a été formulée."
+          },
+          "last_seen": {
+            "type": "string",
+            "description": "Période courante où l'opportunité est réévaluée."
+          },
+          "previous_period_id": { "type": ["string", "null"] },
+          "previous_confidence": {
+            "type": ["integer", "null"],
+            "minimum": 1,
+            "maximum": 5
+          },
+          "confidence_delta": {
+            "type": ["integer", "null"],
+            "minimum": -4,
+            "maximum": 4
+          },
+          "evolution_note": {
+            "type": "string",
+            "description": "Pourquoi la confiance augmente, baisse ou reste stable depuis la période précédente."
+          },
           "title": { "type": "string" },
           "hypothesis": { "type": "string" },
           "central_question_answer": {
@@ -80,7 +112,7 @@
           "validation_questions": {
             "type": "array",
             "items": { "type": "string" },
-            "description": "Questions pour l'automation 4"
+            "description": "Questions pour la validation économique"
           }
         }
       }
