@@ -1,0 +1,97 @@
+{
+  "schema_version": "2.0",
+  "generated_at": "2026-09-15T05:55:00Z",
+  "based_on_validation": {"file": "validation/2026/2026-W38.json", "period": "2026-W38"},
+  "offers": [
+    {
+      "id":"offre-2026-W38-haies-dossier","title":"Préparer l'offre dossier régime unique haie","status":"preparer_attendre_signal","be_fit":5,"linked_opportunity_id":"opp-2026-W38-01","linked_validation_verdict":"signale_modere",
+      "one_liner":"Préparer une prestation standardisée de diagnostic écologique, SIG, compensation et montage du dossier haie pour les cas complexes du nouveau régime.",
+      "buyer":{"persona":"exploitant agricole / aménageur / collectivité","trigger":"projet de destruction de haie soumis au régime unique à compter du 1er octobre 2026"},
+      "deliverables":["Note de qualification réglementaire et diagnostic écologique ciblé","Cartographie SIG des haies et enjeux espèces/Natura 2000","Scénario de compensation et dossier de déclaration/autorisation"],
+      "skills_required":["écologie","SIG","espèces protégées","Natura 2000","réglementation haies"],
+      "why_now":"La procédure devient imminente et plusieurs départements en fixent les paramètres, mais la commande externalisée de montage de dossiers n'est pas encore suffisamment observée.",
+      "evidence_refs":[
+        {"title":"Instruction du 17 juillet 2026 — déploiement du régime unique de la haie","url":"https://aida.ineris.fr/reglementation/instruction-170726-relative-regime-unique-haie","type":"obligation"},
+        {"title":"Morbihan — consultation départementale sur coefficient de compensation et période d'interdiction","url":"https://www.morbihan.gouv.fr/Publications/Participation-du-public/Regime-unique-haie-Morbihan-Coefficient-de-compensation-et-periode-d-interdiction-Septembre-2026","type":"demande_explicite"}
+      ],
+      "price_signal":"non chiffré","competitors":["chambres d'agriculture","BE écologie/TVB","accompagnement direct DDT"],
+      "first_action_this_month":"Construire une trame dossier + couche SIG type et tester le temps de production sur deux cas fictifs avant le 1er octobre.",
+      "do_not_sell":"Ne pas vendre une simple assistance administrative ; ne pas promettre que tout dossier nécessite un inventaire écologique complet."
+    },
+    {
+      "id":"offre-2026-W38-eau-adaptation","title":"Diagnostic ressource en eau et programme d'adaptation","status":"pret_a_prototyper","be_fit":5,"linked_opportunity_id":"opp-2026-W38-03","linked_validation_verdict":"signale_fort",
+      "one_liner":"Produire un diagnostic territorial de ressource et usages, puis un programme priorisé de sécurisation, REUT et adaptation hydrique.",
+      "buyer":{"persona":"syndicat d'eau / EPCI / SAGE / collectivité","trigger":"tension sur la ressource, révision de schéma directeur, projet REUT ou programmation d'investissements"},
+      "deliverables":["Diagnostic quantifié ressources-usages-vulnérabilités avec cartographie SIG","Scénarios de sécurisation et de REUT avec critères environnementaux et réglementaires","Programme d'actions priorisé, calendrier, indicateurs et besoins d'études complémentaires"],
+      "skills_required":["hydrologie","eau potable/assainissement","IOTA","zones humides","SIG","analyse de données"],
+      "why_now":"Plusieurs acheteurs publics externalisent déjà des études prospectives, REUT, schémas directeurs et AMO ; la tension hydrologique rend la décision d'investissement immédiate.",
+      "evidence_refs":[
+        {"title":"DREAL PACA — étude prospective Eau Sud 2050","url":"https://www.marchesonline.com/appels-offres/avis/etude-preliminaire-a-instauration-un-cadre-discussio/ao-9645759-1","type":"appel_offres"},
+        {"title":"Eau 17 — étude d'opportunité et de préfaisabilité REUT sur 12 STEP littorales","url":"https://www.marchesonline.com/appels-offres/avis/realisation-de-l-etude-d-opportunite-et-de-prefaisa/ao-9592001-1","type":"appel_offres"}
+      ],
+      "price_signal":"non chiffré","competitors":["BE eau/hydraulique","grands opérateurs de l'eau","BE spécialisés REUT"],
+      "first_action_this_month":"Créer un canevas de diagnostic de 10 à 15 pages et sélectionner trois collectivités tests disposant de données hydrologiques accessibles.",
+      "do_not_sell":"Ne pas vendre une étude générique de sécheresse ; toujours partir d'un déclencheur opérationnel et d'un portefeuille de décisions."
+    },
+    {
+      "id":"offre-2026-W38-pfas-eaux-boues","title":"Diagnostic PFAS eaux, boues et stratégie de filière","status":"pret_a_prototyper","be_fit":5,"linked_opportunity_id":"opp-2026-W38-04","linked_validation_verdict":"signale_fort",
+      "one_liner":"Cadrer et piloter une investigation PFAS, interpréter les résultats et comparer les options de réduction, élimination ou traitement.",
+      "buyer":{"persona":"STEU / syndicat d'eau / collectivité / exploitant ICPE","trigger":"obligation de surveillance, détection PFAS, hausse du coût de gestion des boues ou besoin de choisir une filière"},
+      "deliverables":["Plan d'investigation et d'échantillonnage eaux/boues avec cahier des charges laboratoire","Rapport d'interprétation réglementaire et cartographie des sources/flux","Scénarios comparés de réduction à la source, gestion des boues et traitement avec plan d'actions"],
+      "skills_required":["micropolluants","eau/assainissement","SSP","réglementation ICPE","QA/QC analytique","SIG"],
+      "why_now":"Des marchés achètent explicitement mesures PFAS eaux/boues, pilotes et traitement : le problème est déjà une dépense opérationnelle identifiable.",
+      "evidence_refs":[
+        {"title":"Perpignan Méditerranée Métropole — mesures réglementaires PFAS sur eaux et boues de STEP","url":"https://www.marchesonline.com/appels-offres/avis/realisation-de-mesures-reglementaires-pfas-sur-les-st/ao-9636414-1","type":"appel_offres"},
+        {"title":"Région Grand Est — stations mobiles de traitement PFAS","url":"https://www.marchesonline.com/appels-offres/avis/acquisition-et-exploitation-de-stations-mobiles-de-trai/ao-9626410-1","type":"appel_offres"}
+      ],
+      "price_signal":"non chiffré","competitors":["laboratoires environnementaux","opérateurs eau/assainissement","fournisseurs de procédés","BE micropolluants/SSP"],
+      "first_action_this_month":"Formaliser un partenariat laboratoire et produire une matrice d'aide au choix prélèvements–interprétation–filières.",
+      "do_not_sell":"Ne pas se présenter comme laboratoire ni vendre un procédé de traitement propriétaire ; rester indépendant dans la comparaison des solutions."
+    },
+    {
+      "id":"offre-2026-W38-enr-precadrage","title":"Pré-cadrage environnemental EnR et ombrières","status":"pret_a_prototyper","be_fit":5,"linked_opportunity_id":"opp-2026-W38-06","linked_validation_verdict":"signale_fort",
+      "one_liner":"Screening rapide d'un site ou portefeuille EnR pour qualifier biodiversité, eau, paysage et procédures avant investissement détaillé.",
+      "buyer":{"persona":"collectivité / syndicat d'énergie / développeur EnR / aménageur","trigger":"sélection de sites, parking à solariser, lancement d'une étude de faisabilité ou d'une consultation de conception"},
+      "deliverables":["Carte de contraintes et opportunités biodiversité-eau-paysage-foncier","Matrice des procédures et inventaires nécessaires par site","Note de recommandations de conception : infiltration, désimperméabilisation, trame écologique et calendrier réglementaire"],
+      "skills_required":["étude d'impact","biodiversité","hydraulique pluviale/IOTA","SIG","paysage","EnR"],
+      "why_now":"Des marchés récents combinent explicitement photovoltaïque, infiltration et biodiversité et achètent même un lot écologique séparé en phase d'études préalables.",
+      "evidence_refs":[
+        {"title":"Agence de l'eau Seine-Normandie — maîtrise d'œuvre pour rénovation d'un parking favorisant infiltration, biodiversité et photovoltaïque","url":"https://www.marchesonline.com/appels-offres/avis/maitrise-d-oeuvre-pour-la-renovation-d-un-parking-fav/ao-9645803-1","type":"appel_offres"},
+        {"title":"Agence de l'eau Seine-Normandie — études préalables parking, lot écologique","url":"https://www.marchesonline.com/appels-offres/avis/etudes-prealables-a-la-renovation-d-un-parking-favor/ao-9572162-1","type":"appel_offres"}
+      ],
+      "price_signal":"non chiffré","competitors":["BE environnement","BE VRD/hydraulique","développeurs intégrés","paysagistes"],
+      "first_action_this_month":"Créer une grille de screening 20 critères et l'appliquer à trois parkings ou sites EnR connus pour vérifier sa valeur de décision.",
+      "do_not_sell":"Ne pas vendre un audit énergétique ou une étude de productible PV ; rester sur l'interface environnementale et réglementaire."
+    },
+    {
+      "id":"offre-2026-W38-friches-mutabilite","title":"Screening environnemental de mutabilité des friches","status":"pret_a_prototyper","be_fit":5,"linked_opportunity_id":"opp-2026-W38-07","linked_validation_verdict":"signale_fort",
+      "one_liner":"Qualifier rapidement la mutabilité environnementale d'un portefeuille de friches pour prioriser réemploi, renaturation et investigations.",
+      "buyer":{"persona":"EPCI / EPF / aménageur / promoteur","trigger":"priorisation de friches, candidature Fonds vert ou lancement d'une opération de recyclage foncier"},
+      "deliverables":["Croisement SIG Cartofriches avec sols, biodiversité, eau, risques et protections","Fiche de mutabilité environnementale par site avec niveau de risque et lacunes de données","Matrice de priorisation et programme d'investigations SSP/écologie/eau"],
+      "skills_required":["urbanisme environnemental","SSP","écologie","SIG","eau","ZAN"],
+      "why_now":"Les collectivités achètent déjà des études faune-flore et pollution des sols sur les friches, tandis que le Fonds vert crée un déclencheur de financement.",
+      "evidence_refs":[
+        {"title":"Bolbec — étude faune-flore sur la friche Desgenétais","url":"https://www.marchesonline.com/appels-offres/avis/etude-faune-flore-sur-le-site-desgenetais/ao-9629405-1","type":"appel_offres"},
+        {"title":"Métropole du Grand Paris — missions d'études géotechniques et de pollution des sols","url":"https://www.marchesonline.com/appels-offres/avis/missions-d-etudes-geotechniques-et-de-pollution-des-s/ao-9618622-1","type":"appel_offres"}
+      ],
+      "price_signal":"non chiffré","competitors":["EPF","Cerema","BE SSP","BE écologie","agences d'urbanisme"],
+      "first_action_this_month":"Tester le format sur 5 à 10 friches d'un territoire public et mesurer le temps nécessaire par site.",
+      "do_not_sell":"Ne pas présenter le screening comme un diagnostic SSP, une étude faune-flore quatre saisons ou une étude réglementaire complète."
+    },
+    {
+      "id":"offre-2026-W38-restauration","title":"Préparer le diagnostic territorial de restauration écologique","status":"preparer_attendre_signal","be_fit":5,"linked_opportunity_id":"opp-2026-W38-02","linked_validation_verdict":"signale_modere",
+      "one_liner":"Préparer une méthode de hiérarchisation des milieux à restaurer et de suivi des résultats avant la territorialisation commerciale du plan national.",
+      "buyer":{"persona":"DREAL / OFB / collectivité / gestionnaire Natura 2000","trigger":"publication du plan français, AAP dédié ou besoin de déclinaison territoriale"},
+      "deliverables":["Diagnostic habitats/espèces et potentiel de restauration","Carte de priorisation des secteurs et pressions","Programme de mesures avec indicateurs de résultat et protocole de suivi"],
+      "skills_required":["écologie des habitats","Natura 2000","SIG","restauration écologique","suivi"],
+      "why_now":"La contrainte européenne et l'appui financé au plan national sont solides, mais la vague d'achats territoriaux liée au NRP n'est pas encore visible.",
+      "evidence_refs":[
+        {"title":"Règlement (UE) 2024/1991 relatif à la restauration de la nature","url":"https://eur-lex.europa.eu/legal-content/FR/ALL/?uri=OJ%3AL_202401991","type":"obligation"},
+        {"title":"IUCN — appui à l'élaboration du plan national français de restauration de la nature","url":"https://iucn.org/fr/resources/brochure/appui-lelaboration-du-plan-national-francais-de-restauration-de-la-nature?language=fr","type":"financement"}
+      ],
+      "price_signal":"non chiffré","competitors":["OFB","conservatoires","associations naturalistes","BE biodiversité/restauration"],
+      "first_action_this_month":"Construire une trame de diagnostic interne et une bibliothèque d'indicateurs, sans lancer de prospection dédiée avant un signal territorial.",
+      "do_not_sell":"Ne pas vendre un « accompagnement NRP » générique tant que le contenu français et les mécanismes territoriaux ne sont pas stabilisés."
+    }
+  ]
+}

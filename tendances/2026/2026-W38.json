@@ -1,0 +1,208 @@
+{
+  "schema_version": "2.0",
+  "period": {"start": "2026-08-18", "end": "2026-09-14", "label": "2026-W38"},
+  "generated_at": "2026-09-15T03:53:34Z",
+  "meta": {
+    "daily_files_used": 24,
+    "items_analyzed": 206,
+    "method_notes": "Premier run orchestrateur v2. Fenêtre glissante de 28 jours (18/08–14/09), priorité aux signaux apparus après W37 (06/09). Comparaison longitudinale explicite ; les répétitions sans évolution ne font pas monter les scores."
+  },
+  "trends": [
+    {
+      "id": "2026-W38-extremes-adaptation-budgets",
+      "canonical_id": "climat-extremes-reconstruction-adaptation",
+      "first_seen": "2026-W35", "last_seen": "2026-W38",
+      "previous_period_id": "2026-W37-extremes-macro-reconstruction",
+      "previous_status": "en_acceleration", "previous_acceleration_score": 5, "score_delta": 0,
+      "evolution_note": "Après le chiffrage macro et la reconstruction W37, W38 ajoute un record officiel de besoin de refroidissement et des contraintes budgétaires sur les investissements climatiques locaux. Niveau déjà maximal.",
+      "title": "Extrêmes climatiques : l'adaptation devient structurelle mais l'ingénierie financière se tend",
+      "status": "structurelle",
+      "themes": ["climat_adaptation", "incendies_risques", "reglementation", "donnees_outils"],
+      "acceleration_score": 5,
+      "summary": "Le record de besoins de refroidissement consolide l'adaptation comme sujet d'investissement permanent, tandis que collectivités et programmes publics arbitrent plus durement leurs budgets.",
+      "drivers": ["climat", "financement", "données", "pratique territoriale"],
+      "evidence": [
+        {"daily_item_id": "2026-09-09-004", "date": "2026-09-08", "title": "Adaptation scolaire à la canicule : le budget diagnostics Actee réduit de 56 à 16 millions d'euros", "url": "https://www.actu-environnement.com/dit-aujourdhui/1829.html"},
+        {"daily_item_id": "2026-09-11-003", "date": "2026-09-10", "title": "Budget 2027 : France urbaine alerte sur la capacité d'investissement climatique des métropoles", "url": "https://franceurbaine.org/actualites/budget-2027-france-urbaine-demande-une-mobilisation-de-moyens-en-coherence-avec-les-objectifs-climatiques-nationaux/"},
+        {"daily_item_id": "2026-09-14-001", "date": "2026-09-11", "title": "SDES : été 2026 record de besoins de refroidissement", "url": "https://www.statistiques.developpement-durable.gouv.fr/des-temperatures-exceptionnelles-tout-au-long-de-lete-2026-un-besoin-de-refroidissement-le-plus"}
+      ],
+      "what_is_changing": "L'adaptation devient un arbitrage d'investissement : il faut hiérarchiser vulnérabilités, actifs et travaux sous contrainte budgétaire.",
+      "who_is_affected": ["collectivités et EPCI", "gestionnaires de bâtiments publics", "services climat", "bureaux d'études adaptation"],
+      "time_horizon": "0-6_mois"
+    },
+    {
+      "id": "2026-W38-eau-stress-investissements",
+      "canonical_id": "eau-stress-gouvernance-diagnostics",
+      "first_seen": "2026-W35", "last_seen": "2026-W38",
+      "previous_period_id": "2026-W37-eau-assecs-zones-humides",
+      "previous_status": "en_acceleration", "previous_acceleration_score": 5, "score_delta": 0,
+      "evolution_note": "La tension hydrique se confirme avec les nappes sous les normales et un CASH national ; l'enjeu se déplace vers suivi, réutilisation et investissements. Score maintenu à 5.",
+      "title": "Eau : stress hydrique durable, nouveaux suivis azote et préparation d'investissements d'adaptation",
+      "status": "structurelle",
+      "themes": ["eau_zones_humides", "climat_adaptation", "reglementation", "sols"],
+      "acceleration_score": 5,
+      "summary": "Les nappes restent sous tension, le cadre zones humides évolue et l'expérimentation bretonne fondée sur les reliquats devient opérationnelle.",
+      "drivers": ["crise climatique", "réglementation", "données hydrologiques", "pratique agricole"],
+      "evidence": [
+        {"daily_item_id": "2026-09-02-003", "date": "2026-09-01", "title": "Loi d'urgence agricole 2026-796 : assouplissement des prescriptions sur les zones humides", "url": "https://www.actu-environnement.com/ae/reglementation/loi-du-18-08-2026-2026-796-40198.php"},
+        {"daily_item_id": "2026-09-11-002", "date": "2026-09-09", "title": "Hydrologie : CASH à Orléans et nappes toujours sous tension fin août", "url": "https://www.brgm.fr/fr/actualite/communique-presse/nappes-eau-souterraine-au-1er-septembre-2026"},
+        {"daily_item_id": "2026-09-12-005", "date": "2026-09-10", "title": "CASH du 9 septembre : situation hydrologique sous tension", "url": "https://www.actu-environnement.com/ae/news/comite-anticipation-suivi-hydrologique-monique-barbut-mission-acceleration-adaptation-48496.php4"}
+      ],
+      "what_is_changing": "Le besoin glisse de la gestion de crise vers des diagnostics quantifiés et la programmation de mesures d'adaptation.",
+      "who_is_affected": ["syndicats d'eau", "agences de l'eau", "DREAL/DDT(M)", "exploitants agricoles", "bureaux d'études eau-écologie"],
+      "time_horizon": "0-6_mois"
+    },
+    {
+      "id": "2026-W38-restauration-nature-operationnelle",
+      "canonical_id": "restauration-nature-habitats-especes",
+      "first_seen": "2026-W36", "last_seen": "2026-W38",
+      "previous_period_id": "2026-W37-restauration-nrp-diagnostic",
+      "previous_status": "en_acceleration", "previous_acceleration_score": 5, "score_delta": 0,
+      "evolution_note": "Le calendrier national demeure en retard, mais des protections d'espèces et démonstrateurs de restauration rendent la dynamique plus concrète. Niveau déjà maximal.",
+      "title": "Restauration de la nature : du plan national aux mesures espèces et démonstrateurs opérationnels",
+      "status": "structurelle",
+      "themes": ["biodiversite", "especes_habitats", "natura2000", "reglementation", "donnees_outils"],
+      "acceleration_score": 5,
+      "summary": "La restauration se matérialise par de nouvelles protections d'espèces, des fermetures de pêche reconduites et des retours d'expérience de restauration d'habitats marins.",
+      "drivers": ["réglementation UE", "protection espèces", "science appliquée", "suivi écologique"],
+      "evidence": [
+        {"daily_item_id": "2026-09-05-004", "date": "2026-09-02", "title": "Plan national de restauration : la France annonce un envoi à Bruxelles d'ici quinze jours", "url": "https://environment.ec.europa.eu/news/eu-countries-submit-draft-plans-restoring-nature-2026-09-01_en"},
+        {"daily_item_id": "2026-09-09-001", "date": "2026-09-08", "title": "Grand tétras et lagopède alpin : inscription définitive sur la liste des oiseaux protégés", "url": "https://www.actu-environnement.com/ae/reglementation/arrete-du-03-09-2026-tecl2619332a-40282.php"},
+        {"daily_item_id": "2026-09-11-004", "date": "2026-09-09", "title": "Coraux d'eau froide : premiers résultats du programme Redecor", "url": "https://www.ifremer.fr/fr/presse/coraux-profonds-de-premiers-resultats-encourageants-pour-leur-restauration-dans-le-golfe-de"},
+        {"daily_item_id": "2026-09-12-002", "date": "2026-09-11", "title": "Petits cétacés : fermetures de pêche reconduites pour 2027", "url": "https://www.actu-environnement.com/ae/reglementation/arrete-du-09-09-2026-tecm2623771a-40316.php"}
+      ],
+      "what_is_changing": "Inventaires, cartographies, objectifs de restauration et suivis de résultats deviennent des besoins durables sur plusieurs milieux.",
+      "who_is_affected": ["OFB/DREAL", "gestionnaires Natura 2000", "collectivités", "gestionnaires d'espaces naturels", "BE biodiversité"],
+      "time_horizon": "0-6_mois"
+    },
+    {
+      "id": "2026-W38-electrification-enr-territoires",
+      "canonical_id": "enr-reseaux-electrification-territoriale",
+      "first_seen": "2026-W35", "last_seen": "2026-W38",
+      "previous_period_id": "2026-W37-flexibilite-reseaux-enr",
+      "previous_status": "en_acceleration", "previous_acceleration_score": 4, "score_delta": 1,
+      "evolution_note": "W38 ajoute 109 territoires d'électrification, un décret opérationnel sur la solarisation des parkings et un nouveau référentiel CRE. Le sujet passe à un portefeuille de projets locaux.",
+      "title": "Électrification et EnR : 109 territoires, solarisation des parkings et besoin d'ingénierie environnementale",
+      "status": "en_acceleration",
+      "themes": ["energie_biodiversite", "climat_adaptation", "reglementation", "donnees_outils"],
+      "acceleration_score": 5,
+      "summary": "La politique d'électrification se territorialise et multiplie les interfaces avec biodiversité, eau, paysage et études d'impact.",
+      "drivers": ["planification territoriale", "réglementation", "investissement", "réseaux"],
+      "evidence": [
+        {"daily_item_id": "2026-09-10-001", "date": "2026-09-08", "title": "Solarisation des parkings : décret n° 2026-842", "url": "https://www.actu-environnement.com/ae/reglementation/decret-du-07-09-2026-2026-842-40284.php"},
+        {"daily_item_id": "2026-09-11-001", "date": "2026-09-09", "title": "CRE : économie du système électrique et valeur assurantielle des ENR", "url": "https://www.cre.fr/actualites/toute-lactualite/la-cre-presente-son-rapport-sur-leconomie-du-systeme-electrique-francais-hexagonal.html"},
+        {"daily_item_id": "2026-09-12-001", "date": "2026-09-11", "title": "Plan d'électrification : 109 territoires retenus", "url": "https://www.actu-environnement.com/ae/news/plan-electrification-territoires-retenus-communes-sortie-fossiles-gaz-48505.php4"}
+      ],
+      "what_is_changing": "Les maîtres d'ouvrage doivent articuler électrification, réseaux, stationnement, eau pluviale, biodiversité et autorisations.",
+      "who_is_affected": ["collectivités et syndicats d'énergie", "développeurs EnR", "Enedis/RTE", "DREAL", "BE environnement"],
+      "time_horizon": "0-6_mois"
+    },
+    {
+      "id": "2026-W38-circularite-rep-ppwr",
+      "canonical_id": "circularite-rep-ppwr",
+      "first_seen": "2026-W37", "last_seen": "2026-W38",
+      "previous_period_id": "2026-W37-circularite-plastiques-textiles",
+      "previous_status": "en_acceleration", "previous_acceleration_score": 4, "score_delta": 1,
+      "evolution_note": "W38 ajoute obligations PPWR déjà applicables, révision des dispositifs REP et un rapport IGEDD/IGF chiffrant les coûts du service déchets.",
+      "title": "Circularité : PPWR applicable, REP en bascule et pression sur l'économie du service déchets",
+      "status": "en_acceleration",
+      "themes": ["reglementation", "donnees_outils", "climat_adaptation"],
+      "acceleration_score": 5,
+      "summary": "Les opérateurs d'emballages entrent en conformité PPWR pendant que les cahiers des charges REP et le financement du service déchets sont recalibrés.",
+      "drivers": ["réglementation UE", "REP", "finances publiques", "traçabilité"],
+      "evidence": [
+        {"daily_item_id": "2026-09-10-002", "date": "2026-09-09", "title": "SPGD : rapport IGEDD/IGF sur pollueur-payeur et tarification incitative", "url": "https://www.actu-environnement.com/media/pdf/news-48478-rapport-igedd-igf-gestion-dechets-menagers.pdf"},
+        {"daily_item_id": "2026-09-10-003", "date": "2026-09-10", "title": "REP emballages ménagers : consultation cahier des charges", "url": "https://www.consultations-publiques.developpement-durable.gouv.fr/projet-d-arrete-modifiant-l-arrete-du-7-decembre-a3410.html"},
+        {"daily_item_id": "2026-09-13-002", "date": "2026-09-10", "title": "PPWR : premières obligations applicables", "url": "https://www.actu-environnement.com/ae/news/ppwr-reglementation-emballages-operateurs-conformite-48460.php4"},
+        {"daily_item_id": "2026-09-13-004", "date": "2026-09-13", "title": "REP emballages professionnels : consultation prolongée", "url": "https://www.consultations-publiques.developpement-durable.gouv.fr/projet-d-arrete-modifiant-l-arrete-2-du-decembre-a3407.html"}
+      ],
+      "what_is_changing": "La circularité passe de trajectoires à des obligations de conformité et arbitrages financiers concrets.",
+      "who_is_affected": ["éco-organismes", "collectivités déchets", "metteurs sur le marché", "recycleurs", "consultants déchets"],
+      "time_horizon": "0-6_mois"
+    },
+    {
+      "id": "2026-W38-pfas-boues-autosurveillance",
+      "canonical_id": "pfas-eau-boues-fiscalite",
+      "first_seen": "2026-W35", "last_seen": "2026-W38",
+      "previous_period_id": "2026-W37-pfas-taxe-filieres",
+      "previous_status": "en_acceleration", "previous_acceleration_score": 4, "score_delta": 1,
+      "evolution_note": "Après la redevance W37, W38 ajoute une règle fiscale spécifique pour les boues contaminées ; la chaîne mesure-fiscalité-élimination se ferme.",
+      "title": "PFAS : de la redevance à l'autosurveillance et aux filières d'élimination des boues",
+      "status": "en_acceleration",
+      "themes": ["reglementation", "eau_zones_humides", "sols", "donnees_outils"],
+      "acceleration_score": 5,
+      "summary": "Les exploitants et collectivités doivent désormais articuler mesure, conformité, fiscalité et gestion des résidus PFAS.",
+      "drivers": ["réglementation", "fiscalité", "analyse", "traitement déchets"],
+      "evidence": [
+        {"daily_item_id": "2026-08-23-003", "date": "2026-07-25", "title": "PFAS : contrôle des rejets ICPE 2790/2791", "url": "https://www.actu-environnement.com/ae/reglementation/arrete-du-16-07-2026-tecp2618033a-40039.php"},
+        {"daily_item_id": "2026-09-09-002", "date": "2026-09-06", "title": "PFAS : exemption TGAP déchets pour les boues contaminées", "url": "https://www.actu-environnement.com/ae/reglementation/arrete-du-01-09-2026-tecp2621924a-40270.php"},
+        {"daily_item_id": "2026-09-13-002", "date": "2026-09-10", "title": "PPWR : premières obligations applicables", "url": "https://www.actu-environnement.com/ae/news/ppwr-reglementation-emballages-operateurs-conformite-48460.php4"}
+      ],
+      "what_is_changing": "La mesure PFAS devient une chaîne d'ingénierie : prélèvement, laboratoire, redevance, boues et réduction à la source.",
+      "who_is_affected": ["STEU et syndicats d'eau", "exploitants ICPE", "laboratoires", "agences de l'eau", "BE micropolluants"],
+      "time_horizon": "0-6_mois"
+    },
+    {
+      "id": "2026-W38-zan-friches-multienjeux",
+      "canonical_id": "zan-friches-mobilisation",
+      "first_seen": "2026-W37", "last_seen": "2026-W38",
+      "previous_period_id": "2026-W37-zan-cartofriches",
+      "previous_status": "emergente", "previous_acceleration_score": 4, "score_delta": 0,
+      "evolution_note": "Cartofriches est complété par un retour Cerema croisant biodiversité, risques littoraux, patrimoine et participation. Maturité méthodologique accrue sans nouveau choc réglementaire.",
+      "title": "ZAN et friches : la mobilisation foncière devient un diagnostic environnemental multi-enjeux",
+      "status": "en_acceleration",
+      "themes": ["zan_artificialisation", "sols", "biodiversite", "climat_adaptation"],
+      "acceleration_score": 4,
+      "summary": "L'inventaire des friches se combine avec des méthodes de requalification croisant biodiversité, risques, patrimoine et usages.",
+      "drivers": ["données foncières", "ZAN", "méthodes Cerema", "biodiversité"],
+      "evidence": [
+        {"daily_item_id": "2026-09-04-001", "date": "2026-09-03", "title": "Cartofriches : près de 20 500 friches répertoriées", "url": "https://www.cerema.fr/fr/actualites/cartofriches-pres-20-500-sites-friches-repertories"},
+        {"daily_item_id": "2026-09-10-004", "date": "2026-09-08", "title": "Cerema : requalification participative d'une friche littorale", "url": "https://www.cerema.fr/fr/actualites/approche-multi-enjeux-participative-imaginer-avenir-friche"}
+      ],
+      "what_is_changing": "Les collectivités doivent qualifier écologiquement et réglementairement les friches avant de décider leur réemploi.",
+      "who_is_affected": ["collectivités et EPCI", "aménageurs", "EPF", "BE urbanisme-environnement", "services fonciers"],
+      "time_horizon": "6-18_mois"
+    },
+    {
+      "id": "2026-W38-adaptation-chaleur-batiments",
+      "canonical_id": "adaptation-chaleur-batiments",
+      "first_seen": "2026-W37", "last_seen": "2026-W38",
+      "previous_period_id": "2026-W37-adaptation-thermique-rga",
+      "previous_status": "en_acceleration", "previous_acceleration_score": 4, "score_delta": 0,
+      "evolution_note": "Le record SDES renforce le besoin technique, mais la réduction du budget Actee et les contraintes financières locales empêchent une accélération économique nette.",
+      "title": "Confort d'été des bâtiments : besoin technique renforcé, capacité d'investissement plus incertaine",
+      "status": "stable",
+      "themes": ["climat_adaptation", "incendies_risques", "donnees_outils"],
+      "acceleration_score": 4,
+      "summary": "L'été 2026 légitime les diagnostics de confort d'été, mais les financements se resserrent et la commande sera plus sélective.",
+      "drivers": ["climat", "données", "financement public"],
+      "evidence": [
+        {"daily_item_id": "2026-09-09-004", "date": "2026-09-08", "title": "Budget diagnostics Actee réduit", "url": "https://www.actu-environnement.com/dit-aujourdhui/1829.html"},
+        {"daily_item_id": "2026-09-14-001", "date": "2026-09-11", "title": "SDES : record de besoins de refroidissement", "url": "https://www.statistiques.developpement-durable.gouv.fr/des-temperatures-exceptionnelles-tout-au-long-de-lete-2026-un-besoin-de-refroidissement-le-plus"}
+      ],
+      "what_is_changing": "Les diagnostics gagnent en légitimité mais doivent cibler les bâtiments prioritaires et les financements mobilisables.",
+      "who_is_affected": ["collectivités", "gestionnaires d'écoles", "AMO bâtiment", "BE climat"],
+      "time_horizon": "0-6_mois"
+    },
+    {
+      "id": "2026-W38-haies-regime-unique",
+      "canonical_id": "haies-regime-unique",
+      "first_seen": "2026-W37", "last_seen": "2026-W38",
+      "previous_period_id": "2026-W37-haies-regime-unique",
+      "previous_status": "emergente", "previous_acceleration_score": 4, "score_delta": 0,
+      "evolution_note": "Le décret reste le signal structurel déterminant et l'échéance du 1er octobre approche. Peu de nouveaux signaux de veille, mais la procédure devient imminente.",
+      "title": "Haies : le régime unique entre dans sa phase opérationnelle avant le 1er octobre",
+      "status": "structurelle",
+      "themes": ["biodiversite", "reglementation", "especes_habitats", "natura2000"],
+      "acceleration_score": 4,
+      "summary": "La déclaration unique de destruction de haies devient concrète pour les dossiers déposés à compter du 1er octobre 2026.",
+      "drivers": ["réglementation", "pratique agricole", "instruction préfectorale"],
+      "evidence": [
+        {"daily_item_id": "2026-08-31-001", "date": "2026-08-28", "title": "Décret n° 2026-829 : régime unique de protection des haies", "url": "https://www.actu-environnement.com/ae/reglementation/decret-du-28-08-2026-2026-829-40240.php"}
+      ],
+      "what_is_changing": "Les porteurs de projets doivent produire un dossier unique avec cartographie, compensation et pièces environnementales selon les enjeux.",
+      "who_is_affected": ["exploitants agricoles", "DDT(M)", "collectivités", "aménageurs", "BE biodiversité"],
+      "time_horizon": "0-6_mois"
+    }
+  ]
+}

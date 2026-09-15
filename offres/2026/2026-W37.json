@@ -1,0 +1,119 @@
+{
+  "schema_version": "2.0",
+  "generated_at": "2026-09-15T03:53:34Z",
+  "based_on_validation": {
+    "file": "validation/2026/2026-W37.json",
+    "period": "2026-W37"
+  },
+  "offers": [
+    {
+      "id": "offre-2026-W37-haies-regime-unique",
+      "title": "Préparer une offre dossier régime unique haie",
+      "status": "preparer_attendre_signal",
+      "be_fit": 5,
+      "linked_opportunity_id": "opp-2026-W37-01",
+      "linked_validation_verdict": "signale_fort",
+      "one_liner": "Préparer une prestation standardisée de diagnostic, cartographie et montage du dossier de destruction de haie avant l'entrée en application du 1er octobre.",
+      "buyer": {
+        "persona": "exploitant agricole / aménageur / collectivité",
+        "trigger": "premiers dossiers déposés sous le décret 2026-829"
+      },
+      "deliverables": [
+        "Modèle de diagnostic écologique et réglementaire",
+        "Trame SIG et plan de compensation",
+        "Check-list déclaration/autorisation"
+      ],
+      "skills_required": ["écologie", "SIG", "Natura 2000", "espèces protégées", "réglementation haies"],
+      "why_now": "W37 confirme l'obligation et l'écosystème bocager, mais le run legacy ne qualifiait pas encore la demande avec le champ v2 demand_signal.",
+      "evidence_refs": [],
+      "price_signal": "non chiffré",
+      "competitors": ["chambres d'agriculture", "BE écologie"],
+      "first_action_this_month": "Préparer le prototype et revalider le passage à pret_a_prototyper dans le cycle W38 avec les règles v2.",
+      "do_not_sell": "Ne pas vendre une simple assistance administrative sans diagnostic environnemental."
+    },
+    {
+      "id": "offre-2026-W37-rdd-bretagne",
+      "title": "Préparer un lot RDD Bretagne avec partenaire laboratoire",
+      "status": "preparer_attendre_signal",
+      "be_fit": 4,
+      "linked_opportunity_id": "opp-2026-W37-03",
+      "linked_validation_verdict": "signale_fort",
+      "one_liner": "Structurer une offre de campagne de reliquats et d'interprétation territoriale en partenariat avec un laboratoire.",
+      "buyer": {
+        "persona": "DRAAF / syndicat de bassin / chambre d'agriculture",
+        "trigger": "campagnes de mesure liées à l'expérimentation azote Bretagne"
+      },
+      "deliverables": ["Plan d'échantillonnage", "Pilotage laboratoire et base de résultats", "Rapport d'interprétation territoriale"],
+      "skills_required": ["agronomie", "eau", "SIG", "données"],
+      "why_now": "W37 a identifié un AO réel ; le cycle W38 doit qualifier explicitement son caractère externalisable selon la v2.",
+      "evidence_refs": [],
+      "price_signal": "non chiffré",
+      "competitors": ["laboratoires", "chambres d'agriculture", "BE agronomie/eau"],
+      "first_action_this_month": "Identifier un laboratoire partenaire et revalider le marché dans W38.",
+      "do_not_sell": "Ne pas se présenter comme laboratoire d'analyse."
+    },
+    {
+      "id": "offre-2026-W37-restauration-nature",
+      "title": "Préparer la méthode de diagnostic territorial de restauration",
+      "status": "preparer_attendre_signal",
+      "be_fit": 5,
+      "linked_opportunity_id": "opp-2026-W37-02",
+      "linked_validation_verdict": "signale_modere",
+      "one_liner": "Préparer une méthode de diagnostic et de programmation de restauration écologique sans la commercialiser avant signaux d'achat territoriaux.",
+      "buyer": {
+        "persona": "DREAL / collectivité / gestionnaire Natura 2000",
+        "trigger": "publication du plan national ou premier AAP/AO dédié"
+      },
+      "deliverables": ["Diagnostic habitats/espèces", "Carte de priorisation", "Programme de mesures et indicateurs"],
+      "skills_required": ["écologie", "SIG", "Natura 2000", "restauration"],
+      "why_now": "La contrainte réglementaire est forte mais W37 n'a pas confirmé de marché territorial explicite.",
+      "evidence_refs": [],
+      "price_signal": "non chiffré",
+      "competitors": ["OFB", "associations naturalistes", "BE biodiversité"],
+      "first_action_this_month": "Construire une trame interne et attendre le signal de territorialisation.",
+      "do_not_sell": "Ne pas promettre un accompagnement NRP générique avant publication."
+    },
+    {
+      "id": "offre-2026-W37-post-extremes",
+      "title": "Cadrer une offre adaptation post-extrêmes par risque",
+      "status": "preparer_attendre_signal",
+      "be_fit": 4,
+      "linked_opportunity_id": "opp-2026-W37-05",
+      "linked_validation_verdict": "signale_modere",
+      "one_liner": "Préparer des modules ciblés de diagnostic et programmation post-incendie, eau ou surchauffe plutôt qu'une AMO adaptation générique.",
+      "buyer": {
+        "persona": "collectivité / gestionnaire forestier",
+        "trigger": "sinistre, financement reconstruction ou programmation d'adaptation"
+      },
+      "deliverables": ["Diagnostic ciblé du risque", "Programme priorisé de mesures", "Note technique pour financement"],
+      "skills_required": ["risques naturels", "écologie", "climat", "SIG"],
+      "why_now": "Des budgets et marchés opérationnels existent mais W37 ne confirme pas encore un marché d'AMO environnementale générique.",
+      "evidence_refs": [],
+      "price_signal": "non chiffré",
+      "competitors": ["Cerema", "BE risques", "cabinets climat"],
+      "first_action_this_month": "Choisir un seul cas d'usage à prototyper dans W38.",
+      "do_not_sell": "Éviter toute offre vague d'« accompagnement global à l'adaptation »."
+    },
+    {
+      "id": "offre-2026-W37-zan-friches",
+      "title": "Préparer un screening environnemental de friches",
+      "status": "preparer_attendre_signal",
+      "be_fit": 4,
+      "linked_opportunity_id": "opp-2026-W37-07",
+      "linked_validation_verdict": "signale_modere",
+      "one_liner": "Préparer un diagnostic court de mutabilité environnementale des friches en complément de Cartofriches.",
+      "buyer": {
+        "persona": "EPCI / EPF / aménageur",
+        "trigger": "sélection de friches à recycler ou candidature Fonds vert"
+      },
+      "deliverables": ["Croisement SIG multi-enjeux", "Fiche de mutabilité par site", "Priorisation des investigations"],
+      "skills_required": ["SIG", "sols", "écologie", "urbanisme environnemental"],
+      "why_now": "Les données et financements existent mais W37 ne montre pas encore un achat explicite de ce livrable.",
+      "evidence_refs": [],
+      "price_signal": "non chiffré",
+      "competitors": ["Cerema", "EPF", "BE SSP", "agences d'urbanisme"],
+      "first_action_this_month": "Tester le canevas sur un petit portefeuille et rechercher un signal d'achat explicite en W38.",
+      "do_not_sell": "Ne pas présenter un screening comme un diagnostic SSP ou écologique complet."
+    }
+  ]
+}
