@@ -1,26 +1,24 @@
 # Radar de veille stratégique environnementale (France)
 
-Petit système en **6 automations Cursor** : 4 pour le pipeline de veille → marché, 1 garde-fou PR, 1 pour les **fiches d'offre d'un bureau d'études**.
+Système de veille en **deux rôles opérationnels** : une collecte quotidienne, puis un orchestrateur stratégique qui transforme la matière brute en tendances, opportunités validées et offres actionnables pour un bureau d'études environnementales.
 
 ```text
 Sources web
    ↓
-1. Veille quotidienne          →  veille/ + data/daily/
+1. Veille quotidienne
+   → veille/
+   → data/daily/
    ↓
-2. Analyse de tendances        →  tendances/
-   ↓
-3. Détection d'opportunités    →  opportunites/
-   ↓
-4. Validation marché           →  validation/
-   ↓
-6. Fiches offre BE             →  offres/
-                                    ↑
-5. Validation PR  ←───────────────�. Fiches offre BE             →  offres/
-                                    ↑
-5. Validation PR  ←───────────────┘
+2. Orchestrateur stratégique
+   → tendances/
+   → opportunites/
+   → validation/
+   → offres/
+   → contrôle qualité transversal
+   → une PR par cycle
 ```
 
-Objectif final : détecter tôt ce qu'un **bureau d'études environnementale** pourra proposer (prestation, donnée, expertise, méthode) — pas seulement faire de la veille.
+Objectif final : détecter tôt ce que les professionnels de l'environnement vont devoir **faire, acheter, mesurer, produire ou maîtriser**, puis identifier parmi ces évolutions celles qui créent réellement une activité vendable par un bureau d'études environnementales.
 
 ## Structure
 
@@ -28,29 +26,28 @@ Objectif final : détecter tôt ce qu'un **bureau d'études environnementale** p
 .
 ├── veille/                  # Lecture quotidienne (Markdown)
 ├── data/daily/              # Matière machine (JSON)
-├── tendances/               # Synthèses multi-semaines / mois
-├── opportunites/            # Hypothèses professionnelles
-├── validation/              # Preuves économiques
+├── tendances/               # Dynamiques multi-semaines / mois
+├── opportunites/            # Hypothèses de nouveaux besoins professionnels
+├── validation/              # Preuves économiques / signaux marché
 ├── offres/                  # Fiches d'offre BE
 ├── config/
 │   ├── sources.yml
 │   ├── themes.yml
 │   ├── be-personas.yml      # Filtre métier bureau d'études
+│   ├── pipeline.yml         # Pipeline de référence
 │   ├── schemas/
 │   └── automations/
 └── README.md
 ```
 
-## Automatisations
+## Automations / agents
 
-| # | Rôle | Déclencheur | Modèle | Prompt |
-|---|------|-------------|--------|--------|
-| 1 | Collecte / tri / structuration | Quotidien | Composer 2.5 | [`01`](config/automations/01-veille-quotidienne.md) |
-| 2 | Tendances | Hebdo | Raisonnement fort | [`02`](config/automations/02-analyse-tendances.md) |
-| 3 | Opportunités (filtre BE) | Après #2 | Raisonnement fort | [`03`](config/automations/03-detection-opportunites.md) |
-| 4 | Validation marché | Après #3 | Recherche | [`04`](config/automations/04-validation-marche.md) |
-| 5 | Contrôle qualité des PR | PR opened / pushed | Léger | [`05`](config/automations/05-validation-pr.md) |
-| 6 | Fiches offre BE | Après #4 | Raisonnement fort | [`06`](config/automations/06-fiches-offre-be.md) |
+| Rôle | Déclencheur | Fonction | Prompt |
+|------|-------------|----------|--------|
+| Veille quotidienne | Quotidien | Collecte, tri, déduplication, structuration | [`01`](config/automations/01-veille-quotidienne.md) |
+| Orchestrateur stratégique | Hebdo ou manuel | Tendances → opportunités → validation marché → offres BE + QA + PR unique | [`02-06`](config/automations/02-06-orchestrateur-strategique.md) |
+
+Les anciens prompts séparés `02` à `06` restent présents dans `config/automations/` comme historique et référence méthodologique, mais ne constituent plus le workflow opérationnel recommandé.
 
 Guide : [`config/automations/README.md`](config/automations/README.md).
 
@@ -62,10 +59,28 @@ Guide : [`config/automations/README.md`](config/automations/README.md).
 - Validation : [`config/schemas/validation.schema.json`](config/schemas/validation.schema.json)
 - Offres BE : [`config/schemas/offres.schema.json`](config/schemas/offres.schema.json)
 
+## Chaîne de causalité
+
+Le système ne doit pas produire quatre rapports indépendants. Il doit maintenir une chaîne traçable :
+
+```text
+SIGNAL DE VEILLE
+→ DYNAMIQUE
+→ NOUVEAU BESOIN PROFESSIONNEL
+→ PREUVE DE DEMANDE
+→ OFFRE BE ACTIONNABLE
+```
+
+Si un maillon manque, le pipeline ne doit pas sauter artificiellement au suivant.
+
 ## Principes
 
-- Sources primaires d'abord ; médias = détection puis remontée à la source.
-- Automation 1 = donnée propre, pas de business.
-- Automations 2–4 = radar professionnel.
-- Automation 6 = brief commercial interne (livrables, acheteur, action du mois). Ne pas inventer d'AO ni de montants.
+- Sources primaires d'abord ; médias secondaires = détection puis remontée à la source.
+- La veille quotidienne produit de la donnée propre, pas de business.
+- Une tendance est une dynamique, pas une reliste d'actualités.
+- Une opportunité reste une hypothèse tant qu'elle n'a pas de preuve économique.
+- Une absence de preuve peut conduire à `non_confirme` et doit être conservée comme information.
+- Aucun AO, recrutement, budget, montant, entreprise, date ou URL ne doit être inventé.
 - Un signal marché fort n'est une offre BE que s'il entre dans [`config/be-personas.yml`](config/be-personas.yml).
+- Les offres reprennent uniquement les preuves déjà établies dans `validation/`.
+- Un cycle stratégique utilise une seule branche et une seule PR.
