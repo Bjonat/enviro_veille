@@ -5,6 +5,11 @@
   "type": "object",
   "required": ["generated_at", "based_on_validation", "offers"],
   "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "2.0",
+      "description": "Présent sur les artefacts produits par l'orchestrateur v2."
+    },
     "generated_at": { "type": "string", "format": "date-time" },
     "based_on_validation": {
       "type": "object",
@@ -63,7 +68,8 @@
           "deliverables": {
             "type": "array",
             "items": { "type": "string" },
-            "minItems": 2
+            "minItems": 1,
+            "description": "Les offres BE actionnables doivent avoir au moins 2 livrables ; hors_metier_be peut n'en avoir qu'un. Le validateur applique cette règle."
           },
           "skills_required": {
             "type": "array",
@@ -83,7 +89,7 @@
           },
           "price_signal": {
             "type": "string",
-            "description": "Ordres de grandeur UNIQUEMENT s'ils viennent de la validation (AO notifiés). Sinon « non chiffré »."
+            "description": "Ordres de grandeur UNIQUEMENT s'ils viennent de la validation. Sinon « non chiffré »."
           },
           "competitors": {
             "type": "array",
