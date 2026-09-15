@@ -1,58 +1,89 @@
-# Automations Cursor — mode d'emploi
+# Automations — mode d'emploi
 
-Les automations se créent dans l’UI Cursor, puis écrivent (ou commentent) dans ce repo.
-
-## Pipeline
+Le système repose désormais sur **deux rôles opérationnels** :
 
 ```text
-#1 Veille  →  #2 Tendances  →  #3 Opportunités  →  #4 Validation  →  #6 Offres BE
-                 toutes les PR passent par #5
+#1 Veille quotidienne
+        ↓
+#2–6 Orchestrateur stratégique
+        ↓
+Tendances → Opportunités → Validation marché → Offres BE
 ```
 
-## Cron / triggers suggérés (Europe/Paris)
+La veille quotidienne reste séparée. L'orchestrateur inspecte ensuite l'état réel du dépôt et reprend le workflow là où il s'est arrêté, au lieu d'exécuter aveuglément plusieurs automations en cascade.
 
-| Automation | Trigger | Sens |
-|------------|---------|------|
-| 1 Veille | cron `0 6 * * *` | Tous les jours 06:00 |
-| 2 Tendances | cron `0 7 * * 1` | Lundi 07:00 |
-| 3 Opportunités | cron `0 8 * * 1` | Lundi 08:00 |
-| 4 Validation marché | cron `0 9 * * 1` | Lundi 09:00 |
-| 6 Fiches offre BE | cron `0 10 * * 1` | Lundi 10:00 |
-| 5 Validation PR | GitHub PR opened + pushed | À chaque PR |
+## Déclenchement recommandé
 
-## Modèles
+| Rôle | Trigger | Sens |
+|------|---------|------|
+| Veille quotidienne | cron `0 6 * * *` | Tous les jours à 06:00 |
+| Orchestrateur stratégique | hebdomadaire ou manuel | Analyse l'état du repo et exécute uniquement les étapes nécessaires |
 
-- **#1** : Composer 2.5 — collecte.
-- **#2, #3, #6** : raisonnement fort.
-- **#4** : recherche web + synthèse.
-- **#5** : checklist, pas de réécriture du fond.
+L'orchestrateur peut être lancé dans ChatGPT ou dans un agent disposant de l'accès GitHub et du Web.
 
-## Fichiers de prompts
+## Prompts opérationnels
 
-| Fichier | Automation |
-|---------|------------|
+| Fichier | Rôle |
+|---------|------|
 | [`01-veille-quotidienne.md`](01-veille-quotidienne.md) | Collecte quotidienne |
-| [`02-analyse-tendances.md`](02-analyse-tendances.md) | Tendances |
-| [`03-detection-opportunites.md`](03-detection-opportunites.md) | Opportunités (filtre BE) |
-| [`04-validation-marche.md`](04-validation-marche.md) | Validation marché |
-| [`05-validation-pr.md`](05-validation-pr.md) | Contrôle qualité des PR |
-| [`06-fiches-offre-be.md`](06-fiches-offre-be.md) | Fiches offre bureau d'études |
+| [`02-06-orchestrateur-strategique.md`](02-06-orchestrateur-strategique.md) | Tendances → opportunités → validation marché → offres BE + contrôle qualité + PR unique |
 
-## Convention de PR
+## Anciens prompts séparés
 
-- `veille: YYYY-MM-DD (N items)`
-- `tendances: 2026-W36 (N tendances)`
-- `opportunites: 2026-W36 (N hypothèses)`
-- `validation: 2026-W36`
-- `offres: 2026-W36 (N fiches)`
+Les fichiers suivants sont conservés comme **historique et référence méthodologique**, mais ne constituent plus le workflow recommandé :
 
-## IDs d'automations
+- `02-analyse-tendances.md`
+- `03-detection-opportunites.md`
+- `04-validation-marche.md`
+- `05-validation-pr.md`
+- `06-fiches-offre-be.md`
 
-| Automation | URL / UUID |
-|------------|------------|
-| 1 Veille | _à coller_ |
-| 2 Tendances | _à coller_ |
-| 3 Opportunités | _à coller_ |
-| 4 Validation marché | _à coller_ |
-| 5 Validation PR | _à coller_ |
-| 6 Fiches offre BE | _à créer dans Cursor à partir de `06-fiches-offre-be.md`_ |
+Leur logique a été absorbée par l'orchestrateur.
+
+## Principe de reprise d'état
+
+À chaque run, l'orchestrateur doit d'abord comparer :
+
+- les derniers `data/daily/` ;
+- les dernières `tendances/` ;
+- les dernières `opportunites/` ;
+- les dernières `validation/` ;
+- les dernières `offres/`.
+
+Il ne recrée pas un étage déjà correctement produit.
+
+Exemples :
+
+- validation présente mais offres absentes → compléter seulement les offres ;
+- nouvelles veilles depuis la dernière tendance → ouvrir un nouveau cycle ;
+- aucun signal nouveau significatif → ne pas fabriquer artificiellement un nouveau rapport.
+
+## Convention Git
+
+Pour un cycle stratégique complet :
+
+- branche : `chatgpt/radar-{P}`
+- une seule PR vers `main`
+- titre : `radar: {P} — tendances, opportunités, validation et offres`
+
+La veille quotidienne conserve sa convention propre si elle continue à être livrée séparément.
+
+## Contrôle qualité
+
+Le contrôle PR auparavant séparé est intégré à l'orchestrateur avant livraison :
+
+- conformité aux schémas ;
+- traçabilité des IDs ;
+- vérification des preuves et URLs ;
+- aucun AO, montant ou signal marché inventé ;
+- aucune offre BE produite sans maillon économique suffisant.
+
+La chaîne attendue est :
+
+```text
+SIGNAL DE VEILLE
+→ DYNAMIQUE
+→ NOUVEAU BESOIN PROFESSIONNEL
+→ PREUVE DE DEMANDE
+→ OFFRE BE ACTIONNABLE
+```
