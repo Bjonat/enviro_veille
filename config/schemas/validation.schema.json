@@ -5,6 +5,11 @@
   "type": "object",
   "required": ["generated_at", "validations"],
   "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "2.0",
+      "description": "Présent sur les artefacts produits par l'orchestrateur v2."
+    },
     "generated_at": { "type": "string", "format": "date-time" },
     "based_on_opportunities": {
       "type": "object",
@@ -59,6 +64,11 @@
                     "demande_explicite",
                     "autre"
                   ]
+                },
+                "demand_signal": {
+                  "type": "string",
+                  "enum": ["none", "indirect", "direct", "externalisable"],
+                  "description": "Force de la preuve quant à une demande économique, selon config/scoring.yml."
                 },
                 "title": { "type": "string" },
                 "summary": { "type": "string" },
