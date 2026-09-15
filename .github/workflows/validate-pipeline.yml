@@ -1,0 +1,48 @@
+name: validate-pipeline
+
+on:
+  pull_request:
+    paths:
+      - "config/schemas/**"
+      - "config/scoring.yml"
+      - "data/daily/**/*.json"
+      - "tendances/**/*.json"
+      - "opportunites/**/*.json"
+      - "validation/**/*.json"
+      - "offres/**/*.json"
+      - "scripts/validate_pipeline.py"
+      - "requirements-dev.txt"
+      - ".github/workflows/validate-pipeline.yml"
+  push:
+    branches: [main]
+    paths:
+      - "config/schemas/**"
+      - "config/scoring.yml"
+      - "data/daily/**/*.json"
+      - "tendances/**/*.json"
+      - "opportunites/**/*.json"
+      - "validation/**/*.json"
+      - "offres/**/*.json"
+      - "scripts/validate_pipeline.py"
+      - "requirements-dev.txt"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install validator dependency
+        run: pip install -r requirements-dev.txt
+
+      - name: Validate pipeline
+        run: python scripts/validate_pipeline.py
