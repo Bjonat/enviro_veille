@@ -23,7 +23,7 @@ stages:
       - data/daily/YYYY/MM/YYYY-MM-DD.json
 
   - id: orchestrateur_strategique
-    automation_doc: config/automations/02-06-orchestrateur-strategique.md
+    automation_doc: config/automations/02-06-orchestrateur-strategique-v2.md
     schedule: "0 7 * * 1"
     depends_on: [veille_quotidienne]
     role: >
