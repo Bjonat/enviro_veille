@@ -1,6 +1,7 @@
 # Définition du pipeline (documentation machine-lisible)
 
 name: environment-intelligence
+version: "2.0"
 goal: >
   Radar du paysage professionnel environnemental français —
   détecter tôt de nouveaux besoins (faire / acheter / mesurer / produire / maîtriser)
@@ -28,12 +29,14 @@ stages:
     role: >
       Inspecter l'état réel du repo et reprendre le pipeline au bon endroit.
       Transformer la veille en tendances, opportunités, preuves de marché et offres BE,
-      avec contrôle qualité transversal et une seule PR par cycle.
+      avec continuité longitudinale, scoring calibré, contrôle qualité déterministe
+      et une seule PR par cycle.
     inputs:
       - config/pipeline.yml
       - config/themes.yml
       - config/sources.yml
       - config/be-personas.yml
+      - config/scoring.yml
       - config/schemas/tendances.schema.json
       - config/schemas/opportunites.schema.json
       - config/schemas/validation.schema.json
@@ -43,6 +46,10 @@ stages:
       - opportunites/**/*.json
       - validation/**/*.json
       - offres/**/*.json
+    quality_gate:
+      command: python scripts/validate_pipeline.py
+      strict_for: schema_version_2.0
+      legacy_mode: warnings
     outputs:
       - tendances/YYYY/{period}.md
       - tendances/YYYY/{period}.json
@@ -68,6 +75,17 @@ causal_chain:
   - nouveau_besoin_professionnel
   - preuve_de_demande
   - offre_be_actionnable
+
+v2_rules:
+  artifact_schema_version: "2.0"
+  continuity: >
+    Toute tendance et opportunité déjà observée conserve un canonical_id stable et explicite
+    son évolution par rapport à la période précédente au lieu d'être recréée sous un nouveau nom.
+  scoring: config/scoring.yml
+  ready_to_prototype: >
+    Une obligation réglementaire seule ne suffit pas. Une offre pret_a_prototyper doit disposer
+    d'une preuve de demande directe/externalisable et respecter le filtre métier BE.
+  deterministic_validation: scripts/validate_pipeline.py
 
 legacy_automation_docs:
   note: >
