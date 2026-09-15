@@ -1,0 +1,227 @@
+{
+  "schema_version": "2.0",
+  "generated_at": "2026-09-15T03:53:34Z",
+  "based_on_validation": {
+    "file": "validation/2026/2026-W38.json",
+    "period": "2026-W38"
+  },
+  "offers": [
+    {
+      "id": "offre-2026-W38-haies-regime-unique",
+      "title": "Diagnostic haie + dossier régime unique",
+      "status": "pret_a_prototyper",
+      "be_fit": 5,
+      "linked_opportunity_id": "opp-2026-W38-01",
+      "linked_validation_verdict": "signale_fort",
+      "one_liner": "Sécuriser un projet de destruction de haie par un diagnostic écologique et réglementaire, une cartographie géoréférencée, un plan de compensation et le dossier unique prêt au dépôt.",
+      "buyer": {
+        "persona": "exploitant agricole / aménageur / collectivité",
+        "trigger": "projet de destruction ou déplacement de haie soumis au régime applicable aux dossiers déposés à compter du 1er octobre 2026"
+      },
+      "deliverables": [
+        "Carte SIG des haies, enjeux écologiques et contraintes réglementaires",
+        "Diagnostic espèces/habitats, Natura 2000 et autres régimes applicables",
+        "Plan de compensation et linéaires de replantation lorsque requis",
+        "Dossier de déclaration ou d'autorisation avec plans, photographies et pièces techniques"
+      ],
+      "skills_required": ["botanique et habitats", "faune", "SIG", "Natura 2000", "espèces protégées", "réglementation haies"],
+      "why_now": "Le nouveau régime devient applicable aux dossiers déposés à compter du 1er octobre 2026 et impose des pièces techniques pouvant être confiées à un BE.",
+      "evidence_refs": [
+        {
+          "title": "Décret n° 2026-829 — régime unique applicable aux dossiers déposés à compter du 1er octobre 2026",
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054761442",
+          "type": "obligation"
+        }
+      ],
+      "price_signal": "non chiffré",
+      "competitors": ["chambres d'agriculture", "associations bocagères", "BE écologie"],
+      "first_action_this_month": "Construire une fiche offre de 2 pages, une check-list de qualification et un gabarit SIG avant le 1er octobre ; tester le processus sur un dossier fictif ou historique.",
+      "do_not_sell": "Ne pas vendre une simple formalité administrative : la valeur est le diagnostic écologique, la qualification des régimes et la sécurisation de la compensation."
+    },
+    {
+      "id": "offre-2026-W38-rdd-bretagne",
+      "title": "Campagne RDD Bretagne + interprétation environnementale",
+      "status": "pret_a_prototyper",
+      "be_fit": 4,
+      "linked_opportunity_id": "opp-2026-W38-03",
+      "linked_validation_verdict": "signale_fort",
+      "one_liner": "Piloter une campagne de reliquats début de drainage avec un laboratoire partenaire et transformer les résultats en données territoriales exploitables par les acteurs de l'eau et de l'agriculture.",
+      "buyer": {
+        "persona": "DRAAF / syndicat de bassin / EPCI / chambre d'agriculture",
+        "trigger": "campagne annuelle de mesures liée à l'expérimentation Bretagne et aux bassins algues vertes"
+      },
+      "deliverables": [
+        "Plan d'échantillonnage et protocole de campagne",
+        "Coordination terrain/laboratoire et contrôle de complétude des résultats",
+        "Base de données géoréférencée et cartographie des résultats",
+        "Rapport d'interprétation territoriale et indicateurs de suivi"
+      ],
+      "skills_required": ["agronomie", "qualité de l'eau", "SIG", "gestion de données", "pilotage de prestataires laboratoire"],
+      "why_now": "La DRAAF Bretagne externalise déjà des campagnes de RDD et le décret 2026-823 inscrit le dispositif dans une expérimentation de cinq ans.",
+      "evidence_refs": [
+        {
+          "title": "DRAAF Bretagne — campagne de mesures de reliquats début de drainage 2026-2027",
+          "url": "https://www.marchesonline.com/appels-offres/avis/campagne-de-mesures-de-reliquats-debut-de-drainage-20/ao-9610426-1",
+          "type": "appel_offres"
+        },
+        {
+          "title": "Décret n° 2026-823 — expérimentation Bretagne fondée sur les reliquats",
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054754513",
+          "type": "obligation"
+        }
+      ],
+      "price_signal": "non chiffré",
+      "competitors": ["laboratoires agronomiques", "chambres d'agriculture", "BE eau/agronomie"],
+      "first_action_this_month": "Identifier un laboratoire partenaire, formaliser la répartition des rôles et produire un exemple de tableau de bord territorial à partir de données fictives.",
+      "do_not_sell": "Ne pas se présenter comme laboratoire et ne pas réduire l'offre à la seule prise d'échantillons ; la valeur BE est le protocole, le pilotage, la donnée et l'interprétation."
+    },
+    {
+      "id": "offre-2026-W38-pfas-autosurveillance",
+      "title": "PFAS eaux/boues : plan d'autosurveillance et diagnostic de filière",
+      "status": "pret_a_prototyper",
+      "be_fit": 5,
+      "linked_opportunity_id": "opp-2026-W38-04",
+      "linked_validation_verdict": "signale_fort",
+      "one_liner": "Construire et piloter le plan PFAS d'une STEU, d'un syndicat d'eau ou d'un site ICPE : flux, prélèvements, analyses, interprétation réglementaire et stratégie eaux/boues.",
+      "buyer": {
+        "persona": "STEU / syndicat d'eau / EPCI / exploitant ICPE",
+        "trigger": "entrée dans l'autosurveillance PFAS, campagne de caractérisation des boues ou besoin de sécuriser la redevance et les filières"
+      },
+      "deliverables": [
+        "Inventaire des flux, points de rejet et sources potentielles de PFAS",
+        "Plan d'échantillonnage eaux/boues et cahier des charges laboratoire",
+        "Tableau de bord résultats, QA/QC et lecture réglementaire",
+        "Diagnostic des filières boues/rejets et plan de réduction/priorisation des sources"
+      ],
+      "skills_required": ["eau et assainissement", "micropolluants/PFAS", "ICPE", "gestion de données", "pilotage laboratoire"],
+      "why_now": "Des marchés dédiés aux PFAS dans les boues de STEP apparaissent et l'autosurveillance liée à la redevance est applicable depuis le 1er septembre.",
+      "evidence_refs": [
+        {
+          "title": "Communauté d'agglomération du Boulonnais — campagne de prélèvements et analyses PFAS dans les boues de STEP",
+          "url": "https://www.marchesonline.com/appels-offres/avis/campagne-prelevements-et-analyses-pfas-boues-de-step/ao-4316048-1",
+          "type": "appel_offres"
+        },
+        {
+          "title": "Agences de l'eau — redevance PFAS et autosurveillance à compter du 1er septembre 2026",
+          "url": "https://www.lesagencesdeleau.fr/actualites/tout-comprendre-de-la-redevance-de-pollution-de-leau-par-les-pfas",
+          "type": "obligation"
+        }
+      ],
+      "price_signal": "non chiffré",
+      "competitors": ["laboratoires environnementaux", "BE eau/SSP", "exploitants assainissement", "constructeurs de traitement"],
+      "first_action_this_month": "Produire une matrice de diagnostic PFAS et un cahier des charges laboratoire standard ; cibler cinq STEU/EPCI déjà concernés par des campagnes de mesure.",
+      "do_not_sell": "Ne pas promettre une technologie de traitement propriétaire ni présenter les résultats de laboratoire comme une expertise interne si l'analyse est sous-traitée."
+    },
+    {
+      "id": "offre-2026-W38-electrification-environnement",
+      "title": "Pré-cadrage environnemental des projets d'électrification et EnR",
+      "status": "pret_a_prototyper",
+      "be_fit": 5,
+      "linked_opportunity_id": "opp-2026-W38-06",
+      "linked_validation_verdict": "signale_fort",
+      "one_liner": "Passer un portefeuille de projets d'électrification, réseaux, parkings ou EnR au filtre biodiversité-eau-paysage-foncier afin de décider rapidement quelles procédures et études lancer.",
+      "buyer": {
+        "persona": "collectivité / syndicat d'énergie / développeur EnR / gestionnaire de réseau",
+        "trigger": "élaboration d'une feuille de route d'électrification ou lancement d'un portefeuille de projets nécessitant un cadrage environnemental"
+      },
+      "deliverables": [
+        "Screening SIG multi-enjeux du portefeuille et classement des risques",
+        "Fiche de pré-cadrage par projet avec procédures, inventaires et calendrier",
+        "Stratégie d'études : EI, Natura 2000, loi sur l'eau, espèces protégées, zones humides, paysage",
+        "Cahier des charges des investigations et planning environnemental consolidé"
+      ],
+      "skills_required": ["étude d'impact", "SIG", "biodiversité", "loi sur l'eau", "EnR et réseaux", "planification réglementaire"],
+      "why_now": "Les territoires d'électrification créent un nouveau pipeline et plusieurs acheteurs externalisent déjà des missions environnementales très proches de ce produit.",
+      "evidence_refs": [
+        {
+          "title": "Agence de l'eau Seine-Normandie — maîtrise d'œuvre parking intégrant infiltration, biodiversité et photovoltaïque",
+          "url": "https://www.marchesonline.com/appels-offres/avis/maitrise-d-oeuvre-pour-la-renovation-d-un-parking-fav/ao-9645803-1",
+          "type": "appel_offres"
+        },
+        {
+          "title": "DGEC — état initial de l'environnement pour des parcs éoliens en mer",
+          "url": "https://www.marchesonline.com/appels-offres/avis/etat-initial-de-l-environnement-des-parcs-eoliens-en/ao-4315281-1",
+          "type": "appel_offres"
+        }
+      ],
+      "price_signal": "non chiffré",
+      "competitors": ["grands BE environnement", "ingénieristes énergie", "BE spécialisés EnR"],
+      "first_action_this_month": "Construire un modèle de screening portefeuille en 20 critères et le tester sur trois projets types : ombrière, poste/réseau et production EnR.",
+      "do_not_sell": "Ne pas vendre une stratégie énergétique ou une ingénierie électrique ; rester sur le risque environnemental, les études et les autorisations."
+    },
+    {
+      "id": "offre-2026-W38-restauration-nature",
+      "title": "Diagnostic territorial de restauration écologique",
+      "status": "preparer_attendre_signal",
+      "be_fit": 5,
+      "linked_opportunity_id": "opp-2026-W38-02",
+      "linked_validation_verdict": "signale_modere",
+      "one_liner": "Préparer une méthode permettant de passer de l'état des habitats et espèces à une carte de priorisation, des objectifs de restauration et un programme de suivi.",
+      "buyer": {
+        "persona": "DREAL / collectivité / gestionnaire Natura 2000 ou espace naturel",
+        "trigger": "publication ou territorialisation du plan national, appel à projets ou révision d'un plan de gestion"
+      },
+      "deliverables": [
+        "Diagnostic de l'état et du potentiel de restauration",
+        "Carte de priorisation multicritère",
+        "Programme de mesures avec objectifs quantifiés",
+        "Protocole d'indicateurs et de suivi"
+      ],
+      "skills_required": ["écologie des habitats", "SIG", "Natura 2000", "restauration écologique", "suivi"],
+      "why_now": "Le cadre européen et les financements rendent le besoin probable, mais les achats explicitement liés au plan national restent encore peu visibles.",
+      "evidence_refs": [
+        {
+          "title": "Plan national Agir pour restaurer la nature — élaboration et concertation territoriale",
+          "url": "https://biodiversite.gouv.fr/le-plan-national-agir-pour-restaurer-la-nature",
+          "type": "obligation"
+        },
+        {
+          "title": "Fonds vert 2026 — financement de l'adaptation et de la restauration écologique",
+          "url": "https://www.ecologie.gouv.fr/presse/lancement-du-fonds-vert-2026-nouvel-elan-transition-ecologique-territoires",
+          "type": "financement"
+        }
+      ],
+      "price_signal": "non chiffré",
+      "competitors": ["OFB", "conservatoires", "associations naturalistes", "BE biodiversité"],
+      "first_action_this_month": "Construire le canevas méthodologique et un démonstrateur SIG, sans lancer encore une communication commerciale dédiée au NRP.",
+      "do_not_sell": "Ne pas promettre la conformité à un plan national encore en construction ni présenter une méthodologie interne comme doctrine officielle."
+    },
+    {
+      "id": "offre-2026-W38-zan-friches",
+      "title": "Screening environnemental de mutabilité des friches",
+      "status": "preparer_attendre_signal",
+      "be_fit": 4,
+      "linked_opportunity_id": "opp-2026-W38-07",
+      "linked_validation_verdict": "signale_modere",
+      "one_liner": "Croiser Cartofriches, sols, biodiversité, eau, risques et réglementation pour classer rapidement un portefeuille de friches selon sa mutabilité environnementale.",
+      "buyer": {
+        "persona": "EPCI / EPF / aménageur",
+        "trigger": "sélection d'un portefeuille de friches à recycler, renaturer ou présenter à un financement"
+      },
+      "deliverables": [
+        "Croisement SIG multi-enjeux des sites",
+        "Fiche de mutabilité environnementale par friche",
+        "Classement du portefeuille et recommandations d'investigations complémentaires",
+        "Note de cadrage réemploi versus renaturation"
+      ],
+      "skills_required": ["SIG", "sites et sols pollués", "écologie", "eau", "urbanisme environnemental"],
+      "why_now": "Le stock de friches et les financements sont identifiés, mais le produit de diagnostic multi-enjeux reste encore une catégorie d'achat diffuse.",
+      "evidence_refs": [
+        {
+          "title": "Fonds vert — mesure recyclage foncier",
+          "url": "https://amenagement-durable.ecologie.gouv.fr/mesure-recyclage-foncier-du-fonds-vert",
+          "type": "financement"
+        },
+        {
+          "title": "Cerema — inventaire national des friches et Cartofriches",
+          "url": "https://www.cerema.fr/fr/presse/dossier/inventaire-national-friches",
+          "type": "autre"
+        }
+      ],
+      "price_signal": "non chiffré",
+      "competitors": ["Cerema", "EPF", "agences d'urbanisme", "BE SSP", "BE écologie"],
+      "first_action_this_month": "Tester le screening sur 5 à 10 friches publiques et mesurer le temps de production avant toute mise en marché.",
+      "do_not_sell": "Ne pas présenter ce screening comme un diagnostic SSP, zones humides ou biodiversité complet ; il sert à prioriser les études suivantes."
+    }
+  ]
+}
