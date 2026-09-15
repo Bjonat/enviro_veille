@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "generated_at": "2026-09-15T03:53:34Z",
+  "generated_at": "2026-09-15T05:35:00Z",
   "based_on_opportunities": {
     "file": "opportunites/2026/2026-W38.json"
   },
@@ -8,300 +8,95 @@
     {
       "opportunity_id": "opp-2026-W38-01",
       "opportunity_title": "Haies : diagnostic et montage des dossiers du régime unique",
-      "verdict": "signale_fort",
-      "market_signal_strength": 5,
-      "evidence": [
-        {
-          "type": "obligation",
-          "demand_signal": "externalisable",
-          "title": "Décret n° 2026-829 — régime unique applicable aux dossiers déposés à compter du 1er octobre 2026",
-          "summary": "Le décret crée la procédure unique pour les projets de destruction de haies. Selon les situations, le dossier comporte notamment plans, photographies, analyse d'impacts et mesures de compensation : des pièces techniques qu'un BE peut effectivement produire.",
-          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054761442",
-          "date": "2026-08-29",
-          "actor": "État français",
-          "amount_or_scale": "Application nationale aux dossiers déposés à compter du 01/10/2026"
-        },
-        {
-          "type": "appel_offres",
-          "demand_signal": "direct",
-          "title": "AQTA — travaux bocagers du programme Breizh Bocage",
-          "summary": "Marché public récent portant sur la plantation et l'entretien de haies. Il confirme une dépense publique effective sur le bocage, mais pas encore spécifiquement l'achat de l'ingénierie du nouveau dossier réglementaire.",
-          "url": "https://www.marchesonline.com/appels-offres/avis/travaux-bocagers-dans-le-cadre-du-programme-breizh-boca/ao-4314630-1",
-          "date": "2026-08-31",
-          "actor": "Auray Quiberon Terre Atlantique",
-          "amount_or_scale": "Environ 10 à 15 km de haies par an ; échéance 23/09/2026"
-        }
-      ],
-      "competitors_or_alternatives": ["chambres d'agriculture", "associations bocagères", "BE écologie", "traitement interne des dossiers simples"],
-      "economic_reading": "La demande réglementaire est captive à compter du 1er octobre et une part des pièces est clairement externalisable. Le marché de travaux bocagers existe déjà ; le volume spécifique de prestations de montage de dossiers reste à mesurer.",
-      "recommended_next_step": "Prototyper immédiatement une offre de diagnostic + SIG + compensation + dossier, puis suivre les premiers achats et consultations post-01/10."
-    },
-    {
-      "opportunity_id": "opp-2026-W38-02",
-      "opportunity_title": "Restauration de la nature : diagnostics, objectifs territoriaux et suivi des restaurations",
       "verdict": "signale_modere",
       "market_signal_strength": 3,
       "evidence": [
-        {
-          "type": "obligation",
-          "demand_signal": "indirect",
-          "title": "Plan national Agir pour restaurer la nature — élaboration et concertation territoriale",
-          "summary": "Le portail national confirme la préparation du plan français découlant du règlement européen et une démarche de concertation. Le besoin de planification existe, mais la vague d'achats territoriaux explicitement rattachée au plan n'est pas encore visible.",
-          "url": "https://biodiversite.gouv.fr/le-plan-national-agir-pour-restaurer-la-nature",
-          "date": "2026-09-15",
-          "actor": "Ministère de la Transition écologique",
-          "amount_or_scale": "Plan national en cours de construction"
-        },
-        {
-          "type": "financement",
-          "demand_signal": "direct",
-          "title": "Fonds vert 2026 — financement de l'adaptation et de la restauration écologique",
-          "summary": "Le Fonds vert 2026 maintient des financements territoriaux incluant biodiversité, renaturation et adaptation. Il crée une capacité d'achat, sans démontrer à lui seul un marché NRP spécifique.",
-          "url": "https://www.ecologie.gouv.fr/presse/lancement-du-fonds-vert-2026-nouvel-elan-transition-ecologique-territoires",
-          "date": "2026-01-01",
-          "actor": "Ministère de la Transition écologique",
-          "amount_or_scale": "837 M€ pour le Fonds vert 2026, toutes mesures confondues"
-        }
+        {"type":"obligation","demand_signal":"direct","title":"Instruction du 17 juillet 2026 — déploiement du régime unique de la haie","summary":"L'instruction organise le guichet unique et la préparation préfectorale du régime applicable aux demandes à compter du 1er octobre 2026. Elle démontre un besoin opérationnel certain, sans prouver à elle seule l'achat d'une prestation externe.","url":"https://aida.ineris.fr/reglementation/instruction-170726-relative-regime-unique-haie","date":"2026-07-17","actor":"MTE / MASA / préfets"},
+        {"type":"demande_explicite","demand_signal":"direct","title":"Morbihan — consultation départementale sur coefficient de compensation et période d'interdiction","summary":"Le département territorialise le régime unique avant son entrée en application. Cela confirme le travail d'instruction et de calibration locale, mais pas encore un marché d'ingénierie externalisé.","url":"https://www.morbihan.gouv.fr/Publications/Participation-du-public/Regime-unique-haie-Morbihan-Coefficient-de-compensation-et-periode-d-interdiction-Septembre-2026","date":"2026-09","actor":"Préfecture du Morbihan"},
+        {"type":"demande_explicite","demand_signal":"direct","title":"Charente-Maritime — mise en place du régime unique haie","summary":"Consultation départementale préparant les paramètres locaux du régime unique. Le besoin réglementaire est confirmé dans plusieurs territoires ; l'externalisation vers des BE reste à mesurer.","url":"https://www.charente-maritime.gouv.fr/Actions-de-l-Etat/Environnement-risques-naturels-et-technologiques/Consultation-du-public-et-commissions-consultatives/Consultations-du-public/Autres-consultations-en-cours/Mise-en-place-du-regime-unique-haie-en-Charente-Maritime","date":"2026-09","actor":"Préfecture de Charente-Maritime"}
       ],
-      "competitors_or_alternatives": ["OFB", "conservatoires", "associations naturalistes", "gestionnaires d'espaces naturels", "BE biodiversité"],
-      "economic_reading": "Le besoin technique de restauration est solide et finançable, mais aucun signal suffisamment répété ne montre encore une vague de marchés explicitement liée au plan national. Le marché existe par programmes de restauration déjà en place, pas encore comme catégorie NRP stabilisée.",
-      "recommended_next_step": "Préparer une méthode de diagnostic/restauration et attendre la publication ou territorialisation du plan avant d'industrialiser une offre commerciale dédiée."
+      "competitors_or_alternatives":["Chambres d'agriculture","BE écologie/TVB","Accompagnement direct DDT"],
+      "economic_reading":"Le besoin réglementaire est certain et imminent, mais les recherches ne montrent pas encore une commande répétée de montage de dossiers par des BE. Le marché peut émerger rapidement sur les cas complexes espèces protégées/Natura 2000.",
+      "recommended_next_step":"Préparer le produit interne et observer les premiers achats/dossiers externalisés après le 1er octobre avant de le classer prêt à prototyper commercialement."
     },
     {
-      "opportunity_id": "opp-2026-W38-03",
-      "opportunity_title": "Eau : mesures de reliquats, diagnostics zones humides et programmation d'adaptation hydrique",
-      "verdict": "signale_fort",
-      "market_signal_strength": 5,
-      "evidence": [
-        {
-          "type": "appel_offres",
-          "demand_signal": "externalisable",
-          "title": "DRAAF Bretagne — campagne de mesures de reliquats début de drainage 2026-2027",
-          "summary": "Le marché achète explicitement une campagne de mesures de reliquats sur les territoires concernés par la politique nitrates et algues vertes. La prestation est directement externalisée.",
-          "url": "https://www.marchesonline.com/appels-offres/avis/campagne-de-mesures-de-reliquats-debut-de-drainage-20/ao-9610426-1",
-          "date": "2026-06-03",
-          "actor": "DRAAF Bretagne",
-          "amount_or_scale": "Environ 1 000 exploitations en bassins algues vertes, 500 hors bassins et 500 mesures APM"
-        },
-        {
-          "type": "obligation",
-          "demand_signal": "externalisable",
-          "title": "Décret n° 2026-823 — expérimentation Bretagne fondée sur les reliquats",
-          "summary": "Le décret institue une expérimentation de cinq ans à compter du 1er septembre 2026. Les mesures et leur exploitation constituent des livrables techniques pouvant être confiés à des opérateurs externes.",
-          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054754513",
-          "date": "2026-08-28",
-          "actor": "État français",
-          "amount_or_scale": "Expérimentation de 5 ans à compter du 01/09/2026"
-        },
-        {
-          "type": "autre",
-          "demand_signal": "none",
-          "title": "BRGM — bulletin des nappes au 1er septembre 2026",
-          "summary": "Le bulletin confirme une situation hydrologique durablement tendue. C'est un facteur de contexte qui renforce la pertinence des diagnostics et programmes d'adaptation mais ne constitue pas une preuve d'achat.",
-          "url": "https://www.brgm.fr/fr/actualite/communique-presse/nappes-eau-souterraine-au-1er-septembre-2026",
-          "date": "2026-09-09",
-          "actor": "BRGM",
-          "amount_or_scale": "61 % des points de mesure sous les normales mensuelles fin août"
-        }
+      "opportunity_id":"opp-2026-W38-02","opportunity_title":"Restauration de la nature : diagnostics, objectifs territoriaux et suivi des restaurations","verdict":"signale_modere","market_signal_strength":3,
+      "evidence":[
+        {"type":"obligation","demand_signal":"indirect","title":"Règlement (UE) 2024/1991 relatif à la restauration de la nature","summary":"Le règlement crée des obligations de restauration et de planification nationales. Il rend le besoin technique durable mais ne démontre pas à lui seul l'externalisation territoriale française.","url":"https://eur-lex.europa.eu/legal-content/FR/ALL/?uri=OJ%3AL_202401991","date":"2024-07-29","actor":"Union européenne"},
+        {"type":"autre","demand_signal":"indirect","title":"OFB — politiques et stratégies nationales de biodiversité","summary":"L'OFB documente les cadres nationaux de mise en œuvre et d'appui à la restauration. Signal institutionnel de capacité et de méthode, sans achat territorial explicite identifié.","url":"https://ofb.gouv.fr/les-politiques-et-strategies-nationales","date":"2026","actor":"OFB"},
+        {"type":"financement","demand_signal":"direct","title":"IUCN — appui à l'élaboration du plan national français de restauration de la nature","summary":"Un appui technique financé au niveau européen est mobilisé pour l'élaboration du plan français. Cela confirme qu'une expertise spécialisée peut être financée, mais pas encore une vague de marchés territoriaux récurrents.","url":"https://iucn.org/fr/resources/brochure/appui-lelaboration-du-plan-national-francais-de-restauration-de-la-nature?language=fr","date":"2026","actor":"UICN / Union européenne"}
       ],
-      "competitors_or_alternatives": ["laboratoires agronomiques", "chambres d'agriculture", "instituts techniques", "BE eau/agronomie"],
-      "economic_reading": "Le segment reliquats est déjà un marché public externalisé et récurrent dans un cadre expérimental pluriannuel. Pour un BE environnemental, la meilleure place est le protocole, le pilotage, la donnée, l'interprétation et l'articulation avec eau/territoire plutôt que l'analyse de laboratoire seule.",
-      "recommended_next_step": "Construire une offre partenariale avec laboratoire : plan d'échantillonnage, coordination de campagne, base de résultats, SIG et interprétation environnementale."
+      "competitors_or_alternatives":["OFB/DREAL","Conservatoires et associations naturalistes","BE biodiversité/restauration"],
+      "economic_reading":"La demande méthodologique est crédible et financée à l'échelle nationale, mais la recherche ne montre pas encore une vague d'achats territoriaux directement liée au NRP. Le sujet reste à préparer plutôt qu'à pousser commercialement.",
+      "recommended_next_step":"Préparer une méthode de diagnostic/priorisation et revalider dès publication complète du plan français et apparition d'AAP/AO territoriaux."
     },
     {
-      "opportunity_id": "opp-2026-W38-04",
-      "opportunity_title": "PFAS : plan d'autosurveillance, campagnes eaux/boues et stratégie de filière",
-      "verdict": "signale_fort",
-      "market_signal_strength": 5,
-      "evidence": [
-        {
-          "type": "appel_offres",
-          "demand_signal": "externalisable",
-          "title": "Communauté d'agglomération du Boulonnais — campagne de prélèvements et analyses PFAS dans les boues de STEP",
-          "summary": "Le marché public achète explicitement une campagne dédiée aux PFAS dans les boues de stations d'épuration : prélèvement et analyses sont déjà une dépense identifiable.",
-          "url": "https://www.marchesonline.com/appels-offres/avis/campagne-prelevements-et-analyses-pfas-boues-de-step/ao-4316048-1",
-          "date": "2026-09-02",
-          "actor": "Communauté d'agglomération du Boulonnais",
-          "amount_or_scale": "Consultation dédiée PFAS boues de STEP ; échéance 01/10/2026"
-        },
-        {
-          "type": "obligation",
-          "demand_signal": "externalisable",
-          "title": "Agences de l'eau — redevance PFAS et autosurveillance à compter du 1er septembre 2026",
-          "summary": "Le dispositif impose une autosurveillance aux sites concernés selon les flux rejetés. La conception du plan de surveillance, les prélèvements, les analyses et l'interprétation réglementaire sont externalisables.",
-          "url": "https://www.lesagencesdeleau.fr/actualites/tout-comprendre-de-la-redevance-de-pollution-de-leau-par-les-pfas",
-          "date": "2026-09-01",
-          "actor": "Agences de l'eau",
-          "amount_or_scale": "Autosurveillance à partir de 2 kg/an ; fréquence mensuelle à partir de 10 kg/an, sinon trimestrielle"
-        },
-        {
-          "type": "appel_offres",
-          "demand_signal": "direct",
-          "title": "Région Grand Est — stations mobiles de traitement PFAS",
-          "summary": "Un marché récent confirme que la dépollution PFAS est déjà monétisée à grande échelle. Ce signal porte surtout sur le traitement et renforce le marché sans constituer à lui seul une mission BE.",
-          "url": "https://www.marchesonline.com/appels-offres/top-recherches/sante?page=43",
-          "date": "2026-08-01",
-          "actor": "Région Grand Est",
-          "amount_or_scale": "Marché de stations mobiles ; ordre de grandeur de plusieurs millions d'euros dans la validation W36"
-        }
+      "opportunity_id":"opp-2026-W38-03","opportunity_title":"Eau : mesures de reliquats, diagnostics zones humides et programmation d'adaptation hydrique","verdict":"signale_fort","market_signal_strength":5,
+      "evidence":[
+        {"type":"appel_offres","demand_signal":"externalisable","title":"DREAL PACA — étude prospective Eau Sud 2050","summary":"Marché d'étude prospective sur les ressources en eau et transferts à l'horizon 2050, montrant l'achat public d'ingénierie d'adaptation hydrique.","url":"https://www.marchesonline.com/appels-offres/avis/etude-preliminaire-a-instauration-un-cadre-discussio/ao-9645759-1","date":"2026-08-15","actor":"DREAL Provence-Alpes-Côte d'Azur"},
+        {"type":"appel_offres","demand_signal":"externalisable","title":"Eau 17 — étude d'opportunité et de préfaisabilité REUT sur 12 STEP littorales","summary":"Marché d'étude explicitement externalisé portant sur l'opportunité et la préfaisabilité de réutilisation des eaux usées traitées.","url":"https://www.marchesonline.com/appels-offres/avis/realisation-de-l-etude-d-opportunite-et-de-prefaisa/ao-9592001-1","date":"2026","actor":"Eau 17"},
+        {"type":"appel_offres","demand_signal":"externalisable","title":"Vexin-Thelle — PGSSE, schéma de production et schéma directeur eau potable","summary":"Marché attribué regroupant plan de gestion de la sécurité sanitaire, schéma de production et schéma directeur, preuve d'une demande d'ingénierie structurée sur la résilience du service d'eau.","url":"https://www.marchesonline.com/appels-offres/attribution/realisation-d-un-plan-de-gestion-de-la-securite-sani/am-9593374-1","date":"2026","actor":"Communauté de communes du Vexin-Thelle"},
+        {"type":"appel_offres","demand_signal":"externalisable","title":"Eau du Bassin Rennais — AMO pour le déploiement de la télérelève","summary":"Marché d'assistance à maîtrise d'ouvrage publié en septembre 2026, montrant l'externalisation de l'ingénierie de suivi et de gestion des consommations.","url":"https://www.marchesonline.com/appels-offres/avis/marche-d-assistance-a-maitrise-d-ouvrage-etude-de/ao-4321139-1","date":"2026-09-08","actor":"Collectivité Eau du Bassin Rennais"}
       ],
-      "competitors_or_alternatives": ["laboratoires environnementaux", "BE eau/SSP", "exploitants assainissement", "fournisseurs de traitement"],
-      "economic_reading": "Le marché est désormais observable à la fois sur la mesure et sur le traitement. La place BE la plus défendable est l'ingénierie de surveillance et de filière : sources, protocole, QA/QC, interprétation, priorisation et scénarios, sans se substituer au laboratoire ou au constructeur.",
-      "recommended_next_step": "Prototyper immédiatement une offre PFAS eaux/boues et cibler STEU, syndicats d'eau et ICPE soumis à autosurveillance."
+      "competitors_or_alternatives":["BE eau/hydraulique","Laboratoires agronomiques","Chambres d'agriculture","Grands opérateurs de l'eau"],
+      "economic_reading":"La commande publique confirme un marché actif d'études de ressource, REUT, schémas directeurs et AMO. Le sous-segment reliquats reste partagé avec les laboratoires, mais l'ingénierie eau/adaptation est clairement externalisée.",
+      "recommended_next_step":"Prototyper une offre BE centrée sur diagnostic ressource + programme d'adaptation, avec module zones humides/IOTA et partenariats laboratoire lorsque des campagnes analytiques sont nécessaires."
     },
     {
-      "opportunity_id": "opp-2026-W38-05",
-      "opportunity_title": "Adaptation post-extrêmes : diagnostic de vulnérabilité et programmation d'investissements",
-      "verdict": "signale_modere",
-      "market_signal_strength": 4,
-      "evidence": [
-        {
-          "type": "financement",
-          "demand_signal": "direct",
-          "title": "Fonds vert 2026 — adaptation des territoires",
-          "summary": "Le Fonds vert finance des projets territoriaux d'adaptation et de renaturation, créant une capacité de commande d'ingénierie en amont des investissements.",
-          "url": "https://www.ecologie.gouv.fr/presse/lancement-du-fonds-vert-2026-nouvel-elan-transition-ecologique-territoires",
-          "date": "2026-01-01",
-          "actor": "Ministère de la Transition écologique",
-          "amount_or_scale": "837 M€ pour le Fonds vert 2026, toutes mesures confondues"
-        },
-        {
-          "type": "financement",
-          "demand_signal": "direct",
-          "title": "DSEC 2026 — engagement renforcé pour les collectivités sinistrées",
-          "summary": "Le renforcement de la dotation soutient les collectivités après catastrophes et confirme un flux d'investissement post-sinistre. La preuve porte sur le financement, pas sur un format unique de mission BE.",
-          "url": "https://www.ecologie.gouv.fr/presse/engagement-renforce-letat-faveur-collectivites-stabilite-solidarite-coeur-dgf-2026",
-          "date": "2026-01-01",
-          "actor": "État français",
-          "amount_or_scale": "Renforcement annoncé de la DSEC, dont +40 M€ dans la communication gouvernementale"
-        },
-        {
-          "type": "autre",
-          "demand_signal": "none",
-          "title": "France urbaine — tension sur les investissements climatiques des collectivités",
-          "summary": "Une majorité de collectivités interrogées prévoit de repousser ou lisser des investissements. C'est un contre-signal de solvabilité qui invite à cibler les missions sur des risques et financements précis.",
-          "url": "https://franceurbaine.org/actualites/budget-2027-france-urbaine-demande-une-mobilisation-de-moyens-en-coherence-avec-les-objectifs-climatiques-nationaux/",
-          "date": "2026-09-10",
-          "actor": "France urbaine",
-          "amount_or_scale": "66 % prévoient de repousser/lisser des investissements ; 20 % d'en abandonner certains"
-        }
+      "opportunity_id":"opp-2026-W38-04","opportunity_title":"PFAS : plan d'autosurveillance, campagnes eaux/boues et stratégie de filière","verdict":"signale_fort","market_signal_strength":5,
+      "evidence":[
+        {"type":"appel_offres","demand_signal":"externalisable","title":"Perpignan Méditerranée Métropole — mesures réglementaires PFAS sur eaux et boues de STEP","summary":"Marché explicitement consacré aux mesures réglementaires PFAS sur stations d'épuration, incluant eaux et boues : preuve directe d'achat de prestation.","url":"https://www.marchesonline.com/appels-offres/avis/realisation-de-mesures-reglementaires-pfas-sur-les-st/ao-9636414-1","date":"2026-07-17","actor":"Perpignan Méditerranée Métropole"},
+        {"type":"appel_offres","demand_signal":"externalisable","title":"Région Grand Est — stations mobiles de traitement PFAS","summary":"Accord-cadre pour acquisition et exploitation de stations mobiles de traitement, montrant la monétisation de solutions PFAS au-delà de la seule analyse.","url":"https://www.marchesonline.com/appels-offres/avis/acquisition-et-exploitation-de-stations-mobiles-de-trai/ao-9626410-1","date":"2026-07","actor":"Région Grand Est","amount_or_scale":"2,43 M€ HT max / 48 mois"},
+        {"type":"appel_offres","demand_signal":"externalisable","title":"CAPI — installation et suivi d'une unité pilote de traitement PFAS","summary":"Marché portant sur une unité pilote et son suivi sur des captages, confirmant un besoin d'essais, de suivi et d'aide à la décision.","url":"https://www.marchesonline.com/appels-offres/avis/installation-et-suivi-d-une-unite-pilote-pour-le-traite/ao-9640219-1","date":"2026","actor":"CAPI"},
+        {"type":"obligation","demand_signal":"indirect","title":"Arrêté du 1er septembre 2026 — exemption TGAP pour les boues d'épuration contaminées aux PFAS","summary":"Le texte facilite l'orientation des boues contaminées vers des filières d'élimination adaptées et ajoute un maillon économique à la chaîne de conformité.","url":"https://www.actu-environnement.com/ae/reglementation/arrete-du-01-09-2026-tecp2621924a-40270.php","date":"2026-09-06","actor":"État"}
       ],
-      "competitors_or_alternatives": ["Cerema", "cabinets climat", "BE risques naturels", "programmistes", "services techniques internes"],
-      "economic_reading": "La demande et les financements existent, mais la contrainte budgétaire rend peu crédible une offre générique. Le marché doit être attaqué par cas d'usage précis : eau, incendie, ruissellement, renaturation ou patrimoine exposé.",
-      "recommended_next_step": "Ne pas lancer une offre générique. Sélectionner un module de risque où le BE possède déjà les compétences et où un financement identifiable existe."
+      "competitors_or_alternatives":["Laboratoires d'analyses","Opérateurs eau/assainissement","Fournisseurs de procédés de traitement","BE micropolluants/SSP"],
+      "economic_reading":"La demande est déjà monétisée sur les analyses réglementaires, les pilotes et le traitement. Pour un BE, la zone de valeur est le plan d'investigation, l'interprétation, la recherche de sources et la comparaison de scénarios, sans se substituer au laboratoire ou au fournisseur de procédé.",
+      "recommended_next_step":"Prototyper une offre diagnostic PFAS eaux/boues avec stratégie d'échantillonnage, pilotage laboratoire et scénarios de gestion/traitement."
     },
     {
-      "opportunity_id": "opp-2026-W38-06",
-      "opportunity_title": "Électrification/EnR : pré-cadrage environnemental et dossiers de projets territoriaux",
-      "verdict": "signale_fort",
-      "market_signal_strength": 5,
-      "evidence": [
-        {
-          "type": "demande_explicite",
-          "demand_signal": "indirect",
-          "title": "109 territoires d'électrification sélectionnés pour élaborer des feuilles de route",
-          "summary": "Le dispositif national sélectionne 109 territoires, près de 6 700 communes, et prévoit des feuilles de route opérationnelles. Il crée un portefeuille de projets mais l'accompagnement public ADEME peut absorber une partie de l'ingénierie.",
-          "url": "https://www.electrifions-la-france.gouv.fr/territoires-delectrification",
-          "date": "2026-09-11",
-          "actor": "Gouvernement / ADEME / collectivités",
-          "amount_or_scale": "109 territoires ; près de 6 700 communes"
-        },
-        {
-          "type": "appel_offres",
-          "demand_signal": "externalisable",
-          "title": "Agence de l'eau Seine-Normandie — maîtrise d'œuvre parking intégrant infiltration, biodiversité et photovoltaïque",
-          "summary": "Le marché combine directement enjeux environnementaux et solarisation d'un parking. Il confirme l'achat de maîtrise d'œuvre et d'ingénierie intégrant eau, biodiversité et PV.",
-          "url": "https://www.marchesonline.com/appels-offres/avis/maitrise-d-oeuvre-pour-la-renovation-d-un-parking-fav/ao-9645803-1",
-          "date": "2026-08-15",
-          "actor": "Agence de l'eau Seine-Normandie",
-          "amount_or_scale": "Consultation en cours ; échéance 22/09/2026"
-        },
-        {
-          "type": "appel_offres",
-          "demand_signal": "externalisable",
-          "title": "DGEC — état initial de l'environnement pour des parcs éoliens en mer",
-          "summary": "Le marché achète explicitement une prestation d'état initial environnemental liée à des projets EnR, démontrant la demande externe pour inventaires, données et cadrage environnemental.",
-          "url": "https://www.marchesonline.com/appels-offres/avis/etat-initial-de-l-environnement-des-parcs-eoliens-en/ao-4315281-1",
-          "date": "2026-08-27",
-          "actor": "Direction générale de l'énergie et du climat",
-          "amount_or_scale": "Consultation en cours ; échéance 23/09/2026"
-        },
-        {
-          "type": "appel_offres",
-          "demand_signal": "externalisable",
-          "title": "Enedis — études environnementales des réseaux et postes",
-          "summary": "Le marché couvre pré-cadrage, études d'impact, inventaires, dossiers loi sur l'eau et suivis : il décrit presque exactement le positionnement BE visé.",
-          "url": "https://www.marchesonline.com/appels-offres/avis/tg-etudes-environnementales-reseaux-enedis-pads/ao-9600387-1",
-          "date": "2026-05-01",
-          "actor": "Enedis",
-          "amount_or_scale": "Marché d'études environnementales réseaux/postes"
-        }
+      "opportunity_id":"opp-2026-W38-05","opportunity_title":"Adaptation post-extrêmes : diagnostic de vulnérabilité et programmation d'investissements","verdict":"signale_modere","market_signal_strength":3,
+      "evidence":[
+        {"type":"financement","demand_signal":"direct","title":"ADEME / Bpifrance — Diag Adaptation","summary":"Dispositif d'accompagnement financé pour diagnostiquer les vulnérabilités climatiques et construire un plan d'adaptation ; reste à charge annoncé de 3 000 € pour l'entreprise bénéficiaire.","url":"https://agirpourlatransition.ademe.fr/entreprises/actualites/urgence-agir-adaptation-changement-climatique","date":"2026","actor":"ADEME / Bpifrance","amount_or_scale":"reste à charge 3 000 €"},
+        {"type":"demande_explicite","demand_signal":"externalisable","title":"ADEME TACCT — accompagnement des collectivités par des coachs","summary":"La démarche TACCT documente un accompagnement méthodologique externalisable pour structurer diagnostics et stratégies territoriales d'adaptation.","url":"https://agirpourlatransition.ademe.fr/collectivites/aides-financieres/catalogue-rex/adaptation-changement-climatique","date":"2026","actor":"ADEME"},
+        {"type":"budget","demand_signal":"indirect","title":"France urbaine — pression sur les investissements climatiques des collectivités en 2027","summary":"Les grandes collectivités signalent des reports et abandons d'investissements climatiques, ce qui confirme le besoin de priorisation mais limite la profondeur immédiate du marché.","url":"https://franceurbaine.org/actualites/budget-2027-france-urbaine-demande-une-mobilisation-de-moyens-en-coherence-avec-les-objectifs-climatiques-nationaux/","date":"2026-09-10","actor":"France urbaine"}
       ],
-      "competitors_or_alternatives": ["grands BE environnement", "ingénieristes énergie", "ADEME pour l'accompagnement public", "BE spécialisés EnR"],
-      "economic_reading": "Le marché n'est pas hypothétique : plusieurs acheteurs externes achètent explicitement pré-cadrages, EI, inventaires et dossiers eau autour de projets énergétiques. Les 109 territoires élargissent le pipeline potentiel de projets locaux.",
-      "recommended_next_step": "Prototyper une offre de pré-cadrage environnemental de portefeuille de projets et cibler collectivités/syndicats d'énergie/développeurs avant les feuilles de route d'automne."
+      "competitors_or_alternatives":["Cerema","Cabinets climat","BE risques naturels","Consultants finance climat"],
+      "economic_reading":"L'accompagnement est acheté et financé, mais le marché est très transversal et les budgets locaux se resserrent. Une offre BE doit être spécialisée par risque et livrable, pas générique.",
+      "recommended_next_step":"Préparer un module ciblé eau/risques naturels/écologie plutôt qu'une offre globale d'adaptation."
     },
     {
-      "opportunity_id": "opp-2026-W38-07",
-      "opportunity_title": "ZAN/friches : diagnostic environnemental de mutabilité et stratégie de recyclage foncier",
-      "verdict": "signale_modere",
-      "market_signal_strength": 4,
-      "evidence": [
-        {
-          "type": "financement",
-          "demand_signal": "direct",
-          "title": "Fonds vert — mesure recyclage foncier",
-          "summary": "La mesure finance le recyclage de friches et crée une capacité de dépense sur les opérations. Elle soutient indirectement l'ingénierie amont nécessaire au cadrage des projets.",
-          "url": "https://amenagement-durable.ecologie.gouv.fr/mesure-recyclage-foncier-du-fonds-vert",
-          "date": "2026-01-01",
-          "actor": "Ministère de la Transition écologique",
-          "amount_or_scale": "Dispositif Fonds vert dédié au recyclage foncier"
-        },
-        {
-          "type": "autre",
-          "demand_signal": "none",
-          "title": "Cerema — inventaire national des friches et Cartofriches",
-          "summary": "Le référentiel national fournit la donnée de départ pour sélectionner et qualifier les friches. Il démontre l'existence d'un stock à traiter, pas l'achat d'un diagnostic BE en tant que tel.",
-          "url": "https://www.cerema.fr/fr/presse/dossier/inventaire-national-friches",
-          "date": "2026-09-01",
-          "actor": "Cerema",
-          "amount_or_scale": "Inventaire national de plus de 20 000 friches"
-        }
+      "opportunity_id":"opp-2026-W38-06","opportunity_title":"Électrification/EnR : pré-cadrage environnemental et dossiers de projets territoriaux","verdict":"signale_fort","market_signal_strength":4,
+      "evidence":[
+        {"type":"appel_offres","demand_signal":"externalisable","title":"Agence de l'eau Seine-Normandie — maîtrise d'œuvre pour rénovation d'un parking favorisant infiltration, biodiversité et photovoltaïque","summary":"Marché de maîtrise d'œuvre associant explicitement désimperméabilisation/infiltration, biodiversité et projet photovoltaïque : articulation directement compatible avec une ingénierie environnementale.","url":"https://www.marchesonline.com/appels-offres/avis/maitrise-d-oeuvre-pour-la-renovation-d-un-parking-fav/ao-9645803-1","date":"2026-09","actor":"Agence de l'eau Seine-Normandie"},
+        {"type":"appel_offres","demand_signal":"externalisable","title":"Agence de l'eau Seine-Normandie — études préalables parking, lot écologique","summary":"Marché d'études préalables comprenant un lot écologique, preuve que les études environnementales sont achetées séparément en amont du projet.","url":"https://www.marchesonline.com/appels-offres/avis/etudes-prealables-a-la-renovation-d-un-parking-favor/ao-9572162-1","date":"2026","actor":"Agence de l'eau Seine-Normandie"},
+        {"type":"appel_offres","demand_signal":"direct","title":"Centre hospitalier de Valence — concession pour parking photovoltaïque","summary":"Concession de conception, construction et exploitation d'une installation photovoltaïque sur parking, signal d'un flux de projets auquel se greffent études eau, biodiversité, paysage et autorisations.","url":"https://www.marchesonline.com/appels-offres/avis/concession-pour-la-conception-la-construction-et-l-expl/ao-9624828-2","date":"2026-09","actor":"Centre hospitalier de Valence"}
       ],
-      "competitors_or_alternatives": ["Cerema", "EPF", "agences d'urbanisme", "BE SSP", "BE écologie"],
-      "economic_reading": "Le financement et le volume de friches sont réels. En revanche, le produit « diagnostic environnemental de mutabilité » n'apparaît pas encore comme une catégorie d'achat répétée et identifiable dans la recherche de ce cycle.",
-      "recommended_next_step": "Préparer un prototype sur quelques sites et surveiller les AO EPCI/EPF avant d'en faire une offre standard."
+      "competitors_or_alternatives":["BE environnement","BE VRD/hydraulique","Développeurs photovoltaïques intégrés","Paysagistes"],
+      "economic_reading":"La commande publique démontre que les projets de parkings/PV achètent déjà des études écologiques et une ingénierie intégrant infiltration et biodiversité. Le marché est concret, même si la maîtrise d'œuvre générale reste souvent multi-compétences.",
+      "recommended_next_step":"Prototyper un pré-cadrage environnemental rapide pour parkings/ombrières et portefeuilles EnR, puis convertir les enjeux en missions EI/eau/biodiversité."
     },
     {
-      "opportunity_id": "opp-2026-W38-08",
-      "opportunity_title": "Confort d'été : diagnostics ciblés de surchauffe des bâtiments publics",
-      "verdict": "signale_modere",
-      "market_signal_strength": 3,
-      "evidence": [
-        {
-          "type": "financement",
-          "demand_signal": "direct",
-          "title": "Fonds vert — adaptation des bâtiments et territoires aux effets du changement climatique",
-          "summary": "Les dispositifs territoriaux peuvent soutenir les projets d'adaptation et créer un besoin d'études amont, sans garantir un marché autonome de diagnostic de surchauffe.",
-          "url": "https://www.ecologie.gouv.fr/fonds-vert",
-          "date": "2026-01-01",
-          "actor": "Ministère de la Transition écologique",
-          "amount_or_scale": "Dispositifs de financement territorial 2026"
-        },
-        {
-          "type": "autre",
-          "demand_signal": "none",
-          "title": "Budget Actee des diagnostics canicule réduit de 56 à 16 M€",
-          "summary": "La réduction de l'enveloppe limite le nombre d'établissements financés et constitue un contre-signal à une massification rapide du marché.",
-          "url": "https://www.actu-environnement.com/dit-aujourdhui/1829.html",
-          "date": "2026-09-08",
-          "actor": "Programme Actee / collectivités",
-          "amount_or_scale": "16 M€ au lieu de 56 M€ ; environ 2 500 établissements prioritaires"
-        }
+      "opportunity_id":"opp-2026-W38-07","opportunity_title":"ZAN/friches : diagnostic environnemental de mutabilité et stratégie de recyclage foncier","verdict":"signale_fort","market_signal_strength":4,
+      "evidence":[
+        {"type":"appel_offres","demand_signal":"externalisable","title":"Bolbec — étude faune-flore sur la friche Desgenétais","summary":"Marché d'étude écologique sur une friche en reconversion, démontrant l'achat direct d'un diagnostic biodiversité dans la chaîne de mutabilité.","url":"https://www.marchesonline.com/appels-offres/avis/etude-faune-flore-sur-le-site-desgenetais/ao-9629405-1","date":"2026","actor":"Ville de Bolbec"},
+        {"type":"appel_offres","demand_signal":"externalisable","title":"Métropole du Grand Paris — missions d'études géotechniques et de pollution des sols","summary":"Marché d'investigations géotechniques et de pollution des sols pour projets métropolitains, confirmant un segment externalisé essentiel au recyclage foncier.","url":"https://www.marchesonline.com/appels-offres/avis/missions-d-etudes-geotechniques-et-de-pollution-des-s/ao-9618622-1","date":"2026","actor":"Métropole du Grand Paris"},
+        {"type":"financement","demand_signal":"direct","title":"Fonds vert — recyclage foncier des friches","summary":"Guichet de financement public pour le recyclage foncier, créant un déclencheur budgétaire pour diagnostics, études et opérations de reconversion.","url":"https://www.demarches-simplifiees.fr/commencer/fonds-vert-3-friches","date":"2026","actor":"État / Fonds vert"}
       ],
-      "competitors_or_alternatives": ["BE thermique/énergie", "programmistes", "Cerema", "énergéticiens"],
-      "economic_reading": "Le marché existe mais il est davantage bâtiment/énergie qu'environnemental et sa capacité de croissance est freinée par l'arbitrage budgétaire. Ce n'est pas une priorité de diversification pour un BE environnemental.",
-      "recommended_next_step": "Surveiller uniquement les dossiers où confort d'été, renaturation, désimperméabilisation et biodiversité peuvent être regroupés dans une mission environnementale cohérente."
+      "competitors_or_alternatives":["EPF","Cerema","BE SSP","BE écologie","Agences d'urbanisme"],
+      "economic_reading":"Les composantes du diagnostic de mutabilité sont déjà achetées séparément et un financement de recyclage existe. L'opportunité BE est de les assembler en screening multi-enjeux sans prétendre remplacer les diagnostics réglementaires détaillés.",
+      "recommended_next_step":"Prototyper une fiche de mutabilité environnementale et la tester sur un portefeuille de friches avant prospection EPCI/EPF."
+    },
+    {
+      "opportunity_id":"opp-2026-W38-08","opportunity_title":"Confort d'été : diagnostics ciblés de surchauffe des bâtiments publics","verdict":"signale_modere","market_signal_strength":3,
+      "evidence":[
+        {"type":"financement","demand_signal":"direct","title":"Plan national — diagnostics de confort d'été pour établissements scolaires vulnérables","summary":"Le dispositif cible plusieurs milliers d'établissements avec diagnostics et aides, confirmant une commande d'audit mais principalement dans le champ bâtiment/énergie.","url":"https://redir.gslb.senat.fr/compte-rendu-commissions/20260706/devdur.html","date":"2026-07","actor":"État / collectivités"},
+        {"type":"budget","demand_signal":"direct","title":"Actee — budget diagnostics écoles canicule ramené à 16 M€","summary":"Le budget reste dédié aux diagnostics de confort d'été mais sa réduction restreint le nombre de sites et renforce la sélectivité des achats.","url":"https://www.actu-environnement.com/dit-aujourdhui/1829.html","date":"2026-09-08","actor":"Actee / Banque des Territoires / État","amount_or_scale":"16 M€"},
+        {"type":"autre","demand_signal":"indirect","title":"SDES — été 2026 record de besoins de refroidissement","summary":"Les degrés-jours de refroidissement atteignent un record, renforçant le besoin physique de diagnostic sans constituer une preuve économique supplémentaire.","url":"https://www.statistiques.developpement-durable.gouv.fr/des-temperatures-exceptionnelles-tout-au-long-de-lete-2026-un-besoin-de-refroidissement-le-plus","date":"2026-09-11","actor":"SDES"}
+      ],
+      "competitors_or_alternatives":["BE thermiques","Économes de flux","AMO bâtiment","Cerema"],
+      "economic_reading":"La demande existe mais relève d'abord du bâtiment et de l'énergie, donc elle n'entre pas naturellement dans le cœur du BE environnemental défini par le repo. À garder dans le radar, pas à transformer en offre cœur.",
+      "recommended_next_step":"Surveiller seulement les déclinaisons où renaturation, îlots de chaleur, eau ou biodiversité deviennent des livrables centraux."
     }
   ]
 }
