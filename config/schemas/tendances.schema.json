@@ -5,6 +5,11 @@
   "type": "object",
   "required": ["period", "generated_at", "trends", "meta"],
   "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "2.0",
+      "description": "Présent sur les artefacts produits par l'orchestrateur v2. Les historiques sans ce champ restent lisibles."
+    },
     "period": {
       "type": "object",
       "required": ["start", "end"],
@@ -38,6 +43,36 @@
         ],
         "properties": {
           "id": { "type": "string" },
+          "canonical_id": {
+            "type": "string",
+            "description": "Identifiant stable du sujet à conserver d'une période à l'autre."
+          },
+          "first_seen": {
+            "type": "string",
+            "description": "Première période où ce sujet a été identifié, selon la convention du repo."
+          },
+          "last_seen": {
+            "type": "string",
+            "description": "Période courante où le sujet est observé."
+          },
+          "previous_period_id": { "type": ["string", "null"] },
+          "previous_status": {
+            "enum": [null, "emergente", "en_acceleration", "stable", "en_deceleration", "structurelle"]
+          },
+          "previous_acceleration_score": {
+            "type": ["integer", "null"],
+            "minimum": 1,
+            "maximum": 5
+          },
+          "score_delta": {
+            "type": ["integer", "null"],
+            "minimum": -4,
+            "maximum": 4
+          },
+          "evolution_note": {
+            "type": "string",
+            "description": "Ce qui explique la continuité, l'accélération, la décélération ou la requalification depuis la période précédente."
+          },
           "title": { "type": "string" },
           "status": {
             "type": "string",
