@@ -1,0 +1,292 @@
+{
+  "date": "2026-09-14",
+  "generated_at": "2026-09-14T06:10:00+02:00",
+  "timezone": "Europe/Paris",
+  "meta": {
+    "item_count": 8,
+    "sources_consulted": [
+      "actu_environnement",
+      "sdes",
+      "consultations_publiques_mte",
+      "commission_ue",
+      "reporterre",
+      "ecologie_gouv",
+      "cerema"
+    ],
+    "deduplicated_against_days": 14,
+    "notes": "Lundi 14/09 : flux médias toujours dominé par la semaine 10–11/09 (RSS Actu figé au 11/09). Nouveautés retenues : publication SDES DJR été 2026 (11/09), décret n° 2026-863 et règlement UE 2026/2028 parus au JO (12–10/09), alerte Pollinis sur Calantha ARNi (11/09), rapport Commission sur recyclage batteries (11/09), clôture Permis Larchant (14/09). Rappels J-2/J-3 PPWR actes d'exécution (16/09) et REP emballages pro (17/09) sans redétail des articles déjà dans data/daily 13/09. URL historique anguille (a3417) sert désormais la page Larchant au run — échéance anguille 16/09 maintenue via fiche Actu 48440. Cerema RSS 404 ; OFB anti-bot."
+  },
+  "items": [
+    {
+      "id": "2026-09-14-001",
+      "title": "SDES : été 2026 record de besoins de refroidissement (307,6 DJR à fin août en France métropolitaine)",
+      "summary": "Le SDES publie le 11 septembre 2026 une note sur les températures exceptionnelles de l'été 2026, fondée sur les degrés-jours unifiés de refroidissement (DJR) calculés à partir des données Météo-France. Entre janvier et août 2026, le nombre de DJR s'élève à 307,6 en métropole, soit environ trois fois la moyenne des trente années précédentes sur la même période (102,7 DJR en moyenne annuelle, 94,4 de janvier à août). L'été 2026 devient la référence la plus élevée à fin août, devant 2003 (205,1 DJR sur l'année) ; les mois de mai (22,5), juin (86,3) et juillet (104,2) battent aussi les records mensuels observés. Les cartes départementales montrent des hausses très marquées, y compris dans des départements historiquement peu chauds (ex. +731 % en Côtes-d'Armor sur la moyenne trentenaire).",
+      "themes": ["climat_adaptation", "incendies_risques", "donnees_outils"],
+      "signal_type": "rapport_institutionnel_majeur",
+      "geography": ["France"],
+      "actors": ["SDES", "Météo-France", "collectivités"],
+      "primary_source": {
+        "name": "SDES — températures exceptionnelles été 2026 (DJR)",
+        "url": "https://www.statistiques.developpement-durable.gouv.fr/des-temperatures-exceptionnelles-tout-au-long-de-lete-2026-un-besoin-de-refroidissement-le-plus",
+        "type": "institutionnel"
+      },
+      "urls": [
+        "https://www.statistiques.developpement-durable.gouv.fr/des-temperatures-exceptionnelles-tout-au-long-de-lete-2026-un-besoin-de-refroidissement-le-plus"
+      ],
+      "published_at": "2026-09-11",
+      "detected_via": "source primaire SDES (publication 11/09/2026) ; reprise possible dans médias locaux non consultée",
+      "relevance": {
+        "score": 5,
+        "why": "Indicateurs officiels pour DREAL, services climat et bureaux d'études calibrant vulnérabilité canicule, refroidissement des bâtiments et plans d'adaptation post-été 2026."
+      },
+      "entities": [
+        "DJR",
+        "307,6",
+        "Météo-France",
+        "été 2026"
+      ],
+      "tags": ["canicule", "SDES", "indicateurs"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-14-002",
+      "title": "Décret n° 2026-863 du 12 septembre 2026 : exigences de performance environnementale pour l'installation d'équipements de chauffage",
+      "summary": "Paru au Journal officiel le 12 septembre 2026 selon le recensement Actu-Environnement, le décret n° 2026-863 fixe des exigences de performance environnementale concernant l'installation d'un équipement de chauffage. Le texte s'inscrit dans la continuité des obligations de performance énergétique et environnementale du parc de chauffage des bâtiments ; le corps complet n'a pas été reconsulté sur Légifrance au run (accès anti-bot). Les modalités techniques précises (seuils, périmètre des équipements, calendrier d'application) restent à vérifier sur le JO ou les fiches réglementaires MTE.",
+      "themes": ["reglementation", "climat_adaptation"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "installateurs chauffage",
+        "bureaux de contrôle"
+      ],
+      "primary_source": {
+        "name": "Journal officiel — décret n° 2026-863 du 12 septembre 2026",
+        "url": "https://www.actu-environnement.com/ae/reglementation/decret-du-12-09-2026-2026-863-40335.php",
+        "type": "juridique"
+      },
+      "urls": [
+        "https://www.actu-environnement.com/ae/reglementation/decret-du-12-09-2026-2026-863-40335.php"
+      ],
+      "published_at": "2026-09-12",
+      "detected_via": "page réglementation Actu-Environnement (40335) ; Légifrance non consulté directement",
+      "relevance": {
+        "score": 4,
+        "why": "Actualisation du cadre pour MOA rénovation, entreprises RGE et services instructeurs vérifiant la conformité des installations de chauffage."
+      },
+      "entities": [
+        "décret 2026-863",
+        "équipement de chauffage",
+        "performance environnementale"
+      ],
+      "tags": ["chauffage", "JO", "bâtiment"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-14-003",
+      "title": "Biocides (UE) : règlement d'exécution (UE) 2026/2028 du 10 septembre — autorisation d'un produit biocide unique",
+      "summary": "Le Journal officiel de l'Union européenne recense, selon Actu-Environnement, un règlement d'exécution (UE) 2026/2028 de la Commission du 10 septembre 2026 accordant une autorisation de l'Union pour un produit biocide unique. Le libellé complet du produit et les conditions d'emploi figurent dans l'annexe du texte JOUE, non reconsultée au run. Le texte relève du règlement (UE) n° 528/2012 (Biocides) et intéresse les distributeurs, utilisateurs professionnels et services de l'État suivant les autorisations nationales et les restrictions d'usage.",
+      "themes": ["reglementation"],
+      "signal_type": "nouvelle_obligation_reglementaire",
+      "geography": ["France", "UE"],
+      "actors": ["Commission européenne", "Anses", "utilisateurs professionnels biocides"],
+      "primary_source": {
+        "name": "Journal officiel UE — règlement d'exécution (UE) 2026/2028 du 10 septembre 2026",
+        "url": "https://www.actu-environnement.com/ae/reglementation/reglement-d-execution-du-10-09-2026-2026-2028-40325.php",
+        "type": "juridique"
+      },
+      "urls": [
+        "https://www.actu-environnement.com/ae/reglementation/reglement-d-execution-du-10-09-2026-2026-2028-40325.php"
+      ],
+      "published_at": "2026-09-10",
+      "detected_via": "page réglementation Actu-Environnement (40325) ; EUR-Lex non consulté directement",
+      "relevance": {
+        "score": 3,
+        "why": "Suivi réglementaire pour exploitants ICPE, services eau et hygiène publique utilisant des biocides soumis à autorisation UE."
+      },
+      "entities": [
+        "règlement (UE) 2026/2028",
+        "528/2012",
+        "produit biocide"
+      ],
+      "tags": ["biocides", "UE", "JOUE"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-14-004",
+      "title": "Pesticides à ARNi (Calantha) : Pollinis alerte sur une autorisation temporaire belge de Greenlight Biosciences",
+      "summary": "Dans une dépêche du 11 septembre 2026, Actu-Environnement relaye une alerte de l'ONG Pollinis sur l'insecticide Calantha, formulé à ARN interférents (ARNi), autorisé temporairement en Belgique en mars 2026 par la société américaine Greenlight Biosciences. Pollinis suggère que cette autorisation belge aurait visé à faciliter une stratégie commerciale ou réglementaire autour des « pesticides génétiques », dans un contexte d'incertitudes sur le cadre d'évaluation des ARNi au niveau européen. L'article ne signale pas de décision française nouvelle mais documente un contentieux civil society / industrie sur les autorisations transfrontières.",
+      "themes": ["reglementation", "biodiversite", "especes_habitats"],
+      "signal_type": "changement_de_pratique_professionnel",
+      "geography": ["France", "UE", "Belgique"],
+      "actors": [
+        "Pollinis",
+        "Greenlight Biosciences",
+        "autorités belges",
+        "Commission européenne"
+      ],
+      "primary_source": {
+        "name": "Actu-Environnement — Calantha ARNi et alerte Pollinis",
+        "url": "https://www.actu-environnement.com/ae/news/calantha-arni-pollinis-autorisation-belgique-48504.php4",
+        "type": "media_secondaire"
+      },
+      "urls": [
+        "https://www.actu-environnement.com/ae/news/calantha-arni-pollinis-autorisation-belgique-48504.php4"
+      ],
+      "published_at": "2026-09-11",
+      "detected_via": "Actu-Environnement (11/09/2026) ; décision belge mars 2026 non reconsultée sur source primaire",
+      "relevance": {
+        "score": 4,
+        "why": "Signal d'anticipation pour agronomes, juristes phytosanitaires et DREAL suivant les autorisations ARNi et les contentieux transfrontaliers avant arbitrages UE."
+      },
+      "entities": [
+        "Calantha",
+        "ARNi",
+        "Greenlight Biosciences",
+        "Pollinis"
+      ],
+      "tags": ["phytosanitaires", "ARNi", "contentieux"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-14-005",
+      "title": "Piles et batteries (UE) : la Commission estime que les objectifs de recyclage restent adaptés",
+      "summary": "Le 11 septembre 2026, la Commission européenne a adopté un rapport concluant que les objectifs actuels de l'Union en matière de recyclage des batteries usagées — efficacité des procédés et récupération des matériaux — restent appropriés. Le document s'inscrit dans le suivi du règlement sur les batteries et des cibles de collecte et de valorisation fixées pour les filières industrielles et des véhicules électriques. Il n'annonce pas, au stade communiqué, de révision immédiate des seuils, mais fournit un repère pour les opérateurs de traitement et les producteurs soumis aux obligations de fin de vie.",
+      "themes": ["reglementation", "donnees_outils"],
+      "signal_type": "rapport_institutionnel_majeur",
+      "geography": ["France", "UE"],
+      "actors": [
+        "Commission européenne",
+        "recycleurs batteries",
+        "constructeurs automobiles"
+      ],
+      "primary_source": {
+        "name": "Commission européenne — Waste batteries recycling targets remain fit for purpose",
+        "url": "https://environment.ec.europa.eu/news/waste-batteries-recycling-targets-remain-fit-purpose-2026-09-11_en",
+        "type": "institutionnel"
+      },
+      "urls": [
+        "https://environment.ec.europa.eu/news/waste-batteries-recycling-targets-remain-fit-purpose-2026-09-11_en"
+      ],
+      "published_at": "2026-09-11",
+      "detected_via": "source primaire DG Environnement (11/09/2026)",
+      "relevance": {
+        "score": 3,
+        "why": "Référence pour filières déchets dangereux et mobilité électrique anticipant d'éventuels ajustements réglementaires des taux de recyclage."
+      },
+      "entities": [
+        "règlement batteries UE",
+        "recyclage",
+        "matériaux critiques"
+      ],
+      "tags": ["batteries", "UE", "recyclage"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-14-006",
+      "title": "Permis de Larchant (Seine-et-Marne) : consultation sur la prolongation — clôture 14 septembre (J-0)",
+      "summary": "La consultation publique dématérialisée sur la demande de prolongation du permis exclusif de carrières « Permis de Larchant » (Sibelco, dix ans sur périmètre réduit) se clôt le 14 septembre 2026 inclus. Au 14 septembre, cinquante-sept contributions publiques sont recensées sur le portail consultations-publiques pour la période ouverte le 31 août 2026. L'étape est obligatoire au titre de l'article L. 123-19-2 du code de l'environnement avant qu'un arrêté conjoint des ministres chargés des mines et de l'environnement ne statue sur la prolongation, totale, partielle ou refusée.",
+      "themes": ["sols", "reglementation", "zan_artificialisation"],
+      "signal_type": "consultation_publique",
+      "geography": ["France", "Île-de-France", "Seine-et-Marne"],
+      "actors": [
+        "Sibelco",
+        "DGEC",
+        "Ministère de la Transition écologique",
+        "collectivités"
+      ],
+      "primary_source": {
+        "name": "Consultations publiques MTE — Permis de Larchant",
+        "url": "https://www.consultations-publiques.developpement-durable.gouv.fr/consultation-du-public-sur-la-demande-de-a3417.html",
+        "type": "institutionnel"
+      },
+      "urls": [
+        "https://www.consultations-publiques.developpement-durable.gouv.fr/consultation-du-public-sur-la-demande-de-a3417.html"
+      ],
+      "published_at": "2026-09-14",
+      "detected_via": "source primaire consultations-publiques (57 contributions, clôture 14/09/2026) ; ouverture déjà signalée fin août 2026",
+      "relevance": {
+        "score": 4,
+        "why": "Dernière journée pour services mines/environnement, associations et communes influençant la prolongation d'une carrière en Seine-et-Marne."
+      },
+      "entities": [
+        "Permis de Larchant",
+        "Sibelco",
+        "L. 123-19-2",
+        "14 septembre 2026"
+      ],
+      "tags": ["carrières", "consultation", "échéance"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-14-007",
+      "title": "PPWR (actes d'exécution) : consultations UE sur le contenu recyclé — échéance 16 septembre (J-2)",
+      "summary": "Rappel d'échéance : les contributions sur les actes d'exécution du PPWR (article 7 — calcul et vérification de la teneur en plastique recyclé, critères de durabilité des technologies de recyclage dont mass balance et recyclage chimique, conditions d'importation de plastique recyclé) se clôturent le 16 septembre 2026. Aucun report n'a été constaté depuis les ouvertures de début septembre ; il reste quarante-huit heures pour les filières plastique et emballages françaises. Le portail Have Your Say n'a pas été reconfirmé directement au run.",
+      "themes": ["reglementation", "donnees_outils"],
+      "signal_type": "consultation_publique",
+      "geography": ["France", "UE"],
+      "actors": [
+        "Commission européenne",
+        "éco-organismes",
+        "recycleurs plastique"
+      ],
+      "primary_source": {
+        "name": "Actu-Environnement — consultations PPWR plastique recyclé",
+        "url": "https://www.actu-environnement.com/ae/news/plastique-recycle-consultation-ue-technologies-recyclage-mesure-contenu-48461.php4",
+        "type": "media_secondaire"
+      },
+      "urls": [
+        "https://www.actu-environnement.com/ae/news/plastique-recycle-consultation-ue-technologies-recyclage-mesure-contenu-48461.php4"
+      ],
+      "published_at": "2026-09-14",
+      "detected_via": "historique veille 03–13/09/2026 ; rappel J-2 vs échéance 16/09/2026",
+      "relevance": {
+        "score": 4,
+        "why": "Urgence de contribution pour juristes déchets et filières plastique avant fixation des règles de comptabilisation du recyclé."
+      },
+      "entities": [
+        "PPWR",
+        "16 septembre 2026",
+        "contenu recyclé"
+      ],
+      "tags": ["PPWR", "consultation", "échéance"],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-14-008",
+      "title": "REP emballages professionnels : consultation prolongée — échéance 17 septembre (J-3)",
+      "summary": "Rappel d'échéance : la consultation sur le projet d'arrêté reportant au 1er janvier 2027 l'entrée en vigueur du cahier des charges REP emballages professionnels se clôt le 17 septembre 2026 inclus. Au 14 septembre, onze contributions publiques sont recensées sur la plateforme ; les échanges récents mettent en avant le manque à gagner pour les collectivités si le report est maintenu sans compensation transitoire (estimations citées autour de 25 millions d'euros pour les cartons professionnels en 2026). Les opposants au report réclament des financements immédiats pour les flux pris en charge en déchèterie.",
+      "themes": ["reglementation", "donnees_outils"],
+      "signal_type": "consultation_publique",
+      "geography": ["France", "UE"],
+      "actors": [
+        "Ministère de la Transition écologique",
+        "collectivités",
+        "CITEO PRO",
+        "LÉKO PRO",
+        "GECO FOOD SERVICE"
+      ],
+      "primary_source": {
+        "name": "Consultations publiques MTE — REP emballages professionnels",
+        "url": "https://www.consultations-publiques.developpement-durable.gouv.fr/projet-d-arrete-modifiant-l-arrete-2-du-decembre-a3407.html",
+        "type": "institutionnel"
+      },
+      "urls": [
+        "https://www.consultations-publiques.developpement-durable.gouv.fr/projet-d-arrete-modifiant-l-arrete-2-du-decembre-a3407.html"
+      ],
+      "published_at": "2026-09-14",
+      "detected_via": "source primaire consultations-publiques (11 contributions au 14/09) ; prolongation couverte 09–13/09 avec rappel J-3",
+      "relevance": {
+        "score": 4,
+        "why": "Trois jours restants pour services déchets et producteurs B2B influençant calendrier 2027 et financements déchèteries."
+      },
+      "entities": [
+        "REP emballages professionnels",
+        "1er janvier 2027",
+        "17 septembre 2026"
+      ],
+      "tags": ["emballages", "REP", "consultation"],
+      "is_new": true
+    }
+  ]
+}
